@@ -1,9 +1,53 @@
-<mxfile host="app.diagrams.net" modified="2020-08-28T22:13:32.914Z" agent="5.0 (X11)" etag="YpwQsAxMlThC-ffxGrKa" version="13.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-28T23:44:49.995Z" agent="5.0 (X11)" etag="UG4V03thKFZhIsuy80r1" version="13.6.5" type="github">
   <diagram id="DbIU6sG4jfHMPM34fUNc" name="Page-1">
-    <mxGraphModel dx="2314" dy="1283" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="463" dy="257" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Wa8XKqlrd6dh5H8_Gc7L-1" value="&lt;h2&gt;@query patient&lt;/h2&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Wa8XKqlrd6dh5H8_Gc7L-3" value="&lt;pre&gt;chain_of(with_elements(load_postgres_table((&quot;public&quot;, &quot;patient&quot;), [&quot;id&quot;], [Int32])), flatten())&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="700" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Wa8XKqlrd6dh5H8_Gc7L-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;dashed=1;dashPattern=1 1;" edge="1" parent="1" target="Wa8XKqlrd6dh5H8_Gc7L-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="160" as="targetPoint" />
+            <mxPoint x="80" y="160" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="170" />
+              <mxPoint x="80" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wa8XKqlrd6dh5H8_Gc7L-10" value="$$\scriptsize 1$$" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="Wa8XKqlrd6dh5H8_Gc7L-5">
+          <mxGeometry x="-0.24" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" y="-5.2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wa8XKqlrd6dh5H8_Gc7L-6" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Wa8XKqlrd6dh5H8_Gc7L-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="108.28571428571428" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wa8XKqlrd6dh5H8_Gc7L-9" value="$$\scriptsize\mathrm{Database}\{\mathrm{Tuple\{\}}\}$$" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="Wa8XKqlrd6dh5H8_Gc7L-6">
+          <mxGeometry x="0.3092" relative="1" as="geometry">
+            <mxPoint y="-4.04" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wa8XKqlrd6dh5H8_Gc7L-7" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Wa8XKqlrd6dh5H8_Gc7L-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="51.61904761904759" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wa8XKqlrd6dh5H8_Gc7L-8" value="$$\scriptsize\mathrm{Block}_{1:1}$$" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="Wa8XKqlrd6dh5H8_Gc7L-7">
+          <mxGeometry x="0.1295" y="-6" relative="1" as="geometry">
+            <mxPoint x="4.370000000000001" y="0.20000000000000018" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wa8XKqlrd6dh5H8_Gc7L-4" value="$$\mathit{db}$$" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="200" width="80" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
