@@ -11,7 +11,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Install draw.io
-      run: snap install drawio
+      run: sudo snap install drawio
     - name: Export PDF
       run: drawio --export --all-pages .
     - uses: actions/upload-artifact@v2
