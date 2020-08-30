@@ -7,13 +7,13 @@ on:
 jobs:
   generate-pdf:
     name: Generate PDF
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
     - name: Install draw.io
       run: sudo snap install drawio
     - name: Export PDF
-      run: drawio --export --all-pages .
+      run: sudo drawio --export --all-pages .
     - uses: actions/upload-artifact@v2
       with:
         name: PDF
