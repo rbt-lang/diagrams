@@ -10,10 +10,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
+    - name: Install flatpack
+      run: |
+        sudo apt install flatpack
+        flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
     - name: Install draw.io
-      run: sudo snap install drawio
+      run: flatpak install flathub com.jgraph.drawio.desktop
     - name: Export PDF
-      run: sudo drawio --export --all-pages .
+      run: drawio --export --all-pages .
     - uses: actions/upload-artifact@v2
       with:
         name: PDF
