@@ -10,12 +10,10 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
     - uses: actions/checkout@v2
-    - name: Install flatpak
-      run: |
-        sudo apt install flatpak
-        flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
     - name: Install draw.io
-      run: flatpak install flathub com.jgraph.drawio.desktop
+      run: |
+        curl -sLO https://github.com/jgraph/drawio-desktop/releases/download/v13.6.2/draw.io-amd64-13.6.2.deb
+        sudo apt install ./draw.io-*.deb
     - name: Export PDF
       run: drawio --export --all-pages .
     - uses: actions/upload-artifact@v2
