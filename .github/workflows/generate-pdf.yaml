@@ -3,7 +3,7 @@ name: Generate PDF
 on:
   push:
     branches: [master]
-    paths: ['**.drawio']
+#    paths: ['**.drawio']
 
 jobs:
   generate-pdf:
@@ -20,11 +20,13 @@ jobs:
       run: |
         mkdir build
         xvfb-run drawio --export --all-pages --output build .
+    - uses: actions/checkout@v2
+      with:
+        ref: gh-pages
     - name: Update GitHub Pages
       run: |
         git config user.name github-actions
         git config user.email github-actions@github.com
-        git checkout gh-pages
         git rm --ignore-unmatch *.pdf
         cp -a build/. .
         git add *.pdf
