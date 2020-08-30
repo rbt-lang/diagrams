@@ -12,8 +12,9 @@ jobs:
     - uses: actions/checkout@v2
     - name: Install draw.io
       run: |
-        curl -sLO https://github.com/jgraph/drawio-desktop/releases/download/v13.6.2/draw.io-amd64-13.6.2.deb
+        curl -sLO $(curl --silent https://api.github.com/repos/jgraph/drawio-desktop/releases/latest | jq -r '.assets[] | select(.name | test("^draw.io-.*deb$")) | .browser_download_url')
         sudo apt install ./draw.io-*.deb
+        rm ./draw.io-*.deb
     - name: Export PDF
       run: xvfb-run drawio --export --all-pages .
     - uses: actions/upload-artifact@v2
