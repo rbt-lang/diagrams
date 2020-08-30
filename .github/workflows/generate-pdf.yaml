@@ -7,12 +7,12 @@ on:
 jobs:
   generate-pdf:
     name: Generate PDF
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     steps:
     - uses: actions/checkout@v2
-    - name: Install flatpack
+    - name: Install flatpak
       run: |
-        sudo apt install flatpack
+        sudo apt install flatpak
         flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
     - name: Install draw.io
       run: flatpak install flathub com.jgraph.drawio.desktop
