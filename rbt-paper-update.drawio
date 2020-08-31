@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-31T02:58:29.447Z" agent="5.0 (X11)" etag="vx_TGA4wqxdYTsqJXXpk" version="13.6.5" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2020-08-31T04:08:53.257Z" agent="5.0 (X11)" etag="hBfxSvCHIf5tcc_KHI1E" version="13.6.5" type="github" pages="8">
   <diagram id="rMpPFo-NsCuVZG48vWvC" name="Transformation">
     <mxGraphModel dx="1350" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="1" shadow="0">
       <root>
@@ -231,7 +231,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="gO2esBTSg_cSxMR45eDp" name="Example: Composition">
-    <mxGraphModel dx="953" dy="528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="1" shadow="0">
+    <mxGraphModel dx="810" dy="449" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="1" shadow="0">
       <root>
         <mxCell id="oswlE0zQUEBbs-2NFTVK-0" />
         <mxCell id="oswlE0zQUEBbs-2NFTVK-1" parent="oswlE0zQUEBbs-2NFTVK-0" />
@@ -329,7 +329,7 @@
         <mxCell id="duQ3oAJpFDg2NpH1YDiN-9" value="$$\small\mathsf{name}$$" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="oswlE0zQUEBbs-2NFTVK-1">
           <mxGeometry x="520" y="270" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="kjqKIxy3XWTNWCiKbFqS-0" value="&lt;font style=&quot;font-size: 11px&quot;&gt;Maps employee records&lt;br&gt;to the name of their department&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=2" vertex="1" parent="oswlE0zQUEBbs-2NFTVK-1">
+        <mxCell id="kjqKIxy3XWTNWCiKbFqS-0" value="&lt;font style=&quot;font-size: 11px&quot;&gt;Maps employee records&lt;br style=&quot;font-size: 11px;&quot;&gt;to the name of their department&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=2;fontSize=11;" vertex="1" parent="oswlE0zQUEBbs-2NFTVK-1">
           <mxGeometry x="660" y="235" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="kjqKIxy3XWTNWCiKbFqS-1" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;opacity=75;align=left;flipV=0;flipH=1;" vertex="1" parent="oswlE0zQUEBbs-2NFTVK-1">
@@ -343,7 +343,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="kjqKIxy3XWTNWCiKbFqS-4" value="&lt;div style=&quot;font-size: 11px&quot; align=&quot;center&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;i&gt;Maps a department record to its name&lt;/i&gt;&lt;/font&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;opacity=75;align=center;dashed=1;dashPattern=1 1;" vertex="1" parent="oswlE0zQUEBbs-2NFTVK-1">
+        <mxCell id="kjqKIxy3XWTNWCiKbFqS-4" value="&lt;div style=&quot;font-size: 11px&quot; align=&quot;center&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;i style=&quot;font-size: 11px;&quot;&gt;Maps a department record to its name&lt;/i&gt;&lt;/font&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;opacity=75;align=center;dashed=1;dashPattern=1 1;fontSize=11;" vertex="1" parent="oswlE0zQUEBbs-2NFTVK-1">
           <mxGeometry x="90" y="400" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="kjqKIxy3XWTNWCiKbFqS-7" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;dashPattern=1 1;endArrow=classicThin;endFill=1;" edge="1" parent="oswlE0zQUEBbs-2NFTVK-1" source="kjqKIxy3XWTNWCiKbFqS-6">
@@ -354,14 +354,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="kjqKIxy3XWTNWCiKbFqS-6" value="&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;i&gt;Maps an employee to the associated department&lt;/i&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;opacity=75;align=center;dashed=1;dashPattern=1 1;" vertex="1" parent="oswlE0zQUEBbs-2NFTVK-1">
+        <mxCell id="kjqKIxy3XWTNWCiKbFqS-6" value="&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;i style=&quot;font-size: 11px;&quot;&gt;Maps an employee to the associated department&lt;/i&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;opacity=75;align=center;dashed=1;dashPattern=1 1;fontSize=11;" vertex="1" parent="oswlE0zQUEBbs-2NFTVK-1">
           <mxGeometry x="40" y="200" width="140" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="sHpveuRQyIX-rcGMqTgi" name="Counter-example: Plural Component">
-    <mxGraphModel dx="1157" dy="641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="1" shadow="0">
+    <mxGraphModel dx="675" dy="374" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="1" shadow="0">
       <root>
         <mxCell id="uP0uie0zy0ITp1Ep6BZQ-0" />
         <mxCell id="uP0uie0zy0ITp1Ep6BZQ-1" parent="uP0uie0zy0ITp1Ep6BZQ-0" />
@@ -427,8 +427,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="tT9VgjkmEAQQTlk9uty4-23" value="&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;i&gt;Maps an employee to their salary&lt;/i&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;align=center;dashed=1;dashPattern=1 1;" vertex="1" parent="uP0uie0zy0ITp1Ep6BZQ-1">
-          <mxGeometry x="70" y="400" width="130" height="50" as="geometry" />
+        <mxCell id="tT9VgjkmEAQQTlk9uty4-23" value="&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;i style=&quot;font-size: 11px;&quot;&gt;Maps an employee to their salary&lt;/i&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;align=center;dashed=1;dashPattern=1 1;fontSize=11;" vertex="1" parent="uP0uie0zy0ITp1Ep6BZQ-1">
+          <mxGeometry x="70" y="400" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tT9VgjkmEAQQTlk9uty4-24" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;dashPattern=1 1;endArrow=classicThin;endFill=1;" edge="1" parent="uP0uie0zy0ITp1Ep6BZQ-1" source="tT9VgjkmEAQQTlk9uty4-25">
           <mxGeometry relative="1" as="geometry">
@@ -438,7 +438,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="tT9VgjkmEAQQTlk9uty4-25" value="&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;i&gt;Maps a department to the collection of associated employees&lt;/i&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;align=center;dashed=1;dashPattern=1 1;" vertex="1" parent="uP0uie0zy0ITp1Ep6BZQ-1">
+        <mxCell id="tT9VgjkmEAQQTlk9uty4-25" value="&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;i style=&quot;font-size: 11px;&quot;&gt;Maps a department to the collection of associated employees&lt;/i&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;align=center;dashed=1;dashPattern=1 1;fontSize=11;" vertex="1" parent="uP0uie0zy0ITp1Ep6BZQ-1">
           <mxGeometry x="40" y="200" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="3dj0PPH2Fb-rdeXUX02G-0" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=classicThin;endFill=1;fontSize=120;fontColor=#E6E6E6;dashPattern=1 1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="uP0uie0zy0ITp1Ep6BZQ-1" source="M0hX_4lETzorNMCtiNvA-1">
@@ -450,7 +450,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="M0hX_4lETzorNMCtiNvA-1" value="&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;i&gt;Collection of employee records&lt;/i&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;align=center;dashed=1;dashPattern=1 1;" vertex="1" parent="uP0uie0zy0ITp1Ep6BZQ-1">
+        <mxCell id="M0hX_4lETzorNMCtiNvA-1" value="&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;i style=&quot;font-size: 11px;&quot;&gt;Collection of employee records&lt;/i&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;align=center;dashed=1;dashPattern=1 1;fontSize=11;" vertex="1" parent="uP0uie0zy0ITp1Ep6BZQ-1">
           <mxGeometry x="360" y="400" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="9eNqRsNSz2aVAH1Bcj1Q-0" value="We cannot compose these transformations&lt;br&gt; because their input and output do not quite match." style="text;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;html=1;" vertex="1" parent="uP0uie0zy0ITp1Ep6BZQ-1">
@@ -458,6 +458,97 @@
         </mxCell>
         <mxCell id="9eNqRsNSz2aVAH1Bcj1Q-1" value="?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=120;fontStyle=1;fontColor=#E6E6E6;" vertex="1" parent="uP0uie0zy0ITp1Ep6BZQ-1">
           <mxGeometry x="550" y="165" width="90" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Counter-example: Optional Component" id="5XVZsGvTvC41AfZJ__Jv">
+    <mxGraphModel dx="1157" dy="641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="1" shadow="0">
+      <root>
+        <mxCell id="GyZmnRRTT0jB5SIz0MQ8-0" />
+        <mxCell id="GyZmnRRTT0jB5SIz0MQ8-1" parent="GyZmnRRTT0jB5SIz0MQ8-0" />
+        <mxCell id="GyZmnRRTT0jB5SIz0MQ8-2" value="&lt;h1&gt;Counter-example: Optional Component&lt;/h1&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="GyZmnRRTT0jB5SIz0MQ8-1">
+          <mxGeometry x="40" y="30" width="460" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GyZmnRRTT0jB5SIz0MQ8-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="GyZmnRRTT0jB5SIz0MQ8-1" source="GyZmnRRTT0jB5SIz0MQ8-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GyZmnRRTT0jB5SIz0MQ8-4" value="$$\scriptsize\mathrm{Block}_{0:1}\{\mathsf{Emp}\}$$" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="GyZmnRRTT0jB5SIz0MQ8-3">
+          <mxGeometry x="-0.2361" relative="1" as="geometry">
+            <mxPoint y="4.72" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GyZmnRRTT0jB5SIz0MQ8-5" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="GyZmnRRTT0jB5SIz0MQ8-1" target="GyZmnRRTT0jB5SIz0MQ8-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="279.9411764705883" y="120" as="targetPoint" />
+            <mxPoint x="280" y="120" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GyZmnRRTT0jB5SIz0MQ8-6" value="$$\scriptsize\mathsf{Emp}$$" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="GyZmnRRTT0jB5SIz0MQ8-5">
+          <mxGeometry x="-0.3194" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" y="6.39" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GyZmnRRTT0jB5SIz0MQ8-7" value="$$\small\mathsf{manager}$$" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="GyZmnRRTT0jB5SIz0MQ8-1">
+          <mxGeometry x="240" y="160" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GyZmnRRTT0jB5SIz0MQ8-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="GyZmnRRTT0jB5SIz0MQ8-1" source="GyZmnRRTT0jB5SIz0MQ8-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GyZmnRRTT0jB5SIz0MQ8-9" value="$$\scriptsize\mathrm{Int}$$" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="GyZmnRRTT0jB5SIz0MQ8-8">
+          <mxGeometry x="-0.2361" relative="1" as="geometry">
+            <mxPoint y="4.72" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GyZmnRRTT0jB5SIz0MQ8-10" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="GyZmnRRTT0jB5SIz0MQ8-1" target="GyZmnRRTT0jB5SIz0MQ8-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="279.9411764705883" y="260" as="targetPoint" />
+            <mxPoint x="280" y="260" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GyZmnRRTT0jB5SIz0MQ8-11" value="$$\scriptsize\mathsf{Emp}$$" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="GyZmnRRTT0jB5SIz0MQ8-10">
+          <mxGeometry x="-0.3194" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" y="6.39" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GyZmnRRTT0jB5SIz0MQ8-12" value="$$\small\mathsf{salary}$$" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="GyZmnRRTT0jB5SIz0MQ8-1">
+          <mxGeometry x="240" y="300" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GyZmnRRTT0jB5SIz0MQ8-13" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;labelBackgroundColor=none;strokeColor=none;fillColor=#E6E6E6;" vertex="1" parent="GyZmnRRTT0jB5SIz0MQ8-1">
+          <mxGeometry x="450" y="200" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="GyZmnRRTT0jB5SIz0MQ8-16" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;dashPattern=1 1;endArrow=classicThin;endFill=1;" edge="1" parent="GyZmnRRTT0jB5SIz0MQ8-1" source="GyZmnRRTT0jB5SIz0MQ8-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="110" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GyZmnRRTT0jB5SIz0MQ8-17" value="Maps an employee to their manager, if there is one" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;align=center;dashed=1;dashPattern=1 1;fontSize=11;fontStyle=2" vertex="1" parent="GyZmnRRTT0jB5SIz0MQ8-1">
+          <mxGeometry x="40" y="220" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GyZmnRRTT0jB5SIz0MQ8-18" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=classicThin;endFill=1;fontSize=120;fontColor=#E6E6E6;dashPattern=1 1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="GyZmnRRTT0jB5SIz0MQ8-1" source="GyZmnRRTT0jB5SIz0MQ8-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="395" y="280" />
+              <mxPoint x="310" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GyZmnRRTT0jB5SIz0MQ8-19" value="&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;i style=&quot;font-size: 11px;&quot;&gt;Collection of 0 or 1 employee records&lt;/i&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;align=center;dashed=1;dashPattern=1 1;fontSize=11;" vertex="1" parent="GyZmnRRTT0jB5SIz0MQ8-1">
+          <mxGeometry x="340" y="400" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GyZmnRRTT0jB5SIz0MQ8-21" value="?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=120;fontStyle=1;fontColor=#E6E6E6;" vertex="1" parent="GyZmnRRTT0jB5SIz0MQ8-1">
+          <mxGeometry x="550" y="165" width="90" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="2XrNN-ixfZdT0uuukybn-0" value="Even so, the input and the output share a common component,&lt;br&gt;which suggests there should be a way to compose these transformations." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;" vertex="1" parent="GyZmnRRTT0jB5SIz0MQ8-1">
+          <mxGeometry x="520" y="360" width="400" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
