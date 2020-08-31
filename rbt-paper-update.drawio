@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-31T00:56:33.861Z" agent="5.0 (X11)" etag="ynE5UXiuxckKhUsY4wv9" version="13.6.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-08-31T01:11:42.235Z" agent="5.0 (X11)" etag="CVv7ZJDpJ6_g2nvuVAx6" version="13.6.5" type="github" pages="5">
   <diagram id="rMpPFo-NsCuVZG48vWvC" name="Transformation">
     <mxGraphModel dx="1350" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="1" shadow="0">
       <root>
@@ -134,10 +134,10 @@
           <mxGeometry x="320" y="270" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BdBK_XEFIv1bLZK8_JG3-11" value="Transformations with compatible input and output&lt;br&gt;can be composed." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="hToUl_4AGVo9qI8tKe5j-1">
-          <mxGeometry x="160" y="400" width="280" height="30" as="geometry" />
+          <mxGeometry x="40" y="440" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LcheQD8LoowO_4yFmIOc-0" value="$$\mathrm{chain\_of}(f,g)$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="hToUl_4AGVo9qI8tKe5j-1">
-          <mxGeometry x="280" y="120" width="160" height="20" as="geometry" />
+          <mxGeometry x="280" y="380" width="160" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -191,7 +191,41 @@
           <mxGeometry x="40" y="160" width="120" height="160" as="geometry" />
         </mxCell>
         <mxCell id="vTP5Z9yQHhVWCt_xZJvv-0" value="Crucially, composition of transformations&lt;br&gt;is again a transformation." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="I1oFhejsTnF1mioXvpzJ-1">
-          <mxGeometry x="200" y="225" width="230" height="30" as="geometry" />
+          <mxGeometry x="200" y="290" width="230" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Y3XqSTPFipeToVVKnB1i" name="Composition Combinator">
+    <mxGraphModel dx="810" dy="449" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="1" shadow="0">
+      <root>
+        <mxCell id="M_8RHyu54dN3lPYPs2E4-0" />
+        <mxCell id="M_8RHyu54dN3lPYPs2E4-1" parent="M_8RHyu54dN3lPYPs2E4-0" />
+        <mxCell id="M_8RHyu54dN3lPYPs2E4-2" value="&lt;h1&gt;Composition Combinator&lt;/h1&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="M_8RHyu54dN3lPYPs2E4-1">
+          <mxGeometry x="40" y="30" width="300" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Bbb8M1PtfMiMKxMvmMNS-1" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="M_8RHyu54dN3lPYPs2E4-1" source="2YUPQa2wwL4DMRPB4F9F-0" target="Bbb8M1PtfMiMKxMvmMNS-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bbb8M1PtfMiMKxMvmMNS-3" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="M_8RHyu54dN3lPYPs2E4-1" target="2YUPQa2wwL4DMRPB4F9F-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="120" as="targetPoint" />
+            <mxPoint x="100" y="120" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2YUPQa2wwL4DMRPB4F9F-0" value="&lt;div align=&quot;center&quot;&gt;&lt;i&gt;Add transformation&lt;/i&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;opacity=75;align=center;dashed=1;" vertex="1" parent="M_8RHyu54dN3lPYPs2E4-1">
+          <mxGeometry x="40" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Bbb8M1PtfMiMKxMvmMNS-2" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="M_8RHyu54dN3lPYPs2E4-1" source="Bbb8M1PtfMiMKxMvmMNS-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bbb8M1PtfMiMKxMvmMNS-0" value="&lt;div align=&quot;center&quot;&gt;&lt;i&gt;Add transformation&lt;/i&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;opacity=75;align=center;dashed=1;" vertex="1" parent="M_8RHyu54dN3lPYPs2E4-1">
+          <mxGeometry x="40" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F42J71oXj0NtTf7idKZS-0" value="Composition \(\mathrm{chain\_of}(\unicode{x2B1A},\unicode{x2B1A})\)&lt;br&gt;is a transformation combinator&lt;br&gt;with two arguments." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="M_8RHyu54dN3lPYPs2E4-1">
+          <mxGeometry x="120" y="390" width="390" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
