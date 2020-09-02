@@ -1,1 +1,133 @@
-<mxfile host="app.diagrams.net" modified="2020-09-02T22:46:44.045Z" agent="5.0 (X11)" version="13.6.6" etag="HkFyjmuHtrA_eBgqNP_E" type="github"><diagram id="VC_2qRlN75CcKWWAJQJ7">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-09-02T23:10:01.033Z" agent="5.0 (X11)" etag="GdpWBWYcftVNRHunpPKo" version="13.6.6" type="github">
+  <diagram id="VC_2qRlN75CcKWWAJQJ7" name="Page-1">
+    <mxGraphModel dx="953" dy="528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="1" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OqvAHqhVPhzf_PtM_NJU-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="360" as="targetPoint" />
+            <mxPoint x="80" y="120" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OqvAHqhVPhzf_PtM_NJU-7" value="$$\scriptsize\mathrm{Block}_c$$" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="OqvAHqhVPhzf_PtM_NJU-2">
+          <mxGeometry x="-0.1" y="1" relative="1" as="geometry">
+            <mxPoint y="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OqvAHqhVPhzf_PtM_NJU-9" value="$$\scriptsize\mathrm{Block}_c\{A\}$$" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="OqvAHqhVPhzf_PtM_NJU-2">
+          <mxGeometry x="-0.8362" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OqvAHqhVPhzf_PtM_NJU-10" value="$$\scriptsize\mathrm{Block}_c\{A\}$$" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="OqvAHqhVPhzf_PtM_NJU-2">
+          <mxGeometry x="0.7902" relative="1" as="geometry">
+            <mxPoint y="5.240000000000001" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OqvAHqhVPhzf_PtM_NJU-3" value="$$\mathrm{with\_elements}(\mathrm{pass}()) \Rightarrow \mathrm{pass}()$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="60" width="420" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OqvAHqhVPhzf_PtM_NJU-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="360" as="targetPoint" />
+            <mxPoint x="360" y="120" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="360" y="180" />
+              <mxPoint x="360" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OqvAHqhVPhzf_PtM_NJU-11" value="$$\scriptsize\mathrm{Block}_c\{A\}$$" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="OqvAHqhVPhzf_PtM_NJU-4">
+          <mxGeometry x="0.1125" y="4" relative="1" as="geometry">
+            <mxPoint x="-4" y="-13.67" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OqvAHqhVPhzf_PtM_NJU-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;curved=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="320" as="targetPoint" />
+            <mxPoint x="80" y="160" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="200" />
+              <mxPoint x="160" y="200" />
+              <mxPoint x="160" y="280" />
+              <mxPoint x="80" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OqvAHqhVPhzf_PtM_NJU-8" value="$$\small A$$" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="OqvAHqhVPhzf_PtM_NJU-5">
+          <mxGeometry x="0.0409" relative="1" as="geometry">
+            <mxPoint y="-6.21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OqvAHqhVPhzf_PtM_NJU-6" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;strokeColor=none;fillColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="210" y="190" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="OqvAHqhVPhzf_PtM_NJU-12" value="$$\mathrm{with\_column}(k,\mathrm{pass}()) \Rightarrow \mathrm{pass}()$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="60" width="420" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OqvAHqhVPhzf_PtM_NJU-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="360" as="targetPoint" />
+            <mxPoint x="560" y="120" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OqvAHqhVPhzf_PtM_NJU-14" value="$$\scriptsize\mathrm{Tuple}$$" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="OqvAHqhVPhzf_PtM_NJU-13">
+          <mxGeometry x="-0.1" y="1" relative="1" as="geometry">
+            <mxPoint y="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OqvAHqhVPhzf_PtM_NJU-15" value="$$\scriptsize\mathrm{Tuple}\{A_1,\ldots,A_N\}$$" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="OqvAHqhVPhzf_PtM_NJU-13">
+          <mxGeometry x="-0.8362" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OqvAHqhVPhzf_PtM_NJU-16" value="$$\scriptsize\mathrm{Tuple}\{A_1,\ldots,A_N\}$$" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="OqvAHqhVPhzf_PtM_NJU-13">
+          <mxGeometry x="0.7902" relative="1" as="geometry">
+            <mxPoint y="5.240000000000001" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OqvAHqhVPhzf_PtM_NJU-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="840" y="360" as="targetPoint" />
+            <mxPoint x="840" y="120" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="840" y="180" />
+              <mxPoint x="840" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OqvAHqhVPhzf_PtM_NJU-18" value="$$\scriptsize\mathrm{Tuple}\{A_1,\ldots,A_N\}$$" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="OqvAHqhVPhzf_PtM_NJU-17">
+          <mxGeometry x="0.1125" y="4" relative="1" as="geometry">
+            <mxPoint x="-4" y="-13.67" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OqvAHqhVPhzf_PtM_NJU-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;curved=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="320" as="targetPoint" />
+            <mxPoint x="560" y="160" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="560" y="200" />
+              <mxPoint x="640" y="200" />
+              <mxPoint x="640" y="280" />
+              <mxPoint x="560" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OqvAHqhVPhzf_PtM_NJU-20" value="$$\small A_k$$" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="OqvAHqhVPhzf_PtM_NJU-19">
+          <mxGeometry x="0.0409" relative="1" as="geometry">
+            <mxPoint y="-6.21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OqvAHqhVPhzf_PtM_NJU-22" value="$$\small [k]$$" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="OqvAHqhVPhzf_PtM_NJU-19">
+          <mxGeometry x="-0.8254" y="11" relative="1" as="geometry">
+            <mxPoint x="-11" y="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OqvAHqhVPhzf_PtM_NJU-21" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;strokeColor=none;fillColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="690" y="190" width="100" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
