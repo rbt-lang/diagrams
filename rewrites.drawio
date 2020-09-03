@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-03T01:03:39.584Z" agent="5.0 (X11)" etag="YMzUWeHkKBUlhX2AiyQn" version="13.6.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-09-03T01:07:12.364Z" agent="5.0 (X11)" etag="v6YgjEwYDzuB5DXFsrbG" version="13.6.6" type="github" pages="4">
   <diagram id="VC_2qRlN75CcKWWAJQJ7" name="with_elements(pass())">
     <mxGraphModel dx="1157" dy="641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
@@ -131,7 +131,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="chain_of(p, filler(x))" id="fRJYNDEdB2XgRZ1Q16qM">
-    <mxGraphModel dx="810" dy="449" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="2314" dy="1283" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="X9Sxgdq9AvsKO_ialkme-0" />
         <mxCell id="X9Sxgdq9AvsKO_ialkme-1" parent="X9Sxgdq9AvsKO_ialkme-0" />
@@ -230,7 +230,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="chain_of(p, tuple_of(chain_of(filler(x_1), ...), ...))" id="e8lPRmfsCErFDOjnpbpO">
-    <mxGraphModel dx="1620" dy="898" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="1350" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="8G-0gKGHgHB09lt3xv8q-0" />
         <mxCell id="8G-0gKGHgHB09lt3xv8q-1" parent="8G-0gKGHgHB09lt3xv8q-0" />
@@ -264,7 +264,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8G-0gKGHgHB09lt3xv8q-11" value="$$\mathrm{chain\_of}(p, \mathrm{tuple\_of}(\mathrm{chain\_of}(\mathrm{filler}(x_1), \ldots), \ldots, \mathrm{chain\_of}(\mathrm{filler}(x_N), \ldots)))) \Rightarrow \mathrm{tuple\_of}(\ldots)$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;direction=north;horizontal=0;" vertex="1" parent="8G-0gKGHgHB09lt3xv8q-1">
-          <mxGeometry x="40" y="90" width="20" height="1010" as="geometry" />
+          <mxGeometry x="40" y="45" width="20" height="1010" as="geometry" />
         </mxCell>
         <mxCell id="8G-0gKGHgHB09lt3xv8q-12" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="8G-0gKGHgHB09lt3xv8q-1">
           <mxGeometry relative="1" as="geometry">
@@ -597,7 +597,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="chain_of(tuple_of(...), column(k))" id="M-OVHJVZ_fEofJv9uVZv">
-    <mxGraphModel dx="1350" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="2700" dy="1497" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="ULEsdI5rouGL3sF8BKPy-0" />
         <mxCell id="ULEsdI5rouGL3sF8BKPy-1" parent="ULEsdI5rouGL3sF8BKPy-0" />
