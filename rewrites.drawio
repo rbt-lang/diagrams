@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-03T00:07:05.646Z" agent="5.0 (X11)" etag="NfwZcWmkdhmuEbh8ebv0" version="13.6.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-09-03T00:11:02.647Z" agent="5.0 (X11)" etag="R12bn82Qyh_T1_Q3d3lA" version="13.6.6" type="github" pages="3">
   <diagram id="VC_2qRlN75CcKWWAJQJ7" name="with_elements(pass())">
     <mxGraphModel dx="1157" dy="641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="690" pageHeight="980" math="1" shadow="0">
       <root>
@@ -230,7 +230,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="chain_of(tuple_of(...), column(k))" id="M-OVHJVZ_fEofJv9uVZv">
-    <mxGraphModel dx="1157" dy="641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="690" pageHeight="980" math="1" shadow="0">
+    <mxGraphModel dx="953" dy="528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="690" pageHeight="980" math="1" shadow="0">
       <root>
         <mxCell id="ULEsdI5rouGL3sF8BKPy-0" />
         <mxCell id="ULEsdI5rouGL3sF8BKPy-1" parent="ULEsdI5rouGL3sF8BKPy-0" />
@@ -296,6 +296,11 @@
         <mxCell id="mQh_cg1yfNeE61W-xJrd-13" value="$$\scriptsize\mathrm{Tuple}\{A, A, \ldots, A\}$$" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="l10hHDlm5BFYEpTBEZ4s-1">
           <mxGeometry x="-0.0838" relative="1" as="geometry">
             <mxPoint y="-7.62" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mQh_cg1yfNeE61W-xJrd-20" value="$$\scriptsize\mathrm{Tuple}\{B_1, A, \ldots, A\}$$" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="l10hHDlm5BFYEpTBEZ4s-1">
+          <mxGeometry x="0.9321" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="l10hHDlm5BFYEpTBEZ4s-2" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=none;endFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="ULEsdI5rouGL3sF8BKPy-1" source="l10hHDlm5BFYEpTBEZ4s-0">
