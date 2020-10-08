@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-07T23:46:51.364Z" agent="5.0 (X11)" etag="axxS6Sndvv-iwLsdiwR_" version="13.7.7" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2020-10-08T00:17:13.325Z" agent="5.0 (X11)" etag="xM1Xmrf8_Ey_t2uSeeRQ" version="13.7.7" type="github" pages="8">
   <diagram id="rMpPFo-NsCuVZG48vWvC" name="Monadic Interface">
     <mxGraphModel dx="810" dy="449" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="1" shadow="0">
       <root>
@@ -45,13 +45,13 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="Monadic Unit" id="BNvFmytog_Ue4hhcQawD">
+  <diagram name="Unit Transformation" id="BNvFmytog_Ue4hhcQawD">
     <mxGraphModel dx="1157" dy="641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="1" shadow="0">
       <root>
         <mxCell id="EO7N8vqKN83MjDOOd26v-0" />
         <mxCell id="EO7N8vqKN83MjDOOd26v-1" parent="EO7N8vqKN83MjDOOd26v-0" />
-        <mxCell id="EO7N8vqKN83MjDOOd26v-2" value="&lt;h1&gt;Monadic Unit&lt;br&gt;&lt;/h1&gt;" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;labelBorderColor=none;labelBackgroundColor=none;html=1;" vertex="1" parent="EO7N8vqKN83MjDOOd26v-1">
-          <mxGeometry x="40" y="30" width="170" height="50" as="geometry" />
+        <mxCell id="EO7N8vqKN83MjDOOd26v-2" value="&lt;h1&gt;Unit Transformation&lt;br&gt;&lt;/h1&gt;" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;labelBorderColor=none;labelBackgroundColor=none;html=1;" vertex="1" parent="EO7N8vqKN83MjDOOd26v-1">
+          <mxGeometry x="40" y="30" width="240" height="50" as="geometry" />
         </mxCell>
         <mxCell id="EO7N8vqKN83MjDOOd26v-5" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="EO7N8vqKN83MjDOOd26v-1" target="EO7N8vqKN83MjDOOd26v-11">
           <mxGeometry relative="1" as="geometry">
@@ -103,8 +103,8 @@
         <mxCell id="EO7N8vqKN83MjDOOd26v-18" value="Wraps the input in a one-element block" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;align=center;dashed=1;dashPattern=1 1;fontSize=11;fontStyle=2" vertex="1" parent="EO7N8vqKN83MjDOOd26v-1">
           <mxGeometry x="190" y="130" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="EO7N8vqKN83MjDOOd26v-19" value="Monadic unit is a natural transformation." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;" vertex="1" parent="EO7N8vqKN83MjDOOd26v-1">
-          <mxGeometry x="80" y="360" width="230" height="20" as="geometry" />
+        <mxCell id="EO7N8vqKN83MjDOOd26v-19" value="Unit is a natural transformation." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;" vertex="1" parent="EO7N8vqKN83MjDOOd26v-1">
+          <mxGeometry x="90" y="360" width="180" height="20" as="geometry" />
         </mxCell>
         <mxCell id="EO7N8vqKN83MjDOOd26v-20" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="EO7N8vqKN83MjDOOd26v-1" target="EO7N8vqKN83MjDOOd26v-26">
           <mxGeometry relative="1" as="geometry">
@@ -305,16 +305,16 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="Using Monadic Unit" id="sUDWUHZ9hBxpsdraXp0y">
+  <diagram name="Using Unit Transformation" id="sUDWUHZ9hBxpsdraXp0y">
     <mxGraphModel dx="810" dy="449" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="1" shadow="0">
       <root>
         <mxCell id="8Kkyf4z9Z9P8M_0PQmB3-0" />
         <mxCell id="8Kkyf4z9Z9P8M_0PQmB3-1" parent="8Kkyf4z9Z9P8M_0PQmB3-0" />
-        <mxCell id="8Kkyf4z9Z9P8M_0PQmB3-2" value="&lt;h1&gt;Using Monadic Unit&lt;br&gt;&lt;/h1&gt;" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;labelBorderColor=none;labelBackgroundColor=none;html=1;" vertex="1" parent="8Kkyf4z9Z9P8M_0PQmB3-1">
-          <mxGeometry x="40" y="30" width="240" height="50" as="geometry" />
+        <mxCell id="8Kkyf4z9Z9P8M_0PQmB3-2" value="&lt;h1&gt;Using Unit Transformation&lt;br&gt;&lt;/h1&gt;" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;labelBorderColor=none;labelBackgroundColor=none;html=1;" vertex="1" parent="8Kkyf4z9Z9P8M_0PQmB3-1">
+          <mxGeometry x="40" y="30" width="320" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="8Kkyf4z9Z9P8M_0PQmB3-5" value="Monadic unit can adapt any regular transformation&lt;br style=&quot;font-size: 12px&quot;&gt;to the monadic interface." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;" vertex="1" parent="8Kkyf4z9Z9P8M_0PQmB3-1">
-          <mxGeometry x="40" y="120" width="280" height="30" as="geometry" />
+        <mxCell id="8Kkyf4z9Z9P8M_0PQmB3-5" value="Unit transformation can adapt any regular transformation&lt;br style=&quot;font-size: 12px&quot;&gt;to the monadic interface." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;" vertex="1" parent="8Kkyf4z9Z9P8M_0PQmB3-1">
+          <mxGeometry x="40" y="120" width="320" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8Kkyf4z9Z9P8M_0PQmB3-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;curved=1;" edge="1" parent="8Kkyf4z9Z9P8M_0PQmB3-1" source="8Kkyf4z9Z9P8M_0PQmB3-26">
           <mxGeometry relative="1" as="geometry">
@@ -1074,13 +1074,13 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="Monadic Multiplication" id="yAdDJncHgwRbj102LrDt">
+  <diagram name="Multiplication Transformation" id="yAdDJncHgwRbj102LrDt">
     <mxGraphModel dx="953" dy="528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="1" shadow="0">
       <root>
         <mxCell id="LXYbAwMFZDBl3taHvepH-0" />
         <mxCell id="LXYbAwMFZDBl3taHvepH-1" parent="LXYbAwMFZDBl3taHvepH-0" />
-        <mxCell id="LXYbAwMFZDBl3taHvepH-2" value="&lt;h1&gt;Monadic Multiplication&lt;br&gt;&lt;/h1&gt;" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;labelBorderColor=none;labelBackgroundColor=none;html=1;" vertex="1" parent="LXYbAwMFZDBl3taHvepH-1">
-          <mxGeometry x="40" y="30" width="270" height="50" as="geometry" />
+        <mxCell id="LXYbAwMFZDBl3taHvepH-2" value="&lt;h1&gt;Multiplication Transformation&lt;br&gt;&lt;/h1&gt;" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;labelBorderColor=none;labelBackgroundColor=none;html=1;" vertex="1" parent="LXYbAwMFZDBl3taHvepH-1">
+          <mxGeometry x="40" y="30" width="350" height="50" as="geometry" />
         </mxCell>
         <mxCell id="wK6U3Vcb_KKWaYGkjmvI-0" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="LXYbAwMFZDBl3taHvepH-1" target="EbDl2SKrtkv9PPosflo8-1">
           <mxGeometry relative="1" as="geometry">
@@ -1171,8 +1171,8 @@
         <mxCell id="EbDl2SKrtkv9PPosflo8-1" value="$$*$$" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;labelBackgroundColor=none;fillColor=#f5f5f5;fontSize=12;align=center;size=30;flipH=0;flipV=1;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="LXYbAwMFZDBl3taHvepH-1">
           <mxGeometry x="40" y="180" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="JFIdeW6-KAh1hyzx3jDy-0" value="It is easy to check that the monadic multiplication is a natural transformation." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;" vertex="1" parent="LXYbAwMFZDBl3taHvepH-1">
-          <mxGeometry x="30" y="380" width="420" height="20" as="geometry" />
+        <mxCell id="JFIdeW6-KAh1hyzx3jDy-0" value="It is easy to check that the multiplication is a natural transformation." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;" vertex="1" parent="LXYbAwMFZDBl3taHvepH-1">
+          <mxGeometry x="55" y="380" width="370" height="20" as="geometry" />
         </mxCell>
         <mxCell id="JFIdeW6-KAh1hyzx3jDy-1" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="LXYbAwMFZDBl3taHvepH-1" target="JFIdeW6-KAh1hyzx3jDy-11">
           <mxGeometry relative="1" as="geometry">
@@ -1313,13 +1313,13 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="Monadic Composition" id="rWGI_9PSvU6UKMEVJOPQ">
+  <diagram name="Using Multiplication Transformation" id="rWGI_9PSvU6UKMEVJOPQ">
     <mxGraphModel dx="1157" dy="641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="1" shadow="0">
       <root>
         <mxCell id="lrpESUQHBsXgV4O7axtW-0" />
         <mxCell id="lrpESUQHBsXgV4O7axtW-1" parent="lrpESUQHBsXgV4O7axtW-0" />
-        <mxCell id="lrpESUQHBsXgV4O7axtW-2" value="&lt;h1&gt;Monadic Composition&lt;br&gt;&lt;/h1&gt;" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;labelBorderColor=none;labelBackgroundColor=none;html=1;" vertex="1" parent="lrpESUQHBsXgV4O7axtW-1">
-          <mxGeometry x="40" y="30" width="270" height="50" as="geometry" />
+        <mxCell id="lrpESUQHBsXgV4O7axtW-2" value="&lt;h1&gt;Using Multiplication Transformation&lt;br&gt;&lt;/h1&gt;" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;labelBorderColor=none;labelBackgroundColor=none;html=1;" vertex="1" parent="lrpESUQHBsXgV4O7axtW-1">
+          <mxGeometry x="40" y="30" width="420" height="50" as="geometry" />
         </mxCell>
         <mxCell id="lrpESUQHBsXgV4O7axtW-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="lrpESUQHBsXgV4O7axtW-1" source="lrpESUQHBsXgV4O7axtW-7">
           <mxGeometry relative="1" as="geometry">
@@ -1579,6 +1579,134 @@
         </mxCell>
         <mxCell id="d19tD8GS8o88ACB9nAqA-0" value="$$\small\mathrm{chain\_of}(\mathsf{employee},\mathrm{with\_elements}(\mathsf{manager}),\mathrm{flatten})$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="lrpESUQHBsXgV4O7axtW-1">
           <mxGeometry x="75" y="580" width="610" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Monad" id="ttN-gT39WDapp4lHYj05">
+    <mxGraphModel dx="953" dy="528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="1" shadow="0">
+      <root>
+        <mxCell id="Bp62guXXznoJVLlkhjXl-0" />
+        <mxCell id="Bp62guXXznoJVLlkhjXl-1" parent="Bp62guXXznoJVLlkhjXl-0" />
+        <mxCell id="Bp62guXXznoJVLlkhjXl-2" value="&lt;h1&gt;Monad&lt;br&gt;&lt;/h1&gt;" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;labelBorderColor=none;labelBackgroundColor=none;html=1;" vertex="1" parent="Bp62guXXznoJVLlkhjXl-1">
+          <mxGeometry x="40" y="30" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Bp62guXXznoJVLlkhjXl-24" value="In general, a &lt;i&gt;monad&lt;/i&gt; is a functor wire which posesses&lt;br&gt;two special natural transformations: unit and multiplication." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;" vertex="1" parent="Bp62guXXznoJVLlkhjXl-1">
+          <mxGeometry x="40" y="120" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Bp62guXXznoJVLlkhjXl-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Bp62guXXznoJVLlkhjXl-1" source="Bp62guXXznoJVLlkhjXl-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260" y="320" />
+              <mxPoint x="260" y="320" />
+            </Array>
+            <mxPoint x="260" y="280" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bp62guXXznoJVLlkhjXl-39" value="$$\small T$$" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];fontSize=12;labelBackgroundColor=none;" vertex="1" connectable="0" parent="Bp62guXXznoJVLlkhjXl-38">
+          <mxGeometry x="0.1111" relative="1" as="geometry">
+            <mxPoint x="3.469446951953614e-18" y="-2.289999999999999" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bp62guXXznoJVLlkhjXl-40" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Bp62guXXznoJVLlkhjXl-1" target="Bp62guXXznoJVLlkhjXl-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="320" as="targetPoint" />
+            <mxPoint x="280" y="200" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bp62guXXznoJVLlkhjXl-41" value="$$\small T$$" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];fontSize=12;labelBackgroundColor=none;" vertex="1" connectable="0" parent="Bp62guXXznoJVLlkhjXl-40">
+          <mxGeometry x="-0.6714" relative="1" as="geometry">
+            <mxPoint y="13.14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bp62guXXznoJVLlkhjXl-42" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Bp62guXXznoJVLlkhjXl-1" target="Bp62guXXznoJVLlkhjXl-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="320" as="targetPoint" />
+            <mxPoint x="240" y="200" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="240" y="200" />
+              <mxPoint x="240" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bp62guXXznoJVLlkhjXl-43" value="$$\small T$$" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];fontSize=12;labelBackgroundColor=none;" vertex="1" connectable="0" parent="Bp62guXXznoJVLlkhjXl-42">
+          <mxGeometry x="-0.4808" y="3" relative="1" as="geometry">
+            <mxPoint x="-3.01" y="9.71" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bp62guXXznoJVLlkhjXl-44" value="$$*$$" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;labelBackgroundColor=none;fillColor=#f5f5f5;fontSize=12;align=center;size=30;flipH=0;flipV=1;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="Bp62guXXznoJVLlkhjXl-1">
+          <mxGeometry x="220" y="240" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UkWccZr9nwbSRWNh7sXG-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;curved=1;" edge="1" parent="Bp62guXXznoJVLlkhjXl-1" source="UkWccZr9nwbSRWNh7sXG-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="300" />
+              <mxPoint x="160" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UkWccZr9nwbSRWNh7sXG-1" value="$$\small T$$" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];fontSize=12;labelBackgroundColor=none;" vertex="1" connectable="0" parent="UkWccZr9nwbSRWNh7sXG-0">
+          <mxGeometry x="0.1111" relative="1" as="geometry">
+            <mxPoint y="-2.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UkWccZr9nwbSRWNh7sXG-2" value="$$1$$" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontSize=12;align=center;rounded=0;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="Bp62guXXznoJVLlkhjXl-1">
+          <mxGeometry x="140" y="240" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UkWccZr9nwbSRWNh7sXG-3" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="Bp62guXXznoJVLlkhjXl-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="320" as="targetPoint" />
+            <mxPoint x="79.66" y="200" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="79.66" y="200" />
+              <mxPoint x="79.66" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UkWccZr9nwbSRWNh7sXG-4" value="$$\small T$$" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];fontSize=12;labelBackgroundColor=none;" vertex="1" connectable="0" parent="UkWccZr9nwbSRWNh7sXG-3">
+          <mxGeometry x="-0.4808" y="3" relative="1" as="geometry">
+            <mxPoint x="-2.75" y="28.970000000000002" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MJd5XvHo9ZbxOqk1a54q-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Bp62guXXznoJVLlkhjXl-1" source="MJd5XvHo9ZbxOqk1a54q-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MJd5XvHo9ZbxOqk1a54q-1" value="$$\small B$$" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="MJd5XvHo9ZbxOqk1a54q-0">
+          <mxGeometry x="-0.2361" relative="1" as="geometry">
+            <mxPoint y="4.72" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MJd5XvHo9ZbxOqk1a54q-2" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Bp62guXXznoJVLlkhjXl-1" target="MJd5XvHo9ZbxOqk1a54q-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="119.94117647058829" y="460" as="targetPoint" />
+            <mxPoint x="120" y="460" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MJd5XvHo9ZbxOqk1a54q-3" value="$$\small A$$" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="MJd5XvHo9ZbxOqk1a54q-2">
+          <mxGeometry x="-0.3194" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" y="6.39" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MJd5XvHo9ZbxOqk1a54q-4" value="" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#666666;fontColor=#333333;fillColor=none;dashed=1;" vertex="1" parent="Bp62guXXznoJVLlkhjXl-1">
+          <mxGeometry x="80" y="500" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MJd5XvHo9ZbxOqk1a54q-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Bp62guXXznoJVLlkhjXl-1" source="MJd5XvHo9ZbxOqk1a54q-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="580" as="targetPoint" />
+            <mxPoint x="380" y="540" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MJd5XvHo9ZbxOqk1a54q-6" value="$$\small T$$" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="MJd5XvHo9ZbxOqk1a54q-5">
+          <mxGeometry x="0.6486" y="-1" relative="1" as="geometry">
+            <mxPoint y="-13.14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MJd5XvHo9ZbxOqk1a54q-8" value="Monadic transformation is a transformation&lt;br&gt; with the following shape." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;" vertex="1" parent="Bp62guXXznoJVLlkhjXl-1">
+          <mxGeometry x="40" y="400" width="240" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
