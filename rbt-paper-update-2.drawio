@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-08T02:26:13.070Z" agent="5.0 (X11)" etag="vRzNnL-Mozyk0rT2eaBv" version="13.7.7" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2020-10-08T02:36:24.045Z" agent="5.0 (X11)" etag="rZV0iOwbdMUZHhEyv0F6" version="13.7.7" type="github" pages="13">
   <diagram id="rMpPFo-NsCuVZG48vWvC" name="Monadic Interface">
     <mxGraphModel dx="810" dy="449" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="1" shadow="0">
       <root>
@@ -1716,9 +1716,6 @@
       <root>
         <mxCell id="82y6sDd1cU2dM23ad3TK-0" />
         <mxCell id="82y6sDd1cU2dM23ad3TK-1" parent="82y6sDd1cU2dM23ad3TK-0" />
-        <mxCell id="vIBaW5cSvDgQxohQdg1z-0" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#666666;fontColor=#333333;fillColor=none;dashed=1;" vertex="1" parent="82y6sDd1cU2dM23ad3TK-1">
-          <mxGeometry x="710" y="300" width="140" height="160" as="geometry" />
-        </mxCell>
         <mxCell id="82y6sDd1cU2dM23ad3TK-2" value="&lt;h1&gt;Monadic Composition&lt;br&gt;&lt;/h1&gt;" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;labelBorderColor=none;labelBackgroundColor=none;html=1;" vertex="1" parent="82y6sDd1cU2dM23ad3TK-1">
           <mxGeometry x="40" y="30" width="270" height="50" as="geometry" />
         </mxCell>
@@ -1931,8 +1928,8 @@
             <mxPoint x="1" y="-13.14" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bpzCX5OMDEwtlS6FmAPW-12" value="Aside: this is known as&lt;br&gt;the \(\small\mathrm{bind}\) operation." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;" vertex="1" parent="82y6sDd1cU2dM23ad3TK-1">
-          <mxGeometry x="720" y="210" width="210" height="30" as="geometry" />
+        <mxCell id="bpzCX5OMDEwtlS6FmAPW-12" value="Aside: this is known as&lt;br&gt;the operation \(\small\mathrm{bind}(g)\)." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;" vertex="1" parent="82y6sDd1cU2dM23ad3TK-1">
+          <mxGeometry x="720" y="210" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vIBaW5cSvDgQxohQdg1z-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="82y6sDd1cU2dM23ad3TK-1" target="bpzCX5OMDEwtlS6FmAPW-2">
           <mxGeometry relative="1" as="geometry">
@@ -2685,8 +2682,8 @@
         <mxCell id="tsrJ61kLsK8oLa3xEhMc-2" value="&lt;h1&gt;Associativity of Monadic Composition 3&lt;br&gt;&lt;/h1&gt;" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;labelBorderColor=none;labelBackgroundColor=none;html=1;" vertex="1" parent="tsrJ61kLsK8oLa3xEhMc-1">
           <mxGeometry x="40" y="30" width="470" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="tsrJ61kLsK8oLa3xEhMc-3" value="We demand that these two transformations are equivalent for any \(f\), \(g\), and \(h\)." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;" vertex="1" parent="tsrJ61kLsK8oLa3xEhMc-1">
-          <mxGeometry x="40" y="125" width="470" height="20" as="geometry" />
+        <mxCell id="tsrJ61kLsK8oLa3xEhMc-3" value="For monadic composition to be associative, these two transformations must be equivalent for any \(f\), \(g\), and \(h\)." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;" vertex="1" parent="tsrJ61kLsK8oLa3xEhMc-1">
+          <mxGeometry x="40" y="125" width="630" height="20" as="geometry" />
         </mxCell>
         <mxCell id="tsrJ61kLsK8oLa3xEhMc-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="tsrJ61kLsK8oLa3xEhMc-1" source="tsrJ61kLsK8oLa3xEhMc-53" target="tsrJ61kLsK8oLa3xEhMc-58">
           <mxGeometry relative="1" as="geometry">
