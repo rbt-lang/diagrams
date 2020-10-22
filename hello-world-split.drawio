@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-22T01:28:45.405Z" agent="5.0 (X11)" etag="TTvJdfeQhNCUx27rLWTK" version="13.8.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-10-22T01:32:53.596Z" agent="5.0 (X11)" etag="M-TENRekAcpPPRm08Bht" version="13.8.0" type="github" pages="4">
   <diagram name="@query &quot;Hello World&quot; split(it)" id="oZAfDHS6nVCcbd3on-Ws">
     <mxGraphModel dx="1349" dy="919" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="2339" pageHeight="3300" math="1" shadow="0">
       <root>
@@ -1204,7 +1204,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="pJQIsKDGldvAA5DmwbCQ" name="Shapes">
-    <mxGraphModel dx="1345" dy="735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="1" shadow="0">
+    <mxGraphModel dx="2690" dy="1470" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="1" shadow="0">
       <root>
         <mxCell id="-OsRbuwq_ogFv93DH6Sr-0" />
         <mxCell id="-OsRbuwq_ogFv93DH6Sr-1" parent="-OsRbuwq_ogFv93DH6Sr-0" />
@@ -1903,7 +1903,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="split(it).uppercase(it)" id="cbuvkHAZorHfFs7goHLe">
-    <mxGraphModel dx="1345" dy="735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="1" shadow="0">
+    <mxGraphModel dx="1614" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="1" shadow="0">
       <root>
         <mxCell id="loeYpP-X_E0fWzJ-NIKe-0" />
         <mxCell id="loeYpP-X_E0fWzJ-NIKe-1" parent="loeYpP-X_E0fWzJ-NIKe-0" />
@@ -2043,6 +2043,12 @@
         </mxCell>
         <mxCell id="loeYpP-X_E0fWzJ-NIKe-196" value="String" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="loeYpP-X_E0fWzJ-NIKe-1">
           <mxGeometry x="1000" y="720" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mdzh8LoWP__ka1tXagBd-0" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.62;dx=80.14;notch=0;fontSize=64;fillColor=#bac8d3;strokeColor=none;" vertex="1" parent="loeYpP-X_E0fWzJ-NIKe-1">
+          <mxGeometry x="1320" y="480" width="160" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="mdzh8LoWP__ka1tXagBd-2" value="&lt;pre style=&quot;font-size: 24px;&quot;&gt;chain_of(&lt;br style=&quot;font-size: 24px;&quot;&gt;    lift(split),&lt;br style=&quot;font-size: 24px;&quot;&gt;    adapt_vector(),&lt;br style=&quot;font-size: 24px;&quot;&gt;    with_elements(lift(uppercase)))&lt;/pre&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=24;" vertex="1" parent="loeYpP-X_E0fWzJ-NIKe-1">
+          <mxGeometry x="1520" y="480" width="520" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
