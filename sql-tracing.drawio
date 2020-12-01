@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-01T00:29:22.182Z" agent="5.0 (X11)" etag="84xRMq7k65LBrunOOeMa" version="13.10.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-12-01T00:43:44.971Z" agent="5.0 (X11)" etag="dznkLtEKxY_YiNI7nsIO" version="13.10.4" type="github" pages="3">
   <diagram id="Gnp_EI-a4jwjJ48-SvEC" name="patient">
     <mxGraphModel dx="807" dy="449" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -235,10 +235,13 @@
     </mxGraphModel>
   </diagram>
   <diagram name="patient.mrn" id="7sr-FmiR4OHwOT4otWSz">
-    <mxGraphModel dx="1345" dy="4048" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="2018" dy="4423" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="2vQZAce-5nHGLV8ph5eL-0" />
         <mxCell id="2vQZAce-5nHGLV8ph5eL-1" parent="2vQZAce-5nHGLV8ph5eL-0" />
+        <mxCell id="M3epKIU1Subj03HA2nTo-0" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=none;" vertex="1" parent="2vQZAce-5nHGLV8ph5eL-1">
+          <mxGeometry x="320" y="470" width="320" height="630" as="geometry" />
+        </mxCell>
         <mxCell id="2vQZAce-5nHGLV8ph5eL-2" value="&lt;pre&gt;chain_of(with_elements(load_postgres_table((&quot;public&quot;, &quot;patient&quot;), [&quot;id&quot;], [Int32])),&lt;br&gt;         flatten(),&lt;br&gt;         with_elements(&lt;br&gt;             chain_of(&lt;br&gt;                 load_postgres_table((&quot;public&quot;, &quot;patient&quot;), [&quot;mrn&quot;], [String], [&quot;id&quot;]),&lt;br&gt;                 block_cardinality(x1to1))),&lt;br&gt;         flatten(),&lt;br&gt;         with_elements(&lt;br&gt;             chain_of(&lt;br&gt;                 output(),&lt;br&gt;                 column(1))))&lt;br&gt;&lt;/pre&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="2vQZAce-5nHGLV8ph5eL-1" vertex="1">
           <mxGeometry x="40" width="640" height="180" as="geometry" />
         </mxCell>
