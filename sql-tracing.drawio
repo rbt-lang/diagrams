@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-01T18:19:09.572Z" agent="5.0 (X11)" etag="KRVvXMJbaGRT14UWUZof" version="14.1.1" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-01-07T20:12:42.520Z" agent="5.0 (X11)" etag="hUbmmDnpCxRNBQEgDgc3" version="14.1.1" type="github" pages="7">
   <diagram id="Gnp_EI-a4jwjJ48-SvEC" name="patient">
     <mxGraphModel dx="1614" dy="934" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -235,7 +235,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="patient.mrn" id="7sr-FmiR4OHwOT4otWSz">
-    <mxGraphModel dx="1153" dy="3967" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1614" dy="4302" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="2vQZAce-5nHGLV8ph5eL-0" />
         <mxCell id="2vQZAce-5nHGLV8ph5eL-1" parent="2vQZAce-5nHGLV8ph5eL-0" />
@@ -758,7 +758,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Rewrite of patient.mrn" id="F5UpdQisscQ9C5ehKfN4">
-    <mxGraphModel dx="1614" dy="934" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1614" dy="1002" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="JkcEPVqBMp856BaX3vF4-0" />
         <mxCell id="JkcEPVqBMp856BaX3vF4-1" parent="JkcEPVqBMp856BaX3vF4-0" />
@@ -1210,7 +1210,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="patient.(sex==&quot;male&quot;)" id="bsA8pFruzZ_53Wh-G5NH">
-    <mxGraphModel dx="1345" dy="778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="2306" dy="1431" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="pZim2CTAxIInsXoFp9tS-0" />
         <mxCell id="pZim2CTAxIInsXoFp9tS-1" parent="pZim2CTAxIInsXoFp9tS-0" />
@@ -1694,7 +1694,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Pushdown patient.(sex==&quot;male&quot;)" id="RPsj-ahlrDeZbu2WTXhW">
-    <mxGraphModel dx="1345" dy="778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1345" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="D5WqD4WvGaf_KShFk2ez-0" />
         <mxCell id="D5WqD4WvGaf_KShFk2ez-1" parent="D5WqD4WvGaf_KShFk2ez-0" />
@@ -2073,7 +2073,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Original patient.(sex==&quot;male&quot;)" id="ugQWXz0UDcQb8Yzym4w3">
-    <mxGraphModel dx="1345" dy="778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1153" dy="716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="kJxvh3KrCCzN4M8vgz28-0" />
         <mxCell id="kJxvh3KrCCzN4M8vgz28-1" parent="kJxvh3KrCCzN4M8vgz28-0" />
@@ -2689,11 +2689,29 @@
         <mxCell id="kJxvh3KrCCzN4M8vgz28-134" value="String" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="kJxvh3KrCCzN4M8vgz28-1">
           <mxGeometry x="840" y="2090" width="80" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="F85KvZ2ZMVGhsjOQXNpy-0" value="sex" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="kJxvh3KrCCzN4M8vgz28-1">
+          <mxGeometry x="40" y="1600" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F85KvZ2ZMVGhsjOQXNpy-1" value="sex" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="kJxvh3KrCCzN4M8vgz28-1">
+          <mxGeometry x="40" y="1760" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F85KvZ2ZMVGhsjOQXNpy-2" value="&#39;male&#39;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="kJxvh3KrCCzN4M8vgz28-1">
+          <mxGeometry x="40" y="1920" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F85KvZ2ZMVGhsjOQXNpy-3" value="sex = &#39;male&#39;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="kJxvh3KrCCzN4M8vgz28-1">
+          <mxGeometry x="40" y="2160" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F85KvZ2ZMVGhsjOQXNpy-4" value="???" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="kJxvh3KrCCzN4M8vgz28-1">
+          <mxGeometry x="40" y="1280" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F85KvZ2ZMVGhsjOQXNpy-5" value="???" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="kJxvh3KrCCzN4M8vgz28-1">
+          <mxGeometry x="40" y="960" width="80" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name="patient.filter(sex==&quot;male&quot;)" id="fI3cMGQU5XJdHhXxhKRe">
-    <mxGraphModel dx="1345" dy="778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="2018" dy="1253" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="kv1Kxr-CD0n7Y5JHCP76-0" />
         <mxCell id="kv1Kxr-CD0n7Y5JHCP76-1" parent="kv1Kxr-CD0n7Y5JHCP76-0" />
