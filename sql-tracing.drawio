@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-22T01:06:13.953Z" agent="5.0 (X11)" etag="gLEXSAmF6Bx3aB-BeTik" version="14.2.4" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2021-01-22T01:12:30.793Z" agent="5.0 (X11)" etag="rBKL_A5f0wbGmJq3HXYG" version="14.2.4" type="github" pages="12">
   <diagram id="Gnp_EI-a4jwjJ48-SvEC" name="patient">
     <mxGraphModel dx="2618" dy="1168" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -4089,7 +4089,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Copy of Step 1: patient.(sex==&quot;male&quot;)" id="nW9ri-26sLeqaCEdIClS">
-    <mxGraphModel dx="2690" dy="1557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1153" dy="667" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="fWPWK-IC-eeCHyDlBKHC-0" />
         <mxCell id="fWPWK-IC-eeCHyDlBKHC-1" parent="fWPWK-IC-eeCHyDlBKHC-0" />
@@ -4741,66 +4741,6 @@
         <mxCell id="fWPWK-IC-eeCHyDlBKHC-189" value="String" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="fWPWK-IC-eeCHyDlBKHC-1">
           <mxGeometry x="840" y="2090" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="fWPWK-IC-eeCHyDlBKHC-190" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="fWPWK-IC-eeCHyDlBKHC-1" source="fWPWK-IC-eeCHyDlBKHC-192" target="fWPWK-IC-eeCHyDlBKHC-194">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="fWPWK-IC-eeCHyDlBKHC-191" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;" edge="1" parent="fWPWK-IC-eeCHyDlBKHC-1" source="fWPWK-IC-eeCHyDlBKHC-192" target="fWPWK-IC-eeCHyDlBKHC-193">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="fWPWK-IC-eeCHyDlBKHC-192" value="SQLOp(&quot;=&quot;)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="fWPWK-IC-eeCHyDlBKHC-1">
-          <mxGeometry x="1160" y="2160" width="160" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="fWPWK-IC-eeCHyDlBKHC-193" value="SQLConst(&quot;male&quot;)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="fWPWK-IC-eeCHyDlBKHC-1">
-          <mxGeometry x="1280" y="1960" width="160" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="fWPWK-IC-eeCHyDlBKHC-194" value="SQLColumn(&quot;sex&quot;)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="fWPWK-IC-eeCHyDlBKHC-1">
-          <mxGeometry x="1160" y="1600" width="160" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="fWPWK-IC-eeCHyDlBKHC-195" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="fWPWK-IC-eeCHyDlBKHC-1" source="fWPWK-IC-eeCHyDlBKHC-196" target="fWPWK-IC-eeCHyDlBKHC-194">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1240" y="1460" />
-              <mxPoint x="1100" y="1460" />
-              <mxPoint x="1100" y="1660" />
-              <mxPoint x="1240" y="1660" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="fWPWK-IC-eeCHyDlBKHC-196" value="SQLColumns()" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="fWPWK-IC-eeCHyDlBKHC-1">
-          <mxGeometry x="1160" y="1280" width="160" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="fWPWK-IC-eeCHyDlBKHC-197" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="fWPWK-IC-eeCHyDlBKHC-1" source="fWPWK-IC-eeCHyDlBKHC-198" target="fWPWK-IC-eeCHyDlBKHC-196">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1240" y="1140" />
-              <mxPoint x="1100" y="1140" />
-              <mxPoint x="1100" y="1340" />
-              <mxPoint x="1240" y="1340" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="fWPWK-IC-eeCHyDlBKHC-198" value="SQLHandle()" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="fWPWK-IC-eeCHyDlBKHC-1">
-          <mxGeometry x="1160" y="960" width="160" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="fWPWK-IC-eeCHyDlBKHC-199" value="SQLHead()" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="fWPWK-IC-eeCHyDlBKHC-1">
-          <mxGeometry x="1160" y="880" width="160" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="fWPWK-IC-eeCHyDlBKHC-200" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="fWPWK-IC-eeCHyDlBKHC-1" source="fWPWK-IC-eeCHyDlBKHC-202" target="fWPWK-IC-eeCHyDlBKHC-199">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="fWPWK-IC-eeCHyDlBKHC-201" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="fWPWK-IC-eeCHyDlBKHC-1" source="fWPWK-IC-eeCHyDlBKHC-202" target="fWPWK-IC-eeCHyDlBKHC-198">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1280" y="850" />
-              <mxPoint x="1440" y="850" />
-              <mxPoint x="1440" y="1020" />
-              <mxPoint x="1240" y="1020" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="fWPWK-IC-eeCHyDlBKHC-202" value="SQLTable()" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="fWPWK-IC-eeCHyDlBKHC-1">
-          <mxGeometry x="1200" y="780" width="160" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="uhol5jC2X40LQxMhNIL4-0" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;strokeColor=#C73500;fontColor=#ffffff;" vertex="1" parent="fWPWK-IC-eeCHyDlBKHC-1">
           <mxGeometry x="1900" y="1310" width="120" height="60" as="geometry" />
         </mxCell>
@@ -5018,14 +4958,14 @@
         <mxCell id="S3u4NbRXBPkeeHQqxEph-19" value="&quot;male&quot;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="fWPWK-IC-eeCHyDlBKHC-1">
           <mxGeometry x="140" y="1930" width="50" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="S3u4NbRXBPkeeHQqxEph-20" value="x0toN" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="fWPWK-IC-eeCHyDlBKHC-1">
-          <mxGeometry x="25" y="890" width="50" height="20" as="geometry" />
+        <mxCell id="S3u4NbRXBPkeeHQqxEph-20" value="(head (slot 1))" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="fWPWK-IC-eeCHyDlBKHC-1">
+          <mxGeometry x="10" y="890" width="90" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name="Pushdown patient.(sex==&quot;male&quot;)" id="RPsj-ahlrDeZbu2WTXhW">
-    <mxGraphModel dx="1047" dy="467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="807" dy="467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="D5WqD4WvGaf_KShFk2ez-0" />
         <mxCell id="D5WqD4WvGaf_KShFk2ez-1" parent="D5WqD4WvGaf_KShFk2ez-0" />
