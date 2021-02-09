@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-07T17:40:12.997Z" agent="5.0 (X11)" etag="KtYFUrAq2qm3y4CnHY4H" version="14.2.9" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-02-09T02:24:58.441Z" agent="5.0 (X11)" etag="sJk9D74oUQTV5Xp2Lgaq" version="14.2.9" type="github" pages="4">
   <diagram id="dEZGlpFXaTpSit4VuuWs" name="Page-1">
     <mxGraphModel dx="807" dy="467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -98,7 +98,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="o2Msy0TxKTNfs3FzubUC" name="FunSQL.jl">
-    <mxGraphModel dx="949" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1614" dy="934" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="m60iYW0aye4XrYr29f_3-0" />
         <mxCell id="m60iYW0aye4XrYr29f_3-1" parent="m60iYW0aye4XrYr29f_3-0" />
@@ -486,6 +486,121 @@
         </mxCell>
         <mxCell id="S_gFioR5AM8Q4MYBKOkM-9" value="patient_tbl = Table(&quot;patient&quot;, [(&quot;id&quot;, Int), (&quot;sex&quot;, String), (&quot;mrn&quot;, String)])&lt;br&gt;encounter_tbl = Table(&quot;encounter&quot;, [(&quot;id&quot;, Int), (&quot;patient_id&quot;, Int), (&quot;date&quot;, Date)])&lt;br&gt;&lt;br&gt;auto_connect!(patient_tbl, encounter_tbl, [(&quot;id&quot;, &quot;patient_id&quot;)])&lt;br&gt;&lt;br&gt;p = From(patient_tbl)&lt;br&gt;e = From(encounter_tbl)&lt;br&gt;j = LeftJoin(p, e)&lt;br&gt;Select(j, p.mrn, e.date)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="m60iYW0aye4XrYr29f_3-1">
           <mxGeometry x="1480" y="915" width="430" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="V2SVWHqxAw_Xu3yBethx-14" value="Original&lt;br&gt;Query" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="m60iYW0aye4XrYr29f_3-1">
+          <mxGeometry x="560" y="1400" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Normalizing" id="0BRN9LlLslnzrL6xcis2">
+    <mxGraphModel dx="673" dy="389" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="uAjrqO8rkGv0_2h4wJ-b-0" />
+        <mxCell id="uAjrqO8rkGv0_2h4wJ-b-1" parent="uAjrqO8rkGv0_2h4wJ-b-0" />
+        <mxCell id="uAjrqO8rkGv0_2h4wJ-b-2" value="SELECT p.mrn, EXTRACT(YEAR FROM e.date)&lt;br&gt;FROM patient p&lt;br&gt;JOIN encounter e&lt;br&gt;ON (p.id = e.patient_id)&lt;br&gt;WHERE p.sex = &#39;male&#39;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="uAjrqO8rkGv0_2h4wJ-b-1">
+          <mxGeometry x="80" y="40" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uAjrqO8rkGv0_2h4wJ-b-112" value="p = From(patient)&lt;br&gt;e = From(encounter)&lt;br&gt;j = Join(p, e, p.id .== e.patient_id)&lt;br&gt;w = Where(j, p.sex .== &quot;male&quot;)&lt;br&gt;s = Select(w, mrn = p.mrn, year = Year(e.date))" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="uAjrqO8rkGv0_2h4wJ-b-1">
+          <mxGeometry x="160" y="280" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uAjrqO8rkGv0_2h4wJ-b-113" value="p = From(patient)&lt;br&gt;p_ = Select(p, _id = Const(:id), _sex = Const(:sex), _mrn = Const(:mrn))&lt;br&gt;e = From(encounter)&lt;br&gt;e_ = Select(e, _patient_id = Const(:patient_id), _date = Const(:date))&lt;br&gt;j = Join(p_, e_, p_._id .== e_._patient_id)&lt;br&gt;j_ = Select(j, _mrn = p_._mrn, _sex = p_._sex, _date = e_._date)&lt;br&gt;w = Where(j_, j_._sex .== &quot;male&quot;)&lt;br&gt;w_ = Select(w, _mrn = j_._mrn, _date = j_._date)&lt;br&gt;s = Select(w_, mrn = w_._mrn, year = Year(w_._date))" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="uAjrqO8rkGv0_2h4wJ-b-1">
+          <mxGeometry x="600" y="240" width="400" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="uAjrqO8rkGv0_2h4wJ-b-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="uAjrqO8rkGv0_2h4wJ-b-1" source="uAjrqO8rkGv0_2h4wJ-b-114" target="uAjrqO8rkGv0_2h4wJ-b-115">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uAjrqO8rkGv0_2h4wJ-b-114" value="s: Select&lt;br&gt;p.mrn, Year(e.date)" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="uAjrqO8rkGv0_2h4wJ-b-1">
+          <mxGeometry x="160" y="400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uAjrqO8rkGv0_2h4wJ-b-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="uAjrqO8rkGv0_2h4wJ-b-1" source="uAjrqO8rkGv0_2h4wJ-b-115" target="uAjrqO8rkGv0_2h4wJ-b-116">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uAjrqO8rkGv0_2h4wJ-b-115" value="w: Where&lt;br&gt;p.sex .== &quot;male&quot;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="uAjrqO8rkGv0_2h4wJ-b-1">
+          <mxGeometry x="160" y="480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uAjrqO8rkGv0_2h4wJ-b-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="uAjrqO8rkGv0_2h4wJ-b-1" source="uAjrqO8rkGv0_2h4wJ-b-116" target="uAjrqO8rkGv0_2h4wJ-b-117">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uAjrqO8rkGv0_2h4wJ-b-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="uAjrqO8rkGv0_2h4wJ-b-1" source="uAjrqO8rkGv0_2h4wJ-b-116" target="uAjrqO8rkGv0_2h4wJ-b-118">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uAjrqO8rkGv0_2h4wJ-b-116" value="j: Join&lt;br&gt;p.id .== e.patient_id" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="uAjrqO8rkGv0_2h4wJ-b-1">
+          <mxGeometry x="160" y="640" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uAjrqO8rkGv0_2h4wJ-b-117" value="p: From&lt;br&gt;patient" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="uAjrqO8rkGv0_2h4wJ-b-1">
+          <mxGeometry x="80" y="800" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uAjrqO8rkGv0_2h4wJ-b-118" value="e: From&lt;br&gt;encounter" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="uAjrqO8rkGv0_2h4wJ-b-1">
+          <mxGeometry x="240" y="800" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uAjrqO8rkGv0_2h4wJ-b-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=classic;endFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="uAjrqO8rkGv0_2h4wJ-b-1" source="uAjrqO8rkGv0_2h4wJ-b-124" target="uAjrqO8rkGv0_2h4wJ-b-139">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uAjrqO8rkGv0_2h4wJ-b-124" value="s: Select&lt;br&gt;w_.mrn, Year(w_.date)" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="uAjrqO8rkGv0_2h4wJ-b-1">
+          <mxGeometry x="630" y="400" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uAjrqO8rkGv0_2h4wJ-b-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=classic;endFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="uAjrqO8rkGv0_2h4wJ-b-1" source="uAjrqO8rkGv0_2h4wJ-b-126" target="uAjrqO8rkGv0_2h4wJ-b-137">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uAjrqO8rkGv0_2h4wJ-b-126" value="w: Where&lt;br&gt;j_.sex .== &quot;male&quot;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="uAjrqO8rkGv0_2h4wJ-b-1">
+          <mxGeometry x="630" y="560" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uAjrqO8rkGv0_2h4wJ-b-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;endArrow=classic;endFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="uAjrqO8rkGv0_2h4wJ-b-1" source="uAjrqO8rkGv0_2h4wJ-b-129" target="uAjrqO8rkGv0_2h4wJ-b-133">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uAjrqO8rkGv0_2h4wJ-b-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;endArrow=classic;endFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="uAjrqO8rkGv0_2h4wJ-b-1" source="uAjrqO8rkGv0_2h4wJ-b-129" target="uAjrqO8rkGv0_2h4wJ-b-134">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uAjrqO8rkGv0_2h4wJ-b-129" value="j: Join&lt;br&gt;p_.id .== e_.patient_id" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="uAjrqO8rkGv0_2h4wJ-b-1">
+          <mxGeometry x="630" y="720" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uAjrqO8rkGv0_2h4wJ-b-130" value="p: From&lt;br&gt;patient" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="uAjrqO8rkGv0_2h4wJ-b-1">
+          <mxGeometry x="560" y="880" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uAjrqO8rkGv0_2h4wJ-b-131" value="e: From&lt;br&gt;encounter" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="uAjrqO8rkGv0_2h4wJ-b-1">
+          <mxGeometry x="720" y="880" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uAjrqO8rkGv0_2h4wJ-b-136" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="uAjrqO8rkGv0_2h4wJ-b-1" source="uAjrqO8rkGv0_2h4wJ-b-133" target="uAjrqO8rkGv0_2h4wJ-b-130">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uAjrqO8rkGv0_2h4wJ-b-133" value="p_: Select&lt;br&gt;id, sex, mrn" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="uAjrqO8rkGv0_2h4wJ-b-1">
+          <mxGeometry x="560" y="800" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uAjrqO8rkGv0_2h4wJ-b-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="uAjrqO8rkGv0_2h4wJ-b-1" source="uAjrqO8rkGv0_2h4wJ-b-134" target="uAjrqO8rkGv0_2h4wJ-b-131">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uAjrqO8rkGv0_2h4wJ-b-134" value="e_: Select&lt;br&gt;patient_id, date" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="uAjrqO8rkGv0_2h4wJ-b-1">
+          <mxGeometry x="720" y="800" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uAjrqO8rkGv0_2h4wJ-b-138" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="uAjrqO8rkGv0_2h4wJ-b-1" source="uAjrqO8rkGv0_2h4wJ-b-137" target="uAjrqO8rkGv0_2h4wJ-b-129">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uAjrqO8rkGv0_2h4wJ-b-137" value="j_: Select&lt;br&gt;j_.mrn, j_.sex, j_.date" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="uAjrqO8rkGv0_2h4wJ-b-1">
+          <mxGeometry x="630" y="640" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uAjrqO8rkGv0_2h4wJ-b-140" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="uAjrqO8rkGv0_2h4wJ-b-1" source="uAjrqO8rkGv0_2h4wJ-b-139" target="uAjrqO8rkGv0_2h4wJ-b-126">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uAjrqO8rkGv0_2h4wJ-b-139" value="w_: Select&lt;br&gt;j_.mrn, j_.date" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="uAjrqO8rkGv0_2h4wJ-b-1">
+          <mxGeometry x="630" y="480" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uAjrqO8rkGv0_2h4wJ-b-144" value="normalize" style="shape=singleArrow;direction=west;whiteSpace=wrap;html=1;align=center;flipH=1;" vertex="1" parent="uAjrqO8rkGv0_2h4wJ-b-1">
+          <mxGeometry x="340" y="470" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uAjrqO8rkGv0_2h4wJ-b-145" value="p.mrn&lt;br&gt;e.date" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="uAjrqO8rkGv0_2h4wJ-b-1">
+          <mxGeometry x="320" y="515" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uAjrqO8rkGv0_2h4wJ-b-146" value="p.mrn =&amp;gt; w_.mrn&lt;br&gt;e.date =&amp;gt; w_.date" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="uAjrqO8rkGv0_2h4wJ-b-1">
+          <mxGeometry x="540" y="520" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
