@@ -19,7 +19,7 @@ jobs:
     - name: Export PDF
       run: |
         mkdir build
-        xvfb-run drawio --export --all-pages --output build .
+        xvfb-run bash -c "ls *.drawio | xargs -n 1 drawio --export --all-pages --output build"
     - uses: actions/checkout@v2
       with:
         ref: gh-pages
