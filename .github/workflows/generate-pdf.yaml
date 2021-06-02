@@ -11,11 +11,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - name: Install draw.io
+    - name: Install drawio
       run: |
-        curl -sLO $(curl --silent https://api.github.com/repos/jgraph/drawio-desktop/releases/latest | jq -r '.assets[] | select(.name | test("^draw.io-.*deb$")) | .browser_download_url')
-        sudo apt install ./draw.io-*.deb
-        rm ./draw.io-*.deb
+        curl -sLO $(curl --silent https://api.github.com/repos/jgraph/drawio-desktop/releases/latest | jq -r '.assets[] | select(.name | test("^drawio-.*deb$")) | .browser_download_url')
+        sudo apt install ./drawio-*.deb
+        rm ./drawio-*.deb
     - name: Export PDF
       run: |
         mkdir build
