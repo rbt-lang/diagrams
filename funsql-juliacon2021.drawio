@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-02T15:23:31.816Z" agent="5.0 (X11)" etag="3eqcCJhYY1tBR_3-mAJq" version="14.7.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-06-02T17:37:13.510Z" agent="5.0 (X11)" etag="eQxhH2A-irUMKA6C0bqr" version="14.7.3" type="github" pages="2">
   <diagram id="zXgXc9X_TnR75USzf0Vz" name="Title">
     <mxGraphModel dx="3330" dy="958" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
@@ -11,12 +11,90 @@
     </mxGraphModel>
   </diagram>
   <diagram id="dyeZhBJ2aPQRHMuFVo9c" name="Why?">
-    <mxGraphModel dx="1730" dy="958" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="2076" dy="1150" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="cwCPnuAyodfC9gq789x_-0" />
         <mxCell id="cwCPnuAyodfC9gq789x_-1" parent="cwCPnuAyodfC9gq789x_-0" />
         <mxCell id="cwCPnuAyodfC9gq789x_-2" value="&lt;ul&gt;&lt;li&gt;What is SQL? Data is often stored in relational databases, and to retrieve it, we write queries in SQL.&lt;/li&gt;&lt;li&gt;Popular databases with SQL interface include MySQL, PostgreSQL, SQLite, Microsoft SQL Server, Redshift, BigQuery, and many others.&lt;/li&gt;&lt;li&gt;Julia already has a number of libraries that let you interact with SQL databases.&lt;/li&gt;&lt;li&gt;Why another tool?&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontFamily=Georgia;fontSize=16;align=left;" vertex="1" parent="cwCPnuAyodfC9gq789x_-1">
           <mxGeometry x="1160" y="40" width="400" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="cwCPnuAyodfC9gq789x_-4" value="Find all patients born at or after 1950." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Georgia;fontStyle=2" vertex="1" parent="cwCPnuAyodfC9gq789x_-1">
+          <mxGeometry x="40" y="40" width="640" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cwCPnuAyodfC9gq789x_-5" value="&lt;div&gt;function find_patients(conn)&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; sql = &quot;&quot;&quot;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; SELECT person_id&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; FROM patient&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; WHERE year_of_birth &amp;gt;= 1950&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &quot;&quot;&quot;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; DBInterface.execute(conn, sql)&lt;br&gt;&lt;/div&gt;&lt;div&gt;end&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" vertex="1" parent="cwCPnuAyodfC9gq789x_-1">
+          <mxGeometry x="40" y="120" width="670" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="cwCPnuAyodfC9gq789x_-11" value="&lt;div&gt;function find_patients(conn; start_year = nothing,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; end_year = nothing)&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; sql = &quot;&quot;&quot;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; SELECT person_id&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; FROM patient&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &quot;&quot;&quot;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; conditions = String[]&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; if start_year !== nothing&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; push!(conditions, &quot;year_of_birth &amp;gt;= $start_year&quot;)&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; end&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; if end_year !== nothing&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; push!(conditions, &quot;year_of_birth &amp;lt;= $end_year&quot;)&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; end&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; if !isempty(conditions)&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; sql *= &quot;\nWHERE &quot; * join(conditions, &quot; AND &quot;)&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; end&lt;br&gt;&lt;/div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; DBInterface.execute(conn, sql)&lt;br&gt;&lt;div&gt;end&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" vertex="1" parent="cwCPnuAyodfC9gq789x_-1">
+          <mxGeometry x="40" y="1080" width="1110" height="690" as="geometry" />
+        </mxCell>
+        <mxCell id="cwCPnuAyodfC9gq789x_-13" value="" style="group" vertex="1" connectable="0" parent="cwCPnuAyodfC9gq789x_-1">
+          <mxGeometry x="40" y="920" width="670" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cwCPnuAyodfC9gq789x_-6" value="Find all patients born between" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Georgia;fontStyle=2" vertex="1" parent="cwCPnuAyodfC9gq789x_-13">
+          <mxGeometry width="510" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cwCPnuAyodfC9gq789x_-7" value="&lt;table style=&quot;width: 100%; height: 100%; font-size: 24px;&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;&gt;&lt;tbody style=&quot;font-size: 24px;&quot;&gt;&lt;tr style=&quot;font-size: 24px;&quot;&gt;&lt;td style=&quot;width: 85%; font-size: 24px;&quot;&gt;1950&lt;br style=&quot;font-size: 24px;&quot;&gt;&lt;/td&gt;&lt;td style=&quot;width: 15%; font-size: 24px;&quot;&gt;&lt;br style=&quot;font-size: 24px;&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.spinner;strokeColor=#999999;spinLayout=right;spinStyle=normal;adjStyle=triangle;fillColor=#aaddff;fontSize=24;fontColor=#666666;mainText=;html=1;overflow=fill;fontFamily=Helvetica;verticalAlign=middle;sketch=0;" vertex="1" parent="cwCPnuAyodfC9gq789x_-13">
+          <mxGeometry x="520" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cwCPnuAyodfC9gq789x_-8" value="and" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Georgia;fontStyle=2" vertex="1" parent="cwCPnuAyodfC9gq789x_-13">
+          <mxGeometry x="430" y="60" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cwCPnuAyodfC9gq789x_-9" value="&lt;table style=&quot;width: 100% ; height: 100% ; font-size: 24px&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;&gt;&lt;tbody style=&quot;font-size: 24px&quot;&gt;&lt;tr style=&quot;font-size: 24px&quot;&gt;&lt;td style=&quot;width: 85% ; font-size: 24px&quot;&gt;&lt;br style=&quot;font-size: 24px&quot;&gt;&lt;/td&gt;&lt;td style=&quot;width: 15% ; font-size: 24px&quot;&gt;&lt;br style=&quot;font-size: 24px&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.spinner;strokeColor=#999999;spinLayout=right;spinStyle=normal;adjStyle=triangle;fillColor=#aaddff;fontSize=24;fontColor=#666666;mainText=;html=1;overflow=fill;fontFamily=Helvetica;verticalAlign=middle;" vertex="1" parent="cwCPnuAyodfC9gq789x_-13">
+          <mxGeometry x="520" y="60" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cwCPnuAyodfC9gq789x_-15" value="Find all patients born between" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Georgia;fontStyle=2" vertex="1" parent="cwCPnuAyodfC9gq789x_-1">
+          <mxGeometry x="40" y="1840" width="510" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cwCPnuAyodfC9gq789x_-16" value="&lt;table style=&quot;width: 100%; height: 100%; font-size: 24px;&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;&gt;&lt;tbody style=&quot;font-size: 24px;&quot;&gt;&lt;tr style=&quot;font-size: 24px;&quot;&gt;&lt;td style=&quot;width: 85%; font-size: 24px;&quot;&gt;1950&lt;br style=&quot;font-size: 24px;&quot;&gt;&lt;/td&gt;&lt;td style=&quot;width: 15%; font-size: 24px;&quot;&gt;&lt;br style=&quot;font-size: 24px;&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.spinner;strokeColor=#999999;spinLayout=right;spinStyle=normal;adjStyle=triangle;fillColor=#aaddff;fontSize=24;fontColor=#666666;mainText=;html=1;overflow=fill;fontFamily=Helvetica;verticalAlign=middle;sketch=0;" vertex="1" parent="cwCPnuAyodfC9gq789x_-1">
+          <mxGeometry x="560" y="1840" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cwCPnuAyodfC9gq789x_-17" value="and" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Georgia;fontStyle=2" vertex="1" parent="cwCPnuAyodfC9gq789x_-1">
+          <mxGeometry x="470" y="1900" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cwCPnuAyodfC9gq789x_-18" value="&lt;table style=&quot;width: 100% ; height: 100% ; font-size: 24px&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;&gt;&lt;tbody style=&quot;font-size: 24px&quot;&gt;&lt;tr style=&quot;font-size: 24px&quot;&gt;&lt;td style=&quot;width: 85% ; font-size: 24px&quot;&gt;&lt;br style=&quot;font-size: 24px&quot;&gt;&lt;/td&gt;&lt;td style=&quot;width: 15% ; font-size: 24px&quot;&gt;&lt;br style=&quot;font-size: 24px&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.spinner;strokeColor=#999999;spinLayout=right;spinStyle=normal;adjStyle=triangle;fillColor=#aaddff;fontSize=24;fontColor=#666666;mainText=;html=1;overflow=fill;fontFamily=Helvetica;verticalAlign=middle;" vertex="1" parent="cwCPnuAyodfC9gq789x_-1">
+          <mxGeometry x="560" y="1900" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cwCPnuAyodfC9gq789x_-20" value="living in" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Georgia;fontStyle=2" vertex="1" parent="cwCPnuAyodfC9gq789x_-1">
+          <mxGeometry x="400" y="1960" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cwCPnuAyodfC9gq789x_-21" value="&lt;div align=&quot;center&quot;&gt;IL&lt;/div&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.comboBox;strokeColor=#999999;fillColor=#ddeeff;align=left;fillColor2=#aaddff;mainText=;fontColor=#666666;fontSize=24;spacingLeft=3;sketch=0;fontFamily=Helvetica;" vertex="1" parent="cwCPnuAyodfC9gq789x_-1">
+          <mxGeometry x="560" y="1960" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cwCPnuAyodfC9gq789x_-22" value="with conditions" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Georgia;fontStyle=2" vertex="1" parent="cwCPnuAyodfC9gq789x_-1">
+          <mxGeometry x="290" y="2020" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cwCPnuAyodfC9gq789x_-23" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.misc.rrect;rSize=0;strokeColor=#999999;fillColor=#ffffff;sketch=0;fontFamily=Helvetica;fontSize=24;" vertex="1" parent="cwCPnuAyodfC9gq789x_-1">
+          <mxGeometry x="560" y="2030" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cwCPnuAyodfC9gq789x_-24" value="Hypertension" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.misc.rrect;rSize=5;strokeColor=none;fontSize=15;fontColor=#999999;fillColor=#ddeeff;align=left;spacingLeft=5;" vertex="1" parent="cwCPnuAyodfC9gq789x_-23">
+          <mxGeometry x="3.6" y="5" width="116.4" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cwCPnuAyodfC9gq789x_-25" value="Arrhythmia" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.misc.rrect;rSize=5;strokeColor=none;fontSize=15;fontColor=#999999;fillColor=#ddeeff;align=left;spacingLeft=5;" vertex="1" parent="cwCPnuAyodfC9gq789x_-23">
+          <mxGeometry x="130" y="5" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cwCPnuAyodfC9gq789x_-26" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.misc.rrect;rSize=5;strokeColor=none;fontSize=15;fontColor=#999999;fillColor=#ddeeff;align=left;spacingLeft=5;" vertex="1" parent="cwCPnuAyodfC9gq789x_-23">
+          <mxGeometry x="240" y="5" width="112.8" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cwCPnuAyodfC9gq789x_-31" value="who visited a doctor" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Georgia;fontStyle=2" vertex="1" parent="cwCPnuAyodfC9gq789x_-1">
+          <mxGeometry x="210" y="2080" width="340" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cwCPnuAyodfC9gq789x_-32" value="within last 12 months" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.comboBox;strokeColor=#999999;fillColor=#ddeeff;align=left;fillColor2=#aaddff;mainText=;fontColor=#666666;fontSize=24;spacingLeft=3;sketch=0;fontFamily=Helvetica;" vertex="1" parent="cwCPnuAyodfC9gq789x_-1">
+          <mxGeometry x="560" y="2080" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cwCPnuAyodfC9gq789x_-33" value="&quot;location&quot;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.callout;linkText=;textSize=17;textColor=#666666;callDir=NE;callStyle=line;fontSize=17;fontColor=#666666;align=right;verticalAlign=top;strokeColor=#666666;sketch=0;fontFamily=Helvetica;" vertex="1" parent="cwCPnuAyodfC9gq789x_-1">
+          <mxGeometry x="720" y="1880" width="310" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cwCPnuAyodfC9gq789x_-35" value="&quot;condition_occurrence&quot;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.callout;linkText=;textSize=17;textColor=#666666;callDir=NE;callStyle=line;fontSize=17;fontColor=#666666;align=right;verticalAlign=top;strokeColor=#666666;sketch=0;fontFamily=Helvetica;" vertex="1" parent="cwCPnuAyodfC9gq789x_-1">
+          <mxGeometry x="930" y="1950" width="310" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cwCPnuAyodfC9gq789x_-36" value="&quot;visit_occurrence&quot;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.callout;linkText=;textSize=17;textColor=#666666;callDir=SE;callStyle=line;fontSize=17;fontColor=#666666;align=right;verticalAlign=bottom;strokeColor=#666666;sketch=0;fontFamily=Helvetica;" vertex="1" parent="cwCPnuAyodfC9gq789x_-1">
+          <mxGeometry x="850" y="2100" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cwCPnuAyodfC9gq789x_-37" value="&lt;div&gt;function find_patients(conn; start_year = nothing,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; end_year = nothing,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; state = nothing,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; conditions = []&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; last_visit = nothing)&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; sql = &quot;&quot;&quot;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; SELECT person_id&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; FROM patient&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &quot;&quot;&quot;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; ???&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; DBInterface.execute(conn, sql)&lt;br&gt;&lt;/div&gt;&lt;div&gt;end&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" vertex="1" parent="cwCPnuAyodfC9gq789x_-1">
+          <mxGeometry x="40" y="2200" width="980" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="cwCPnuAyodfC9gq789x_-38" value="&lt;ul&gt;&lt;li&gt;Clearly, a more systematic approach is necessary.&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontFamily=Georgia;fontSize=16;align=left;" vertex="1" parent="cwCPnuAyodfC9gq789x_-1">
+          <mxGeometry x="1160" y="2520" width="400" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
