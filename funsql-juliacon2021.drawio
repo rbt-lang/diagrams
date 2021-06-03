@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-03T05:26:25.424Z" agent="5.0 (X11)" etag="0TRSgQyajYZsaQX0Cd4Q" version="14.7.3" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-06-03T12:21:22.878Z" agent="5.0 (X11)" etag="NDsthHp4XWLJ9NsXo_o5" version="14.7.3" type="github" pages="7">
   <diagram id="zXgXc9X_TnR75USzf0Vz" name="Title">
     <mxGraphModel dx="3330" dy="958" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
@@ -100,7 +100,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="uEd0b6g5x3UOPiHromGW" name="CDM Schema">
-    <mxGraphModel dx="1483" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="2076" dy="1150" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="f78algVHrhMSMh_dFOTZ-0" />
         <mxCell id="f78algVHrhMSMh_dFOTZ-1" parent="f78algVHrhMSMh_dFOTZ-0" />
@@ -300,11 +300,11 @@
         <mxCell id="g8wh_lS98LJjfgGFjTQc-0" value="&lt;ul&gt;&lt;li&gt;To demonstrate FunSQL, we will use it to construct one SQL query.&lt;/li&gt;&lt;li&gt;We will state the full query in English, then construct it using FunSQL step by step.&lt;/li&gt;&lt;li&gt;This will also give us an opportunity to discuss different capabilities of FunSQL.&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontFamily=Georgia;fontSize=16;align=left;" vertex="1" parent="tF7WZXWIor2kGWu-qVdx-1">
           <mxGeometry x="1160" y="40" width="400" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="ZzL6_-S_OKLjLrMqBdA5-0" value="Find all patients born in 1970 or later and living in Illinois&lt;br&gt;who have been diagnosed with Hypertension&lt;br&gt;no more than 12 months before their last visit to&lt;br&gt;a healthcare provider." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Georgia;fontStyle=2" vertex="1" parent="tF7WZXWIor2kGWu-qVdx-1">
+        <mxCell id="ZzL6_-S_OKLjLrMqBdA5-0" value="Find all patients born in 1970 or later and living in Illinois&lt;br&gt;who have been diagnosed with Hypertension&lt;br&gt;no more than 12 months before their latest visit to&lt;br&gt;a healthcare provider." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Georgia;fontStyle=2" vertex="1" parent="tF7WZXWIor2kGWu-qVdx-1">
           <mxGeometry x="40" y="40" width="960" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="ZzL6_-S_OKLjLrMqBdA5-1" value="Find patients&lt;br&gt;&lt;ul&gt;&lt;li&gt; born in 1970 or later,&lt;/li&gt;&lt;li&gt;living in Illinois,&lt;/li&gt;&lt;li&gt;such that their last visit to the healthcare provider satisfies:&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Georgia;fontStyle=2" vertex="1" parent="tF7WZXWIor2kGWu-qVdx-1">
-          <mxGeometry x="40" y="280" width="1030" height="220" as="geometry" />
+        <mxCell id="ZzL6_-S_OKLjLrMqBdA5-1" value="Find patients&lt;br&gt;&lt;ul&gt;&lt;li&gt; born in 1970 or later,&lt;/li&gt;&lt;li&gt;living in Illinois,&lt;/li&gt;&lt;li&gt;such that their latest visit to the healthcare provider satisfies:&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Georgia;fontStyle=2" vertex="1" parent="tF7WZXWIor2kGWu-qVdx-1">
+          <mxGeometry x="40" y="280" width="1060" height="220" as="geometry" />
         </mxCell>
         <mxCell id="ZzL6_-S_OKLjLrMqBdA5-2" value="" style="endArrow=classic;html=1;fontFamily=Helvetica;fontSize=24;strokeWidth=2;" edge="1" parent="tF7WZXWIor2kGWu-qVdx-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -317,7 +317,7 @@
             <mxPoint x="58" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZzL6_-S_OKLjLrMqBdA5-3" value="last visit&lt;br style=&quot;font-size: 20px;&quot;&gt;" style="shape=crossbar;whiteSpace=wrap;html=1;rounded=1;sketch=0;fontFamily=Helvetica;fontSize=20;align=center;verticalAlign=middle;fontStyle=2;labelPosition=center;verticalLabelPosition=top;strokeWidth=2;" vertex="1" parent="tF7WZXWIor2kGWu-qVdx-1">
+        <mxCell id="ZzL6_-S_OKLjLrMqBdA5-3" value="latest visit" style="shape=crossbar;whiteSpace=wrap;html=1;rounded=1;sketch=0;fontFamily=Helvetica;fontSize=20;align=center;verticalAlign=middle;fontStyle=2;labelPosition=center;verticalLabelPosition=top;strokeWidth=2;" vertex="1" parent="tF7WZXWIor2kGWu-qVdx-1">
           <mxGeometry x="720" y="590" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ZzL6_-S_OKLjLrMqBdA5-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=20;strokeWidth=1;endArrow=none;endFill=0;dashed=1;" edge="1" parent="tF7WZXWIor2kGWu-qVdx-1" source="ZzL6_-S_OKLjLrMqBdA5-4">
@@ -398,8 +398,8 @@
         <mxCell id="jE_ZsQXpSpd--3uybtv--0" value="Bound References" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Georgia;fontStyle=0" vertex="1" parent="nn6zcCZvNN2CuHY4TAQV-1">
           <mxGeometry x="40" y="40" width="310" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="dMaDljxGzQ-QmD8N3Qgk-0" value="q = From(person)&lt;br&gt;q = q |&amp;gt; Where(q.year_of_birth .&amp;gt;= 1950)&lt;br&gt;q = q |&amp;gt; Select(q.person_id)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" vertex="1" parent="nn6zcCZvNN2CuHY4TAQV-1">
-          <mxGeometry x="40" y="200" width="780" height="120" as="geometry" />
+        <mxCell id="dMaDljxGzQ-QmD8N3Qgk-0" value="q1 = From(person)&lt;br&gt;q2 = q1 |&amp;gt; Where(q1.year_of_birth .&amp;gt;= 1950)&lt;br&gt;q3 = q2 |&amp;gt; Select(q2.person_id)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" vertex="1" parent="nn6zcCZvNN2CuHY4TAQV-1">
+          <mxGeometry x="40" y="200" width="840" height="120" as="geometry" />
         </mxCell>
         <mxCell id="dMaDljxGzQ-QmD8N3Qgk-1" value="Unbound References" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Georgia;fontStyle=0" vertex="1" parent="nn6zcCZvNN2CuHY4TAQV-1">
           <mxGeometry x="40" y="400" width="360" height="40" as="geometry" />
