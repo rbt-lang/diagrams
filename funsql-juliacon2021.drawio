@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-04T21:33:51.074Z" agent="5.0 (X11)" etag="Hlz35Nd3neFyDzcQ17wZ" version="14.7.3" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-06-05T20:35:57.394Z" agent="5.0 (X11)" etag="4hyNAt67qAfgShJCkQrj" version="14.7.3" type="github" pages="9">
   <diagram id="zXgXc9X_TnR75USzf0Vz" name="Title">
     <mxGraphModel dx="3330" dy="958" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
@@ -292,62 +292,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="T5JQBhz7aFwyNELZyTBl" name="Goal">
-    <mxGraphModel dx="1038" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
-      <root>
-        <mxCell id="tF7WZXWIor2kGWu-qVdx-0" />
-        <mxCell id="tF7WZXWIor2kGWu-qVdx-1" parent="tF7WZXWIor2kGWu-qVdx-0" />
-        <mxCell id="g8wh_lS98LJjfgGFjTQc-0" value="&lt;ul&gt;&lt;li&gt;To demonstrate FunSQL, we will use it to construct one SQL query.&lt;/li&gt;&lt;li&gt;We will state the full query in English, then construct it using FunSQL step by step.&lt;/li&gt;&lt;li&gt;This will also give us an opportunity to discuss different capabilities of FunSQL.&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontFamily=Georgia;fontSize=16;align=left;" vertex="1" parent="tF7WZXWIor2kGWu-qVdx-1">
-          <mxGeometry x="1160" y="40" width="400" height="190" as="geometry" />
-        </mxCell>
-        <mxCell id="ZzL6_-S_OKLjLrMqBdA5-0" value="Find all patients born in 1970 or later and living in Illinois&lt;br&gt;who have been diagnosed with Hypertension&lt;br&gt;no more than 12 months before their latest visit to&lt;br&gt;a healthcare provider." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Georgia;fontStyle=2" vertex="1" parent="tF7WZXWIor2kGWu-qVdx-1">
-          <mxGeometry x="40" y="40" width="960" height="160" as="geometry" />
-        </mxCell>
-        <mxCell id="ZzL6_-S_OKLjLrMqBdA5-1" value="Find patients&lt;br&gt;&lt;ul&gt;&lt;li&gt; born in 1970 or later,&lt;/li&gt;&lt;li&gt;living in Illinois,&lt;/li&gt;&lt;li&gt;such that their latest visit to the healthcare provider satisfies:&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Georgia;fontStyle=2" vertex="1" parent="tF7WZXWIor2kGWu-qVdx-1">
-          <mxGeometry x="40" y="280" width="1060" height="220" as="geometry" />
-        </mxCell>
-        <mxCell id="ZzL6_-S_OKLjLrMqBdA5-2" value="" style="endArrow=classic;html=1;fontFamily=Helvetica;fontSize=24;strokeWidth=2;" edge="1" parent="tF7WZXWIor2kGWu-qVdx-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="120" y="680" as="sourcePoint" />
-            <mxPoint x="920" y="680" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ZzL6_-S_OKLjLrMqBdA5-7" value="t" style="edgeLabel;html=1;align=left;verticalAlign=bottom;resizable=0;points=[];fontSize=20;fontFamily=Helvetica;fontStyle=2;labelPosition=right;verticalLabelPosition=top;" vertex="1" connectable="0" parent="ZzL6_-S_OKLjLrMqBdA5-2">
-          <mxGeometry x="0.855" y="-2" relative="1" as="geometry">
-            <mxPoint x="58" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ZzL6_-S_OKLjLrMqBdA5-3" value="latest visit" style="shape=crossbar;whiteSpace=wrap;html=1;rounded=1;sketch=0;fontFamily=Helvetica;fontSize=20;align=center;verticalAlign=middle;fontStyle=2;labelPosition=center;verticalLabelPosition=top;strokeWidth=2;" vertex="1" parent="tF7WZXWIor2kGWu-qVdx-1">
-          <mxGeometry x="720" y="590" width="120" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="ZzL6_-S_OKLjLrMqBdA5-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=20;strokeWidth=1;endArrow=none;endFill=0;dashed=1;" edge="1" parent="tF7WZXWIor2kGWu-qVdx-1" source="ZzL6_-S_OKLjLrMqBdA5-4">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="240" y="690" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="240" y="690" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ZzL6_-S_OKLjLrMqBdA5-4" value="12 month" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;sketch=0;fontFamily=Helvetica;fontSize=20;align=center;verticalAlign=middle;direction=south;labelPosition=center;verticalLabelPosition=top;strokeWidth=2;fontStyle=2" vertex="1" parent="tF7WZXWIor2kGWu-qVdx-1">
-          <mxGeometry x="240" y="540" width="480" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="ZzL6_-S_OKLjLrMqBdA5-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=20;strokeWidth=1;endArrow=none;endFill=0;dashed=1;" edge="1" parent="tF7WZXWIor2kGWu-qVdx-1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="719" y="690" as="targetPoint" />
-            <mxPoint x="719" y="560" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="719" y="690" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ZzL6_-S_OKLjLrMqBdA5-11" value="diagnosis&lt;br&gt;of Hypertension" style="line;strokeWidth=2;direction=south;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;sketch=0;fontFamily=Helvetica;fontSize=20;align=center;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;fontStyle=2" vertex="1" parent="tF7WZXWIor2kGWu-qVdx-1">
-          <mxGeometry x="390" y="600" width="10" height="120" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
   <diagram id="5kYZhek3pT5RMp1k7p85" name="Assembling SQL Queries">
-    <mxGraphModel dx="2076" dy="1150" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="1483" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="5QH3nKKjWkma_cnQS0M6-0" />
         <mxCell id="5QH3nKKjWkma_cnQS0M6-1" parent="5QH3nKKjWkma_cnQS0M6-0" />
@@ -366,8 +312,8 @@
         <mxCell id="YLv89CANYhQssu5euhFd-4" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;sketch=0;fontFamily=Helvetica;fontSize=24;" vertex="1" parent="5QH3nKKjWkma_cnQS0M6-1">
           <mxGeometry x="80" y="470" width="80" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="rItupR12peYzUELHD8JM-0" value="&lt;ul&gt;&lt;li&gt;A SQL query starts with a FROM clause, where you can choose the starting table.&lt;/li&gt;&lt;li&gt;What follows it is a sequence of operations which let you shape the output.&lt;/li&gt;&lt;li&gt;The final clause is always SELECT, which is written at the top, but is always performed last.&lt;/li&gt;&lt;li&gt;In FunSQL, we replicate the structure of the query using appropriate constructors and the chain operator for composing them.&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontFamily=Georgia;fontSize=16;align=left;" vertex="1" parent="5QH3nKKjWkma_cnQS0M6-1">
-          <mxGeometry x="1160" y="40" width="400" height="250" as="geometry" />
+        <mxCell id="rItupR12peYzUELHD8JM-0" value="&lt;ul&gt;&lt;li&gt;To introduce FunSQL, I will take several SQL queries and show how to express them in FunSQL.&lt;br&gt;&lt;/li&gt;&lt;li&gt;A SQL query starts with a FROM clause, where you choose the starting table.&lt;/li&gt;&lt;li&gt;In FunSQL, we start building a query object using From constructor applied to a SQLTable object.&lt;br&gt;&lt;/li&gt;&lt;li&gt;What follows it is a sequence of operations that transform the data to the desired form.&lt;/li&gt;&lt;li&gt;FunSQL provides a way to express SQL operations, and use chain operator for composing them.&lt;br&gt;&lt;/li&gt;&lt;li&gt;The final clause is always SELECT, which is written at the top, but is always performed last.&lt;br&gt;&lt;/li&gt;&lt;li&gt;In FunSQL, Select is not mandatory.&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontFamily=Georgia;fontSize=16;align=left;" vertex="1" parent="5QH3nKKjWkma_cnQS0M6-1">
+          <mxGeometry x="1160" y="40" width="400" height="360" as="geometry" />
         </mxCell>
         <mxCell id="rItupR12peYzUELHD8JM-16" value="q = From(person) |&amp;gt;&lt;br&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Where(Get.year_of_birth .&amp;gt;= 1950) |&amp;gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Select(Get.person_id)&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" vertex="1" parent="5QH3nKKjWkma_cnQS0M6-1">
           <mxGeometry x="720" y="600" width="780" height="120" as="geometry" />
@@ -422,7 +368,7 @@
         <mxCell id="dMaDljxGzQ-QmD8N3Qgk-6" value="q = From(person) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Where(Get.year_of_birth .&amp;gt;= 1950) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Select(Get.person_id)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" vertex="1" parent="nn6zcCZvNN2CuHY4TAQV-1">
           <mxGeometry x="45" y="560" width="780" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="jbbOe5-LE_H0chMWpCfl-0" value="&lt;ul&gt;&lt;li&gt;Both bound and unbound references are supported.&lt;/li&gt;&lt;li&gt;Unbound references make decomposition easier.&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontFamily=Georgia;fontSize=16;align=left;" vertex="1" parent="nn6zcCZvNN2CuHY4TAQV-1">
+        <mxCell id="jbbOe5-LE_H0chMWpCfl-0" value="&lt;ul&gt;&lt;li&gt;Both bound and unbound references are supported.&lt;/li&gt;&lt;li&gt;Bound references are created by taking an attribute of a query object.&lt;/li&gt;&lt;li&gt;On the other hand, unbound references are not associated with a particular query object, and are resolved at render time.&lt;br&gt;&lt;/li&gt;&lt;li&gt;Unbound references make decomposition easier.&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontFamily=Georgia;fontSize=16;align=left;" vertex="1" parent="nn6zcCZvNN2CuHY4TAQV-1">
           <mxGeometry x="1160" y="40" width="400" height="250" as="geometry" />
         </mxCell>
         <mxCell id="u8RzLHf7D_wDbAwkJJQ7-0" value="BornInOrLater(y) =&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Get.year_of_birth .&amp;gt;= y&lt;br&gt;&lt;br&gt;q = From(person) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Where(BornInOrLater(1950)) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Select(Get.person_id)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" vertex="1" parent="nn6zcCZvNN2CuHY4TAQV-1">
@@ -432,7 +378,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="hd5PPuAwjKfSHfI0nX_Z" name="Join">
-    <mxGraphModel dx="4152" dy="2300" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="1730" dy="958" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="F2DI98mBx1xgog7g1dD0-0" />
         <mxCell id="F2DI98mBx1xgog7g1dD0-1" parent="F2DI98mBx1xgog7g1dD0-0" />
@@ -475,7 +421,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="Q3mfqdBW6LVyytmCmgFG" name="Join and Unbound References">
+  <diagram id="Q3mfqdBW6LVyytmCmgFG" name="Hierarchical References">
     <mxGraphModel dx="1483" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="Ypj_s7b2-EiT9MXWfg6t-0" />
@@ -569,7 +515,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="eFUld7fMHYtmPaj5HDme" name="Join">
+  <diagram id="eFUld7fMHYtmPaj5HDme" name="Composing Queries">
     <mxGraphModel dx="1730" dy="958" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="HA4pj8JuP8W4XiAj8aUi-0" />
@@ -577,8 +523,8 @@
         <mxCell id="HA4pj8JuP8W4XiAj8aUi-2" value="Find patients&lt;br&gt;&lt;ul&gt;&lt;li&gt; born in 1970 or later,&lt;/li&gt;&lt;li&gt;living in Illinois&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Georgia;fontStyle=2" vertex="1" parent="HA4pj8JuP8W4XiAj8aUi-1">
           <mxGeometry x="40" y="60" width="400" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="UGTjjIKlMxJoP7d9f0Xw-0" value="&lt;ul&gt;&lt;li&gt;Recall that we want to find patients with certain constraints on date of birth and location.&lt;/li&gt;&lt;li&gt;Suppose we are already assembled appropriate constraints.&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontFamily=Georgia;fontSize=16;align=left;" vertex="1" parent="HA4pj8JuP8W4XiAj8aUi-1">
-          <mxGeometry x="1160" y="40" width="400" height="190" as="geometry" />
+        <mxCell id="UGTjjIKlMxJoP7d9f0Xw-0" value="&lt;ul&gt;&lt;li&gt;Recall that we want to find patients with certain constraints on date of birth and location.&lt;/li&gt;&lt;li&gt;Suppose we are already assembled queries to find patients with appropriate age and locations in Illinois. Then we could use these queries as building blocks to construct a larger query.&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontFamily=Georgia;fontSize=16;align=left;" vertex="1" parent="HA4pj8JuP8W4XiAj8aUi-1">
+          <mxGeometry x="1160" y="40" width="410" height="230" as="geometry" />
         </mxCell>
         <mxCell id="9l_X4VqL-2-_4b2RRgI--0" value="&lt;div&gt;From(person) |&amp;gt;&lt;/div&gt;&lt;div&gt;Where(Get.year_of_birth .&amp;gt;= 1970)&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" vertex="1" parent="HA4pj8JuP8W4XiAj8aUi-1">
           <mxGeometry x="40" y="280" width="650" height="80" as="geometry" />
@@ -631,6 +577,20 @@
         <mxCell id="lNYwa36739umqyLZaUP_-11" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;sketch=0;fontFamily=Helvetica;fontSize=24;" vertex="1" parent="HA4pj8JuP8W4XiAj8aUi-1">
           <mxGeometry x="880" y="1270" width="80" height="100" as="geometry" />
         </mxCell>
+        <mxCell id="l4b3vDKGQtEtRondhwgf-0" value="&lt;ul&gt;&lt;li&gt;However if you know SQL, you may be confused by this query. This is because it is not clear what is the corresponding SQL.&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontFamily=Georgia;fontSize=16;align=left;" vertex="1" parent="HA4pj8JuP8W4XiAj8aUi-1">
+          <mxGeometry x="1160" y="740" width="400" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="l4b3vDKGQtEtRondhwgf-1" value="&lt;ul&gt;&lt;li&gt;In fact, in SQL, the operations have rigid order, FROM followed by JOINs, then WHERE, GROUP BY, HAVING, ORDER BY.&lt;/li&gt;&lt;li&gt;FunSQL, on the other hand, doesn&#39;t have this restriction. You can apply operations in any order required by the query logic. There is not syntactic restrictions.&lt;/li&gt;&lt;li&gt;However, how does it work? We know that FunSQL must, at the end, render a SQL query. So what query does it generate?&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontFamily=Georgia;fontSize=16;align=left;" vertex="1" parent="HA4pj8JuP8W4XiAj8aUi-1">
+          <mxGeometry x="1160" y="960" width="400" height="240" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="hOj62wmjaOXXZqigd2O0" name="Aggregates">
+    <mxGraphModel dx="1038" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="MNqDUU_tDwApxBnKyp9r-0" />
+        <mxCell id="MNqDUU_tDwApxBnKyp9r-1" parent="MNqDUU_tDwApxBnKyp9r-0" />
       </root>
     </mxGraphModel>
   </diagram>
