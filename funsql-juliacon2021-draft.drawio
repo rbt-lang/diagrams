@@ -1,0 +1,897 @@
+<mxfile host="app.diagrams.net" modified="2021-06-07T15:19:44.371Z" agent="5.0 (X11)" etag="AfvyZbh-E_PFNm5_j8Cy" version="14.7.6" type="github" pages="12">
+  <diagram id="zXgXc9X_TnR75USzf0Vz" name="Title">
+    <mxGraphModel dx="2638" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7RGYFQtlD2vDoGtHd753-1" value="&lt;div style=&quot;font-size: 64px&quot; class=&quot;moz-quote-pre&quot;&gt;FunSQL:&lt;br&gt;A library for compositional construction&lt;br&gt; of SQL queries&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=64;fontFamily=Georgia;" parent="1" vertex="1">
+          <mxGeometry x="-1455" y="320" width="1310" height="240" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="dyeZhBJ2aPQRHMuFVo9c" name="Why?">
+    <mxGraphModel dx="1483" dy="809" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="cwCPnuAyodfC9gq789x_-0" />
+        <mxCell id="cwCPnuAyodfC9gq789x_-1" parent="cwCPnuAyodfC9gq789x_-0" />
+        <mxCell id="cwCPnuAyodfC9gq789x_-2" value="&lt;ul&gt;&lt;li&gt;What is SQL? Data is often stored in relational databases, and to retrieve it, we write queries in SQL.&lt;/li&gt;&lt;li&gt;Popular databases with SQL interface include MySQL, PostgreSQL, SQLite, Microsoft SQL Server, Redshift, BigQuery, and many others.&lt;/li&gt;&lt;li&gt;Julia already has a number of libraries that let you interact with SQL databases.&lt;/li&gt;&lt;li&gt;Why another tool?&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontFamily=Georgia;fontSize=16;align=left;" parent="cwCPnuAyodfC9gq789x_-1" vertex="1">
+          <mxGeometry x="1160" y="40" width="400" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="cwCPnuAyodfC9gq789x_-4" value="Find all patients born at or after 1950." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Georgia;fontStyle=2" parent="cwCPnuAyodfC9gq789x_-1" vertex="1">
+          <mxGeometry x="40" y="40" width="640" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cwCPnuAyodfC9gq789x_-5" value="&lt;div&gt;function find_patients(conn)&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; sql = &quot;&quot;&quot;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; SELECT person_id&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; FROM patient&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; WHERE year_of_birth &amp;gt;= 1950&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &quot;&quot;&quot;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; DBInterface.execute(conn, sql)&lt;br&gt;&lt;/div&gt;&lt;div&gt;end&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" parent="cwCPnuAyodfC9gq789x_-1" vertex="1">
+          <mxGeometry x="40" y="120" width="670" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="cwCPnuAyodfC9gq789x_-11" value="&lt;div&gt;function find_patients(conn; start_year = nothing,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; end_year = nothing)&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; sql = &quot;&quot;&quot;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; SELECT person_id&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; FROM patient&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &quot;&quot;&quot;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; conditions = String[]&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; if start_year !== nothing&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; push!(conditions, &quot;year_of_birth &amp;gt;= $start_year&quot;)&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; end&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; if end_year !== nothing&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; push!(conditions, &quot;year_of_birth &amp;lt;= $end_year&quot;)&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; end&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; if !isempty(conditions)&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; sql *= &quot;\nWHERE &quot; * join(conditions, &quot; AND &quot;)&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; end&lt;br&gt;&lt;/div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; DBInterface.execute(conn, sql)&lt;br&gt;&lt;div&gt;end&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" parent="cwCPnuAyodfC9gq789x_-1" vertex="1">
+          <mxGeometry x="40" y="1080" width="1110" height="690" as="geometry" />
+        </mxCell>
+        <mxCell id="cwCPnuAyodfC9gq789x_-13" value="" style="group" parent="cwCPnuAyodfC9gq789x_-1" vertex="1" connectable="0">
+          <mxGeometry x="40" y="920" width="670" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cwCPnuAyodfC9gq789x_-6" value="Find all patients born between" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Georgia;fontStyle=2" parent="cwCPnuAyodfC9gq789x_-13" vertex="1">
+          <mxGeometry width="510" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cwCPnuAyodfC9gq789x_-7" value="&lt;table style=&quot;width: 100%; height: 100%; font-size: 24px;&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;&gt;&lt;tbody style=&quot;font-size: 24px;&quot;&gt;&lt;tr style=&quot;font-size: 24px;&quot;&gt;&lt;td style=&quot;width: 85%; font-size: 24px;&quot;&gt;1950&lt;br style=&quot;font-size: 24px;&quot;&gt;&lt;/td&gt;&lt;td style=&quot;width: 15%; font-size: 24px;&quot;&gt;&lt;br style=&quot;font-size: 24px;&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.spinner;strokeColor=#999999;spinLayout=right;spinStyle=normal;adjStyle=triangle;fillColor=#aaddff;fontSize=24;fontColor=#666666;mainText=;html=1;overflow=fill;fontFamily=Helvetica;verticalAlign=middle;sketch=0;" parent="cwCPnuAyodfC9gq789x_-13" vertex="1">
+          <mxGeometry x="520" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cwCPnuAyodfC9gq789x_-8" value="and" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Georgia;fontStyle=2" parent="cwCPnuAyodfC9gq789x_-13" vertex="1">
+          <mxGeometry x="430" y="60" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cwCPnuAyodfC9gq789x_-9" value="&lt;table style=&quot;width: 100% ; height: 100% ; font-size: 24px&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;&gt;&lt;tbody style=&quot;font-size: 24px&quot;&gt;&lt;tr style=&quot;font-size: 24px&quot;&gt;&lt;td style=&quot;width: 85% ; font-size: 24px&quot;&gt;&lt;br style=&quot;font-size: 24px&quot;&gt;&lt;/td&gt;&lt;td style=&quot;width: 15% ; font-size: 24px&quot;&gt;&lt;br style=&quot;font-size: 24px&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.spinner;strokeColor=#999999;spinLayout=right;spinStyle=normal;adjStyle=triangle;fillColor=#aaddff;fontSize=24;fontColor=#666666;mainText=;html=1;overflow=fill;fontFamily=Helvetica;verticalAlign=middle;" parent="cwCPnuAyodfC9gq789x_-13" vertex="1">
+          <mxGeometry x="520" y="60" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cwCPnuAyodfC9gq789x_-15" value="Find all patients born between" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Georgia;fontStyle=2" parent="cwCPnuAyodfC9gq789x_-1" vertex="1">
+          <mxGeometry x="40" y="1840" width="510" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cwCPnuAyodfC9gq789x_-16" value="&lt;table style=&quot;width: 100%; height: 100%; font-size: 24px;&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;&gt;&lt;tbody style=&quot;font-size: 24px;&quot;&gt;&lt;tr style=&quot;font-size: 24px;&quot;&gt;&lt;td style=&quot;width: 85%; font-size: 24px;&quot;&gt;1950&lt;br style=&quot;font-size: 24px;&quot;&gt;&lt;/td&gt;&lt;td style=&quot;width: 15%; font-size: 24px;&quot;&gt;&lt;br style=&quot;font-size: 24px;&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.spinner;strokeColor=#999999;spinLayout=right;spinStyle=normal;adjStyle=triangle;fillColor=#aaddff;fontSize=24;fontColor=#666666;mainText=;html=1;overflow=fill;fontFamily=Helvetica;verticalAlign=middle;sketch=0;" parent="cwCPnuAyodfC9gq789x_-1" vertex="1">
+          <mxGeometry x="560" y="1840" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cwCPnuAyodfC9gq789x_-17" value="and" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Georgia;fontStyle=2" parent="cwCPnuAyodfC9gq789x_-1" vertex="1">
+          <mxGeometry x="470" y="1900" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cwCPnuAyodfC9gq789x_-18" value="&lt;table style=&quot;width: 100% ; height: 100% ; font-size: 24px&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;&gt;&lt;tbody style=&quot;font-size: 24px&quot;&gt;&lt;tr style=&quot;font-size: 24px&quot;&gt;&lt;td style=&quot;width: 85% ; font-size: 24px&quot;&gt;&lt;br style=&quot;font-size: 24px&quot;&gt;&lt;/td&gt;&lt;td style=&quot;width: 15% ; font-size: 24px&quot;&gt;&lt;br style=&quot;font-size: 24px&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.spinner;strokeColor=#999999;spinLayout=right;spinStyle=normal;adjStyle=triangle;fillColor=#aaddff;fontSize=24;fontColor=#666666;mainText=;html=1;overflow=fill;fontFamily=Helvetica;verticalAlign=middle;" parent="cwCPnuAyodfC9gq789x_-1" vertex="1">
+          <mxGeometry x="560" y="1900" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cwCPnuAyodfC9gq789x_-20" value="living in" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Georgia;fontStyle=2" parent="cwCPnuAyodfC9gq789x_-1" vertex="1">
+          <mxGeometry x="400" y="1960" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cwCPnuAyodfC9gq789x_-21" value="&lt;div align=&quot;center&quot;&gt;IL&lt;/div&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.comboBox;strokeColor=#999999;fillColor=#ddeeff;align=left;fillColor2=#aaddff;mainText=;fontColor=#666666;fontSize=24;spacingLeft=3;sketch=0;fontFamily=Helvetica;" parent="cwCPnuAyodfC9gq789x_-1" vertex="1">
+          <mxGeometry x="560" y="1960" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cwCPnuAyodfC9gq789x_-22" value="with conditions" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Georgia;fontStyle=2" parent="cwCPnuAyodfC9gq789x_-1" vertex="1">
+          <mxGeometry x="290" y="2020" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cwCPnuAyodfC9gq789x_-23" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.misc.rrect;rSize=0;strokeColor=#999999;fillColor=#ffffff;sketch=0;fontFamily=Helvetica;fontSize=24;" parent="cwCPnuAyodfC9gq789x_-1" vertex="1">
+          <mxGeometry x="560" y="2030" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cwCPnuAyodfC9gq789x_-24" value="Hypertension" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.misc.rrect;rSize=5;strokeColor=none;fontSize=15;fontColor=#999999;fillColor=#ddeeff;align=left;spacingLeft=5;" parent="cwCPnuAyodfC9gq789x_-23" vertex="1">
+          <mxGeometry x="3.6" y="5" width="116.4" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cwCPnuAyodfC9gq789x_-25" value="Arrhythmia" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.misc.rrect;rSize=5;strokeColor=none;fontSize=15;fontColor=#999999;fillColor=#ddeeff;align=left;spacingLeft=5;" parent="cwCPnuAyodfC9gq789x_-23" vertex="1">
+          <mxGeometry x="130" y="5" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cwCPnuAyodfC9gq789x_-26" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.misc.rrect;rSize=5;strokeColor=none;fontSize=15;fontColor=#999999;fillColor=#ddeeff;align=left;spacingLeft=5;" parent="cwCPnuAyodfC9gq789x_-23" vertex="1">
+          <mxGeometry x="240" y="5" width="112.8" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cwCPnuAyodfC9gq789x_-31" value="who visited a doctor" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Georgia;fontStyle=2" parent="cwCPnuAyodfC9gq789x_-1" vertex="1">
+          <mxGeometry x="210" y="2080" width="340" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cwCPnuAyodfC9gq789x_-32" value="within last 12 months" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.comboBox;strokeColor=#999999;fillColor=#ddeeff;align=left;fillColor2=#aaddff;mainText=;fontColor=#666666;fontSize=24;spacingLeft=3;sketch=0;fontFamily=Helvetica;" parent="cwCPnuAyodfC9gq789x_-1" vertex="1">
+          <mxGeometry x="560" y="2080" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cwCPnuAyodfC9gq789x_-33" value="&quot;location&quot;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.callout;linkText=;textSize=17;textColor=#666666;callDir=NE;callStyle=line;fontSize=17;fontColor=#666666;align=right;verticalAlign=top;strokeColor=#666666;sketch=0;fontFamily=Helvetica;" parent="cwCPnuAyodfC9gq789x_-1" vertex="1">
+          <mxGeometry x="720" y="1880" width="310" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cwCPnuAyodfC9gq789x_-35" value="&quot;condition_occurrence&quot;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.callout;linkText=;textSize=17;textColor=#666666;callDir=NE;callStyle=line;fontSize=17;fontColor=#666666;align=right;verticalAlign=top;strokeColor=#666666;sketch=0;fontFamily=Helvetica;" parent="cwCPnuAyodfC9gq789x_-1" vertex="1">
+          <mxGeometry x="930" y="1950" width="310" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cwCPnuAyodfC9gq789x_-36" value="&quot;visit_occurrence&quot;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.callout;linkText=;textSize=17;textColor=#666666;callDir=SE;callStyle=line;fontSize=17;fontColor=#666666;align=right;verticalAlign=bottom;strokeColor=#666666;sketch=0;fontFamily=Helvetica;" parent="cwCPnuAyodfC9gq789x_-1" vertex="1">
+          <mxGeometry x="850" y="2100" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cwCPnuAyodfC9gq789x_-37" value="&lt;div&gt;function find_patients(conn; start_year = nothing,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; end_year = nothing,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; state = nothing,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; conditions = []&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; last_visit = nothing)&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; sql = &quot;&quot;&quot;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; SELECT person_id&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; FROM patient&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &quot;&quot;&quot;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; ???&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; DBInterface.execute(conn, sql)&lt;br&gt;&lt;/div&gt;&lt;div&gt;end&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" parent="cwCPnuAyodfC9gq789x_-1" vertex="1">
+          <mxGeometry x="40" y="2200" width="980" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="cwCPnuAyodfC9gq789x_-38" value="&lt;ul&gt;&lt;li&gt;Clearly, a more systematic approach is necessary.&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontFamily=Georgia;fontSize=16;align=left;" parent="cwCPnuAyodfC9gq789x_-1" vertex="1">
+          <mxGeometry x="1160" y="2520" width="400" height="140" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="uEd0b6g5x3UOPiHromGW" name="CDM Schema">
+    <mxGraphModel dx="2966" dy="1617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="f78algVHrhMSMh_dFOTZ-0" />
+        <mxCell id="f78algVHrhMSMh_dFOTZ-1" parent="f78algVHrhMSMh_dFOTZ-0" />
+        <mxCell id="Kom4LtNUADEWGkJGTmqD-0" value="&lt;ul&gt;&lt;li&gt;A small diversion to introduce the database schema which we will use in subsequent examples.&lt;/li&gt;&lt;li&gt;OMOP Common Data Model is a popular open-source used in healthcare of observational research.&lt;/li&gt;&lt;li&gt;As typical in healthcare, the schema is patient-centric. The &lt;i&gt;person&lt;/i&gt; table stores information about patients including basic demographic information. Their address is stored in a separate table called &lt;i&gt;location&lt;/i&gt;.&lt;/li&gt;&lt;li&gt;Most of the patient data consists of clinical events: encounters with healthcare providers, recorded observations, diagnosed conditions, performed procedures, etc.&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontFamily=Georgia;fontSize=16;align=left;" parent="f78algVHrhMSMh_dFOTZ-1" vertex="1">
+          <mxGeometry x="1160" y="40" width="400" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="Kom4LtNUADEWGkJGTmqD-1" value="person" style="shape=table;startSize=40;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;sketch=0;fontFamily=Helvetica;fontSize=32;" parent="f78algVHrhMSMh_dFOTZ-1" vertex="1">
+          <mxGeometry x="80" y="440" width="240" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Kom4LtNUADEWGkJGTmqD-2" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Kom4LtNUADEWGkJGTmqD-1" vertex="1">
+          <mxGeometry y="40" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kom4LtNUADEWGkJGTmqD-3" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;fontSize=24;" parent="Kom4LtNUADEWGkJGTmqD-2" vertex="1">
+          <mxGeometry width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kom4LtNUADEWGkJGTmqD-4" value="person_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=1;overflow=hidden;fontSize=24;" parent="Kom4LtNUADEWGkJGTmqD-2" vertex="1">
+          <mxGeometry x="50" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kom4LtNUADEWGkJGTmqD-5" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Kom4LtNUADEWGkJGTmqD-1" vertex="1">
+          <mxGeometry y="80" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kom4LtNUADEWGkJGTmqD-6" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" parent="Kom4LtNUADEWGkJGTmqD-5" vertex="1">
+          <mxGeometry width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kom4LtNUADEWGkJGTmqD-7" value="year_of_birth" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;" parent="Kom4LtNUADEWGkJGTmqD-5" vertex="1">
+          <mxGeometry x="50" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kom4LtNUADEWGkJGTmqD-8" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Kom4LtNUADEWGkJGTmqD-1" vertex="1">
+          <mxGeometry y="120" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kom4LtNUADEWGkJGTmqD-9" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontStyle=1;fontSize=24;" parent="Kom4LtNUADEWGkJGTmqD-8" vertex="1">
+          <mxGeometry width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kom4LtNUADEWGkJGTmqD-10" value="location_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;" parent="Kom4LtNUADEWGkJGTmqD-8" vertex="1">
+          <mxGeometry x="50" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ATKdMifcA1fCVKVkwMlP-0" value="location" style="shape=table;startSize=40;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;sketch=0;fontFamily=Helvetica;fontSize=32;" parent="f78algVHrhMSMh_dFOTZ-1" vertex="1">
+          <mxGeometry x="80" y="80" width="240" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ATKdMifcA1fCVKVkwMlP-1" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ATKdMifcA1fCVKVkwMlP-0" vertex="1">
+          <mxGeometry y="40" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ATKdMifcA1fCVKVkwMlP-2" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;fontSize=24;" parent="ATKdMifcA1fCVKVkwMlP-1" vertex="1">
+          <mxGeometry width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ATKdMifcA1fCVKVkwMlP-3" value="location_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=1;overflow=hidden;fontSize=24;" parent="ATKdMifcA1fCVKVkwMlP-1" vertex="1">
+          <mxGeometry x="50" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ATKdMifcA1fCVKVkwMlP-4" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ATKdMifcA1fCVKVkwMlP-0" vertex="1">
+          <mxGeometry y="80" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ATKdMifcA1fCVKVkwMlP-5" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" parent="ATKdMifcA1fCVKVkwMlP-4" vertex="1">
+          <mxGeometry width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ATKdMifcA1fCVKVkwMlP-6" value="city" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;" parent="ATKdMifcA1fCVKVkwMlP-4" vertex="1">
+          <mxGeometry x="50" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ATKdMifcA1fCVKVkwMlP-7" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ATKdMifcA1fCVKVkwMlP-0" vertex="1">
+          <mxGeometry y="120" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ATKdMifcA1fCVKVkwMlP-8" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontStyle=1;fontSize=24;" parent="ATKdMifcA1fCVKVkwMlP-7" vertex="1">
+          <mxGeometry width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ATKdMifcA1fCVKVkwMlP-9" value="state" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;" parent="ATKdMifcA1fCVKVkwMlP-7" vertex="1">
+          <mxGeometry x="50" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ATKdMifcA1fCVKVkwMlP-10" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ATKdMifcA1fCVKVkwMlP-0" vertex="1">
+          <mxGeometry y="160" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ATKdMifcA1fCVKVkwMlP-11" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontStyle=1;fontSize=24;" parent="ATKdMifcA1fCVKVkwMlP-10" vertex="1">
+          <mxGeometry width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ATKdMifcA1fCVKVkwMlP-12" value="zip" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;" parent="ATKdMifcA1fCVKVkwMlP-10" vertex="1">
+          <mxGeometry x="50" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ATKdMifcA1fCVKVkwMlP-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=24;" parent="f78algVHrhMSMh_dFOTZ-1" source="Kom4LtNUADEWGkJGTmqD-8" target="ATKdMifcA1fCVKVkwMlP-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="40" y="580" />
+              <mxPoint x="40" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KrkDFBwh7_1YySRQ9ZFV-0" value="visit_occurrence" style="shape=table;startSize=40;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;sketch=0;fontFamily=Helvetica;fontSize=32;" parent="f78algVHrhMSMh_dFOTZ-1" vertex="1">
+          <mxGeometry x="440" y="560" width="360" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="KrkDFBwh7_1YySRQ9ZFV-1" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="KrkDFBwh7_1YySRQ9ZFV-0" vertex="1">
+          <mxGeometry y="40" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KrkDFBwh7_1YySRQ9ZFV-2" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;fontSize=24;" parent="KrkDFBwh7_1YySRQ9ZFV-1" vertex="1">
+          <mxGeometry width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KrkDFBwh7_1YySRQ9ZFV-3" value="visit_occurrence_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=1;overflow=hidden;fontSize=24;" parent="KrkDFBwh7_1YySRQ9ZFV-1" vertex="1">
+          <mxGeometry x="50" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KrkDFBwh7_1YySRQ9ZFV-4" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="KrkDFBwh7_1YySRQ9ZFV-0" vertex="1">
+          <mxGeometry y="80" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KrkDFBwh7_1YySRQ9ZFV-5" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontSize=24;fontStyle=1" parent="KrkDFBwh7_1YySRQ9ZFV-4" vertex="1">
+          <mxGeometry width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KrkDFBwh7_1YySRQ9ZFV-6" value="person_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;" parent="KrkDFBwh7_1YySRQ9ZFV-4" vertex="1">
+          <mxGeometry x="50" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KrkDFBwh7_1YySRQ9ZFV-14" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="KrkDFBwh7_1YySRQ9ZFV-0" vertex="1">
+          <mxGeometry y="120" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KrkDFBwh7_1YySRQ9ZFV-15" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontStyle=1;fontSize=24;" parent="KrkDFBwh7_1YySRQ9ZFV-14" vertex="1">
+          <mxGeometry width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KrkDFBwh7_1YySRQ9ZFV-16" value="visit_concept_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;" parent="KrkDFBwh7_1YySRQ9ZFV-14" vertex="1">
+          <mxGeometry x="50" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KrkDFBwh7_1YySRQ9ZFV-7" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="KrkDFBwh7_1YySRQ9ZFV-0" vertex="1">
+          <mxGeometry y="160" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KrkDFBwh7_1YySRQ9ZFV-8" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontStyle=1;fontSize=24;" parent="KrkDFBwh7_1YySRQ9ZFV-7" vertex="1">
+          <mxGeometry width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KrkDFBwh7_1YySRQ9ZFV-9" value="visit_start_date" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;" parent="KrkDFBwh7_1YySRQ9ZFV-7" vertex="1">
+          <mxGeometry x="50" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KrkDFBwh7_1YySRQ9ZFV-10" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="KrkDFBwh7_1YySRQ9ZFV-0" vertex="1">
+          <mxGeometry y="200" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KrkDFBwh7_1YySRQ9ZFV-11" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontStyle=1;fontSize=24;" parent="KrkDFBwh7_1YySRQ9ZFV-10" vertex="1">
+          <mxGeometry width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KrkDFBwh7_1YySRQ9ZFV-12" value="visit_end_date" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;" parent="KrkDFBwh7_1YySRQ9ZFV-10" vertex="1">
+          <mxGeometry x="50" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KrkDFBwh7_1YySRQ9ZFV-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=24;" parent="f78algVHrhMSMh_dFOTZ-1" source="KrkDFBwh7_1YySRQ9ZFV-4" target="Kom4LtNUADEWGkJGTmqD-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KrkDFBwh7_1YySRQ9ZFV-17" value="condition_occurrence" style="shape=table;startSize=40;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;sketch=0;fontFamily=Helvetica;fontSize=32;" parent="f78algVHrhMSMh_dFOTZ-1" vertex="1">
+          <mxGeometry x="440" y="160" width="360" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="KrkDFBwh7_1YySRQ9ZFV-18" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="KrkDFBwh7_1YySRQ9ZFV-17" vertex="1">
+          <mxGeometry y="40" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KrkDFBwh7_1YySRQ9ZFV-19" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;fontSize=24;" parent="KrkDFBwh7_1YySRQ9ZFV-18" vertex="1">
+          <mxGeometry width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KrkDFBwh7_1YySRQ9ZFV-20" value="condition_occurrence_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=1;overflow=hidden;fontSize=24;" parent="KrkDFBwh7_1YySRQ9ZFV-18" vertex="1">
+          <mxGeometry x="50" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KrkDFBwh7_1YySRQ9ZFV-21" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="KrkDFBwh7_1YySRQ9ZFV-17" vertex="1">
+          <mxGeometry y="80" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KrkDFBwh7_1YySRQ9ZFV-22" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontSize=24;fontStyle=1" parent="KrkDFBwh7_1YySRQ9ZFV-21" vertex="1">
+          <mxGeometry width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KrkDFBwh7_1YySRQ9ZFV-23" value="person_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;" parent="KrkDFBwh7_1YySRQ9ZFV-21" vertex="1">
+          <mxGeometry x="50" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KrkDFBwh7_1YySRQ9ZFV-24" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="KrkDFBwh7_1YySRQ9ZFV-17" vertex="1">
+          <mxGeometry y="120" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KrkDFBwh7_1YySRQ9ZFV-25" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontStyle=1;fontSize=24;" parent="KrkDFBwh7_1YySRQ9ZFV-24" vertex="1">
+          <mxGeometry width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KrkDFBwh7_1YySRQ9ZFV-26" value="condition_concept_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;" parent="KrkDFBwh7_1YySRQ9ZFV-24" vertex="1">
+          <mxGeometry x="50" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KrkDFBwh7_1YySRQ9ZFV-27" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="KrkDFBwh7_1YySRQ9ZFV-17" vertex="1">
+          <mxGeometry y="160" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KrkDFBwh7_1YySRQ9ZFV-28" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontStyle=1;fontSize=24;" parent="KrkDFBwh7_1YySRQ9ZFV-27" vertex="1">
+          <mxGeometry width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KrkDFBwh7_1YySRQ9ZFV-29" value="condition_start_date" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;" parent="KrkDFBwh7_1YySRQ9ZFV-27" vertex="1">
+          <mxGeometry x="50" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KrkDFBwh7_1YySRQ9ZFV-30" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="KrkDFBwh7_1YySRQ9ZFV-17" vertex="1">
+          <mxGeometry y="200" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KrkDFBwh7_1YySRQ9ZFV-31" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontStyle=1;fontSize=24;" parent="KrkDFBwh7_1YySRQ9ZFV-30" vertex="1">
+          <mxGeometry width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KrkDFBwh7_1YySRQ9ZFV-32" value="condition_end_date" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;" parent="KrkDFBwh7_1YySRQ9ZFV-30" vertex="1">
+          <mxGeometry x="50" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KrkDFBwh7_1YySRQ9ZFV-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=24;" parent="f78algVHrhMSMh_dFOTZ-1" source="KrkDFBwh7_1YySRQ9ZFV-21" target="Kom4LtNUADEWGkJGTmqD-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HDOMjBEtnphNXYLUdwP2-0" value="&lt;div&gt;using FunSQL: SQLTable&lt;br&gt;&lt;br&gt;const person =&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; SQLTable(name = :person,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; columns = [:person_id, :year_of_birth, :location_id])&lt;br&gt;&lt;br&gt;const location =&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; SQLTable(name = :location,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; columns = [:location_id, :city, :state, :zip])&lt;br&gt;&lt;br&gt;const condition_occurrence =&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; SQLTable(name = :condition_occurrence,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; columns = [:condition_occurrence_id, :person_id,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; :condition_concept_id,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; :condition_start_date, :condition_end_date])&lt;br&gt;&lt;br&gt;const visit_occurrence =&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; SQLTable(name = :visit_occurrence,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; columns = [:visit_occurrence_id, :person_id,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; :visit_concept_id,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; :visit_start_date, :visit_end_date])&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" parent="f78algVHrhMSMh_dFOTZ-1" vertex="1">
+          <mxGeometry x="80" y="960" width="1320" height="800" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="5kYZhek3pT5RMp1k7p85" name="Assembling SQL Queries">
+    <mxGraphModel dx="2076" dy="1132" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="5QH3nKKjWkma_cnQS0M6-0" />
+        <mxCell id="5QH3nKKjWkma_cnQS0M6-1" parent="5QH3nKKjWkma_cnQS0M6-0" />
+        <mxCell id="YLv89CANYhQssu5euhFd-0" value="FROM person p" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" parent="5QH3nKKjWkma_cnQS0M6-1" vertex="1">
+          <mxGeometry x="40" y="160" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YLv89CANYhQssu5euhFd-1" value="FROM person p&lt;br&gt;WHERE p.year_of_birth &amp;gt;= 1950" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" parent="5QH3nKKjWkma_cnQS0M6-1" vertex="1">
+          <mxGeometry x="40" y="360" width="570" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YLv89CANYhQssu5euhFd-2" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;sketch=0;fontFamily=Helvetica;fontSize=24;" parent="5QH3nKKjWkma_cnQS0M6-1" vertex="1">
+          <mxGeometry x="80" y="230" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="YLv89CANYhQssu5euhFd-3" value="&lt;b&gt;SELECT p.person_id&lt;/b&gt;&lt;br&gt;FROM person p&lt;br&gt;WHERE p.year_of_birth &amp;gt;= 1950" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" parent="5QH3nKKjWkma_cnQS0M6-1" vertex="1">
+          <mxGeometry x="40" y="600" width="570" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="YLv89CANYhQssu5euhFd-4" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;sketch=0;fontFamily=Helvetica;fontSize=24;" parent="5QH3nKKjWkma_cnQS0M6-1" vertex="1">
+          <mxGeometry x="80" y="470" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="rItupR12peYzUELHD8JM-0" value="&lt;ul&gt;&lt;li&gt;To introduce FunSQL, I will take several SQL queries and show how to express them in FunSQL.&lt;br&gt;&lt;/li&gt;&lt;li&gt;A SQL query starts with a FROM clause, where you choose the starting table.&lt;/li&gt;&lt;li&gt;In FunSQL, we start building a query object using From constructor applied to a SQLTable object.&lt;br&gt;&lt;/li&gt;&lt;li&gt;What follows it is a sequence of operations that transform the data to the desired form.&lt;/li&gt;&lt;li&gt;FunSQL provides a way to express SQL operations, and use chain operator for composing them.&lt;br&gt;&lt;/li&gt;&lt;li&gt;The final clause is always SELECT, which is written at the top, but is always performed last.&lt;br&gt;&lt;/li&gt;&lt;li&gt;In FunSQL, Select is not mandatory.&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontFamily=Georgia;fontSize=16;align=left;" parent="5QH3nKKjWkma_cnQS0M6-1" vertex="1">
+          <mxGeometry x="1160" y="40" width="400" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="rItupR12peYzUELHD8JM-16" value="q = From(person) |&amp;gt;&lt;br&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Where(Get.year_of_birth .&amp;gt;= 1950) |&amp;gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 153)&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;Select(Get.person_id)&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" parent="5QH3nKKjWkma_cnQS0M6-1" vertex="1">
+          <mxGeometry x="720" y="600" width="780" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="rItupR12peYzUELHD8JM-18" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;sketch=0;fontFamily=Helvetica;fontSize=24;" parent="5QH3nKKjWkma_cnQS0M6-1" vertex="1">
+          <mxGeometry x="760" y="470" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="rItupR12peYzUELHD8JM-19" value="q = From(person) |&amp;gt;&lt;br&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Where(Get.year_of_birth .&amp;gt;= 1950)&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" parent="5QH3nKKjWkma_cnQS0M6-1" vertex="1">
+          <mxGeometry x="720" y="360" width="730" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rItupR12peYzUELHD8JM-20" value="q = From(person)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" parent="5QH3nKKjWkma_cnQS0M6-1" vertex="1">
+          <mxGeometry x="720" y="160" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rItupR12peYzUELHD8JM-21" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;sketch=0;fontFamily=Helvetica;fontSize=24;" parent="5QH3nKKjWkma_cnQS0M6-1" vertex="1">
+          <mxGeometry x="760" y="235" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="XMxlFPMfu6HkoT8U0Sc8-0" value="Find all patients born in 1970 or later." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Georgia;fontStyle=2" parent="5QH3nKKjWkma_cnQS0M6-1" vertex="1">
+          <mxGeometry x="40" y="40" width="640" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mTnH8D68jBpLIgVhOGdz-0" value="sql = render(q, dialect = :postgresql)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" parent="5QH3nKKjWkma_cnQS0M6-1" vertex="1">
+          <mxGeometry x="720" y="800" width="750" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="rAWC5HrWoL-qiUcdL9AZ" name="Column References">
+    <mxGraphModel dx="2966" dy="1617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="nn6zcCZvNN2CuHY4TAQV-0" />
+        <mxCell id="nn6zcCZvNN2CuHY4TAQV-1" parent="nn6zcCZvNN2CuHY4TAQV-0" />
+        <mxCell id="jE_ZsQXpSpd--3uybtv--0" value="Bound References" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Georgia;fontStyle=0" parent="nn6zcCZvNN2CuHY4TAQV-1" vertex="1">
+          <mxGeometry x="40" y="40" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dMaDljxGzQ-QmD8N3Qgk-0" value="q1 = From(person)&lt;br&gt;q2 = q1 |&amp;gt; Where(q1.year_of_birth .&amp;gt;= 1950)&lt;br&gt;q3 = q2 |&amp;gt; Select(q2.person_id)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" parent="nn6zcCZvNN2CuHY4TAQV-1" vertex="1">
+          <mxGeometry x="40" y="200" width="840" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dMaDljxGzQ-QmD8N3Qgk-1" value="Unbound References" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Georgia;fontStyle=0" parent="nn6zcCZvNN2CuHY4TAQV-1" vertex="1">
+          <mxGeometry x="40" y="400" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dMaDljxGzQ-QmD8N3Qgk-2" value="q.year_of_birth" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" parent="nn6zcCZvNN2CuHY4TAQV-1" vertex="1">
+          <mxGeometry x="45" y="120" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dMaDljxGzQ-QmD8N3Qgk-3" value="q.person_id" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" parent="nn6zcCZvNN2CuHY4TAQV-1" vertex="1">
+          <mxGeometry x="480" y="120" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dMaDljxGzQ-QmD8N3Qgk-4" value="Get.year_of_birth" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" parent="nn6zcCZvNN2CuHY4TAQV-1" vertex="1">
+          <mxGeometry x="40" y="480" width="340" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dMaDljxGzQ-QmD8N3Qgk-5" value="Get.person_id" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" parent="nn6zcCZvNN2CuHY4TAQV-1" vertex="1">
+          <mxGeometry x="480" y="480" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dMaDljxGzQ-QmD8N3Qgk-6" value="q = From(person) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Where(Get.year_of_birth .&amp;gt;= 1950) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Select(Get.person_id)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" parent="nn6zcCZvNN2CuHY4TAQV-1" vertex="1">
+          <mxGeometry x="45" y="560" width="780" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="jbbOe5-LE_H0chMWpCfl-0" value="&lt;ul&gt;&lt;li&gt;Both bound and unbound references are supported.&lt;/li&gt;&lt;li&gt;Bound references are created by taking an attribute of a query object.&lt;/li&gt;&lt;li&gt;On the other hand, unbound references are not associated with a particular query object, and are resolved at render time.&lt;br&gt;&lt;/li&gt;&lt;li&gt;Unbound references make decomposition easier.&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontFamily=Georgia;fontSize=16;align=left;" parent="nn6zcCZvNN2CuHY4TAQV-1" vertex="1">
+          <mxGeometry x="1160" y="40" width="400" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="u8RzLHf7D_wDbAwkJJQ7-0" value="BornInOrLater(y) =&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Get.year_of_birth .&amp;gt;= y&lt;br&gt;&lt;br&gt;q = From(person) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Where(BornInOrLater(1950)) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Select(Get.person_id)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" parent="nn6zcCZvNN2CuHY4TAQV-1" vertex="1">
+          <mxGeometry x="920" y="440" width="650" height="230" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="hd5PPuAwjKfSHfI0nX_Z" name="Join">
+    <mxGraphModel dx="1730" dy="943" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="F2DI98mBx1xgog7g1dD0-0" />
+        <mxCell id="F2DI98mBx1xgog7g1dD0-1" parent="F2DI98mBx1xgog7g1dD0-0" />
+        <mxCell id="JNACbG0v0oPRO7Ci2Byj-0" value="FROM person p" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" parent="F2DI98mBx1xgog7g1dD0-1" vertex="1">
+          <mxGeometry x="40" y="140" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JNACbG0v0oPRO7Ci2Byj-1" value="FROM person p&lt;br&gt;JOIN location l&lt;br&gt;&amp;nbsp; ON (p.location_id = l.location_id)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" parent="F2DI98mBx1xgog7g1dD0-1" vertex="1">
+          <mxGeometry x="40" y="340" width="710" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="JNACbG0v0oPRO7Ci2Byj-2" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;sketch=0;fontFamily=Helvetica;fontSize=24;" parent="F2DI98mBx1xgog7g1dD0-1" vertex="1">
+          <mxGeometry x="80" y="210" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="JNACbG0v0oPRO7Ci2Byj-3" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;sketch=0;fontFamily=Helvetica;fontSize=24;" parent="F2DI98mBx1xgog7g1dD0-1" vertex="1">
+          <mxGeometry x="80" y="530" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="JNACbG0v0oPRO7Ci2Byj-4" value="SELECT p.person_id, l.state&lt;br&gt;FROM person p&lt;br&gt;JOIN location l&lt;br&gt;&amp;nbsp; ON (p.location_id = l.location_id)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" parent="F2DI98mBx1xgog7g1dD0-1" vertex="1">
+          <mxGeometry x="40" y="660" width="710" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="JNACbG0v0oPRO7Ci2Byj-11" value="person |&amp;gt;&lt;br&gt;&lt;div&gt;Join(:location =&amp;gt; location,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Get.location_id .==&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Get.location.location_id) |&amp;gt;&lt;/div&gt;&lt;div&gt;Select(Get.person_id,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Get.location.state)&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" parent="F2DI98mBx1xgog7g1dD0-1" vertex="1">
+          <mxGeometry x="840" y="660" width="650" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="JNACbG0v0oPRO7Ci2Byj-12" value="person |&amp;gt;&lt;br&gt;&lt;div&gt;Join(:location =&amp;gt; location,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Get.location_id .==&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Get.location.location_id)&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" parent="F2DI98mBx1xgog7g1dD0-1" vertex="1">
+          <mxGeometry x="840" y="340" width="590" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="JNACbG0v0oPRO7Ci2Byj-13" value="From(person)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" parent="F2DI98mBx1xgog7g1dD0-1" vertex="1">
+          <mxGeometry x="840" y="140" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JNACbG0v0oPRO7Ci2Byj-14" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;sketch=0;fontFamily=Helvetica;fontSize=24;" parent="F2DI98mBx1xgog7g1dD0-1" vertex="1">
+          <mxGeometry x="880" y="210" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="JNACbG0v0oPRO7Ci2Byj-15" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;sketch=0;fontFamily=Helvetica;fontSize=24;" parent="F2DI98mBx1xgog7g1dD0-1" vertex="1">
+          <mxGeometry x="880" y="530" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="jdja2CqWhxrKquW8dFN5-0" value="&lt;ul&gt;&lt;li&gt;The JOIN operator combines the output of two queries.&lt;/li&gt;&lt;li&gt;Suppose we want to display patients with their state of residence. We need to combine the data from the table person, which store the patient record, and the table location, which stores information about addresses.&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontFamily=Georgia;fontSize=16;align=left;" parent="F2DI98mBx1xgog7g1dD0-1" vertex="1">
+          <mxGeometry x="1160" y="40" width="400" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="y-VVzjwEK3p7i7n4DPaM-0" value="Show patients with their state of residence." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Georgia;fontStyle=2" parent="F2DI98mBx1xgog7g1dD0-1" vertex="1">
+          <mxGeometry x="40" y="40" width="730" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Q3mfqdBW6LVyytmCmgFG" name="Hierarchical References">
+    <mxGraphModel dx="1730" dy="943" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="Ypj_s7b2-EiT9MXWfg6t-0" />
+        <mxCell id="Ypj_s7b2-EiT9MXWfg6t-1" parent="Ypj_s7b2-EiT9MXWfg6t-0" />
+        <mxCell id="VZuaQahRzJITOZ2CxkcM-0" value="&lt;ul&gt;&lt;li&gt;Joining two tables poses a challenge for unbound references.&lt;/li&gt;&lt;li&gt;For instance, both person and location table have a column called location_id.&lt;/li&gt;&lt;li&gt;This isn&#39;t a problem if you use bound references.&lt;/li&gt;&lt;li&gt;To solve this problem, we introduce hierarchical references: As() constructor to introduce a level of hierarchy, which can be then traversed using Get.&lt;/li&gt;&lt;li&gt;To clarify: although this operation is similar to SQL AS operator, it does not really affect the generated SQL.&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontFamily=Georgia;fontSize=16;align=left;" parent="Ypj_s7b2-EiT9MXWfg6t-1" vertex="1">
+          <mxGeometry x="1160" y="40" width="400" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="hvvs4cQZUGp6yrlujYdx-0" value="person" style="shape=table;startSize=40;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;sketch=0;fontFamily=Helvetica;fontSize=32;" parent="Ypj_s7b2-EiT9MXWfg6t-1" vertex="1">
+          <mxGeometry x="440" y="40" width="240" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="hvvs4cQZUGp6yrlujYdx-1" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hvvs4cQZUGp6yrlujYdx-0" vertex="1">
+          <mxGeometry y="40" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hvvs4cQZUGp6yrlujYdx-2" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;fontSize=24;" parent="hvvs4cQZUGp6yrlujYdx-1" vertex="1">
+          <mxGeometry width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hvvs4cQZUGp6yrlujYdx-3" value="person_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=1;overflow=hidden;fontSize=24;" parent="hvvs4cQZUGp6yrlujYdx-1" vertex="1">
+          <mxGeometry x="50" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hvvs4cQZUGp6yrlujYdx-4" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hvvs4cQZUGp6yrlujYdx-0" vertex="1">
+          <mxGeometry y="80" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hvvs4cQZUGp6yrlujYdx-5" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" parent="hvvs4cQZUGp6yrlujYdx-4" vertex="1">
+          <mxGeometry width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hvvs4cQZUGp6yrlujYdx-6" value="year_of_birth" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;" parent="hvvs4cQZUGp6yrlujYdx-4" vertex="1">
+          <mxGeometry x="50" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hvvs4cQZUGp6yrlujYdx-7" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hvvs4cQZUGp6yrlujYdx-0" vertex="1">
+          <mxGeometry y="120" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hvvs4cQZUGp6yrlujYdx-8" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontStyle=1;fontSize=24;" parent="hvvs4cQZUGp6yrlujYdx-7" vertex="1">
+          <mxGeometry width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hvvs4cQZUGp6yrlujYdx-9" value="location_id" style="shape=partialRectangle;connectable=0;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;strokeColor=#d6b656;" parent="hvvs4cQZUGp6yrlujYdx-7" vertex="1">
+          <mxGeometry x="50" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hvvs4cQZUGp6yrlujYdx-10" value="location" style="shape=table;startSize=40;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;sketch=0;fontFamily=Helvetica;fontSize=32;" parent="Ypj_s7b2-EiT9MXWfg6t-1" vertex="1">
+          <mxGeometry x="40" y="40" width="240" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="hvvs4cQZUGp6yrlujYdx-11" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hvvs4cQZUGp6yrlujYdx-10" vertex="1">
+          <mxGeometry y="40" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hvvs4cQZUGp6yrlujYdx-12" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;fontSize=24;" parent="hvvs4cQZUGp6yrlujYdx-11" vertex="1">
+          <mxGeometry width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hvvs4cQZUGp6yrlujYdx-13" value="location_id" style="shape=partialRectangle;connectable=0;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=1;overflow=hidden;fontSize=24;strokeColor=#d6b656;" parent="hvvs4cQZUGp6yrlujYdx-11" vertex="1">
+          <mxGeometry x="50" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hvvs4cQZUGp6yrlujYdx-14" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hvvs4cQZUGp6yrlujYdx-10" vertex="1">
+          <mxGeometry y="80" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hvvs4cQZUGp6yrlujYdx-15" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" parent="hvvs4cQZUGp6yrlujYdx-14" vertex="1">
+          <mxGeometry width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hvvs4cQZUGp6yrlujYdx-16" value="city" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;" parent="hvvs4cQZUGp6yrlujYdx-14" vertex="1">
+          <mxGeometry x="50" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hvvs4cQZUGp6yrlujYdx-17" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hvvs4cQZUGp6yrlujYdx-10" vertex="1">
+          <mxGeometry y="120" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hvvs4cQZUGp6yrlujYdx-18" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontStyle=1;fontSize=24;" parent="hvvs4cQZUGp6yrlujYdx-17" vertex="1">
+          <mxGeometry width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hvvs4cQZUGp6yrlujYdx-19" value="state" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;" parent="hvvs4cQZUGp6yrlujYdx-17" vertex="1">
+          <mxGeometry x="50" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hvvs4cQZUGp6yrlujYdx-20" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hvvs4cQZUGp6yrlujYdx-10" vertex="1">
+          <mxGeometry y="160" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hvvs4cQZUGp6yrlujYdx-21" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontStyle=1;fontSize=24;" parent="hvvs4cQZUGp6yrlujYdx-20" vertex="1">
+          <mxGeometry width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hvvs4cQZUGp6yrlujYdx-22" value="zip" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;" parent="hvvs4cQZUGp6yrlujYdx-20" vertex="1">
+          <mxGeometry x="50" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hvvs4cQZUGp6yrlujYdx-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=24;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="Ypj_s7b2-EiT9MXWfg6t-1" source="hvvs4cQZUGp6yrlujYdx-7" target="hvvs4cQZUGp6yrlujYdx-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="390" y="175" />
+              <mxPoint x="390" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fhj7NXTYEQWcGh8sQCfK-0" value="q1 = From(person)&lt;br&gt;&lt;div&gt;q2 = From(location)&lt;/div&gt;&lt;div&gt;q3 = q1 |&amp;gt; Join(q2, q1.location_id .== q2.location_id)&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" parent="Ypj_s7b2-EiT9MXWfg6t-1" vertex="1">
+          <mxGeometry x="40" y="320" width="1050" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Gf-5tDtxkHN4yDcORag6-0" value="&lt;div&gt;From(person) |&amp;gt;&lt;/div&gt;&lt;div&gt;Join(From(location) |&amp;gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; As(:location),&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; on = Get.location_id .== Get.location.location_id)&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" parent="Ypj_s7b2-EiT9MXWfg6t-1" vertex="1">
+          <mxGeometry x="40" y="520" width="1070" height="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="eFUld7fMHYtmPaj5HDme" name="Composing Queries">
+    <mxGraphModel dx="4152" dy="2264" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="HA4pj8JuP8W4XiAj8aUi-0" />
+        <mxCell id="HA4pj8JuP8W4XiAj8aUi-1" parent="HA4pj8JuP8W4XiAj8aUi-0" />
+        <mxCell id="HA4pj8JuP8W4XiAj8aUi-2" value="Find patients&lt;br&gt;&lt;ul&gt;&lt;li&gt; born in 1970 or later,&lt;/li&gt;&lt;li&gt;living in Illinois&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Georgia;fontStyle=2" parent="HA4pj8JuP8W4XiAj8aUi-1" vertex="1">
+          <mxGeometry x="40" y="60" width="400" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="UGTjjIKlMxJoP7d9f0Xw-0" value="&lt;ul&gt;&lt;li&gt;Recall that we want to find patients with certain constraints on date of birth and location.&lt;/li&gt;&lt;li&gt;Suppose we are already assembled queries to find patients with appropriate age and locations in Illinois. Then we could use these queries as building blocks to construct a larger query.&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontFamily=Georgia;fontSize=16;align=left;" parent="HA4pj8JuP8W4XiAj8aUi-1" vertex="1">
+          <mxGeometry x="1160" y="40" width="410" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="9l_X4VqL-2-_4b2RRgI--0" value="&lt;div&gt;From(person) |&amp;gt;&lt;/div&gt;&lt;div&gt;Where(Get.year_of_birth .&amp;gt;= 1970)&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" parent="HA4pj8JuP8W4XiAj8aUi-1" vertex="1">
+          <mxGeometry x="40" y="280" width="650" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9l_X4VqL-2-_4b2RRgI--1" value="&lt;div&gt;From(location) |&amp;gt;&lt;/div&gt;&lt;div&gt;Where(Get.state .== &quot;IL&quot;)&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" parent="HA4pj8JuP8W4XiAj8aUi-1" vertex="1">
+          <mxGeometry x="910" y="280" width="500" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="14WORxliDLF-GIZwXnm5-0" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;sketch=0;fontFamily=Helvetica;fontSize=24;rotation=315;" parent="HA4pj8JuP8W4XiAj8aUi-1" vertex="1">
+          <mxGeometry x="430" y="400" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="14WORxliDLF-GIZwXnm5-1" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;sketch=0;fontFamily=Helvetica;fontSize=24;rotation=45;" parent="HA4pj8JuP8W4XiAj8aUi-1" vertex="1">
+          <mxGeometry x="960" y="400" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="14WORxliDLF-GIZwXnm5-2" value="&lt;div&gt;From(person) |&amp;gt;&lt;/div&gt;&lt;div&gt;Where(Get.year_of_birth .&amp;gt;= 1970)&lt;br&gt;Join(:location =&amp;gt; From(location) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Where(Get.state .== &quot;IL&quot;),&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; on = Get.location_id .==&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Get.location.location_id)&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" parent="HA4pj8JuP8W4XiAj8aUi-1" vertex="1">
+          <mxGeometry x="440" y="540" width="860" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="lNYwa36739umqyLZaUP_-0" value="FROM person p" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" parent="HA4pj8JuP8W4XiAj8aUi-1" vertex="1">
+          <mxGeometry x="40" y="960" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lNYwa36739umqyLZaUP_-1" value="FROM person p&lt;br&gt;WHERE p.year_of_birth &amp;gt;= 1950" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" parent="HA4pj8JuP8W4XiAj8aUi-1" vertex="1">
+          <mxGeometry x="40" y="1160" width="570" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lNYwa36739umqyLZaUP_-2" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;sketch=0;fontFamily=Helvetica;fontSize=24;" parent="HA4pj8JuP8W4XiAj8aUi-1" vertex="1">
+          <mxGeometry x="80" y="1030" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="lNYwa36739umqyLZaUP_-3" value="FROM person p&lt;br&gt;WHERE p.year_of_birth &amp;gt;= 1950&lt;br&gt;JOIN location l&lt;br&gt;&amp;nbsp; ON (p.location_id = l.location_id)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" parent="HA4pj8JuP8W4XiAj8aUi-1" vertex="1">
+          <mxGeometry x="40" y="1400" width="710" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="lNYwa36739umqyLZaUP_-4" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;sketch=0;fontFamily=Helvetica;fontSize=24;" parent="HA4pj8JuP8W4XiAj8aUi-1" vertex="1">
+          <mxGeometry x="80" y="1270" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="lNYwa36739umqyLZaUP_-5" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.x;sketch=0;fontFamily=Helvetica;fontSize=24;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" parent="HA4pj8JuP8W4XiAj8aUi-1" vertex="1">
+          <mxGeometry x="200" y="1280" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lNYwa36739umqyLZaUP_-6" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.tick;sketch=0;fontFamily=Helvetica;fontSize=24;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="HA4pj8JuP8W4XiAj8aUi-1" vertex="1">
+          <mxGeometry x="1000" y="1270" width="85" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="lNYwa36739umqyLZaUP_-7" value="From(person) |&amp;gt;&lt;br&gt;Where(Get.year_of_birth .&amp;gt;= 1950) |&amp;gt;&lt;br&gt;&lt;div&gt;Join(:location =&amp;gt; location,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Get.location_id .==&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Get.location.location_id)&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" parent="HA4pj8JuP8W4XiAj8aUi-1" vertex="1">
+          <mxGeometry x="840" y="1400" width="710" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="lNYwa36739umqyLZaUP_-8" value="From(person) |&amp;gt;&lt;br&gt;Where(Get.year_of_birth .&amp;gt;= 1950)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" parent="HA4pj8JuP8W4XiAj8aUi-1" vertex="1">
+          <mxGeometry x="840" y="1160" width="650" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lNYwa36739umqyLZaUP_-9" value="From(person)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" parent="HA4pj8JuP8W4XiAj8aUi-1" vertex="1">
+          <mxGeometry x="840" y="960" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lNYwa36739umqyLZaUP_-10" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;sketch=0;fontFamily=Helvetica;fontSize=24;" parent="HA4pj8JuP8W4XiAj8aUi-1" vertex="1">
+          <mxGeometry x="880" y="1030" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="lNYwa36739umqyLZaUP_-11" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;sketch=0;fontFamily=Helvetica;fontSize=24;" parent="HA4pj8JuP8W4XiAj8aUi-1" vertex="1">
+          <mxGeometry x="880" y="1270" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="l4b3vDKGQtEtRondhwgf-0" value="&lt;ul&gt;&lt;li&gt;However if you know SQL, you may be confused by this query. This is because it is not clear what is the corresponding SQL.&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontFamily=Georgia;fontSize=16;align=left;" parent="HA4pj8JuP8W4XiAj8aUi-1" vertex="1">
+          <mxGeometry x="1160" y="740" width="400" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="l4b3vDKGQtEtRondhwgf-1" value="&lt;ul&gt;&lt;li&gt;In fact, in SQL, the operations have rigid order, FROM followed by JOINs, then WHERE, GROUP BY, HAVING, ORDER BY.&lt;/li&gt;&lt;li&gt;FunSQL, on the other hand, doesn&#39;t have this restriction. You can apply operations in any order required by the query logic. There is not syntactic restrictions.&lt;/li&gt;&lt;li&gt;However, how does it work? We know that FunSQL must, at the end, render a SQL query. So what query does it generate?&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontFamily=Georgia;fontSize=16;align=left;" parent="HA4pj8JuP8W4XiAj8aUi-1" vertex="1">
+          <mxGeometry x="1160" y="960" width="400" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="MihgmTs8AQU1rKgv1EpS-0" value="&lt;ul&gt;&lt;li&gt;SQL only support a fixed order of operations: FROM, JOINs, WHERE, GROUP BY, HAVING, etc.&lt;/li&gt;&lt;li&gt;But at any point, you could restart the query assembly by putting the whole query inside a FROM block.&lt;/li&gt;&lt;li&gt;Then you could apply operations again.&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fontFamily=Georgia;fontSize=16;align=left;" parent="HA4pj8JuP8W4XiAj8aUi-1" vertex="1">
+          <mxGeometry x="1160" y="1840" width="400" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="MihgmTs8AQU1rKgv1EpS-1" value="&lt;div&gt;SELECT ...&lt;br&gt;&lt;/div&gt;&lt;div&gt;FROM ...&lt;/div&gt;&lt;div&gt;JOIN ...&lt;/div&gt;&lt;div&gt;WHERE ...&lt;/div&gt;&lt;div&gt;...&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" parent="HA4pj8JuP8W4XiAj8aUi-1" vertex="1">
+          <mxGeometry x="40" y="2040" width="210" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="MihgmTs8AQU1rKgv1EpS-2" value="FROM ..." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" parent="HA4pj8JuP8W4XiAj8aUi-1" vertex="1">
+          <mxGeometry x="40" y="1840" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MihgmTs8AQU1rKgv1EpS-3" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;sketch=0;fontFamily=Helvetica;fontSize=24;" parent="HA4pj8JuP8W4XiAj8aUi-1" vertex="1">
+          <mxGeometry x="80" y="1910" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="MihgmTs8AQU1rKgv1EpS-4" value="&lt;div&gt;FROM (&lt;/div&gt;&lt;div&gt;&amp;nbsp; SELECT ...&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; FROM ...&lt;/div&gt;&lt;div&gt;&amp;nbsp; JOIN ...&lt;/div&gt;&lt;div&gt;&amp;nbsp; WHERE ...&lt;br&gt;&amp;nbsp; ...)&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" parent="HA4pj8JuP8W4XiAj8aUi-1" vertex="1">
+          <mxGeometry x="40" y="2400" width="250" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="MihgmTs8AQU1rKgv1EpS-5" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;sketch=0;fontFamily=Helvetica;fontSize=24;" parent="HA4pj8JuP8W4XiAj8aUi-1" vertex="1">
+          <mxGeometry x="80" y="2270" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="MihgmTs8AQU1rKgv1EpS-6" value="&lt;div&gt;From(person)&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" parent="HA4pj8JuP8W4XiAj8aUi-1" vertex="1">
+          <mxGeometry x="40" y="2760" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MihgmTs8AQU1rKgv1EpS-8" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; |&amp;gt;&lt;br&gt;Where(Get.year_of_birth .&amp;gt;= 1970)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" parent="HA4pj8JuP8W4XiAj8aUi-1" vertex="1">
+          <mxGeometry x="40" y="2880" width="650" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MihgmTs8AQU1rKgv1EpS-10" value="&lt;div style=&quot;font-size: 32px;&quot;&gt;SELECT _______&lt;/div&gt;&lt;div style=&quot;font-size: 32px;&quot;&gt;FROM person&lt;br style=&quot;font-size: 32px;&quot;&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Courier New;fontSize=32;" parent="HA4pj8JuP8W4XiAj8aUi-1" vertex="1">
+          <mxGeometry x="840" y="2760" width="380" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MihgmTs8AQU1rKgv1EpS-11" value="&lt;div style=&quot;font-size: 32px&quot;&gt;SELECT _______&lt;/div&gt;&lt;div style=&quot;font-size: 32px&quot;&gt;FROM (&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; ) p&lt;/div&gt;&lt;div style=&quot;font-size: 32px&quot;&gt;WHERE p.year_of_birth &amp;gt;= 1970&lt;br style=&quot;font-size: 32px&quot;&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Courier New;fontSize=32;" parent="HA4pj8JuP8W4XiAj8aUi-1" vertex="1">
+          <mxGeometry x="840" y="2880" width="600" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="MihgmTs8AQU1rKgv1EpS-12" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Courier New;fontSize=32;align=left;dashed=1;strokeWidth=2;" parent="HA4pj8JuP8W4XiAj8aUi-1" vertex="1">
+          <mxGeometry x="960" y="2920" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MihgmTs8AQU1rKgv1EpS-13" value="&lt;div&gt;From(location)&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" parent="HA4pj8JuP8W4XiAj8aUi-1" vertex="1">
+          <mxGeometry x="40" y="3040" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MihgmTs8AQU1rKgv1EpS-14" value="&lt;div style=&quot;font-size: 32px&quot;&gt;SELECT _______&lt;/div&gt;&lt;div style=&quot;font-size: 32px&quot;&gt;FROM location&lt;br style=&quot;font-size: 32px&quot;&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Courier New;fontSize=32;" parent="HA4pj8JuP8W4XiAj8aUi-1" vertex="1">
+          <mxGeometry x="840" y="3040" width="380" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MihgmTs8AQU1rKgv1EpS-15" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Courier New;fontSize=32;align=left;dashed=1;strokeWidth=2;" parent="HA4pj8JuP8W4XiAj8aUi-1" vertex="1">
+          <mxGeometry x="40" y="2880" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MihgmTs8AQU1rKgv1EpS-16" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; |&amp;gt;&lt;br&gt;Where(Get.state .== &quot;IL&quot;)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" parent="HA4pj8JuP8W4XiAj8aUi-1" vertex="1">
+          <mxGeometry x="40" y="3160" width="500" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MihgmTs8AQU1rKgv1EpS-17" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Courier New;fontSize=32;align=left;dashed=1;strokeWidth=2;" parent="HA4pj8JuP8W4XiAj8aUi-1" vertex="1">
+          <mxGeometry x="40" y="3160" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MihgmTs8AQU1rKgv1EpS-19" value="&lt;div style=&quot;font-size: 32px&quot;&gt;SELECT _______&lt;/div&gt;&lt;div style=&quot;font-size: 32px&quot;&gt;FROM (&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; ) l&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 32px&quot;&gt;WHERE l.state = &#39;IL&#39;&lt;br style=&quot;font-size: 32px&quot;&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Courier New;fontSize=32;" parent="HA4pj8JuP8W4XiAj8aUi-1" vertex="1">
+          <mxGeometry x="840" y="3160" width="600" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="MihgmTs8AQU1rKgv1EpS-20" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Courier New;fontSize=32;align=left;dashed=1;strokeWidth=2;" parent="HA4pj8JuP8W4XiAj8aUi-1" vertex="1">
+          <mxGeometry x="960" y="3200" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MihgmTs8AQU1rKgv1EpS-21" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp; |&amp;gt;&lt;br&gt;&lt;div&gt;Join(:location =&amp;gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; ,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Get.location_id .==&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Get.location.location_id)&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" parent="HA4pj8JuP8W4XiAj8aUi-1" vertex="1">
+          <mxGeometry x="40" y="3320" width="670" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="MihgmTs8AQU1rKgv1EpS-22" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Courier New;fontSize=32;align=left;dashed=1;strokeWidth=2;" parent="HA4pj8JuP8W4XiAj8aUi-1" vertex="1">
+          <mxGeometry x="40" y="3320" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MihgmTs8AQU1rKgv1EpS-23" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Courier New;fontSize=32;align=left;dashed=1;strokeWidth=2;" parent="HA4pj8JuP8W4XiAj8aUi-1" vertex="1">
+          <mxGeometry x="380" y="3360" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MihgmTs8AQU1rKgv1EpS-24" value="&lt;div style=&quot;font-size: 32px&quot;&gt;SELECT _______&lt;/div&gt;&lt;div style=&quot;font-size: 32px&quot;&gt;FROM (&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; ) p&lt;br&gt;JOIN (&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; ) l&lt;br&gt;&amp;nbsp; ON p.location_id =&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; l.location_id&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Courier New;fontSize=32;" parent="HA4pj8JuP8W4XiAj8aUi-1" vertex="1">
+          <mxGeometry x="840" y="3320" width="600" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="MihgmTs8AQU1rKgv1EpS-25" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Courier New;fontSize=32;align=left;dashed=1;strokeWidth=2;" parent="HA4pj8JuP8W4XiAj8aUi-1" vertex="1">
+          <mxGeometry x="960" y="3360" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MihgmTs8AQU1rKgv1EpS-26" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Courier New;fontSize=32;align=left;dashed=1;strokeWidth=2;" parent="HA4pj8JuP8W4XiAj8aUi-1" vertex="1">
+          <mxGeometry x="960" y="3400" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MihgmTs8AQU1rKgv1EpS-27" value="&lt;div style=&quot;font-size: 32px;&quot;&gt;SELECT _______&lt;/div&gt;&lt;div style=&quot;font-size: 32px;&quot;&gt;FROM person&lt;br style=&quot;font-size: 32px;&quot;&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Courier New;fontSize=32;" parent="HA4pj8JuP8W4XiAj8aUi-1" vertex="1">
+          <mxGeometry x="150" y="3640" width="380" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MihgmTs8AQU1rKgv1EpS-28" value="&lt;div style=&quot;font-size: 32px&quot;&gt;SELECT _______&lt;/div&gt;&lt;div style=&quot;font-size: 32px&quot;&gt;FROM (&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; ) p&lt;/div&gt;&lt;div style=&quot;font-size: 32px&quot;&gt;WHERE p.year_of_birth &amp;gt;= 1970&lt;br style=&quot;font-size: 32px&quot;&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Courier New;fontSize=32;" parent="HA4pj8JuP8W4XiAj8aUi-1" vertex="1">
+          <mxGeometry x="40" y="3800" width="600" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="MihgmTs8AQU1rKgv1EpS-29" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Courier New;fontSize=32;align=left;dashed=1;strokeWidth=2;" parent="HA4pj8JuP8W4XiAj8aUi-1" vertex="1">
+          <mxGeometry x="160" y="3840" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MihgmTs8AQU1rKgv1EpS-30" value="&lt;div style=&quot;font-size: 32px&quot;&gt;SELECT _______&lt;/div&gt;&lt;div style=&quot;font-size: 32px&quot;&gt;FROM location&lt;br style=&quot;font-size: 32px&quot;&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Courier New;fontSize=32;" parent="HA4pj8JuP8W4XiAj8aUi-1" vertex="1">
+          <mxGeometry x="950" y="3640" width="380" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MihgmTs8AQU1rKgv1EpS-31" value="&lt;div style=&quot;font-size: 32px&quot;&gt;SELECT _______&lt;/div&gt;&lt;div style=&quot;font-size: 32px&quot;&gt;FROM (&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; ) l&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 32px&quot;&gt;WHERE l.state = &#39;IL&#39;&lt;br style=&quot;font-size: 32px&quot;&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Courier New;fontSize=32;" parent="HA4pj8JuP8W4XiAj8aUi-1" vertex="1">
+          <mxGeometry x="840" y="3800" width="600" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="MihgmTs8AQU1rKgv1EpS-32" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Courier New;fontSize=32;align=left;dashed=1;strokeWidth=2;" parent="HA4pj8JuP8W4XiAj8aUi-1" vertex="1">
+          <mxGeometry x="960" y="3840" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MihgmTs8AQU1rKgv1EpS-33" value="&lt;div style=&quot;font-size: 32px&quot;&gt;SELECT _______&lt;/div&gt;&lt;div style=&quot;font-size: 32px&quot;&gt;FROM (&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; ) p&lt;br&gt;JOIN (&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; ) l&lt;br&gt;&amp;nbsp; ON p.location_id =&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; l.location_id&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Courier New;fontSize=32;" parent="HA4pj8JuP8W4XiAj8aUi-1" vertex="1">
+          <mxGeometry x="400" y="4000" width="600" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="MihgmTs8AQU1rKgv1EpS-34" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Courier New;fontSize=32;align=left;dashed=1;strokeWidth=2;" parent="HA4pj8JuP8W4XiAj8aUi-1" vertex="1">
+          <mxGeometry x="520" y="4040" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MihgmTs8AQU1rKgv1EpS-35" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Courier New;fontSize=32;align=left;dashed=1;strokeWidth=2;" parent="HA4pj8JuP8W4XiAj8aUi-1" vertex="1">
+          <mxGeometry x="520" y="4080" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MihgmTs8AQU1rKgv1EpS-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Courier New;fontSize=32;curved=1;" parent="HA4pj8JuP8W4XiAj8aUi-1" source="MihgmTs8AQU1rKgv1EpS-27" target="MihgmTs8AQU1rKgv1EpS-29" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MihgmTs8AQU1rKgv1EpS-37" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Courier New;fontSize=32;" parent="HA4pj8JuP8W4XiAj8aUi-1" source="MihgmTs8AQU1rKgv1EpS-30" target="MihgmTs8AQU1rKgv1EpS-32" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MihgmTs8AQU1rKgv1EpS-38" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Courier New;fontSize=32;" parent="HA4pj8JuP8W4XiAj8aUi-1" source="MihgmTs8AQU1rKgv1EpS-28" target="MihgmTs8AQU1rKgv1EpS-34" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MihgmTs8AQU1rKgv1EpS-39" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Courier New;fontSize=32;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="HA4pj8JuP8W4XiAj8aUi-1" source="MihgmTs8AQU1rKgv1EpS-31" target="MihgmTs8AQU1rKgv1EpS-35" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MihgmTs8AQU1rKgv1EpS-40" value="&lt;div style=&quot;font-size: 32px&quot;&gt;SELECT p.person_id&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 32px&quot;&gt;FROM (&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; ) p&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Courier New;fontSize=32;" parent="HA4pj8JuP8W4XiAj8aUi-1" vertex="1">
+          <mxGeometry x="400" y="4280" width="610" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MihgmTs8AQU1rKgv1EpS-41" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Courier New;fontSize=32;align=left;dashed=1;strokeWidth=2;" parent="HA4pj8JuP8W4XiAj8aUi-1" vertex="1">
+          <mxGeometry x="520" y="4320" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MihgmTs8AQU1rKgv1EpS-42" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Courier New;fontSize=32;" parent="HA4pj8JuP8W4XiAj8aUi-1" source="MihgmTs8AQU1rKgv1EpS-33" target="MihgmTs8AQU1rKgv1EpS-41" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MihgmTs8AQU1rKgv1EpS-43" value="&lt;div style=&quot;font-size: 32px&quot;&gt;SELECT person_id, location_id,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; year_of_birth&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 32px&quot;&gt;FROM person&lt;br style=&quot;font-size: 32px&quot;&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Courier New;fontSize=32;" parent="HA4pj8JuP8W4XiAj8aUi-1" vertex="1">
+          <mxGeometry x="40" y="4530" width="680" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="MihgmTs8AQU1rKgv1EpS-44" value="&lt;div style=&quot;font-size: 32px&quot;&gt;SELECT p.person_id, p.location_id&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 32px&quot;&gt;FROM (&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; ) p&lt;/div&gt;&lt;div style=&quot;font-size: 32px&quot;&gt;WHERE p.year_of_birth &amp;gt;= 1970&lt;br style=&quot;font-size: 32px&quot;&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Courier New;fontSize=32;" parent="HA4pj8JuP8W4XiAj8aUi-1" vertex="1">
+          <mxGeometry x="40" y="4720" width="680" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="MihgmTs8AQU1rKgv1EpS-45" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Courier New;fontSize=32;align=left;dashed=1;strokeWidth=2;" parent="HA4pj8JuP8W4XiAj8aUi-1" vertex="1">
+          <mxGeometry x="160" y="4760" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MihgmTs8AQU1rKgv1EpS-46" value="&lt;div style=&quot;font-size: 32px&quot;&gt;SELECT location_id, state&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 32px&quot;&gt;FROM location&lt;br style=&quot;font-size: 32px&quot;&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Courier New;fontSize=32;" parent="HA4pj8JuP8W4XiAj8aUi-1" vertex="1">
+          <mxGeometry x="840" y="4560" width="600" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MihgmTs8AQU1rKgv1EpS-47" value="&lt;div style=&quot;font-size: 32px&quot;&gt;SELECT l.location_id&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 32px&quot;&gt;FROM (&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; ) l&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 32px&quot;&gt;WHERE l.state = &#39;IL&#39;&lt;br style=&quot;font-size: 32px&quot;&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Courier New;fontSize=32;" parent="HA4pj8JuP8W4XiAj8aUi-1" vertex="1">
+          <mxGeometry x="840" y="4720" width="600" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="MihgmTs8AQU1rKgv1EpS-48" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Courier New;fontSize=32;align=left;dashed=1;strokeWidth=2;" parent="HA4pj8JuP8W4XiAj8aUi-1" vertex="1">
+          <mxGeometry x="960" y="4760" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MihgmTs8AQU1rKgv1EpS-49" value="&lt;div style=&quot;font-size: 32px&quot;&gt;SELECT p.person_id&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 32px&quot;&gt;FROM (&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; ) p&lt;br&gt;JOIN (&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; ) l&lt;br&gt;&amp;nbsp; ON p.location_id =&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; l.location_id&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Courier New;fontSize=32;" parent="HA4pj8JuP8W4XiAj8aUi-1" vertex="1">
+          <mxGeometry x="400" y="4920" width="600" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="MihgmTs8AQU1rKgv1EpS-50" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Courier New;fontSize=32;align=left;dashed=1;strokeWidth=2;" parent="HA4pj8JuP8W4XiAj8aUi-1" vertex="1">
+          <mxGeometry x="520" y="4960" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MihgmTs8AQU1rKgv1EpS-51" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Courier New;fontSize=32;align=left;dashed=1;strokeWidth=2;" parent="HA4pj8JuP8W4XiAj8aUi-1" vertex="1">
+          <mxGeometry x="520" y="5000" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MihgmTs8AQU1rKgv1EpS-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Courier New;fontSize=32;curved=1;" parent="HA4pj8JuP8W4XiAj8aUi-1" source="MihgmTs8AQU1rKgv1EpS-43" target="MihgmTs8AQU1rKgv1EpS-45" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MihgmTs8AQU1rKgv1EpS-53" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Courier New;fontSize=32;" parent="HA4pj8JuP8W4XiAj8aUi-1" source="MihgmTs8AQU1rKgv1EpS-46" target="MihgmTs8AQU1rKgv1EpS-48" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MihgmTs8AQU1rKgv1EpS-54" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Courier New;fontSize=32;" parent="HA4pj8JuP8W4XiAj8aUi-1" source="MihgmTs8AQU1rKgv1EpS-44" target="MihgmTs8AQU1rKgv1EpS-50" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MihgmTs8AQU1rKgv1EpS-55" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Courier New;fontSize=32;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="HA4pj8JuP8W4XiAj8aUi-1" source="MihgmTs8AQU1rKgv1EpS-47" target="MihgmTs8AQU1rKgv1EpS-51" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MihgmTs8AQU1rKgv1EpS-56" value="&lt;div style=&quot;font-size: 32px&quot;&gt;SELECT p.person_id&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 32px&quot;&gt;FROM (&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; ) p&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=Courier New;fontSize=32;" parent="HA4pj8JuP8W4XiAj8aUi-1" vertex="1">
+          <mxGeometry x="400" y="5200" width="610" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MihgmTs8AQU1rKgv1EpS-57" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Courier New;fontSize=32;align=left;dashed=1;strokeWidth=2;" parent="HA4pj8JuP8W4XiAj8aUi-1" vertex="1">
+          <mxGeometry x="520" y="5240" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MihgmTs8AQU1rKgv1EpS-58" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Courier New;fontSize=32;" parent="HA4pj8JuP8W4XiAj8aUi-1" source="MihgmTs8AQU1rKgv1EpS-49" target="MihgmTs8AQU1rKgv1EpS-57" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="hOj62wmjaOXXZqigd2O0" name="Aggregates">
+    <mxGraphModel dx="2076" dy="1132" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="MNqDUU_tDwApxBnKyp9r-0" />
+        <mxCell id="MNqDUU_tDwApxBnKyp9r-1" parent="MNqDUU_tDwApxBnKyp9r-0" />
+        <mxCell id="7_s8-GsvjAYPG5Mkk21z-0" value="Number of patients by year of birth." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Georgia;fontStyle=2" parent="MNqDUU_tDwApxBnKyp9r-1" vertex="1">
+          <mxGeometry x="40" y="40" width="600" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m0QWjzwbcSnKcNSvyQdL-0" value="FROM person p" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" parent="MNqDUU_tDwApxBnKyp9r-1" vertex="1">
+          <mxGeometry x="40" y="120" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m0QWjzwbcSnKcNSvyQdL-1" value="FROM person p&lt;br&gt;GROUP BY p.year_of_birth" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" parent="MNqDUU_tDwApxBnKyp9r-1" vertex="1">
+          <mxGeometry x="40" y="320" width="480" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="m0QWjzwbcSnKcNSvyQdL-2" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;sketch=0;fontFamily=Helvetica;fontSize=24;" parent="MNqDUU_tDwApxBnKyp9r-1" vertex="1">
+          <mxGeometry x="80" y="190" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="m0QWjzwbcSnKcNSvyQdL-3" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;sketch=0;fontFamily=Helvetica;fontSize=24;" parent="MNqDUU_tDwApxBnKyp9r-1" vertex="1">
+          <mxGeometry x="80" y="430" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="m0QWjzwbcSnKcNSvyQdL-4" value="SELECT p.year_of_birth, COUNT(*)&lt;br&gt;FROM person p&lt;br&gt;GROUP BY p.year_of_birth" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" parent="MNqDUU_tDwApxBnKyp9r-1" vertex="1">
+          <mxGeometry x="40" y="560" width="630" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="m0QWjzwbcSnKcNSvyQdL-5" value="From(person) |&amp;gt;&lt;br&gt;Group(Get.year_of_birth) |&amp;gt;&lt;br&gt;Select(Get.year_of_birth, Agg.count())" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" parent="MNqDUU_tDwApxBnKyp9r-1" vertex="1">
+          <mxGeometry x="840" y="560" width="750" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="m0QWjzwbcSnKcNSvyQdL-6" value="From(person) |&amp;gt;&lt;br&gt;Group(Get.year_of_birth)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" parent="MNqDUU_tDwApxBnKyp9r-1" vertex="1">
+          <mxGeometry x="840" y="320" width="480" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="m0QWjzwbcSnKcNSvyQdL-7" value="From(person)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" parent="MNqDUU_tDwApxBnKyp9r-1" vertex="1">
+          <mxGeometry x="840" y="120" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m0QWjzwbcSnKcNSvyQdL-8" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;sketch=0;fontFamily=Helvetica;fontSize=24;" parent="MNqDUU_tDwApxBnKyp9r-1" vertex="1">
+          <mxGeometry x="880" y="190" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="m0QWjzwbcSnKcNSvyQdL-9" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;sketch=0;fontFamily=Helvetica;fontSize=24;" parent="MNqDUU_tDwApxBnKyp9r-1" vertex="1">
+          <mxGeometry x="880" y="430" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="m0QWjzwbcSnKcNSvyQdL-10" value="Total number of patients." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Georgia;fontStyle=2" parent="MNqDUU_tDwApxBnKyp9r-1" vertex="1">
+          <mxGeometry x="40" y="960" width="430" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m0QWjzwbcSnKcNSvyQdL-15" value="SELECT COUNT(*)&lt;br&gt;FROM person p" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" parent="MNqDUU_tDwApxBnKyp9r-1" vertex="1">
+          <mxGeometry x="40" y="1040" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="m0QWjzwbcSnKcNSvyQdL-16" value="From(person) |&amp;gt;&lt;br&gt;Group() |&amp;gt;&lt;br&gt;Select(Agg.count())" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" parent="MNqDUU_tDwApxBnKyp9r-1" vertex="1">
+          <mxGeometry x="840" y="1040" width="380" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="m0QWjzwbcSnKcNSvyQdL-21" value="Date of the latest visit for each patient." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Georgia;fontStyle=2" parent="MNqDUU_tDwApxBnKyp9r-1" vertex="1">
+          <mxGeometry x="40" y="1840" width="650" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m0QWjzwbcSnKcNSvyQdL-22" value="From(visit_occurrence) |&amp;gt;&lt;br&gt;Group(Get.person_id)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" parent="MNqDUU_tDwApxBnKyp9r-1" vertex="1">
+          <mxGeometry x="720" y="1920" width="500" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="m0QWjzwbcSnKcNSvyQdL-23" value="From(person)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" parent="MNqDUU_tDwApxBnKyp9r-1" vertex="1">
+          <mxGeometry x="40" y="1920" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m0QWjzwbcSnKcNSvyQdL-24" value="From(person) |&amp;gt;&lt;br&gt;Join(:visit_group =&amp;gt; From(visit_occurrence) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Group(Get.person_id),&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; on = Get.person_id .== Get.visit_group.person_id)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" parent="MNqDUU_tDwApxBnKyp9r-1" vertex="1">
+          <mxGeometry x="160" y="2160" width="1050" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="48MNPOEA-d6yBGueKAtg-0" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;sketch=0;fontFamily=Helvetica;fontSize=24;rotation=315;" parent="MNqDUU_tDwApxBnKyp9r-1" vertex="1">
+          <mxGeometry x="190" y="2030" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="XtkGJThg9Xj1jXj05cyy-0" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;sketch=0;fontFamily=Helvetica;fontSize=24;rotation=45;" parent="MNqDUU_tDwApxBnKyp9r-1" vertex="1">
+          <mxGeometry x="770" y="2030" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="XtkGJThg9Xj1jXj05cyy-1" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;sketch=0;fontFamily=Helvetica;fontSize=24;" parent="MNqDUU_tDwApxBnKyp9r-1" vertex="1">
+          <mxGeometry x="540" y="2345" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="XtkGJThg9Xj1jXj05cyy-2" value="From(person) |&amp;gt;&lt;br&gt;Join(:visit_group =&amp;gt; From(visit_occurrence) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Group(Get.person_id),&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; on = Get.person_id .== Get.visit_group.person_id) |&amp;gt;&lt;br&gt;Select(Get.person_id,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Get.visit_group |&amp;gt; Agg.max(Get.visit_start_date))" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" parent="MNqDUU_tDwApxBnKyp9r-1" vertex="1">
+          <mxGeometry x="160" y="2445" width="1110" height="230" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="R1fTFBBU9DZx2D_gH2YF" name="Query with Parameters">
+    <mxGraphModel dx="2076" dy="1132" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="T3w1QjCztVdq5HRUCEPC-0" />
+        <mxCell id="T3w1QjCztVdq5HRUCEPC-1" parent="T3w1QjCztVdq5HRUCEPC-0" />
+        <mxCell id="iPaurdPljwHjYJMdti2H-0" value="Find all patients born in $YEAR or later." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Georgia;fontStyle=2" parent="T3w1QjCztVdq5HRUCEPC-1" vertex="1">
+          <mxGeometry x="40" y="40" width="670" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kpjeHebbQ2BQApLcMdEw-0" value="sql = &quot;&quot;&quot;&lt;br&gt;SELECT p.person_id&lt;br&gt;FROM person p&lt;br&gt;WHERE p.year_of_birth &amp;gt;= :YEAR&lt;br&gt;&quot;&quot;&quot;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" parent="T3w1QjCztVdq5HRUCEPC-1" vertex="1">
+          <mxGeometry x="40" y="120" width="590" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="kpjeHebbQ2BQApLcMdEw-1" value="DBInterface.execute(sql, params)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" parent="T3w1QjCztVdq5HRUCEPC-1" vertex="1">
+          <mxGeometry x="400" y="440" width="630" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kpjeHebbQ2BQApLcMdEw-2" value="q = From(person) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Where(Get.year_of_birth .&amp;gt;= Var.YEAR) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Select(Get.person_id)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" parent="T3w1QjCztVdq5HRUCEPC-1" vertex="1">
+          <mxGeometry x="720" y="120" width="860" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="kpjeHebbQ2BQApLcMdEw-3" value="params = (YEAR = 1970,)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" parent="T3w1QjCztVdq5HRUCEPC-1" vertex="1">
+          <mxGeometry x="40" y="360" width="460" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kpjeHebbQ2BQApLcMdEw-4" value="sql = render(q, dialect = :sqlite)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" parent="T3w1QjCztVdq5HRUCEPC-1" vertex="1">
+          <mxGeometry x="720" y="280" width="670" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kpjeHebbQ2BQApLcMdEw-5" value="params = pack(sql, (YEAR = 1970,))" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" parent="T3w1QjCztVdq5HRUCEPC-1" vertex="1">
+          <mxGeometry x="720" y="360" width="670" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="LZZQQU3TNVac6KJZE3G5" name="Correlated Queries">
+    <mxGraphModel dx="2076" dy="1132" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="locZUtsa0_QTWWFvm6JY-0" />
+        <mxCell id="locZUtsa0_QTWWFvm6JY-1" parent="locZUtsa0_QTWWFvm6JY-0" />
+        <mxCell id="95y6oLutxb3iAjXGda9E-0" value="Find visits where the patient&lt;br&gt; was diagnosed with essential hypertension." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Georgia;fontStyle=2" parent="locZUtsa0_QTWWFvm6JY-1" vertex="1">
+          <mxGeometry x="40" y="40" width="720" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5TxcQ5g0mU4bJnOg4kdG-0" value="SELECT c.patient_id,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; c.condition_start_date&lt;br&gt;&lt;div&gt;FROM condition_occurrence c&lt;/div&gt;&lt;div&gt;WHERE c.condition_concept_id = 320128&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" parent="locZUtsa0_QTWWFvm6JY-1" vertex="1">
+          <mxGeometry x="40" y="240" width="730" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="5TxcQ5g0mU4bJnOg4kdG-1" value="Diagnosis of essential hypertension." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Georgia;fontStyle=2" parent="locZUtsa0_QTWWFvm6JY-1" vertex="1">
+          <mxGeometry x="40" y="160" width="600" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5TxcQ5g0mU4bJnOg4kdG-2" value="SELECT v.patient_id,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; v.visit_start_date,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; v.visit_end_date&lt;br&gt;&lt;div&gt;FROM visit_occurrence v&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" parent="locZUtsa0_QTWWFvm6JY-1" vertex="1">
+          <mxGeometry x="880" y="240" width="510" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="5TxcQ5g0mU4bJnOg4kdG-3" value="Visit to a healthcare provider." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Georgia;fontStyle=2" parent="locZUtsa0_QTWWFvm6JY-1" vertex="1">
+          <mxGeometry x="880" y="160" width="500" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5TxcQ5g0mU4bJnOg4kdG-4" value="Visit correlated with the diagnosis of essential hypertension." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Georgia;fontStyle=2" parent="locZUtsa0_QTWWFvm6JY-1" vertex="1">
+          <mxGeometry x="40" y="440" width="1000" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5TxcQ5g0mU4bJnOg4kdG-5" value="SELECT v.patient_id, v.visit_start_date, v.visit_end_date&lt;br&gt;&lt;div&gt;FROM visit_occurrence v&lt;br&gt;WHERE EXISTS(SELECT NULL&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; FROM condition_occurrence c&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp; WHERE c.condition_concept_id = 320128 AND&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp; v.person_id = c.person_id AND&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp; c.condition_start_date &amp;gt;= v.visit_start_date AND&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp; c.condition_start_date &amp;lt;= v.visit_end_date)&amp;nbsp; &lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" parent="locZUtsa0_QTWWFvm6JY-1" vertex="1">
+          <mxGeometry x="40" y="520" width="1300" height="310" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="SctUBcWRuionpX3PtG70" name="Gaps">
+    <mxGraphModel dx="1038" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="2lwiM-6Nu7xfV1LdHK8m-0" />
+        <mxCell id="2lwiM-6Nu7xfV1LdHK8m-1" parent="2lwiM-6Nu7xfV1LdHK8m-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
