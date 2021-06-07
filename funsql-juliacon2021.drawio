@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-07T01:09:03.886Z" agent="5.0 (X11)" etag="gmltyHASf1fMWDAMnMnz" version="14.7.6" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-06-07T02:40:00.114Z" agent="5.0 (X11)" etag="zSQF3zfznIrsOwLFDiZg" version="14.7.6" type="github" pages="12">
   <diagram id="zXgXc9X_TnR75USzf0Vz" name="Title">
     <mxGraphModel dx="2638" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
@@ -854,6 +854,43 @@
         <mxCell id="kpjeHebbQ2BQApLcMdEw-5" value="params = pack(sql, (YEAR = 1970,))" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" vertex="1" parent="T3w1QjCztVdq5HRUCEPC-1">
           <mxGeometry x="720" y="360" width="670" height="40" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="LZZQQU3TNVac6KJZE3G5" name="Correlated Queries">
+    <mxGraphModel dx="2595" dy="1415" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="locZUtsa0_QTWWFvm6JY-0" />
+        <mxCell id="locZUtsa0_QTWWFvm6JY-1" parent="locZUtsa0_QTWWFvm6JY-0" />
+        <mxCell id="95y6oLutxb3iAjXGda9E-0" value="Find visits where the patient&lt;br&gt; was diagnosed with essential hypertension." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Georgia;fontStyle=2" vertex="1" parent="locZUtsa0_QTWWFvm6JY-1">
+          <mxGeometry x="40" y="40" width="720" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5TxcQ5g0mU4bJnOg4kdG-0" value="SELECT c.patient_id,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; c.condition_start_date&lt;br&gt;&lt;div&gt;FROM condition_occurrence c&lt;/div&gt;&lt;div&gt;WHERE c.condition_concept_id = 320128&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" vertex="1" parent="locZUtsa0_QTWWFvm6JY-1">
+          <mxGeometry x="40" y="240" width="730" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="5TxcQ5g0mU4bJnOg4kdG-1" value="Diagnosis of essential hypertension." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Georgia;fontStyle=2" vertex="1" parent="locZUtsa0_QTWWFvm6JY-1">
+          <mxGeometry x="40" y="160" width="600" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5TxcQ5g0mU4bJnOg4kdG-2" value="SELECT v.patient_id,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; v.visit_start_date,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; v.visit_end_date&lt;br&gt;&lt;div&gt;FROM visit_occurrence v&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" vertex="1" parent="locZUtsa0_QTWWFvm6JY-1">
+          <mxGeometry x="880" y="240" width="510" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="5TxcQ5g0mU4bJnOg4kdG-3" value="Visit to a healthcare provider." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Georgia;fontStyle=2" vertex="1" parent="locZUtsa0_QTWWFvm6JY-1">
+          <mxGeometry x="880" y="160" width="500" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5TxcQ5g0mU4bJnOg4kdG-4" value="Visit correlated with the diagnosis of essential hypertension." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Georgia;fontStyle=2" vertex="1" parent="locZUtsa0_QTWWFvm6JY-1">
+          <mxGeometry x="40" y="440" width="1000" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5TxcQ5g0mU4bJnOg4kdG-5" value="SELECT v.patient_id, v.visit_start_date, v.visit_end_date&lt;br&gt;&lt;div&gt;FROM visit_occurrence v&lt;br&gt;WHERE EXISTS(SELECT NULL&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; FROM condition_occurrence c&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp; WHERE c.condition_concept_id = 320128 AND&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp; v.person_id = c.person_id AND&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp; c.condition_start_date &amp;gt;= v.visit_start_date AND&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp; c.condition_start_date &amp;lt;= v.visit_end_date)&amp;nbsp; &lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Courier New;" vertex="1" parent="locZUtsa0_QTWWFvm6JY-1">
+          <mxGeometry x="40" y="520" width="1300" height="310" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="SctUBcWRuionpX3PtG70" name="Gaps">
+    <mxGraphModel dx="1038" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="2lwiM-6Nu7xfV1LdHK8m-0" />
+        <mxCell id="2lwiM-6Nu7xfV1LdHK8m-1" parent="2lwiM-6Nu7xfV1LdHK8m-0" />
       </root>
     </mxGraphModel>
   </diagram>
