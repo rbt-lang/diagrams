@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-07T16:30:24.842Z" agent="5.0 (X11)" etag="xSWkcbHFKcxCGaddIDWc" version="14.7.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-06-07T16:47:29.572Z" agent="5.0 (X11)" etag="zubryGVVCF71eM0DCHmw" version="14.7.6" type="github" pages="2">
   <diagram id="ngdmywiYoB712Vu0CHRt" name="Title">
     <mxGraphModel dx="2966" dy="1617" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
@@ -20,7 +20,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Why FunSQL?" id="dfdD1iDO_3xXHZGz8lDK">
-    <mxGraphModel dx="2076" dy="1132" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="1730" dy="943" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="eD3fXNo9wMKI3Vn864ez-0" />
         <mxCell id="eD3fXNo9wMKI3Vn864ez-1" parent="eD3fXNo9wMKI3Vn864ez-0" />
@@ -31,7 +31,7 @@
           <mxGeometry x="60" y="180" width="570" height="315" as="geometry" />
         </mxCell>
         <mxCell id="eD3fXNo9wMKI3Vn864ez-13" value="" style="group" vertex="1" connectable="0" parent="eD3fXNo9wMKI3Vn864ez-1">
-          <mxGeometry y="854" width="1600" height="45" as="geometry" />
+          <mxGeometry y="854.9" width="1600" height="45" as="geometry" />
         </mxCell>
         <mxCell id="eD3fXNo9wMKI3Vn864ez-7" value="&lt;div style=&quot;font-size: 24px&quot;&gt;FunSQL: a library for compositional construction of SQL queries&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#0072B2;fontColor=#FFFFFF;" vertex="1" parent="eD3fXNo9wMKI3Vn864ez-13">
           <mxGeometry width="840" height="45" as="geometry" />
@@ -40,6 +40,33 @@
           <mxGeometry x="1320" width="280" height="45" as="geometry" />
         </mxCell>
         <mxCell id="eD3fXNo9wMKI3Vn864ez-9" value="Clark C. Evans, Kyrylo Simonov" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#56B4E9;fontColor=#FFFFFF;" vertex="1" parent="eD3fXNo9wMKI3Vn864ez-13">
+          <mxGeometry x="840" width="480" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="eD3fXNo9wMKI3Vn864ez-14" value="Find all patients born between" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu;fontColor=#000000;fontStyle=2" vertex="1" parent="eD3fXNo9wMKI3Vn864ez-1">
+          <mxGeometry x="60" y="975" width="465" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="eD3fXNo9wMKI3Vn864ez-15" value="and" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu;fontColor=#000000;fontStyle=2" vertex="1" parent="eD3fXNo9wMKI3Vn864ez-1">
+          <mxGeometry x="705" y="975" width="75" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="eD3fXNo9wMKI3Vn864ez-16" value="&lt;table style=&quot;width: 100%; height: 100%; font-size: 24px;&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;&gt;&lt;tbody style=&quot;font-size: 24px;&quot;&gt;&lt;tr style=&quot;font-size: 24px;&quot;&gt;&lt;td style=&quot;width: 85%; font-size: 24px;&quot;&gt;1970&lt;/td&gt;&lt;td style=&quot;width: 15%; font-size: 24px;&quot;&gt;&lt;br style=&quot;font-size: 24px;&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.spinner;strokeColor=#999999;spinLayout=right;spinStyle=normal;adjStyle=triangle;fillColor=#aaddff;fontSize=24;fontColor=#666666;mainText=;html=1;overflow=fill;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="eD3fXNo9wMKI3Vn864ez-1">
+          <mxGeometry x="540" y="975" width="150" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="eD3fXNo9wMKI3Vn864ez-17" value="&lt;table style=&quot;width: 100% ; height: 100% ; font-size: 24px&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;&gt;&lt;tbody style=&quot;font-size: 24px&quot;&gt;&lt;tr style=&quot;font-size: 24px&quot;&gt;&lt;td style=&quot;width: 85% ; font-size: 24px&quot;&gt;&lt;br&gt;&lt;/td&gt;&lt;td style=&quot;width: 15% ; font-size: 24px&quot;&gt;&lt;br style=&quot;font-size: 24px&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.spinner;strokeColor=#999999;spinLayout=right;spinStyle=normal;adjStyle=triangle;fillColor=#aaddff;fontSize=24;fontColor=#666666;mainText=;html=1;overflow=fill;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="eD3fXNo9wMKI3Vn864ez-1">
+          <mxGeometry x="795" y="975" width="150" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="eD3fXNo9wMKI3Vn864ez-18" value="function find_patients(conn; start_year = nothing, end_year = nothing)&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; sql = &quot;&quot;&quot;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; SELECT p.person_id&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; FROM person p&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &quot;&quot;&quot;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; conditions = String[]&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; if start_year !== nothing&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; push!(conditions, &quot;p.year_of_birth &amp;gt;= $start_year&quot;)&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; end&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; if end_year !== nothing&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; push!(conditions, &quot;p.year_of_birth &amp;lt;= $end_year&quot;)&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; end&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; if !isempty(conditions)&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; sql *=&amp;nbsp; &quot;\nWHERE &quot; * join(conditions, &quot; AND &quot;)&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; end&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; DBInterface.execute(conn, sql)&lt;br&gt;end" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="eD3fXNo9wMKI3Vn864ez-1">
+          <mxGeometry x="60" y="1080" width="1140" height="660" as="geometry" />
+        </mxCell>
+        <mxCell id="eD3fXNo9wMKI3Vn864ez-21" value="" style="group" vertex="1" connectable="0" parent="eD3fXNo9wMKI3Vn864ez-1">
+          <mxGeometry y="1754.9" width="1600" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="eD3fXNo9wMKI3Vn864ez-22" value="&lt;div style=&quot;font-size: 24px&quot;&gt;FunSQL: a library for compositional construction of SQL queries&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#0072B2;fontColor=#FFFFFF;" vertex="1" parent="eD3fXNo9wMKI3Vn864ez-21">
+          <mxGeometry width="840" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="eD3fXNo9wMKI3Vn864ez-23" value="JuliaCon 2021" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#009E73;fontColor=#FFFFFF;" vertex="1" parent="eD3fXNo9wMKI3Vn864ez-21">
+          <mxGeometry x="1320" width="280" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="eD3fXNo9wMKI3Vn864ez-24" value="Clark C. Evans, Kyrylo Simonov" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#56B4E9;fontColor=#FFFFFF;" vertex="1" parent="eD3fXNo9wMKI3Vn864ez-21">
           <mxGeometry x="840" width="480" height="45" as="geometry" />
         </mxCell>
       </root>
