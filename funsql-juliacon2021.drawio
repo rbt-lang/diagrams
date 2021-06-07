@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-07T19:08:13.314Z" agent="5.0 (X11)" etag="MckgBh7n6crPAnCSGDf_" version="14.7.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-06-07T19:16:31.268Z" agent="5.0 (X11)" etag="ZGtiBoa5cJkinYf6GBZl" version="14.7.6" type="github" pages="4">
   <diagram id="ngdmywiYoB712Vu0CHRt" name="Title">
     <mxGraphModel dx="1483" dy="809" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
@@ -592,7 +592,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Assembling SQL" id="rQO68QNMoGc5R9kbdSWS">
-    <mxGraphModel dx="2595" dy="1415" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="566" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="lkwH3IPfn-OP5IGHbkdZ-0" />
         <mxCell id="lkwH3IPfn-OP5IGHbkdZ-1" parent="lkwH3IPfn-OP5IGHbkdZ-0" />
@@ -672,82 +672,82 @@
           <mxGeometry x="840" y="435" width="75" height="90" as="geometry" />
         </mxCell>
         <mxCell id="lkwH3IPfn-OP5IGHbkdZ-57" value="Find all patients born in or after 1970." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu;fontColor=#000000;fontStyle=2" vertex="1" parent="lkwH3IPfn-OP5IGHbkdZ-1">
-          <mxGeometry x="58" y="960" width="570" height="45" as="geometry" />
+          <mxGeometry x="60" y="960" width="570" height="45" as="geometry" />
         </mxCell>
         <mxCell id="lkwH3IPfn-OP5IGHbkdZ-58" value="&lt;b&gt;FROM&lt;/b&gt; person p" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="lkwH3IPfn-OP5IGHbkdZ-1">
-          <mxGeometry x="58" y="1065" width="240" height="45" as="geometry" />
+          <mxGeometry x="60" y="1065" width="240" height="45" as="geometry" />
         </mxCell>
         <mxCell id="lkwH3IPfn-OP5IGHbkdZ-59" value="&lt;b&gt;FROM&lt;/b&gt; person p&lt;br&gt;&lt;b&gt;WHERE&lt;/b&gt; p.year_of_birth &amp;gt;= 1970" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="lkwH3IPfn-OP5IGHbkdZ-1">
-          <mxGeometry x="58" y="1215" width="495" height="90" as="geometry" />
+          <mxGeometry x="60" y="1215" width="495" height="90" as="geometry" />
         </mxCell>
         <mxCell id="lkwH3IPfn-OP5IGHbkdZ-60" value="&lt;b&gt;SELECT&lt;/b&gt; p.person_id&lt;br&gt;&lt;b&gt;FROM&lt;/b&gt; person p&lt;br&gt;&lt;b&gt;WHERE&lt;/b&gt; p.year_of_birth &amp;gt;= 1970" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;opacity=25;textOpacity=25;" vertex="1" parent="lkwH3IPfn-OP5IGHbkdZ-1">
-          <mxGeometry x="58" y="1425" width="495" height="120" as="geometry" />
+          <mxGeometry x="60" y="1425" width="495" height="120" as="geometry" />
         </mxCell>
         <mxCell id="lkwH3IPfn-OP5IGHbkdZ-61" value="q = From(person)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="lkwH3IPfn-OP5IGHbkdZ-1">
-          <mxGeometry x="778" y="1065" width="285" height="45" as="geometry" />
+          <mxGeometry x="780" y="1065" width="285" height="45" as="geometry" />
         </mxCell>
         <mxCell id="lkwH3IPfn-OP5IGHbkdZ-62" value="q = From(person) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Where(Get.year_of_birth .&amp;gt;= 1970)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="lkwH3IPfn-OP5IGHbkdZ-1">
-          <mxGeometry x="778" y="1215" width="615" height="90" as="geometry" />
+          <mxGeometry x="780" y="1215" width="615" height="90" as="geometry" />
         </mxCell>
         <mxCell id="lkwH3IPfn-OP5IGHbkdZ-63" value="q = From(person) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Where(Get.year_of_birth .&amp;gt;= 1970) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Select(Get.person_id)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;opacity=25;textOpacity=25;" vertex="1" parent="lkwH3IPfn-OP5IGHbkdZ-1">
-          <mxGeometry x="778" y="1425" width="660" height="120" as="geometry" />
+          <mxGeometry x="780" y="1425" width="660" height="120" as="geometry" />
         </mxCell>
         <mxCell id="lkwH3IPfn-OP5IGHbkdZ-64" value="using FunSQL: From, Get, Select, Where, render" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="lkwH3IPfn-OP5IGHbkdZ-1">
-          <mxGeometry x="778" y="960" width="765" height="45" as="geometry" />
+          <mxGeometry x="780" y="960" width="765" height="45" as="geometry" />
         </mxCell>
         <mxCell id="lkwH3IPfn-OP5IGHbkdZ-65" value="sql = render(q, dialect = :postgresql)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;opacity=25;textOpacity=25;" vertex="1" parent="lkwH3IPfn-OP5IGHbkdZ-1">
-          <mxGeometry x="778" y="1605" width="630" height="45" as="geometry" />
+          <mxGeometry x="780" y="1605" width="630" height="45" as="geometry" />
         </mxCell>
         <mxCell id="lkwH3IPfn-OP5IGHbkdZ-66" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;fontFamily=Ubuntu Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;fontSize=16;fontColor=#666666;fillColor=none;opacity=25;textOpacity=25;" vertex="1" parent="lkwH3IPfn-OP5IGHbkdZ-1">
-          <mxGeometry x="118" y="1320" width="75" height="90" as="geometry" />
+          <mxGeometry x="120" y="1320" width="75" height="90" as="geometry" />
         </mxCell>
         <mxCell id="lkwH3IPfn-OP5IGHbkdZ-67" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;fontFamily=Ubuntu Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;fontSize=16;fontColor=#666666;fillColor=none;" vertex="1" parent="lkwH3IPfn-OP5IGHbkdZ-1">
-          <mxGeometry x="118" y="1125" width="75" height="90" as="geometry" />
+          <mxGeometry x="120" y="1125" width="75" height="90" as="geometry" />
         </mxCell>
         <mxCell id="lkwH3IPfn-OP5IGHbkdZ-68" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;fontFamily=Ubuntu Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;fontSize=16;fontColor=#666666;fillColor=none;" vertex="1" parent="lkwH3IPfn-OP5IGHbkdZ-1">
-          <mxGeometry x="838" y="1125" width="75" height="90" as="geometry" />
+          <mxGeometry x="840" y="1125" width="75" height="90" as="geometry" />
         </mxCell>
         <mxCell id="lkwH3IPfn-OP5IGHbkdZ-69" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;fontFamily=Ubuntu Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;fontSize=16;fontColor=#666666;fillColor=none;opacity=25;textOpacity=25;" vertex="1" parent="lkwH3IPfn-OP5IGHbkdZ-1">
-          <mxGeometry x="838" y="1320" width="75" height="90" as="geometry" />
+          <mxGeometry x="840" y="1320" width="75" height="90" as="geometry" />
         </mxCell>
         <mxCell id="lkwH3IPfn-OP5IGHbkdZ-70" value="Find all patients born in or after 1970." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu;fontColor=#000000;fontStyle=2" vertex="1" parent="lkwH3IPfn-OP5IGHbkdZ-1">
-          <mxGeometry x="58" y="1860" width="570" height="45" as="geometry" />
+          <mxGeometry x="60" y="1860" width="570" height="45" as="geometry" />
         </mxCell>
         <mxCell id="lkwH3IPfn-OP5IGHbkdZ-71" value="&lt;b&gt;FROM&lt;/b&gt; person p" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="lkwH3IPfn-OP5IGHbkdZ-1">
-          <mxGeometry x="58" y="1965" width="240" height="45" as="geometry" />
+          <mxGeometry x="60" y="1965" width="240" height="45" as="geometry" />
         </mxCell>
         <mxCell id="lkwH3IPfn-OP5IGHbkdZ-72" value="&lt;b&gt;FROM&lt;/b&gt; person p&lt;br&gt;&lt;b&gt;WHERE&lt;/b&gt; p.year_of_birth &amp;gt;= 1970" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="lkwH3IPfn-OP5IGHbkdZ-1">
-          <mxGeometry x="58" y="2115" width="495" height="90" as="geometry" />
+          <mxGeometry x="60" y="2115" width="495" height="90" as="geometry" />
         </mxCell>
         <mxCell id="lkwH3IPfn-OP5IGHbkdZ-73" value="&lt;b&gt;SELECT&lt;/b&gt; p.person_id&lt;br&gt;&lt;b&gt;FROM&lt;/b&gt; person p&lt;br&gt;&lt;b&gt;WHERE&lt;/b&gt; p.year_of_birth &amp;gt;= 1970" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="lkwH3IPfn-OP5IGHbkdZ-1">
-          <mxGeometry x="58" y="2325" width="495" height="120" as="geometry" />
+          <mxGeometry x="60" y="2325" width="495" height="120" as="geometry" />
         </mxCell>
         <mxCell id="lkwH3IPfn-OP5IGHbkdZ-74" value="q = From(person)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="lkwH3IPfn-OP5IGHbkdZ-1">
-          <mxGeometry x="778" y="1965" width="285" height="45" as="geometry" />
+          <mxGeometry x="780" y="1965" width="285" height="45" as="geometry" />
         </mxCell>
         <mxCell id="lkwH3IPfn-OP5IGHbkdZ-75" value="q = From(person) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Where(Get.year_of_birth .&amp;gt;= 1970)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="lkwH3IPfn-OP5IGHbkdZ-1">
-          <mxGeometry x="778" y="2115" width="615" height="90" as="geometry" />
+          <mxGeometry x="780" y="2115" width="615" height="90" as="geometry" />
         </mxCell>
         <mxCell id="lkwH3IPfn-OP5IGHbkdZ-76" value="q = From(person) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Where(Get.year_of_birth .&amp;gt;= 1970) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Select(Get.person_id)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="lkwH3IPfn-OP5IGHbkdZ-1">
-          <mxGeometry x="778" y="2325" width="660" height="120" as="geometry" />
+          <mxGeometry x="780" y="2325" width="660" height="120" as="geometry" />
         </mxCell>
         <mxCell id="lkwH3IPfn-OP5IGHbkdZ-77" value="using FunSQL: From, Get, Select, Where, render" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="lkwH3IPfn-OP5IGHbkdZ-1">
-          <mxGeometry x="778" y="1860" width="765" height="45" as="geometry" />
+          <mxGeometry x="780" y="1860" width="765" height="45" as="geometry" />
         </mxCell>
         <mxCell id="lkwH3IPfn-OP5IGHbkdZ-78" value="sql = render(q, dialect = :postgresql)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="lkwH3IPfn-OP5IGHbkdZ-1">
-          <mxGeometry x="778" y="2505" width="630" height="45" as="geometry" />
+          <mxGeometry x="780" y="2505" width="630" height="45" as="geometry" />
         </mxCell>
         <mxCell id="lkwH3IPfn-OP5IGHbkdZ-79" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;fontFamily=Ubuntu Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;fontSize=16;fontColor=#666666;fillColor=none;" vertex="1" parent="lkwH3IPfn-OP5IGHbkdZ-1">
-          <mxGeometry x="118" y="2220" width="75" height="90" as="geometry" />
+          <mxGeometry x="120" y="2220" width="75" height="90" as="geometry" />
         </mxCell>
         <mxCell id="lkwH3IPfn-OP5IGHbkdZ-80" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;fontFamily=Ubuntu Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;fontSize=16;fontColor=#666666;fillColor=none;" vertex="1" parent="lkwH3IPfn-OP5IGHbkdZ-1">
-          <mxGeometry x="118" y="2025" width="75" height="90" as="geometry" />
+          <mxGeometry x="120" y="2025" width="75" height="90" as="geometry" />
         </mxCell>
         <mxCell id="lkwH3IPfn-OP5IGHbkdZ-81" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;fontFamily=Ubuntu Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;fontSize=16;fontColor=#666666;fillColor=none;" vertex="1" parent="lkwH3IPfn-OP5IGHbkdZ-1">
-          <mxGeometry x="838" y="2025" width="75" height="90" as="geometry" />
+          <mxGeometry x="840" y="2025" width="75" height="90" as="geometry" />
         </mxCell>
         <mxCell id="lkwH3IPfn-OP5IGHbkdZ-82" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;fontFamily=Ubuntu Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;fontSize=16;fontColor=#666666;fillColor=none;" vertex="1" parent="lkwH3IPfn-OP5IGHbkdZ-1">
-          <mxGeometry x="838" y="2220" width="75" height="90" as="geometry" />
+          <mxGeometry x="840" y="2220" width="75" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
