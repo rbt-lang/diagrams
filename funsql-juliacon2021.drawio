@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-08T20:49:36.839Z" agent="5.0 (X11)" etag="Wa21t4oZ6CZfxNLfWh-z" version="14.7.6" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2021-06-08T20:54:59.554Z" agent="5.0 (X11)" etag="w571BmoXMIEtXQbwGQw1" version="14.7.6" type="github" pages="12">
   <diagram id="ngdmywiYoB712Vu0CHRt" name="Title">
     <mxGraphModel dx="2966" dy="1617" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
@@ -813,7 +813,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Assembling SQL (1.3)" id="NcDBW_GyBDkaV5cRxm-g">
-    <mxGraphModel dx="593" dy="323" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="2966" dy="1617" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="X_0v-Jv-LaRHnE2pxIQR-0" />
         <mxCell id="X_0v-Jv-LaRHnE2pxIQR-1" parent="X_0v-Jv-LaRHnE2pxIQR-0" />
@@ -872,7 +872,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Column References" id="g03_EyonSzpQatddTuSO">
-    <mxGraphModel dx="1730" dy="943" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="2076" dy="1132" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="ITqX7OyvLYehjqNfx2Qb-0" />
         <mxCell id="ITqX7OyvLYehjqNfx2Qb-1" parent="ITqX7OyvLYehjqNfx2Qb-0" />
@@ -920,8 +920,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="DS7nXEijdovgQfLJ52UR-4" value="BornInOrAfter(Y) =&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Get.year_of_birth .&amp;gt;= Y&lt;br&gt;&lt;br&gt;q = From(person) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Where(BornInOrAfter(1970)) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Select(Get.person_id)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="ITqX7OyvLYehjqNfx2Qb-1">
-          <mxGeometry x="60" y="600" width="555" height="240" as="geometry" />
+        <mxCell id="DS7nXEijdovgQfLJ52UR-4" value="BornInOrAfter(Y) = Get.year_of_birth .&amp;gt;= Y&lt;br&gt;&lt;br&gt;q = From(person) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Where(BornInOrAfter(1970)) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Select(Get.person_id)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="ITqX7OyvLYehjqNfx2Qb-1">
+          <mxGeometry x="60" y="600" width="690" height="195" as="geometry" />
         </mxCell>
         <mxCell id="DS7nXEijdovgQfLJ52UR-5" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.twoWayArrow;dy=0.6;dx=35;sketch=0;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=16;fontColor=#000000;fillColor=#FFFFFF;direction=south;" vertex="1" parent="ITqX7OyvLYehjqNfx2Qb-1">
           <mxGeometry x="120" y="465" width="75" height="120" as="geometry" />
