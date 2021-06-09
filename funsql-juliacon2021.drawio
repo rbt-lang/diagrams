@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-09T11:39:16.193Z" agent="5.0 (X11)" etag="jfFTM7gfikEALy1mc1gU" version="14.7.6" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-06-09T11:45:08.760Z" agent="5.0 (X11)" etag="IEMQbCheFR5LRkk3tpv0" version="14.7.6" type="github" pages="9">
   <diagram id="ngdmywiYoB712Vu0CHRt" name="Title">
     <mxGraphModel dx="2966" dy="1617" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
@@ -760,6 +760,38 @@
               <mxPoint x="780" y="510" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="BEURvZEppAZOE7aVGqHt-0" value="person" style="shape=table;startSize=45;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=32;fillColor=#009E73;fontColor=#FFFFFF;" vertex="1" parent="ITqX7OyvLYehjqNfx2Qb-1">
+          <mxGeometry x="1200" y="60" width="300" height="180" as="geometry">
+            <mxRectangle x="375" y="600" width="150" height="45" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BEURvZEppAZOE7aVGqHt-1" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="BEURvZEppAZOE7aVGqHt-0">
+          <mxGeometry y="45" width="300" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="BEURvZEppAZOE7aVGqHt-2" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=0;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="BEURvZEppAZOE7aVGqHt-1">
+          <mxGeometry width="60" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="BEURvZEppAZOE7aVGqHt-3" value="person_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="BEURvZEppAZOE7aVGqHt-1">
+          <mxGeometry x="60" width="240" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="BEURvZEppAZOE7aVGqHt-4" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="BEURvZEppAZOE7aVGqHt-0">
+          <mxGeometry y="90" width="300" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="BEURvZEppAZOE7aVGqHt-5" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="BEURvZEppAZOE7aVGqHt-4">
+          <mxGeometry width="60" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="BEURvZEppAZOE7aVGqHt-6" value="year_of_birth" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="BEURvZEppAZOE7aVGqHt-4">
+          <mxGeometry x="60" width="240" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="BEURvZEppAZOE7aVGqHt-7" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="BEURvZEppAZOE7aVGqHt-0">
+          <mxGeometry y="135" width="300" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="BEURvZEppAZOE7aVGqHt-8" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="BEURvZEppAZOE7aVGqHt-7">
+          <mxGeometry width="60" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="BEURvZEppAZOE7aVGqHt-9" value="location_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="BEURvZEppAZOE7aVGqHt-7">
+          <mxGeometry x="60" width="240" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
