@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-09T11:45:08.760Z" agent="5.0 (X11)" etag="IEMQbCheFR5LRkk3tpv0" version="14.7.6" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-06-09T11:56:03.250Z" agent="5.0 (X11)" etag="GJydZE_XxDpvcDY6rqxZ" version="14.7.6" type="github" pages="9">
   <diagram id="ngdmywiYoB712Vu0CHRt" name="Title">
     <mxGraphModel dx="2966" dy="1617" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
@@ -662,7 +662,7 @@
         <mxCell id="X_0v-Jv-LaRHnE2pxIQR-20" value="q = From(person) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Where(Get.year_of_birth .&amp;gt;= 1970) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Select(Get.person_id)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="X_0v-Jv-LaRHnE2pxIQR-1">
           <mxGeometry x="780" y="540" width="660" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="X_0v-Jv-LaRHnE2pxIQR-21" value="using FunSQL: From, Get, Select, Where, render" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="X_0v-Jv-LaRHnE2pxIQR-1">
+        <mxCell id="X_0v-Jv-LaRHnE2pxIQR-21" value="&lt;b&gt;using&lt;/b&gt; FunSQL: From, Get, Select, Where, render" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="X_0v-Jv-LaRHnE2pxIQR-1">
           <mxGeometry x="780" y="75" width="765" height="45" as="geometry" />
         </mxCell>
         <mxCell id="X_0v-Jv-LaRHnE2pxIQR-22" value="sql = render(q, dialect = :postgresql)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="X_0v-Jv-LaRHnE2pxIQR-1">
@@ -837,7 +837,7 @@
         <mxCell id="LWGTRYw2pg4aMvt4AF21-1" value="Fun.between(Get.year_of_birth, 1970, 2000)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="9adsrxC94oNmUyppXUtI-1">
           <mxGeometry x="780" y="645" width="690" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="LWGTRYw2pg4aMvt4AF21-2" value="using FunSQL: Fun" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="9adsrxC94oNmUyppXUtI-1">
+        <mxCell id="LWGTRYw2pg4aMvt4AF21-2" value="&lt;b&gt;using&lt;/b&gt; FunSQL: Fun" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="9adsrxC94oNmUyppXUtI-1">
           <mxGeometry x="780" y="75" width="300" height="45" as="geometry" />
         </mxCell>
       </root>
