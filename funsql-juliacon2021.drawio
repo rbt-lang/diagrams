@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-10T12:59:23.664Z" agent="5.0 (X11)" etag="FDp6BNMHDCCESTRnjwa9" version="14.7.6" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2021-06-10T13:03:50.816Z" agent="5.0 (X11)" etag="9C90rj9n2FxQ2HfLhSQv" version="14.7.6" type="github" pages="12">
   <diagram id="ngdmywiYoB712Vu0CHRt" name="Title">
     <mxGraphModel dx="2966" dy="1617" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
@@ -577,7 +577,7 @@
       <root>
         <mxCell id="ITqX7OyvLYehjqNfx2Qb-0" />
         <mxCell id="ITqX7OyvLYehjqNfx2Qb-1" parent="ITqX7OyvLYehjqNfx2Qb-0" />
-        <mxCell id="ITqX7OyvLYehjqNfx2Qb-19" value="q&lt;sub&gt;1&lt;/sub&gt; = From(person)&lt;br&gt;q&lt;sub&gt;2&lt;/sub&gt; = q&lt;sub&gt;1&lt;/sub&gt; |&amp;gt; Where(q&lt;sub&gt;1&lt;/sub&gt;.year_of_birth .&amp;gt;= 1970)&lt;br&gt;q&lt;sub&gt;3&lt;/sub&gt; = q&lt;sub&gt;2&lt;/sub&gt; |&amp;gt; Select(q&lt;sub&gt;2&lt;/sub&gt;.person_id)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="ITqX7OyvLYehjqNfx2Qb-1">
+        <mxCell id="ITqX7OyvLYehjqNfx2Qb-19" value="q&lt;sub&gt;1&lt;/sub&gt; = From(person)&lt;br&gt;q&lt;sub&gt;2&lt;/sub&gt; = q&lt;sub&gt;1&lt;/sub&gt; |&amp;gt; Where(q&lt;sub&gt;1&lt;/sub&gt;.year_of_birth .&amp;gt;= 1970)&lt;br&gt;q&amp;nbsp; = q&lt;sub&gt;2&lt;/sub&gt; |&amp;gt; Select(q&lt;sub&gt;2&lt;/sub&gt;.person_id)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="ITqX7OyvLYehjqNfx2Qb-1">
           <mxGeometry x="60" y="60" width="705" height="150" as="geometry" />
         </mxCell>
         <mxCell id="ITqX7OyvLYehjqNfx2Qb-4" value="" style="group" vertex="1" connectable="0" parent="ITqX7OyvLYehjqNfx2Qb-1">
@@ -980,7 +980,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="YeOVgzMBBj4uAm3AjskT-39" value="q&lt;sub&gt;1&lt;/sub&gt; = From(person)&lt;br&gt;q&lt;sub&gt;2&lt;/sub&gt; = From(location)&lt;br&gt;q&lt;sub&gt;3&lt;/sub&gt; = q&lt;sub&gt;1&lt;/sub&gt; |&amp;gt; Join(q&lt;sub&gt;2&lt;/sub&gt;, q&lt;sub&gt;1&lt;/sub&gt;.location_id .== q&lt;sub&gt;2&lt;/sub&gt;.location_id)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="YeOVgzMBBj4uAm3AjskT-1">
+        <mxCell id="YeOVgzMBBj4uAm3AjskT-39" value="q&lt;sub&gt;p&lt;/sub&gt; = From(person)&lt;br&gt;q&lt;sub&gt;l&lt;/sub&gt; = From(location)&lt;br&gt;q&amp;nbsp; = q&lt;sub&gt;p&lt;/sub&gt; |&amp;gt; Join(q&lt;sub&gt;l&lt;/sub&gt;, q&lt;sub&gt;p&lt;/sub&gt;.location_id .== q&lt;sub&gt;l&lt;/sub&gt;.location_id)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="YeOVgzMBBj4uAm3AjskT-1">
           <mxGeometry x="60" y="60" width="870" height="150" as="geometry" />
         </mxCell>
         <mxCell id="qItR3ZpBWBjj4zSGaNEp-0" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.twoWayArrow;dy=0.6;dx=35;sketch=0;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=16;fontColor=#000000;fillColor=#FFFFFF;direction=south;" vertex="1" parent="YeOVgzMBBj4uAm3AjskT-1">
