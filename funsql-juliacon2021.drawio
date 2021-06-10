@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-10T14:39:23.359Z" agent="5.0 (X11)" etag="ZWK50B2Y3j1CYrOAdpuC" version="14.7.6" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2021-06-10T15:42:50.384Z" agent="5.0 (X11)" etag="ZMxxtxhUbHBaQxJBD2WE" version="14.7.6" type="github" pages="14">
   <diagram id="ngdmywiYoB712Vu0CHRt" name="Title">
     <mxGraphModel dx="2966" dy="1617" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
@@ -1262,6 +1262,47 @@
         </mxCell>
         <mxCell id="zrvDNUBqoZZNQaaU2Qfx-1" value="&lt;span style=&quot;font-size: 128px; line-height: 1em;&quot;&gt;✓&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=128;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontColor=#009E73;" vertex="1" parent="utmcz0SMyoJby-MSMB9d-1">
           <mxGeometry x="915" y="345" width="120" height="165" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="SQL Grammar" id="09GOU3pYz1mhmUMKYlA2">
+    <mxGraphModel dx="2595" dy="1415" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0ZC2XOUaFHukjVFvm-tZ-0" />
+        <mxCell id="0ZC2XOUaFHukjVFvm-tZ-1" parent="0ZC2XOUaFHukjVFvm-tZ-0" />
+        <mxCell id="0ZC2XOUaFHukjVFvm-tZ-3" value="" style="group" vertex="1" connectable="0" parent="0ZC2XOUaFHukjVFvm-tZ-1">
+          <mxGeometry y="854" width="1600" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="0ZC2XOUaFHukjVFvm-tZ-4" value="&lt;div style=&quot;font-size: 24px&quot;&gt;FunSQL: a library for compositional construction of SQL queries&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#0072B2;fontColor=#FFFFFF;" vertex="1" parent="0ZC2XOUaFHukjVFvm-tZ-3">
+          <mxGeometry width="840" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="0ZC2XOUaFHukjVFvm-tZ-5" value="JuliaCon 2021" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#009E73;fontColor=#FFFFFF;" vertex="1" parent="0ZC2XOUaFHukjVFvm-tZ-3">
+          <mxGeometry x="1320" width="280" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="0ZC2XOUaFHukjVFvm-tZ-6" value="Clark C. Evans, Kyrylo Simonov" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#56B4E9;fontColor=#FFFFFF;" vertex="1" parent="0ZC2XOUaFHukjVFvm-tZ-3">
+          <mxGeometry x="840" width="480" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="0ZC2XOUaFHukjVFvm-tZ-11" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=east;notch=0;fontFamily=Ubuntu Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;fontSize=16;fontColor=#666666;fillColor=none;" vertex="1" parent="0ZC2XOUaFHukjVFvm-tZ-1">
+          <mxGeometry x="240" y="285" width="90" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="0ZC2XOUaFHukjVFvm-tZ-15" value="&lt;div&gt;&lt;b&gt;FROM&lt;/b&gt; ...&lt;/div&gt;&lt;div&gt;&lt;b&gt;JOIN&lt;/b&gt; ...&lt;br&gt;&lt;b&gt;WHERE&lt;/b&gt; ...&lt;/div&gt;&lt;div&gt;&lt;b&gt;GROUP BY&lt;/b&gt; ...&lt;br&gt;&lt;b&gt;HAVING&lt;/b&gt; ...&lt;/div&gt;&lt;div&gt;&lt;b&gt;ORDER BY&lt;/b&gt; ...&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="0ZC2XOUaFHukjVFvm-tZ-1">
+          <mxGeometry x="420" y="300" width="225" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="0ZC2XOUaFHukjVFvm-tZ-19" value="&lt;div&gt;&lt;b&gt;SELECT&lt;/b&gt; ...&lt;br&gt;&lt;b&gt;FROM&lt;/b&gt; ...&lt;/div&gt;&lt;div&gt;&lt;b&gt;JOIN&lt;/b&gt; ...&lt;br&gt;&lt;b&gt;WHERE&lt;/b&gt; ...&lt;/div&gt;&lt;div&gt;&lt;b&gt;GROUP BY&lt;/b&gt; ...&lt;br&gt;&lt;b&gt;HAVING&lt;/b&gt; ...&lt;/div&gt;&lt;div&gt;&lt;b&gt;ORDER BY&lt;/b&gt; ...&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="0ZC2XOUaFHukjVFvm-tZ-1">
+          <mxGeometry x="840" y="270" width="225" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="0ZC2XOUaFHukjVFvm-tZ-20" value="&lt;div&gt;&lt;b&gt;FROM&lt;/b&gt; (&lt;b&gt;SELECT&lt;/b&gt; ...&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;b&gt;FROM&lt;/b&gt; ...&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;b&gt;JOIN&lt;/b&gt; ...&lt;br&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; WHERE&lt;/b&gt; ...&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;b&gt;GROUP BY&lt;/b&gt; ...&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;b&gt;HAVING&lt;/b&gt; ...&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;b&gt;ORDER BY&lt;/b&gt; ...)&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="0ZC2XOUaFHukjVFvm-tZ-1">
+          <mxGeometry x="1230" y="270" width="330" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="0ZC2XOUaFHukjVFvm-tZ-21" value="&lt;div&gt;&lt;b&gt;FROM&lt;/b&gt; ...&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="0ZC2XOUaFHukjVFvm-tZ-1">
+          <mxGeometry x="60" y="300" width="150" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="0ZC2XOUaFHukjVFvm-tZ-22" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=east;notch=0;fontFamily=Ubuntu Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;fontSize=16;fontColor=#666666;fillColor=none;" vertex="1" parent="0ZC2XOUaFHukjVFvm-tZ-1">
+          <mxGeometry x="1065" y="292.5" width="90" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="0ZC2XOUaFHukjVFvm-tZ-23" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=east;notch=0;fontFamily=Ubuntu Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;fontSize=16;fontColor=#666666;fillColor=none;" vertex="1" parent="0ZC2XOUaFHukjVFvm-tZ-1">
+          <mxGeometry x="660" y="285" width="90" height="75" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
