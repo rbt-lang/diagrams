@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-11T11:48:06.543Z" agent="5.0 (X11)" etag="lLG2DIXEie-CcXSegFsh" version="14.7.6" type="github" pages="17">
+<mxfile host="app.diagrams.net" modified="2021-06-11T14:32:44.570Z" agent="5.0 (X11)" etag="wEBQJ62dei-w-nzOR3pI" version="14.7.6" type="github" pages="17">
   <diagram id="ngdmywiYoB712Vu0CHRt" name="Title">
     <mxGraphModel dx="2966" dy="1617" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
@@ -223,7 +223,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="CDM (1)" id="cHNOF5AxPrT7sRsu6Cc4">
-    <mxGraphModel dx="2595" dy="1415" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="1730" dy="943" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="gCwCBWnTB71o7sibC3q9-0" />
         <mxCell id="gCwCBWnTB71o7sibC3q9-1" parent="gCwCBWnTB71o7sibC3q9-0" />
@@ -304,7 +304,7 @@
           <mxGeometry x="60" width="240" height="45" as="geometry" />
         </mxCell>
         <mxCell id="gCwCBWnTB71o7sibC3q9-76" value="visit_occurrence" style="shape=table;startSize=45;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=32;fontColor=#FFFFFF;fillColor=#0072B2;rounded=1;" vertex="1" parent="gCwCBWnTB71o7sibC3q9-1">
-          <mxGeometry x="1020" y="240" width="420" height="270" as="geometry">
+          <mxGeometry x="1020" y="120" width="420" height="270" as="geometry">
             <mxRectangle x="375" y="600" width="150" height="45" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -360,7 +360,60 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="w3FMpQ8-WA3PartXrK7M-0" value="A fragment of OMOP CDM&lt;br&gt;https://github.com/OHDSI/CommonDataModel" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu;fontColor=#000000;fontStyle=2" vertex="1" parent="gCwCBWnTB71o7sibC3q9-1">
-          <mxGeometry x="337.5" y="630" width="705" height="90" as="geometry" />
+          <mxGeometry x="60" y="660" width="705" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="aF__Ma939793PMP7XmXD-0" value="condition_occurrence" style="shape=table;startSize=45;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=32;fontColor=#FFFFFF;fillColor=#0072B2;rounded=1;" vertex="1" parent="gCwCBWnTB71o7sibC3q9-1">
+          <mxGeometry x="1020" y="480" width="420" height="270" as="geometry">
+            <mxRectangle x="375" y="600" width="150" height="45" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aF__Ma939793PMP7XmXD-1" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="aF__Ma939793PMP7XmXD-0">
+          <mxGeometry y="45" width="420" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="aF__Ma939793PMP7XmXD-2" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=0;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="aF__Ma939793PMP7XmXD-1">
+          <mxGeometry width="60" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="aF__Ma939793PMP7XmXD-3" value="condition_occurrence_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="aF__Ma939793PMP7XmXD-1">
+          <mxGeometry x="60" width="360" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="aF__Ma939793PMP7XmXD-4" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="aF__Ma939793PMP7XmXD-0">
+          <mxGeometry y="90" width="420" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="aF__Ma939793PMP7XmXD-5" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=24;" vertex="1" parent="aF__Ma939793PMP7XmXD-4">
+          <mxGeometry width="60" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="aF__Ma939793PMP7XmXD-6" value="person_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="aF__Ma939793PMP7XmXD-4">
+          <mxGeometry x="60" width="360" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="aF__Ma939793PMP7XmXD-7" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="aF__Ma939793PMP7XmXD-0">
+          <mxGeometry y="135" width="420" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="aF__Ma939793PMP7XmXD-8" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="aF__Ma939793PMP7XmXD-7">
+          <mxGeometry width="60" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="aF__Ma939793PMP7XmXD-9" value="condition_concept_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="aF__Ma939793PMP7XmXD-7">
+          <mxGeometry x="60" width="360" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="aF__Ma939793PMP7XmXD-10" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="aF__Ma939793PMP7XmXD-0">
+          <mxGeometry y="180" width="420" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="aF__Ma939793PMP7XmXD-11" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="aF__Ma939793PMP7XmXD-10">
+          <mxGeometry width="60" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="aF__Ma939793PMP7XmXD-12" value="condition_start_date" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="aF__Ma939793PMP7XmXD-10">
+          <mxGeometry x="60" width="360" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="aF__Ma939793PMP7XmXD-13" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="aF__Ma939793PMP7XmXD-0">
+          <mxGeometry y="225" width="420" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="aF__Ma939793PMP7XmXD-14" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="aF__Ma939793PMP7XmXD-13">
+          <mxGeometry width="60" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="aF__Ma939793PMP7XmXD-15" value="condition_end_date" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="aF__Ma939793PMP7XmXD-13">
+          <mxGeometry x="60" width="360" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="aF__Ma939793PMP7XmXD-16" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Ubuntu Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;fontSize=32;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=#000000;" edge="1" parent="gCwCBWnTB71o7sibC3q9-1" source="aF__Ma939793PMP7XmXD-4" target="gCwCBWnTB71o7sibC3q9-38">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -382,8 +435,8 @@
         <mxCell id="wVRX2A1LeRFa8GxhwnK0-5" value="Clark C. Evans, Kyrylo Simonov" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#56B4E9;fontColor=#FFFFFF;" vertex="1" parent="wVRX2A1LeRFa8GxhwnK0-2">
           <mxGeometry x="840" width="480" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="wVRX2A1LeRFa8GxhwnK0-6" value="&lt;b&gt;using&lt;/b&gt; FunSQL: SQLTable&lt;br&gt;&lt;br&gt;&lt;b&gt;const&lt;/b&gt; person =&lt;br&gt;&amp;nbsp; &amp;nbsp; SQLTable(name = :person,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; columns = [:person_id, :year_of_birth, :location_id])&lt;br&gt;&lt;br&gt;&lt;b&gt;const&lt;/b&gt; location =&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; SQLTable(name = :location,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; columns = [:location_id, :city, :state, :zip])&lt;br&gt;&lt;br&gt;&lt;b&gt;const&lt;/b&gt; visit_occurrence =&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; SQLTable(name = :visit_occurrence,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; columns = [:visit_occurrence_id, :person_id, :visit_concept_id,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; :visit_start_date, :visit_end_date])" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="wVRX2A1LeRFa8GxhwnK0-1">
-          <mxGeometry x="60" y="90" width="1245" height="540" as="geometry" />
+        <mxCell id="wVRX2A1LeRFa8GxhwnK0-6" value="&lt;b&gt;using&lt;/b&gt; FunSQL: SQLTable&lt;br&gt;&lt;br&gt;&lt;b&gt;const&lt;/b&gt; person =&lt;br&gt;&amp;nbsp; &amp;nbsp; SQLTable(name = :person,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; columns = [:person_id, :year_of_birth, :location_id])&lt;br&gt;&lt;br&gt;&lt;b&gt;const&lt;/b&gt; location =&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; SQLTable(name = :location,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; columns = [:location_id, :city, :state, :zip])&lt;br&gt;&lt;br&gt;&lt;b&gt;const&lt;/b&gt; visit_occurrence =&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; SQLTable(name = :visit_occurrence,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; columns = [:visit_occurrence_id, :person_id, :visit_concept_id,&lt;br&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; :visit_start_date, :visit_end_date])&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;b&gt;const&lt;/b&gt; condition_occurrence =&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; SQLTable(name = :condition_occurrence,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; columns = [:condition_occurrence_id, :person_id, :condition_concept_id,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; :condition_start_date, :condition_end_date])&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="wVRX2A1LeRFa8GxhwnK0-1">
+          <mxGeometry x="60" y="60" width="1365" height="735" as="geometry" />
         </mxCell>
         <mxCell id="wVRX2A1LeRFa8GxhwnK0-67" value="person" style="shape=table;startSize=45;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=0;align=center;resizeLast=1;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=32;fillColor=#009E73;fontColor=#FFFFFF;rounded=1;" vertex="1" collapsed="1" parent="wVRX2A1LeRFa8GxhwnK0-1">
           <mxGeometry x="1380" y="60" width="180" height="45" as="geometry">
@@ -509,6 +562,64 @@
               <mxPoint x="1580" y="82" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="KrLxrzb0vXEc5I3TEtrC-16" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Ubuntu Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;fontSize=32;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=#000000;" edge="1" parent="wVRX2A1LeRFa8GxhwnK0-1" source="KrLxrzb0vXEc5I3TEtrC-0" target="wVRX2A1LeRFa8GxhwnK0-67">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1580" y="323" />
+              <mxPoint x="1580" y="83" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KrLxrzb0vXEc5I3TEtrC-0" value="condition_occurrence" style="shape=table;startSize=45;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=0;align=center;resizeLast=1;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=32;fontColor=#FFFFFF;fillColor=#0072B2;rounded=1;" vertex="1" collapsed="1" parent="wVRX2A1LeRFa8GxhwnK0-1">
+          <mxGeometry x="1200" y="300" width="360" height="45" as="geometry">
+            <mxRectangle x="2250" y="1320" width="420" height="270" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KrLxrzb0vXEc5I3TEtrC-1" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="KrLxrzb0vXEc5I3TEtrC-0">
+          <mxGeometry y="45" width="420" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="KrLxrzb0vXEc5I3TEtrC-2" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=0;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="KrLxrzb0vXEc5I3TEtrC-1">
+          <mxGeometry width="60" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="KrLxrzb0vXEc5I3TEtrC-3" value="visit_occurrence_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="KrLxrzb0vXEc5I3TEtrC-1">
+          <mxGeometry x="60" width="360" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="KrLxrzb0vXEc5I3TEtrC-4" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="KrLxrzb0vXEc5I3TEtrC-0">
+          <mxGeometry y="90" width="420" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="KrLxrzb0vXEc5I3TEtrC-5" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=24;" vertex="1" parent="KrLxrzb0vXEc5I3TEtrC-4">
+          <mxGeometry width="60" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="KrLxrzb0vXEc5I3TEtrC-6" value="person_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="KrLxrzb0vXEc5I3TEtrC-4">
+          <mxGeometry x="60" width="360" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="KrLxrzb0vXEc5I3TEtrC-7" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="KrLxrzb0vXEc5I3TEtrC-0">
+          <mxGeometry y="135" width="420" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="KrLxrzb0vXEc5I3TEtrC-8" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="KrLxrzb0vXEc5I3TEtrC-7">
+          <mxGeometry width="60" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="KrLxrzb0vXEc5I3TEtrC-9" value="visit_concept_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="KrLxrzb0vXEc5I3TEtrC-7">
+          <mxGeometry x="60" width="360" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="KrLxrzb0vXEc5I3TEtrC-10" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="KrLxrzb0vXEc5I3TEtrC-0">
+          <mxGeometry y="180" width="420" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="KrLxrzb0vXEc5I3TEtrC-11" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="KrLxrzb0vXEc5I3TEtrC-10">
+          <mxGeometry width="60" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="KrLxrzb0vXEc5I3TEtrC-12" value="visit_start_date" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="KrLxrzb0vXEc5I3TEtrC-10">
+          <mxGeometry x="60" width="360" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="KrLxrzb0vXEc5I3TEtrC-13" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="KrLxrzb0vXEc5I3TEtrC-0">
+          <mxGeometry y="225" width="420" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="KrLxrzb0vXEc5I3TEtrC-14" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="KrLxrzb0vXEc5I3TEtrC-13">
+          <mxGeometry width="60" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="KrLxrzb0vXEc5I3TEtrC-15" value="visit_end_date" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="KrLxrzb0vXEc5I3TEtrC-13">
+          <mxGeometry x="60" width="360" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -1394,7 +1505,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Translation (2)" id="63NXG8dlwRxXO40HjHU0">
-    <mxGraphModel dx="1221" dy="666" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="2076" dy="1132" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="-35EY3gSNVlObmLp4Jv1-0" />
         <mxCell id="-35EY3gSNVlObmLp4Jv1-1" parent="-35EY3gSNVlObmLp4Jv1-0" />
