@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-11T02:35:34.990Z" agent="5.0 (X11)" etag="hsVUuZ7PQ-ROs9a6a_py" version="14.7.6" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2021-06-11T02:42:37.927Z" agent="5.0 (X11)" etag="rWFkpBMbezXjuMr7JGj2" version="14.7.6" type="github" pages="15">
   <diagram id="ngdmywiYoB712Vu0CHRt" name="Title">
     <mxGraphModel dx="2966" dy="1617" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
@@ -1357,13 +1357,13 @@
         <mxCell id="DozJUd1HVSnvjvlE7hVz-44" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;sketch=0;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=128;align=left;fillColor=#FFFFFF;dashed=1;" vertex="1" parent="DozJUd1HVSnvjvlE7hVz-47">
           <mxGeometry y="15" width="105" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DozJUd1HVSnvjvlE7hVz-49" value="&lt;b&gt;SELECT&lt;/b&gt; ...&lt;br&gt;&lt;b&gt;FROM&lt;/b&gt; &lt;i&gt;$table&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;sketch=0;fontFamily=Ubuntu Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;fontSize=32;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;align=left;spacing=10;" vertex="1" parent="DozJUd1HVSnvjvlE7hVz-1">
+        <mxCell id="DozJUd1HVSnvjvlE7hVz-49" value="&lt;b&gt;SELECT&lt;/b&gt; ???&lt;br&gt;&lt;b&gt;FROM&lt;/b&gt; &lt;i&gt;$table&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;sketch=0;fontFamily=Ubuntu Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;fontSize=32;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;align=left;spacing=10;" vertex="1" parent="DozJUd1HVSnvjvlE7hVz-1">
           <mxGeometry x="660" y="75" width="360" height="90" as="geometry" />
         </mxCell>
         <mxCell id="vPG4UR1G1JbloR6vaYc--5" value="" style="group" vertex="1" connectable="0" parent="DozJUd1HVSnvjvlE7hVz-1">
           <mxGeometry x="660" y="225" width="360" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="DozJUd1HVSnvjvlE7hVz-50" value="&lt;b&gt;SELECT&lt;/b&gt; ...&lt;br&gt;&lt;b&gt;FROM&lt;/b&gt; (&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; )&lt;br&gt;&lt;b&gt;WHERE&lt;/b&gt; &lt;i&gt;$condition&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;sketch=0;fontFamily=Ubuntu Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;fontSize=32;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;align=left;spacing=10;" vertex="1" parent="vPG4UR1G1JbloR6vaYc--5">
+        <mxCell id="DozJUd1HVSnvjvlE7hVz-50" value="&lt;b&gt;SELECT&lt;/b&gt; ???&lt;br&gt;&lt;b&gt;FROM&lt;/b&gt; (&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; )&lt;br&gt;&lt;b&gt;WHERE&lt;/b&gt; &lt;i&gt;$condition&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;sketch=0;fontFamily=Ubuntu Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;fontSize=32;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;align=left;spacing=10;" vertex="1" parent="vPG4UR1G1JbloR6vaYc--5">
           <mxGeometry width="360" height="150" as="geometry" />
         </mxCell>
         <mxCell id="vPG4UR1G1JbloR6vaYc--1" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;sketch=0;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=128;align=left;fillColor=#FFFFFF;dashed=1;" vertex="1" parent="vPG4UR1G1JbloR6vaYc--5">
@@ -1372,7 +1372,7 @@
         <mxCell id="vPG4UR1G1JbloR6vaYc--6" value="" style="group" vertex="1" connectable="0" parent="DozJUd1HVSnvjvlE7hVz-1">
           <mxGeometry x="660" y="435" width="360" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="DozJUd1HVSnvjvlE7hVz-51" value="&lt;b&gt;SELECT&lt;/b&gt; ...&lt;br&gt;&lt;b&gt;FROM&lt;/b&gt; (&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; )&lt;br&gt;&lt;b&gt;JOIN&lt;/b&gt; (&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; )&lt;br&gt;&amp;nbsp; &lt;b&gt;ON&lt;/b&gt; &lt;i&gt;$condition&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;sketch=0;fontFamily=Ubuntu Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;fontSize=32;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;align=left;spacing=10;" vertex="1" parent="vPG4UR1G1JbloR6vaYc--6">
+        <mxCell id="DozJUd1HVSnvjvlE7hVz-51" value="&lt;b&gt;SELECT&lt;/b&gt; ???&lt;br&gt;&lt;b&gt;FROM&lt;/b&gt; (&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; )&lt;br&gt;&lt;b&gt;JOIN&lt;/b&gt; (&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; )&lt;br&gt;&amp;nbsp; &lt;b&gt;ON&lt;/b&gt; &lt;i&gt;$condition&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;sketch=0;fontFamily=Ubuntu Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;fontSize=32;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;align=left;spacing=10;" vertex="1" parent="vPG4UR1G1JbloR6vaYc--6">
           <mxGeometry width="360" height="180" as="geometry" />
         </mxCell>
         <mxCell id="vPG4UR1G1JbloR6vaYc--2" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;sketch=0;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=128;align=left;fillColor=#FFFFFF;dashed=1;" vertex="1" parent="vPG4UR1G1JbloR6vaYc--6">
