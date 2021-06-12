@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-12T01:43:10.449Z" agent="5.0 (X11)" etag="iMdPHmob8H9WOIz3qUIX" version="14.7.6" type="github" pages="23">
+<mxfile host="app.diagrams.net" modified="2021-06-12T01:49:24.136Z" agent="5.0 (X11)" etag="HogzCK02OZyQbKWDyeWZ" version="14.7.6" type="github" pages="23">
   <diagram id="ngdmywiYoB712Vu0CHRt" name="Title">
     <mxGraphModel dx="2966" dy="1617" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
@@ -1775,7 +1775,7 @@
           <mxGeometry x="60" y="420" width="705" height="330" as="geometry" />
         </mxCell>
         <mxCell id="aXOaUYE5XHuZpYE-7mub-25" value="&lt;b&gt;SELECT&lt;/b&gt; p.person_id&lt;br&gt;&lt;b&gt;FROM&lt;/b&gt; (&lt;b&gt;SELECT&lt;/b&gt; p.person_id, p.location_id&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;b&gt;FROM&lt;/b&gt; person p&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;b&gt;WHERE&lt;/b&gt; p.year_of_birth &amp;gt;= 1970) p&lt;br&gt;&lt;b&gt;JOIN&lt;/b&gt; (&lt;b&gt;SELECT&lt;/b&gt; l.location_id&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;b&gt;FROM&lt;/b&gt; location l&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;b&gt;WHERE&lt;/b&gt; l.state = &#39;IL&#39;) l&lt;br&gt;&amp;nbsp; &lt;b&gt;ON&lt;/b&gt; p.location_id = l.location_id" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="aXOaUYE5XHuZpYE-7mub-1">
-          <mxGeometry x="787.5" y="420" width="660" height="315" as="geometry" />
+          <mxGeometry x="787.5" y="427.5" width="660" height="315" as="geometry" />
         </mxCell>
         <mxCell id="ZOmK1lkA7dJAw9bKpQt_-0" value="Find patients&lt;br&gt;&lt;ul&gt;&lt;li&gt;born in or after 1970&lt;/li&gt;&lt;li&gt;living in Illinois&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu;fontColor=#000000;fontStyle=2" vertex="1" parent="aXOaUYE5XHuZpYE-7mub-1">
           <mxGeometry x="60" y="75" width="360" height="180" as="geometry" />
