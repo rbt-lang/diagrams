@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-12T15:42:06.415Z" agent="5.0 (X11)" etag="OrYdELFLQnz5zk3KN4jV" version="14.7.6" type="github" pages="25">
+<mxfile host="app.diagrams.net" modified="2021-06-12T17:33:20.760Z" agent="5.0 (X11)" etag="gznAvhbnPzDlwXapy7ab" version="14.7.6" type="github" pages="27">
   <diagram id="ngdmywiYoB712Vu0CHRt" name="Title">
     <mxGraphModel dx="2966" dy="1617" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
@@ -1868,7 +1868,7 @@
         <mxCell id="jR35lGQ7KgboUf8xns6F-10" value="From(person)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="jR35lGQ7KgboUf8xns6F-1">
           <mxGeometry x="780" y="180" width="210" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="jR35lGQ7KgboUf8xns6F-11" value="From(person) |&amp;gt;&lt;br&gt;Group()" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="jR35lGQ7KgboUf8xns6F-1">
+        <mxCell id="jR35lGQ7KgboUf8xns6F-11" value="From(person) |&amp;gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(240 , 228 , 66)&quot;&gt;Group()&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="jR35lGQ7KgboUf8xns6F-1">
           <mxGeometry x="780" y="330" width="270" height="90" as="geometry" />
         </mxCell>
         <mxCell id="jR35lGQ7KgboUf8xns6F-12" value="From(person) |&amp;gt;&lt;br&gt;Group() |&amp;gt;&lt;br&gt;Select(Agg.avg(Get.year_of_birth))" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="jR35lGQ7KgboUf8xns6F-1">
@@ -1882,6 +1882,141 @@
         </mxCell>
         <mxCell id="jR35lGQ7KgboUf8xns6F-17" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;fontFamily=Ubuntu Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;fontSize=16;fontColor=#666666;fillColor=none;" vertex="1" parent="jR35lGQ7KgboUf8xns6F-1">
           <mxGeometry x="840" y="435" width="75" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Aggregates (3)" id="0cPpKfLjno7F0LFQLXlh">
+    <mxGraphModel dx="2076" dy="1132" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="72m0pA0uxoMOJrrcNIot-0" />
+        <mxCell id="72m0pA0uxoMOJrrcNIot-1" parent="72m0pA0uxoMOJrrcNIot-0" />
+        <mxCell id="72m0pA0uxoMOJrrcNIot-2" value="Patients who saw a doctor within the last 12 months." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu;fontColor=#000000;fontStyle=2" vertex="1" parent="72m0pA0uxoMOJrrcNIot-1">
+          <mxGeometry x="60" y="75" width="780" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="72m0pA0uxoMOJrrcNIot-3" value="&lt;b&gt;FROM&lt;/b&gt; person p&lt;br&gt;GROUP BY p.person_id" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="72m0pA0uxoMOJrrcNIot-1">
+          <mxGeometry x="60" y="180" width="345" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="72m0pA0uxoMOJrrcNIot-4" value="" style="group" vertex="1" connectable="0" parent="72m0pA0uxoMOJrrcNIot-1">
+          <mxGeometry y="854" width="1600" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="72m0pA0uxoMOJrrcNIot-5" value="&lt;div style=&quot;font-size: 24px&quot;&gt;FunSQL: a library for compositional construction of SQL queries&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#0072B2;fontColor=#FFFFFF;" vertex="1" parent="72m0pA0uxoMOJrrcNIot-4">
+          <mxGeometry width="840" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="72m0pA0uxoMOJrrcNIot-6" value="JuliaCon 2021" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#009E73;fontColor=#FFFFFF;" vertex="1" parent="72m0pA0uxoMOJrrcNIot-4">
+          <mxGeometry x="1320" width="280" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="72m0pA0uxoMOJrrcNIot-7" value="Clark C. Evans, Kyrylo Simonov" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#56B4E9;fontColor=#FFFFFF;" vertex="1" parent="72m0pA0uxoMOJrrcNIot-4">
+          <mxGeometry x="840" width="480" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="72m0pA0uxoMOJrrcNIot-8" value="&lt;b&gt;SELECT&lt;/b&gt; p.person_id&lt;br&gt;&lt;b&gt;FROM&lt;/b&gt; person p&lt;br&gt;&lt;b&gt;GROUP BY&lt;/b&gt; p.person_id&lt;br&gt;&lt;span style=&quot;background-color: rgb(240 , 228 , 66)&quot;&gt;&lt;b&gt;HAVING&lt;/b&gt;&lt;/span&gt; CURRENT_DATE -&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; MAX(p.visit_start_date) &amp;lt;= 365" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="72m0pA0uxoMOJrrcNIot-1">
+          <mxGeometry x="60" y="390" width="615" height="195" as="geometry" />
+        </mxCell>
+        <mxCell id="72m0pA0uxoMOJrrcNIot-9" value="From(visit_occurrence) |&amp;gt;&lt;br&gt;Group(Get.person_id)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="72m0pA0uxoMOJrrcNIot-1">
+          <mxGeometry x="780" y="180" width="420" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="72m0pA0uxoMOJrrcNIot-12" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;fontFamily=Ubuntu Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;fontSize=16;fontColor=#666666;fillColor=none;sketch=0;" vertex="1" parent="72m0pA0uxoMOJrrcNIot-1">
+          <mxGeometry x="105" y="285" width="75" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="72m0pA0uxoMOJrrcNIot-13" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;fontFamily=Ubuntu Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;fontSize=16;fontColor=#666666;fillColor=none;" vertex="1" parent="72m0pA0uxoMOJrrcNIot-1">
+          <mxGeometry x="840" y="285" width="75" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="DX3eMvyann0R6F4cxf4E-0" value="visit_occurrence" style="shape=table;startSize=45;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=32;fontColor=#FFFFFF;fillColor=#0072B2;rounded=1;" vertex="1" parent="72m0pA0uxoMOJrrcNIot-1">
+          <mxGeometry x="1260" y="60" width="300" height="270" as="geometry">
+            <mxRectangle x="375" y="600" width="150" height="45" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DX3eMvyann0R6F4cxf4E-1" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DX3eMvyann0R6F4cxf4E-0">
+          <mxGeometry y="45" width="300" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="DX3eMvyann0R6F4cxf4E-2" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=0;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="DX3eMvyann0R6F4cxf4E-1">
+          <mxGeometry width="60" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="DX3eMvyann0R6F4cxf4E-3" value="visit_occurrence_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="DX3eMvyann0R6F4cxf4E-1">
+          <mxGeometry x="60" width="240" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="DX3eMvyann0R6F4cxf4E-4" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DX3eMvyann0R6F4cxf4E-0">
+          <mxGeometry y="90" width="300" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="DX3eMvyann0R6F4cxf4E-5" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=24;" vertex="1" parent="DX3eMvyann0R6F4cxf4E-4">
+          <mxGeometry width="60" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="DX3eMvyann0R6F4cxf4E-6" value="person_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="DX3eMvyann0R6F4cxf4E-4">
+          <mxGeometry x="60" width="240" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="DX3eMvyann0R6F4cxf4E-7" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DX3eMvyann0R6F4cxf4E-0">
+          <mxGeometry y="135" width="300" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="DX3eMvyann0R6F4cxf4E-8" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="DX3eMvyann0R6F4cxf4E-7">
+          <mxGeometry width="60" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="DX3eMvyann0R6F4cxf4E-9" value="visit_concept_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="DX3eMvyann0R6F4cxf4E-7">
+          <mxGeometry x="60" width="240" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="DX3eMvyann0R6F4cxf4E-10" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DX3eMvyann0R6F4cxf4E-0">
+          <mxGeometry y="180" width="300" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="DX3eMvyann0R6F4cxf4E-11" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="DX3eMvyann0R6F4cxf4E-10">
+          <mxGeometry width="60" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="DX3eMvyann0R6F4cxf4E-12" value="visit_start_date" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="DX3eMvyann0R6F4cxf4E-10">
+          <mxGeometry x="60" width="240" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="DX3eMvyann0R6F4cxf4E-13" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DX3eMvyann0R6F4cxf4E-0">
+          <mxGeometry y="225" width="300" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="DX3eMvyann0R6F4cxf4E-14" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="DX3eMvyann0R6F4cxf4E-13">
+          <mxGeometry width="60" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="DX3eMvyann0R6F4cxf4E-15" value="visit_end_date" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="DX3eMvyann0R6F4cxf4E-13">
+          <mxGeometry x="60" width="240" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="FX1oA9q0e4HfW7MN7LWi-1" value="From(visit_occurrence) |&amp;gt;&lt;br&gt;Group(Get.person_id) |&amp;gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(240 , 228 , 66)&quot;&gt;Where&lt;/span&gt;(Fun.current_date() .-&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Agg.max(Get.visit_start_date) .&amp;lt;= 365) |&amp;gt;&lt;br&gt;Select(Get.person_id)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="72m0pA0uxoMOJrrcNIot-1">
+          <mxGeometry x="780" y="390" width="780" height="195" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Group Query" id="dwzKN2mO5FuyPPyLDY3m">
+    <mxGraphModel dx="2076" dy="1132" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="GKcabJAp7IRkm1lHmSA0-0" />
+        <mxCell id="GKcabJAp7IRkm1lHmSA0-1" parent="GKcabJAp7IRkm1lHmSA0-0" />
+        <mxCell id="GKcabJAp7IRkm1lHmSA0-2" value="" style="group" vertex="1" connectable="0" parent="GKcabJAp7IRkm1lHmSA0-1">
+          <mxGeometry y="854" width="1600" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="GKcabJAp7IRkm1lHmSA0-3" value="&lt;div style=&quot;font-size: 24px&quot;&gt;FunSQL: a library for compositional construction of SQL queries&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#0072B2;fontColor=#FFFFFF;" vertex="1" parent="GKcabJAp7IRkm1lHmSA0-2">
+          <mxGeometry width="840" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="GKcabJAp7IRkm1lHmSA0-4" value="JuliaCon 2021" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#009E73;fontColor=#FFFFFF;" vertex="1" parent="GKcabJAp7IRkm1lHmSA0-2">
+          <mxGeometry x="1320" width="280" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="GKcabJAp7IRkm1lHmSA0-5" value="Clark C. Evans, Kyrylo Simonov" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#56B4E9;fontColor=#FFFFFF;" vertex="1" parent="GKcabJAp7IRkm1lHmSA0-2">
+          <mxGeometry x="840" width="480" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="GKcabJAp7IRkm1lHmSA0-6" value="From(&lt;i&gt;table&lt;/i&gt;)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="GKcabJAp7IRkm1lHmSA0-1">
+          <mxGeometry x="120" y="90" width="195" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="GKcabJAp7IRkm1lHmSA0-14" value="" style="group" vertex="1" connectable="0" parent="GKcabJAp7IRkm1lHmSA0-1">
+          <mxGeometry x="120" y="240" width="270" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="GKcabJAp7IRkm1lHmSA0-15" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; |&amp;gt;&lt;br&gt;Group(&lt;i&gt;list...&lt;/i&gt;)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="GKcabJAp7IRkm1lHmSA0-14">
+          <mxGeometry width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="GKcabJAp7IRkm1lHmSA0-16" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;sketch=0;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=128;align=left;fillColor=#FFFFFF;dashed=1;" vertex="1" parent="GKcabJAp7IRkm1lHmSA0-14">
+          <mxGeometry y="15" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GKcabJAp7IRkm1lHmSA0-17" value="&lt;b&gt;SELECT&lt;/b&gt; ???&lt;br&gt;&lt;b&gt;FROM&lt;/b&gt; &lt;i&gt;$table&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;sketch=0;fontFamily=Ubuntu Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;fontSize=32;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;align=left;spacing=10;" vertex="1" parent="GKcabJAp7IRkm1lHmSA0-1">
+          <mxGeometry x="660" y="75" width="360" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="GKcabJAp7IRkm1lHmSA0-18" value="" style="group" vertex="1" connectable="0" parent="GKcabJAp7IRkm1lHmSA0-1">
+          <mxGeometry x="660" y="225" width="420" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="GKcabJAp7IRkm1lHmSA0-19" value="&lt;b&gt;SELECT&lt;/b&gt; &lt;i&gt;$(list...)&lt;/i&gt;, ???&lt;br&gt;&lt;b&gt;FROM&lt;/b&gt; (&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; )&lt;br&gt;&lt;b&gt;GROUP BY&lt;/b&gt; &lt;i&gt;$(list...)&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;sketch=0;fontFamily=Ubuntu Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;fontSize=32;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;align=left;spacing=10;" vertex="1" parent="GKcabJAp7IRkm1lHmSA0-18">
+          <mxGeometry y="-1" width="420" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="GKcabJAp7IRkm1lHmSA0-20" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;sketch=0;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=128;align=left;fillColor=#FFFFFF;dashed=1;" vertex="1" parent="GKcabJAp7IRkm1lHmSA0-18">
+          <mxGeometry x="109" y="63" width="105" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
