@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-15T21:16:14.539Z" agent="5.0 (X11)" etag="lwTWwuxtVSE3RSFQGp5d" version="14.7.6" type="github" pages="40">
+<mxfile host="app.diagrams.net" modified="2021-06-15T23:42:46.956Z" agent="5.0 (X11)" etag="Mm6pWrXfpJF0LmbLKZMw" version="14.7.6" type="github" pages="41">
   <diagram id="ngdmywiYoB712Vu0CHRt" name="Title">
     <mxGraphModel dx="1038" dy="566" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
@@ -2493,15 +2493,12 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Correlated Condition (1)" id="CX0G-d89b1qjEHYcPpDv">
-    <mxGraphModel dx="2595" dy="1415" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="2076" dy="1132" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="tLfk-UGqSE42_GSaFjFA-0" />
         <mxCell id="tLfk-UGqSE42_GSaFjFA-1" parent="tLfk-UGqSE42_GSaFjFA-0" />
-        <mxCell id="tLfk-UGqSE42_GSaFjFA-2" value="Find patients diagnosed with &quot;Essential Hypertension&quot;." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu;fontColor=#000000;fontStyle=2" vertex="1" parent="tLfk-UGqSE42_GSaFjFA-1">
-          <mxGeometry x="60" y="75.5" width="810" height="45" as="geometry" />
-        </mxCell>
-        <mxCell id="tLfk-UGqSE42_GSaFjFA-3" value="&lt;b&gt;FROM&lt;/b&gt; condition_occurrence c&lt;br&gt;&lt;b&gt;WHERE&lt;/b&gt; c.condition_concept_id = 320128" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="tLfk-UGqSE42_GSaFjFA-1">
-          <mxGeometry x="60" y="158" width="615" height="90" as="geometry" />
+        <mxCell id="tLfk-UGqSE42_GSaFjFA-2" value="Find patients with at least one medical condition." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu;fontColor=#000000;fontStyle=2" vertex="1" parent="tLfk-UGqSE42_GSaFjFA-1">
+          <mxGeometry x="60" y="75.5" width="735" height="45" as="geometry" />
         </mxCell>
         <mxCell id="tLfk-UGqSE42_GSaFjFA-4" value="" style="group" vertex="1" connectable="0" parent="tLfk-UGqSE42_GSaFjFA-1">
           <mxGeometry y="854" width="1600" height="45" as="geometry" />
@@ -2515,11 +2512,8 @@
         <mxCell id="tLfk-UGqSE42_GSaFjFA-7" value="Clark C. Evans, Kyrylo Simonov" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#56B4E9;fontColor=#FFFFFF;" vertex="1" parent="tLfk-UGqSE42_GSaFjFA-4">
           <mxGeometry x="840" width="480" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="tLfk-UGqSE42_GSaFjFA-12" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;fontFamily=Ubuntu Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;fontSize=16;fontColor=#666666;fillColor=none;sketch=0;" vertex="1" parent="tLfk-UGqSE42_GSaFjFA-1">
-          <mxGeometry x="120" y="255" width="75" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="tLfk-UGqSE42_GSaFjFA-17" value="&lt;b&gt;SELECT&lt;/b&gt; p.person_id, p.year_of_birth&lt;br&gt;&lt;b&gt;FROM&lt;/b&gt; person p&lt;br&gt;&lt;b&gt;WHERE&lt;/b&gt; EXISTS (&lt;b&gt;SELECT&lt;/b&gt; NULL&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;b&gt;FROM&lt;/b&gt; condition_occurrence c&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;b&gt;WHERE&lt;/b&gt; c.condition_concept_id = 320128&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; AND c.person_id = p.person_id)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="tLfk-UGqSE42_GSaFjFA-1">
-          <mxGeometry x="60" y="360" width="840" height="240" as="geometry" />
+        <mxCell id="tLfk-UGqSE42_GSaFjFA-17" value="&lt;b&gt;SELECT&lt;/b&gt; p.*&lt;br&gt;&lt;b&gt;FROM&lt;/b&gt; person p&lt;br&gt;&lt;b&gt;WHERE&lt;/b&gt; EXISTS (&lt;b&gt;SELECT&lt;/b&gt; NULL&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;b&gt;FROM&lt;/b&gt; condition_occurrence c&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;b&gt;WHERE&lt;/b&gt; c.person_id = p.person_id)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="tLfk-UGqSE42_GSaFjFA-1">
+          <mxGeometry x="60" y="180" width="765" height="195" as="geometry" />
         </mxCell>
         <mxCell id="ZwPuZIZADp_Z-03snaWq-0" value="condition_occurrence" style="shape=table;startSize=45;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=32;fontColor=#FFFFFF;fillColor=#0072B2;rounded=1;" vertex="1" parent="tLfk-UGqSE42_GSaFjFA-1">
           <mxGeometry x="1200" y="300" width="360" height="270" as="geometry">
@@ -2615,7 +2609,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Correlated Condition (2)" id="TFD43Gb1yPUrwNFNGEjV">
-    <mxGraphModel dx="1483" dy="809" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="1730" dy="943" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="ouF3CpVCNhN9PwKL8V9C-0" />
         <mxCell id="ouF3CpVCNhN9PwKL8V9C-1" parent="ouF3CpVCNhN9PwKL8V9C-0" />
@@ -2631,29 +2625,32 @@
         <mxCell id="ouF3CpVCNhN9PwKL8V9C-7" value="Clark C. Evans, Kyrylo Simonov" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#56B4E9;fontColor=#FFFFFF;" vertex="1" parent="ouF3CpVCNhN9PwKL8V9C-4">
           <mxGeometry x="840" width="480" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="ouF3CpVCNhN9PwKL8V9C-9" value="&lt;b&gt;SELECT&lt;/b&gt; p.person_id, p.year_of_birth&lt;br&gt;&lt;b&gt;FROM&lt;/b&gt; person p&lt;br&gt;&lt;b&gt;WHERE&lt;/b&gt; EXISTS (&lt;b&gt;SELECT&lt;/b&gt; NULL&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;b&gt;FROM&lt;/b&gt; condition_occurrence c&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;b&gt;WHERE&lt;/b&gt; c.condition_concept_id = 320128&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; AND c.person_id = p.person_id)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="ouF3CpVCNhN9PwKL8V9C-1">
-          <mxGeometry x="60" y="75" width="840" height="240" as="geometry" />
-        </mxCell>
-        <mxCell id="Fs12Ehpabdk9xFEzaVnZ-2" value="&lt;b&gt;SELECT&lt;/b&gt; p.person_id, p.year_of_birth&lt;br&gt;&lt;b&gt;FROM&lt;/b&gt; person p&lt;br&gt;&lt;b&gt;WHERE&lt;/b&gt; EXISTS EssentialHypertensionByPersonId(p.person_id)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="ouF3CpVCNhN9PwKL8V9C-1">
-          <mxGeometry x="60" y="660" width="945" height="120" as="geometry" />
+        <mxCell id="Fs12Ehpabdk9xFEzaVnZ-2" value="&lt;b&gt;SELECT&lt;/b&gt; p.*&lt;br&gt;&lt;b&gt;FROM&lt;/b&gt; person p&lt;br&gt;&lt;b&gt;WHERE&lt;/b&gt; EXISTS CorrelatedCondition(p.person_id)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="ouF3CpVCNhN9PwKL8V9C-1">
+          <mxGeometry x="60" y="660" width="750" height="120" as="geometry" />
         </mxCell>
         <mxCell id="_SHgmO3oXVzX1p7oxLA_-0" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.twoWayArrow;dy=0.6;dx=35;sketch=0;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=16;fontColor=#000000;fillColor=#FFFFFF;direction=south;" vertex="1" parent="ouF3CpVCNhN9PwKL8V9C-1">
-          <mxGeometry x="375" y="330" width="75" height="120" as="geometry" />
+          <mxGeometry x="120" y="390" width="75" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="_SHgmO3oXVzX1p7oxLA_-1" value="" style="group" vertex="1" connectable="0" parent="ouF3CpVCNhN9PwKL8V9C-1">
-          <mxGeometry x="60" y="465" width="1245" height="165" as="geometry" />
+        <mxCell id="YR2fE-4emgsIVYnuaXX9-0" value="" style="group" vertex="1" connectable="0" parent="ouF3CpVCNhN9PwKL8V9C-1">
+          <mxGeometry x="60" y="525" width="900" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="Fs12Ehpabdk9xFEzaVnZ-0" value="EssentialHypertensionByPersonId : &lt;b&gt;&lt;i&gt;X&lt;/i&gt;&lt;/b&gt; ↦" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="_SHgmO3oXVzX1p7oxLA_-1">
-          <mxGeometry y="53" width="630" height="45" as="geometry" />
+        <mxCell id="Fs12Ehpabdk9xFEzaVnZ-0" value="CorrelatedCondition : &lt;b&gt;&lt;i&gt;X&lt;/i&gt;&lt;/b&gt; ↦" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="YR2fE-4emgsIVYnuaXX9-0">
+          <mxGeometry y="37.5" width="435" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="Fs12Ehpabdk9xFEzaVnZ-1" value="&lt;b&gt;SELECT&lt;/b&gt; NULL&lt;br&gt;&lt;b&gt;FROM&lt;/b&gt; condition_occurrence c&lt;br&gt;&lt;b&gt;WHERE&lt;/b&gt; c.condition_concept_id = 320128&lt;br&gt;&amp;nbsp; AND c.person_id = &lt;b&gt;&lt;i&gt;X&lt;/i&gt;&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="_SHgmO3oXVzX1p7oxLA_-1">
-          <mxGeometry x="630" width="615" height="165" as="geometry" />
+        <mxCell id="Fs12Ehpabdk9xFEzaVnZ-1" value="&lt;b&gt;SELECT&lt;/b&gt; NULL&lt;br&gt;&lt;b&gt;FROM&lt;/b&gt; condition_occurrence c&lt;br&gt;&lt;b&gt;WHERE&lt;/b&gt; c.person_id = &lt;b&gt;&lt;i&gt;X&lt;/i&gt;&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="YR2fE-4emgsIVYnuaXX9-0">
+          <mxGeometry x="435" width="465" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="K3jIoVHIlPVXKItIfuuJ-0" value="Find patients with at least one medical condition." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu;fontColor=#000000;fontStyle=2" vertex="1" parent="ouF3CpVCNhN9PwKL8V9C-1">
+          <mxGeometry x="60" y="75.5" width="735" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="K3jIoVHIlPVXKItIfuuJ-1" value="&lt;b&gt;SELECT&lt;/b&gt; p.*&lt;br&gt;&lt;b&gt;FROM&lt;/b&gt; person p&lt;br&gt;&lt;b&gt;WHERE&lt;/b&gt; EXISTS (&lt;b&gt;SELECT&lt;/b&gt; NULL&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;b&gt;FROM&lt;/b&gt; condition_occurrence c&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;b&gt;WHERE&lt;/b&gt; c.person_id = p.person_id)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="ouF3CpVCNhN9PwKL8V9C-1">
+          <mxGeometry x="60" y="180" width="765" height="195" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="Copy of Correlated Condition (2)" id="EbUttABLaiIEf_XCiUSx">
-    <mxGraphModel dx="2076" dy="1132" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+  <diagram name="Correlated Condition (3)" id="EbUttABLaiIEf_XCiUSx">
+    <mxGraphModel dx="2595" dy="1415" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="4yhlL6s92CmVJuZ5HUd8-0" />
         <mxCell id="4yhlL6s92CmVJuZ5HUd8-1" parent="4yhlL6s92CmVJuZ5HUd8-0" />
@@ -2669,26 +2666,58 @@
         <mxCell id="4yhlL6s92CmVJuZ5HUd8-5" value="Clark C. Evans, Kyrylo Simonov" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#56B4E9;fontColor=#FFFFFF;" vertex="1" parent="4yhlL6s92CmVJuZ5HUd8-2">
           <mxGeometry x="840" width="480" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="4yhlL6s92CmVJuZ5HUd8-12" value="&lt;b&gt;SELECT&lt;/b&gt; c.*&lt;br&gt;&lt;b&gt;FROM&lt;/b&gt; condition_occurrence c&lt;br&gt;&lt;b&gt;WHERE&lt;/b&gt; c.condition_concept_id = 320128&lt;br&gt;&amp;nbsp; AND c.person_id = :X" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="4yhlL6s92CmVJuZ5HUd8-1">
-          <mxGeometry x="840" y="210" width="615" height="165" as="geometry" />
+        <mxCell id="4yhlL6s92CmVJuZ5HUd8-12" value="&lt;b&gt;SELECT&lt;/b&gt; c.*&lt;br&gt;&lt;b&gt;FROM&lt;/b&gt; condition_occurrence c&lt;br&gt;&lt;b&gt;WHERE&lt;/b&gt; c.person_id = :X" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="4yhlL6s92CmVJuZ5HUd8-1">
+          <mxGeometry x="780" y="75" width="465" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="mJgfql2D-JhdHIVfp97y-0" value="EssentialHypertension |&amp;gt;&lt;br&gt;Where(Get.person_id .== Var.X)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="4yhlL6s92CmVJuZ5HUd8-1">
-          <mxGeometry x="60" y="210" width="510" height="90" as="geometry" />
+        <mxCell id="mJgfql2D-JhdHIVfp97y-0" value="From(condition_occurrence) |&amp;gt;&lt;br&gt;Where(Get.person_id .== Var.X)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="4yhlL6s92CmVJuZ5HUd8-1">
+          <mxGeometry x="60" y="75" width="510" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="wOlhy-9Vx0tffzPqLGoZ-0" value="EssentialHypertensionByPersonId(X) =&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; EssentialHypertension |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Where(Get.person_id .== Var.X) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Bind(:X =&amp;gt; X)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="4yhlL6s92CmVJuZ5HUd8-1">
-          <mxGeometry x="60" y="450" width="615" height="165" as="geometry" />
+        <mxCell id="wOlhy-9Vx0tffzPqLGoZ-0" value="CorrelatedCondition(X) =&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; From(condition_occurrence) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Where(Get.person_id .== Var.X) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Bind(:X =&amp;gt; X)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="4yhlL6s92CmVJuZ5HUd8-1">
+          <mxGeometry x="60" y="345" width="615" height="165" as="geometry" />
         </mxCell>
-        <mxCell id="wOlhy-9Vx0tffzPqLGoZ-1" value="EssentialHypertensionByPersonId(6)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="4yhlL6s92CmVJuZ5HUd8-1">
-          <mxGeometry x="60" y="645" width="570" height="45" as="geometry" />
+        <mxCell id="wOlhy-9Vx0tffzPqLGoZ-1" value="CorrelatedCondition(6)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="4yhlL6s92CmVJuZ5HUd8-1">
+          <mxGeometry x="60" y="555" width="375" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="wOlhy-9Vx0tffzPqLGoZ-2" value="&lt;b&gt;SELECT&lt;/b&gt; c.*&lt;br&gt;&lt;b&gt;FROM&lt;/b&gt; condition_occurrence c&lt;br&gt;&lt;b&gt;WHERE&lt;/b&gt; c.condition_concept_id = 320128&lt;br&gt;&amp;nbsp; AND c.person_id = 6" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="4yhlL6s92CmVJuZ5HUd8-1">
-          <mxGeometry x="840" y="645" width="615" height="165" as="geometry" />
-        </mxCell>
-        <mxCell id="wOlhy-9Vx0tffzPqLGoZ-3" value="const EssentialHypertension =&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; From(condition_occurrence) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Where(Get.condition_concept_id .== 320128)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="4yhlL6s92CmVJuZ5HUd8-1">
-          <mxGeometry x="60" y="60" width="765" height="120" as="geometry" />
+        <mxCell id="wOlhy-9Vx0tffzPqLGoZ-2" value="&lt;b&gt;SELECT&lt;/b&gt; c.*&lt;br&gt;&lt;b&gt;FROM&lt;/b&gt; condition_occurrence c&lt;br&gt;&lt;b&gt;WHERE&lt;/b&gt; c.person_id = 6" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="4yhlL6s92CmVJuZ5HUd8-1">
+          <mxGeometry x="780" y="555" width="465" height="120" as="geometry" />
         </mxCell>
         <mxCell id="0LvawCky_vxc8JBqdMqH-0" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;fontFamily=Ubuntu Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;fontSize=16;fontColor=#666666;fillColor=none;sketch=0;" vertex="1" parent="4yhlL6s92CmVJuZ5HUd8-1">
-          <mxGeometry x="120" y="330" width="75" height="90" as="geometry" />
+          <mxGeometry x="120" y="210" width="75" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Correlated Condition (4)" id="p44Ngy-gpR0hWLWJNs1m">
+    <mxGraphModel dx="2595" dy="1415" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="7cMJe9vYnZSKrjimOe8S-0" />
+        <mxCell id="7cMJe9vYnZSKrjimOe8S-1" parent="7cMJe9vYnZSKrjimOe8S-0" />
+        <mxCell id="7cMJe9vYnZSKrjimOe8S-2" value="" style="group" vertex="1" connectable="0" parent="7cMJe9vYnZSKrjimOe8S-1">
+          <mxGeometry y="854" width="1600" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="7cMJe9vYnZSKrjimOe8S-3" value="&lt;div style=&quot;font-size: 24px&quot;&gt;FunSQL: a library for compositional construction of SQL queries&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#0072B2;fontColor=#FFFFFF;" vertex="1" parent="7cMJe9vYnZSKrjimOe8S-2">
+          <mxGeometry width="840" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="7cMJe9vYnZSKrjimOe8S-4" value="JuliaCon 2021" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#009E73;fontColor=#FFFFFF;" vertex="1" parent="7cMJe9vYnZSKrjimOe8S-2">
+          <mxGeometry x="1320" width="280" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="7cMJe9vYnZSKrjimOe8S-5" value="Clark C. Evans, Kyrylo Simonov" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#56B4E9;fontColor=#FFFFFF;" vertex="1" parent="7cMJe9vYnZSKrjimOe8S-2">
+          <mxGeometry x="840" width="480" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="7cMJe9vYnZSKrjimOe8S-9" value="From(person) |&amp;gt;&lt;br&gt;Where(Fun.exists(&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp; &amp;nbsp; CorrelatedCondition(Get.person_id))" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="7cMJe9vYnZSKrjimOe8S-1">
+          <mxGeometry x="60" y="480" width="705" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="7BkxfEhfrr_mtix_sytH-0" value="CorrelatedCondition(X) =&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; From(condition_occurrence) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Where(Get.person_id .== Var.X) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Bind(:X =&amp;gt; X)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="7cMJe9vYnZSKrjimOe8S-1">
+          <mxGeometry x="60" y="75" width="615" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="7BkxfEhfrr_mtix_sytH-1" value="CorrelatedCondition(6)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="7cMJe9vYnZSKrjimOe8S-1">
+          <mxGeometry x="60" y="285" width="375" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="7BkxfEhfrr_mtix_sytH-2" value="&lt;b&gt;SELECT&lt;/b&gt; c.*&lt;br&gt;&lt;b&gt;FROM&lt;/b&gt; condition_occurrence c&lt;br&gt;&lt;b&gt;WHERE&lt;/b&gt; c.person_id = 6" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="7cMJe9vYnZSKrjimOe8S-1">
+          <mxGeometry x="780" y="285" width="465" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="zJKO84N2ps9mEZujKpsV-0" value="&lt;b&gt;SELECT&lt;/b&gt; p.*&lt;br&gt;&lt;b&gt;FROM&lt;/b&gt; person p&lt;br&gt;&lt;b&gt;WHERE&lt;/b&gt; EXISTS (&lt;b&gt;SELECT&lt;/b&gt; NULL&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;b&gt;FROM&lt;/b&gt; condition_occurrence c&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;b&gt;WHERE&lt;/b&gt; c.person_id = p.person_id)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="7cMJe9vYnZSKrjimOe8S-1">
+          <mxGeometry x="780" y="480" width="765" height="195" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
