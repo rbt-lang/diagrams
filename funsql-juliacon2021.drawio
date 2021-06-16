@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-16T14:06:46.224Z" agent="5.0 (X11)" etag="4h_vv8vfJ0Pbv4MunWJN" version="14.7.6" type="github" pages="45">
+<mxfile host="app.diagrams.net" modified="2021-06-16T14:12:47.206Z" agent="5.0 (X11)" etag="SG43fs19UcgJhgO9MkKQ" version="14.7.6" type="github" pages="45">
   <diagram id="ngdmywiYoB712Vu0CHRt" name="Title">
     <mxGraphModel dx="1038" dy="566" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
@@ -2046,7 +2046,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Correlated Condition (2)" id="k8b2dAKiO_tv0SdSqAao">
-    <mxGraphModel dx="2483" dy="943" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="2083" dy="943" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="X1Zd_ipYbXXybyELHOPl-0" />
         <mxCell id="X1Zd_ipYbXXybyELHOPl-1" parent="X1Zd_ipYbXXybyELHOPl-0" />
@@ -2158,23 +2158,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qXkzvefLV_npot4y6mwE-0" value="q&lt;sub&gt;p&lt;/sub&gt; = From(person)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="X1Zd_ipYbXXybyELHOPl-1">
-          <mxGeometry x="60" y="480" width="285" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="qXkzvefLV_npot4y6mwE-1" value="q&lt;sub&gt;c&lt;/sub&gt; = From(condition_occurrence)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="X1Zd_ipYbXXybyELHOPl-1">
-          <mxGeometry x="600" y="480" width="510" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="qXkzvefLV_npot4y6mwE-2" value="q&lt;sub&gt;p&lt;/sub&gt; |&amp;gt;&lt;br&gt; Where(Fun.exists(q&lt;sub&gt;c&lt;/sub&gt; |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Where(q&lt;sub&gt;c&lt;/sub&gt;.person_id .== &lt;i&gt;&lt;font color=&quot;#D55E00&quot;&gt;q&lt;sub&gt;p&lt;/sub&gt;.person_id&lt;/font&gt;&lt;/i&gt;)))" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="X1Zd_ipYbXXybyELHOPl-1">
-          <mxGeometry x="120" y="630" width="900" height="150" as="geometry" />
-        </mxCell>
-        <mxCell id="NDbbHEohWCRkZrFJvEuF-0" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;fontFamily=Ubuntu Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;fontSize=16;fontColor=#666666;fillColor=none;rotation=45;" vertex="1" parent="X1Zd_ipYbXXybyELHOPl-1">
-          <mxGeometry x="720" y="555" width="75" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="NDbbHEohWCRkZrFJvEuF-1" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;fontFamily=Ubuntu Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;fontSize=16;fontColor=#666666;fillColor=none;rotation=315;" vertex="1" parent="X1Zd_ipYbXXybyELHOPl-1">
-          <mxGeometry x="225" y="555" width="75" height="90" as="geometry" />
+        <mxCell id="qXkzvefLV_npot4y6mwE-0" value="q&lt;sub&gt;p&lt;/sub&gt; = From(person)&lt;br&gt;q&lt;sub&gt;c&lt;/sub&gt; = From(condition_occurrence)&lt;br&gt;q&lt;sub&gt;corr&lt;/sub&gt; = q&lt;sub&gt;c&lt;/sub&gt; |&amp;gt; Where(q&lt;sub&gt;c&lt;/sub&gt;.person_id .== &lt;i&gt;&lt;font color=&quot;#D55E00&quot;&gt;q&lt;sub&gt;p&lt;/sub&gt;.person_id&lt;/font&gt;&lt;/i&gt;)&lt;br&gt;q = q&lt;sub&gt;p&lt;/sub&gt; |&amp;gt; Where(Fun.exists(q&lt;sub&gt;corr&lt;/sub&gt;))" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="X1Zd_ipYbXXybyELHOPl-1">
+          <mxGeometry x="60" y="480" width="810" height="195" as="geometry" />
         </mxCell>
         <mxCell id="NDbbHEohWCRkZrFJvEuF-2" value="&amp;nbsp;ERROR: Cannot find person_id&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; " style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;labelBackgroundColor=#D55E00;fontColor=#FFFFFF;" vertex="1" parent="X1Zd_ipYbXXybyELHOPl-1">
-          <mxGeometry x="120" y="780" width="900" height="45" as="geometry" />
+          <mxGeometry x="60" y="675" width="900" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -2981,7 +2969,7 @@
         <mxCell id="VfAxATfcbwWP_4Iucb9b-27" value="visit_end_date" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" parent="VfAxATfcbwWP_4Iucb9b-25" vertex="1">
           <mxGeometry x="60" width="240" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="VfAxATfcbwWP_4Iucb9b-30" value="From(visit_occurrence) |&amp;gt;&lt;br&gt;Partition(Get.person_id,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; order_by = [Get.visit_start_date],&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; frame = (mode = :rows, start = -Inf, finish = -1)) |&amp;gt;&lt;br&gt;Define(:boundary =&amp;gt; Agg.max(Get.visit_end_date)) |&amp;gt;&lt;br&gt;Define(:bump =&amp;gt; Fun.case(Get.visit_start_date .&amp;lt;= Get.boundary, 0, 1)) |&amp;gt;&lt;br&gt;Partition(Get.person_id,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; order_by = [Get.visit_start_date, .- Get.bump],&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; frame = :rows) |&amp;gt;&lt;br&gt;Define(:group = Agg.sum(Get.bump)) |&amp;gt;&lt;br&gt;Group(Get.person_id, Get.group) |&amp;gt;&lt;br&gt;Define(:start_date =&amp;gt; Agg.min(Get.visit_start_date),&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; :end_date =&amp;gt; Agg.max(Get.visit_end_date)) |&amp;gt;&lt;br&gt;Select(Get.person_id, Get.start_date, Get.end_date)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" parent="VfAxATfcbwWP_4Iucb9b-1" vertex="1">
+        <mxCell id="VfAxATfcbwWP_4Iucb9b-30" value="From(visit_occurrence) |&amp;gt;&lt;br&gt;Partition(Get.person_id,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; order_by = [Get.visit_start_date],&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; frame = (mode = :rows, start = -Inf, finish = -1)) |&amp;gt;&lt;br&gt;Define(:boundary =&amp;gt; Agg.max(Get.visit_end_date)) |&amp;gt;&lt;br&gt;Define(:bump =&amp;gt; Fun.case(Get.visit_start_date .&amp;lt;= Get.boundary, 0, 1)) |&amp;gt;&lt;br&gt;Partition(Get.person_id,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; order_by = [Get.visit_start_date, .- Get.bump],&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; frame = :rows) |&amp;gt;&lt;br&gt;Define(:group =&amp;gt; Agg.sum(Get.bump)) |&amp;gt;&lt;br&gt;Group(Get.person_id, Get.group) |&amp;gt;&lt;br&gt;Define(:start_date =&amp;gt; Agg.min(Get.visit_start_date),&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; :end_date =&amp;gt; Agg.max(Get.visit_end_date)) |&amp;gt;&lt;br&gt;Select(Get.person_id, Get.start_date, Get.end_date)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" parent="VfAxATfcbwWP_4Iucb9b-1" vertex="1">
           <mxGeometry x="60" y="180" width="1185" height="540" as="geometry" />
         </mxCell>
       </root>
