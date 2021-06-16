@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-16T00:33:39.462Z" agent="5.0 (X11)" etag="Y9tvaW-Rs7aanwe1wJF7" version="14.7.6" type="github" pages="43">
+<mxfile host="app.diagrams.net" modified="2021-06-16T02:06:03.581Z" agent="5.0 (X11)" etag="S-8lr3gSv3KY2KDdIDGA" version="14.7.6" type="github" pages="43">
   <diagram id="ngdmywiYoB712Vu0CHRt" name="Title">
     <mxGraphModel dx="1038" dy="566" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
@@ -3204,7 +3204,7 @@
         <mxCell id="vpxmCjZp6P3BxzeJPbha-0" />
         <mxCell id="vpxmCjZp6P3BxzeJPbha-1" parent="vpxmCjZp6P3BxzeJPbha-0" />
         <mxCell id="vpxmCjZp6P3BxzeJPbha-2" value="TODO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=64;" vertex="1" parent="vpxmCjZp6P3BxzeJPbha-1">
-          <mxGeometry x="60" y="60" width="210" height="90" as="geometry" />
+          <mxGeometry x="780" y="60" width="210" height="90" as="geometry" />
         </mxCell>
         <mxCell id="vpxmCjZp6P3BxzeJPbha-3" value="" style="group" vertex="1" connectable="0" parent="vpxmCjZp6P3BxzeJPbha-1">
           <mxGeometry y="854" width="1600" height="45" as="geometry" />
@@ -3218,8 +3218,14 @@
         <mxCell id="vpxmCjZp6P3BxzeJPbha-6" value="Clark C. Evans, Kyrylo Simonov" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#56B4E9;fontColor=#FFFFFF;" vertex="1" parent="vpxmCjZp6P3BxzeJPbha-3">
           <mxGeometry x="840" width="480" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="vpxmCjZp6P3BxzeJPbha-12" value="&lt;ul style=&quot;font-size: 32px;&quot;&gt;&lt;li style=&quot;font-size: 32px;&quot;&gt;CTE and WITH clause&lt;/li&gt;&lt;li style=&quot;font-size: 32px;&quot;&gt;WITH RECURSIVE&lt;/li&gt;&lt;li style=&quot;font-size: 32px;&quot;&gt;INSERT, UPDATE, DELETE&lt;/li&gt;&lt;li style=&quot;font-size: 32px;&quot;&gt;CREATE TABLE&lt;br style=&quot;font-size: 32px;&quot;&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=32;" vertex="1" parent="vpxmCjZp6P3BxzeJPbha-1">
-          <mxGeometry x="60" y="180" width="435" height="225" as="geometry" />
+        <mxCell id="vpxmCjZp6P3BxzeJPbha-12" value="&lt;ul style=&quot;font-size: 32px&quot;&gt;&lt;li style=&quot;font-size: 32px&quot;&gt;CTE and WITH clause&lt;/li&gt;&lt;li style=&quot;font-size: 32px&quot;&gt;WITH RECURSIVE&lt;/li&gt;&lt;li style=&quot;font-size: 32px&quot;&gt;INSERT, UPDATE, DELETE&lt;/li&gt;&lt;li style=&quot;font-size: 32px&quot;&gt;CREATE TABLE&lt;/li&gt;&lt;li style=&quot;font-size: 32px&quot;&gt;Introspection&lt;/li&gt;&lt;li style=&quot;font-size: 32px&quot;&gt;Tracking expression types&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=32;" vertex="1" parent="vpxmCjZp6P3BxzeJPbha-1">
+          <mxGeometry x="780" y="150" width="435" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="EqMtkK_Kd_q4k41huhDP-0" value="DONE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=64;" vertex="1" parent="vpxmCjZp6P3BxzeJPbha-1">
+          <mxGeometry x="68" y="60" width="195" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EqMtkK_Kd_q4k41huhDP-1" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;white-space: pre&quot;&gt;Select&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;white-space: pre&quot;&gt;Where&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;white-space: pre&quot;&gt;(Inner/Left/Right) Join&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;white-space: pre&quot;&gt;Group, aggregate and window&lt;br&gt;functions&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;white-space: pre&quot;&gt;Parameterized Queries&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;white-space: pre&quot;&gt;Correlated Queries&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;white-space: pre&quot;&gt;Append (UNION ALL)&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;white-space: pre&quot;&gt;SQLite, PostgresSQL, RedShift,&lt;br&gt;Microsoft SQL Server&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=32;" vertex="1" parent="vpxmCjZp6P3BxzeJPbha-1">
+          <mxGeometry x="68" y="150" width="510" height="450" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
