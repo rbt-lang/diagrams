@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-16T00:03:40.863Z" agent="5.0 (X11)" etag="0F17etq3HqVJtyHJjFvk" version="14.7.6" type="github" pages="42">
+<mxfile host="app.diagrams.net" modified="2021-06-16T00:20:11.384Z" agent="5.0 (X11)" etag="zqGV6wQwgN9ZtAwQicnj" version="14.7.6" type="github" pages="42">
   <diagram id="ngdmywiYoB712Vu0CHRt" name="Title">
     <mxGraphModel dx="1038" dy="566" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
@@ -2874,7 +2874,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Correlated Condition (4)" id="EbUttABLaiIEf_XCiUSx">
-    <mxGraphModel dx="2595" dy="1415" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="1221" dy="666" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="4yhlL6s92CmVJuZ5HUd8-0" />
         <mxCell id="4yhlL6s92CmVJuZ5HUd8-1" parent="4yhlL6s92CmVJuZ5HUd8-0" />
@@ -2912,7 +2912,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Correlated Condition (5)" id="p44Ngy-gpR0hWLWJNs1m">
-    <mxGraphModel dx="2595" dy="1415" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="2076" dy="1132" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="7cMJe9vYnZSKrjimOe8S-0" />
         <mxCell id="7cMJe9vYnZSKrjimOe8S-1" parent="7cMJe9vYnZSKrjimOe8S-0" />
@@ -2929,7 +2929,7 @@
           <mxGeometry x="840" width="480" height="45" as="geometry" />
         </mxCell>
         <mxCell id="7cMJe9vYnZSKrjimOe8S-9" value="From(person) |&amp;gt;&lt;br&gt;Where(Fun.exists(&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp; &amp;nbsp; CorrelatedCondition(Get.person_id))" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="7cMJe9vYnZSKrjimOe8S-1">
-          <mxGeometry x="60" y="480" width="705" height="120" as="geometry" />
+          <mxGeometry x="58" y="525" width="705" height="120" as="geometry" />
         </mxCell>
         <mxCell id="7BkxfEhfrr_mtix_sytH-0" value="CorrelatedCondition(X) =&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; From(condition_occurrence) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Where(Get.person_id .== Var.X) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Bind(:X =&amp;gt; X)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="7cMJe9vYnZSKrjimOe8S-1">
           <mxGeometry x="60" y="75" width="615" height="165" as="geometry" />
@@ -2941,7 +2941,10 @@
           <mxGeometry x="780" y="285" width="465" height="120" as="geometry" />
         </mxCell>
         <mxCell id="zJKO84N2ps9mEZujKpsV-0" value="&lt;b&gt;SELECT&lt;/b&gt; p.*&lt;br&gt;&lt;b&gt;FROM&lt;/b&gt; person p&lt;br&gt;&lt;b&gt;WHERE&lt;/b&gt; EXISTS (&lt;b&gt;SELECT&lt;/b&gt; NULL&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;b&gt;FROM&lt;/b&gt; condition_occurrence c&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;b&gt;WHERE&lt;/b&gt; c.person_id = p.person_id)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="7cMJe9vYnZSKrjimOe8S-1">
-          <mxGeometry x="780" y="480" width="765" height="195" as="geometry" />
+          <mxGeometry x="778" y="525" width="765" height="195" as="geometry" />
+        </mxCell>
+        <mxCell id="BEvqXIeMNuSvNiE1hiN5-0" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;fontFamily=Ubuntu Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;fontSize=16;fontColor=#666666;fillColor=none;sketch=0;" vertex="1" parent="7cMJe9vYnZSKrjimOe8S-1">
+          <mxGeometry x="120" y="420" width="75" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
