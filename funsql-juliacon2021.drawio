@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-16T13:31:47.288Z" agent="5.0 (X11)" etag="SkiXYrFAMUQrEJVL7R9n" version="14.7.6" type="github" pages="44">
+<mxfile host="app.diagrams.net" modified="2021-06-16T14:06:46.224Z" agent="5.0 (X11)" etag="4h_vv8vfJ0Pbv4MunWJN" version="14.7.6" type="github" pages="45">
   <diagram id="ngdmywiYoB712Vu0CHRt" name="Title">
     <mxGraphModel dx="1038" dy="566" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
@@ -141,19 +141,19 @@
         <mxCell id="SI1salBC0U_AChfoksuq-7" value="Clark C. Evans, Kyrylo Simonov" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#56B4E9;fontColor=#FFFFFF;" parent="SI1salBC0U_AChfoksuq-4" vertex="1">
           <mxGeometry x="840" width="480" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="SI1salBC0U_AChfoksuq-45" value="&lt;b&gt;function&lt;/b&gt; find_patients(conn; start_year = nothing,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; end_year = nothing,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; state = nothing,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; latest_visit_threshold = nothing,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; condition_concepts = [])&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; sql = &lt;font style=&quot;font-size: 64px&quot;&gt;???&lt;/font&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; DBInterface.execute(conn, sql)&lt;br&gt;&lt;b&gt;end&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" parent="SI1salBC0U_AChfoksuq-1" vertex="1">
+        <mxCell id="SI1salBC0U_AChfoksuq-45" value="&lt;b&gt;function&lt;/b&gt; find_patients(conn; start_year = nothing,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; end_year = nothing,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; state = nothing,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; condition_concepts = [],&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; latest_visit_threshold = nothing)&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; sql = &lt;font style=&quot;font-size: 64px&quot;&gt;???&lt;/font&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; DBInterface.execute(conn, sql)&lt;br&gt;&lt;b&gt;end&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" parent="SI1salBC0U_AChfoksuq-1" vertex="1">
           <mxGeometry x="60" y="435" width="1020" height="315" as="geometry" />
         </mxCell>
-        <mxCell id="Vqzw1EYwKXYqvVa4PDrk-0" value="" style="group" parent="SI1salBC0U_AChfoksuq-1" vertex="1" connectable="0">
-          <mxGeometry x="60" y="60" width="1065" height="300" as="geometry" />
+        <mxCell id="NbxA2kM5f9oWdEWwi2Sy-0" value="" style="group" vertex="1" connectable="0" parent="SI1salBC0U_AChfoksuq-1">
+          <mxGeometry x="60" y="60" width="1065" height="330" as="geometry" />
         </mxCell>
-        <mxCell id="SI1salBC0U_AChfoksuq-21" value="Find all patients born between" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu;fontColor=#000000;fontStyle=2;container=0;" parent="Vqzw1EYwKXYqvVa4PDrk-0" vertex="1">
+        <mxCell id="SI1salBC0U_AChfoksuq-21" value="Find all patients born between" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu;fontColor=#000000;fontStyle=2;container=0;" parent="NbxA2kM5f9oWdEWwi2Sy-0" vertex="1">
           <mxGeometry y="15" width="465" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="SI1salBC0U_AChfoksuq-22" value="and" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu;fontColor=#000000;fontStyle=2;container=0;" parent="Vqzw1EYwKXYqvVa4PDrk-0" vertex="1">
+        <mxCell id="SI1salBC0U_AChfoksuq-22" value="and" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu;fontColor=#000000;fontStyle=2;container=0;" parent="NbxA2kM5f9oWdEWwi2Sy-0" vertex="1">
           <mxGeometry x="390" y="75" width="75" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="SI1salBC0U_AChfoksuq-23" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=24;fontColor=#FFFFFF;strokeColor=#666666;endArrow=none;endFill=0;" parent="Vqzw1EYwKXYqvVa4PDrk-0" edge="1">
+        <mxCell id="SI1salBC0U_AChfoksuq-23" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=24;fontColor=#FFFFFF;strokeColor=#666666;endArrow=none;endFill=0;" parent="NbxA2kM5f9oWdEWwi2Sy-0" edge="1">
           <mxGeometry as="geometry">
             <mxPoint x="1050" as="targetPoint" />
             <mxPoint x="630" y="30" as="sourcePoint" />
@@ -167,10 +167,10 @@
             <mxPoint x="-83" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SI1salBC0U_AChfoksuq-25" value="&lt;table style=&quot;width: 100%; height: 100%; font-size: 24px;&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;&gt;&lt;tbody style=&quot;font-size: 24px;&quot;&gt;&lt;tr style=&quot;font-size: 24px;&quot;&gt;&lt;td style=&quot;width: 85%; font-size: 24px;&quot;&gt;1970&lt;/td&gt;&lt;td style=&quot;width: 15%; font-size: 24px;&quot;&gt;&lt;br style=&quot;font-size: 24px;&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.spinner;strokeColor=#999999;spinLayout=right;spinStyle=normal;adjStyle=triangle;fillColor=#aaddff;fontSize=24;fontColor=#666666;mainText=;html=1;overflow=fill;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;container=0;" parent="Vqzw1EYwKXYqvVa4PDrk-0" vertex="1">
+        <mxCell id="SI1salBC0U_AChfoksuq-25" value="&lt;table style=&quot;width: 100%; height: 100%; font-size: 24px;&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;&gt;&lt;tbody style=&quot;font-size: 24px;&quot;&gt;&lt;tr style=&quot;font-size: 24px;&quot;&gt;&lt;td style=&quot;width: 85%; font-size: 24px;&quot;&gt;1970&lt;/td&gt;&lt;td style=&quot;width: 15%; font-size: 24px;&quot;&gt;&lt;br style=&quot;font-size: 24px;&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.spinner;strokeColor=#999999;spinLayout=right;spinStyle=normal;adjStyle=triangle;fillColor=#aaddff;fontSize=24;fontColor=#666666;mainText=;html=1;overflow=fill;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;container=0;" parent="NbxA2kM5f9oWdEWwi2Sy-0" vertex="1">
           <mxGeometry x="465" y="15" width="150" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="SI1salBC0U_AChfoksuq-26" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=24;fontColor=#FFFFFF;strokeColor=#666666;endArrow=none;endFill=0;" parent="Vqzw1EYwKXYqvVa4PDrk-0" edge="1">
+        <mxCell id="SI1salBC0U_AChfoksuq-26" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=24;fontColor=#FFFFFF;strokeColor=#666666;endArrow=none;endFill=0;" parent="NbxA2kM5f9oWdEWwi2Sy-0" edge="1">
           <mxGeometry as="geometry">
             <mxPoint x="1050" as="targetPoint" />
             <mxPoint x="630" y="90" as="sourcePoint" />
@@ -179,13 +179,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="SI1salBC0U_AChfoksuq-27" value="&lt;table style=&quot;width: 100% ; height: 100% ; font-size: 24px&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;&gt;&lt;tbody style=&quot;font-size: 24px&quot;&gt;&lt;tr style=&quot;font-size: 24px&quot;&gt;&lt;td style=&quot;width: 85% ; font-size: 24px&quot;&gt;&lt;br&gt;&lt;/td&gt;&lt;td style=&quot;width: 15% ; font-size: 24px&quot;&gt;&lt;br style=&quot;font-size: 24px&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.spinner;strokeColor=#999999;spinLayout=right;spinStyle=normal;adjStyle=triangle;fillColor=#aaddff;fontSize=24;fontColor=#666666;mainText=;html=1;overflow=fill;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;container=0;" parent="Vqzw1EYwKXYqvVa4PDrk-0" vertex="1">
+        <mxCell id="SI1salBC0U_AChfoksuq-27" value="&lt;table style=&quot;width: 100% ; height: 100% ; font-size: 24px&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;&gt;&lt;tbody style=&quot;font-size: 24px&quot;&gt;&lt;tr style=&quot;font-size: 24px&quot;&gt;&lt;td style=&quot;width: 85% ; font-size: 24px&quot;&gt;&lt;br&gt;&lt;/td&gt;&lt;td style=&quot;width: 15% ; font-size: 24px&quot;&gt;&lt;br style=&quot;font-size: 24px&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.spinner;strokeColor=#999999;spinLayout=right;spinStyle=normal;adjStyle=triangle;fillColor=#aaddff;fontSize=24;fontColor=#666666;mainText=;html=1;overflow=fill;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;container=0;" parent="NbxA2kM5f9oWdEWwi2Sy-0" vertex="1">
           <mxGeometry x="465" y="75" width="150" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="SI1salBC0U_AChfoksuq-28" value="living in" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu;fontColor=#000000;fontStyle=2;container=0;" parent="Vqzw1EYwKXYqvVa4PDrk-0" vertex="1">
+        <mxCell id="SI1salBC0U_AChfoksuq-28" value="living in" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu;fontColor=#000000;fontStyle=2;container=0;" parent="NbxA2kM5f9oWdEWwi2Sy-0" vertex="1">
           <mxGeometry x="330" y="135" width="135" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="SI1salBC0U_AChfoksuq-29" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Ubuntu Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;fontSize=16;fontColor=#666666;endArrow=none;endFill=0;strokeColor=#666666;" parent="Vqzw1EYwKXYqvVa4PDrk-0" edge="1">
+        <mxCell id="SI1salBC0U_AChfoksuq-29" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Ubuntu Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;fontSize=16;fontColor=#666666;endArrow=none;endFill=0;strokeColor=#666666;" parent="NbxA2kM5f9oWdEWwi2Sy-0" edge="1">
           <mxGeometry as="geometry">
             <mxPoint x="1005" y="60" as="targetPoint" />
             <mxPoint x="630" y="150" as="sourcePoint" />
@@ -199,18 +199,18 @@
             <mxPoint x="24" y="-8" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SI1salBC0U_AChfoksuq-31" value="&lt;div align=&quot;center&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; IL&lt;/div&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.comboBox;strokeColor=#999999;fillColor=#ddeeff;align=left;fillColor2=#aaddff;mainText=;fontColor=#666666;fontSize=24;spacingLeft=3;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;container=0;" parent="Vqzw1EYwKXYqvVa4PDrk-0" vertex="1">
+        <mxCell id="SI1salBC0U_AChfoksuq-31" value="&lt;div align=&quot;center&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; IL&lt;/div&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.comboBox;strokeColor=#999999;fillColor=#ddeeff;align=left;fillColor2=#aaddff;mainText=;fontColor=#666666;fontSize=24;spacingLeft=3;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;container=0;" parent="NbxA2kM5f9oWdEWwi2Sy-0" vertex="1">
           <mxGeometry x="465" y="135" width="150" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="SI1salBC0U_AChfoksuq-32" value="with conditions" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu;fontColor=#000000;fontStyle=2;container=0;" parent="Vqzw1EYwKXYqvVa4PDrk-0" vertex="1">
-          <mxGeometry x="225" y="255" width="240" height="45" as="geometry" />
+        <mxCell id="SI1salBC0U_AChfoksuq-32" value="with conditions" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu;fontColor=#000000;fontStyle=2;container=0;" parent="NbxA2kM5f9oWdEWwi2Sy-0" vertex="1">
+          <mxGeometry x="225" y="195" width="240" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="SI1salBC0U_AChfoksuq-33" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Ubuntu Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;fontSize=16;fontColor=#666666;endArrow=none;endFill=0;strokeColor=#666666;" parent="Vqzw1EYwKXYqvVa4PDrk-0" edge="1">
-          <mxGeometry as="geometry">
-            <mxPoint x="1395" y="240" as="targetPoint" />
-            <mxPoint x="975" y="270" as="sourcePoint" />
+        <mxCell id="SI1salBC0U_AChfoksuq-33" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Ubuntu Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;fontSize=16;fontColor=#666666;endArrow=none;endFill=0;strokeColor=#666666;" parent="NbxA2kM5f9oWdEWwi2Sy-0" edge="1">
+          <mxGeometry y="-60" as="geometry">
+            <mxPoint x="1395" y="180" as="targetPoint" />
+            <mxPoint x="975" y="210" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="1065" y="240" />
+              <mxPoint x="1065" y="180" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -219,43 +219,43 @@
             <mxPoint x="-108" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SI1salBC0U_AChfoksuq-35" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.misc.rrect;rSize=0;strokeColor=#999999;fillColor=#ffffff;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=24;fontColor=#000000;container=0;" parent="Vqzw1EYwKXYqvVa4PDrk-0" vertex="1">
-          <mxGeometry x="465" y="255" width="495" height="45" as="geometry" />
+        <mxCell id="SI1salBC0U_AChfoksuq-35" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.misc.rrect;rSize=0;strokeColor=#999999;fillColor=#ffffff;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=24;fontColor=#000000;container=0;" parent="NbxA2kM5f9oWdEWwi2Sy-0" vertex="1">
+          <mxGeometry x="465" y="195" width="495" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="SI1salBC0U_AChfoksuq-41" value="who visited a doctor" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu;fontColor=#000000;fontStyle=2;container=0;" parent="Vqzw1EYwKXYqvVa4PDrk-0" vertex="1">
-          <mxGeometry x="148" y="195" width="315" height="45" as="geometry" />
+        <mxCell id="SI1salBC0U_AChfoksuq-41" value="who visited a doctor" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu;fontColor=#000000;fontStyle=2;container=0;" parent="NbxA2kM5f9oWdEWwi2Sy-0" vertex="1">
+          <mxGeometry x="150" y="255" width="315" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="SI1salBC0U_AChfoksuq-42" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Ubuntu Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;fontSize=16;fontColor=#666666;endArrow=none;endFill=0;strokeColor=#666666;" parent="Vqzw1EYwKXYqvVa4PDrk-0" edge="1">
-          <mxGeometry as="geometry">
-            <mxPoint x="1333" y="120" as="targetPoint" />
-            <mxPoint x="778" y="210" as="sourcePoint" />
+        <mxCell id="SI1salBC0U_AChfoksuq-42" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Ubuntu Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;fontSize=16;fontColor=#666666;endArrow=none;endFill=0;strokeColor=#666666;" parent="NbxA2kM5f9oWdEWwi2Sy-0" edge="1">
+          <mxGeometry x="2" y="60" as="geometry">
+            <mxPoint x="1335" y="330" as="targetPoint" />
+            <mxPoint x="780" y="285" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="1063" y="120" />
+              <mxPoint x="1065" y="330" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="SI1salBC0U_AChfoksuq-43" value="visit_occurrence.visit_start_date" style="edgeLabel;html=1;align=left;verticalAlign=bottom;resizable=0;points=[];fontSize=16;fontFamily=Ubuntu Mono;fontColor=#666666;labelPosition=right;verticalLabelPosition=top;container=0;" parent="SI1salBC0U_AChfoksuq-42" vertex="1" connectable="0">
           <mxGeometry x="0.3309" y="-4" relative="1" as="geometry">
-            <mxPoint x="-77" y="-4" as="offset" />
+            <mxPoint x="-83" y="-4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SI1salBC0U_AChfoksuq-44" value="&amp;nbsp;within last 12 months" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.comboBox;strokeColor=#999999;fillColor=#ddeeff;align=left;fillColor2=#aaddff;mainText=;fontColor=#666666;fontSize=24;spacingLeft=3;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;container=0;" parent="Vqzw1EYwKXYqvVa4PDrk-0" vertex="1">
-          <mxGeometry x="463" y="195" width="300" height="45" as="geometry" />
+        <mxCell id="SI1salBC0U_AChfoksuq-44" value="&amp;nbsp;within last 12 months" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.comboBox;strokeColor=#999999;fillColor=#ddeeff;align=left;fillColor2=#aaddff;mainText=;fontColor=#666666;fontSize=24;spacingLeft=3;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;container=0;" parent="NbxA2kM5f9oWdEWwi2Sy-0" vertex="1">
+          <mxGeometry x="465" y="255" width="300" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="SI1salBC0U_AChfoksuq-36" value="Hypertension" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.misc.rrect;rSize=5;strokeColor=none;fontSize=24;fontColor=#999999;fillColor=#ddeeff;align=left;spacingLeft=5;container=0;" parent="Vqzw1EYwKXYqvVa4PDrk-0" vertex="1">
-          <mxGeometry x="469.95000000000005" y="262.5" width="160.05" height="30" as="geometry" />
+        <mxCell id="SI1salBC0U_AChfoksuq-36" value="Hypertension" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.misc.rrect;rSize=5;strokeColor=none;fontSize=24;fontColor=#999999;fillColor=#ddeeff;align=left;spacingLeft=5;container=0;" parent="NbxA2kM5f9oWdEWwi2Sy-0" vertex="1">
+          <mxGeometry x="469.95000000000005" y="202.5" width="160.05" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="SI1salBC0U_AChfoksuq-37" value="Arrhythmia" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.misc.rrect;rSize=5;strokeColor=none;fontSize=24;fontColor=#999999;fillColor=#ddeeff;align=left;spacingLeft=5;container=0;" parent="Vqzw1EYwKXYqvVa4PDrk-0" vertex="1">
-          <mxGeometry x="645" y="262.5" width="135" height="30" as="geometry" />
+        <mxCell id="SI1salBC0U_AChfoksuq-37" value="Arrhythmia" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.misc.rrect;rSize=5;strokeColor=none;fontSize=24;fontColor=#999999;fillColor=#ddeeff;align=left;spacingLeft=5;container=0;" parent="NbxA2kM5f9oWdEWwi2Sy-0" vertex="1">
+          <mxGeometry x="645" y="202.5" width="135" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="SI1salBC0U_AChfoksuq-38" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.misc.rrect;rSize=5;strokeColor=none;fontSize=24;fontColor=#999999;fillColor=#ddeeff;align=left;spacingLeft=5;container=0;" parent="Vqzw1EYwKXYqvVa4PDrk-0" vertex="1">
-          <mxGeometry x="795" y="262.5" width="113.85" height="30" as="geometry" />
+        <mxCell id="SI1salBC0U_AChfoksuq-38" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.misc.rrect;rSize=5;strokeColor=none;fontSize=24;fontColor=#999999;fillColor=#ddeeff;align=left;spacingLeft=5;container=0;" parent="NbxA2kM5f9oWdEWwi2Sy-0" vertex="1">
+          <mxGeometry x="795" y="202.5" width="113.85" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="SI1salBC0U_AChfoksuq-39" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.misc.anchor;container=0;" parent="Vqzw1EYwKXYqvVa4PDrk-0" vertex="1">
-          <mxGeometry x="955.05" y="277.5" as="geometry" />
+        <mxCell id="SI1salBC0U_AChfoksuq-39" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.misc.anchor;container=0;" parent="NbxA2kM5f9oWdEWwi2Sy-0" vertex="1">
+          <mxGeometry x="955.05" y="217.5" as="geometry" />
         </mxCell>
-        <mxCell id="SI1salBC0U_AChfoksuq-40" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.misc.anchor;container=0;" parent="Vqzw1EYwKXYqvVa4PDrk-0" vertex="1">
-          <mxGeometry x="925.35" y="277.5" as="geometry" />
+        <mxCell id="SI1salBC0U_AChfoksuq-40" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.misc.anchor;container=0;" parent="NbxA2kM5f9oWdEWwi2Sy-0" vertex="1">
+          <mxGeometry x="925.35" y="217.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -698,7 +698,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Assembling SQL" id="NcDBW_GyBDkaV5cRxm-g">
-    <mxGraphModel dx="1490" dy="566" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="3725" dy="1415" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="X_0v-Jv-LaRHnE2pxIQR-0" />
         <mxCell id="X_0v-Jv-LaRHnE2pxIQR-1" parent="X_0v-Jv-LaRHnE2pxIQR-0" />
@@ -3023,7 +3023,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Solution (1)" id="pBIK6cK84c4zL7oyr8kb">
-    <mxGraphModel dx="1038" dy="566" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="2980" dy="1132" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="ZsQEqAz6aeMPg583fNHt-0" />
         <mxCell id="ZsQEqAz6aeMPg583fNHt-1" parent="ZsQEqAz6aeMPg583fNHt-0" />
@@ -3039,19 +3039,19 @@
         <mxCell id="ZsQEqAz6aeMPg583fNHt-5" value="Clark C. Evans, Kyrylo Simonov" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#56B4E9;fontColor=#FFFFFF;" parent="ZsQEqAz6aeMPg583fNHt-2" vertex="1">
           <mxGeometry x="840" width="480" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="ZsQEqAz6aeMPg583fNHt-30" value="&lt;b&gt;function&lt;/b&gt; find_patients(conn; start_year = nothing,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; end_year = nothing,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; state = nothing,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; latest_visit_threshold = nothing,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; condition_concepts = [])&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; q = FindPatients(; start_year, end_year, state,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; latest_visit_threshold, condition_concepts)&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; sql = render(q, dialect = :postgresql)&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; DBInterface.execute(conn, sql)&lt;br&gt;&lt;b&gt;end&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" parent="ZsQEqAz6aeMPg583fNHt-1" vertex="1">
+        <mxCell id="ZsQEqAz6aeMPg583fNHt-30" value="&lt;b&gt;function&lt;/b&gt; find_patients(conn; start_year = nothing,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; end_year = nothing,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; state = nothing,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; condition_concepts = [],&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; latest_visit_threshold = nothing)&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; q = FindPatients(; start_year, end_year, state,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; condition_concepts, latest_visit_threshold)&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; sql = render(q, dialect = :postgresql)&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; DBInterface.execute(conn, sql)&lt;br&gt;&lt;b&gt;end&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" parent="ZsQEqAz6aeMPg583fNHt-1" vertex="1">
           <mxGeometry x="60" y="420" width="1080" height="390" as="geometry" />
         </mxCell>
-        <mxCell id="kTfV6lLEsRZ_GONghx9y-0" value="" style="group" parent="ZsQEqAz6aeMPg583fNHt-1" vertex="1" connectable="0">
-          <mxGeometry x="60" y="60" width="1065" height="300" as="geometry" />
+        <mxCell id="lnlkErh9cRgpuAJBkL6W-0" value="" style="group" vertex="1" connectable="0" parent="ZsQEqAz6aeMPg583fNHt-1">
+          <mxGeometry x="60" y="60" width="1065" height="330" as="geometry" />
         </mxCell>
-        <mxCell id="kTfV6lLEsRZ_GONghx9y-1" value="Find all patients born between" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu;fontColor=#000000;fontStyle=2;container=0;" parent="kTfV6lLEsRZ_GONghx9y-0" vertex="1">
+        <mxCell id="lnlkErh9cRgpuAJBkL6W-1" value="Find all patients born between" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu;fontColor=#000000;fontStyle=2;container=0;" vertex="1" parent="lnlkErh9cRgpuAJBkL6W-0">
           <mxGeometry y="15" width="465" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="kTfV6lLEsRZ_GONghx9y-2" value="and" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu;fontColor=#000000;fontStyle=2;container=0;" parent="kTfV6lLEsRZ_GONghx9y-0" vertex="1">
+        <mxCell id="lnlkErh9cRgpuAJBkL6W-2" value="and" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu;fontColor=#000000;fontStyle=2;container=0;" vertex="1" parent="lnlkErh9cRgpuAJBkL6W-0">
           <mxGeometry x="390" y="75" width="75" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="kTfV6lLEsRZ_GONghx9y-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=24;fontColor=#FFFFFF;strokeColor=#666666;endArrow=none;endFill=0;" parent="kTfV6lLEsRZ_GONghx9y-0" edge="1">
+        <mxCell id="lnlkErh9cRgpuAJBkL6W-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=24;fontColor=#FFFFFF;strokeColor=#666666;endArrow=none;endFill=0;" edge="1" parent="lnlkErh9cRgpuAJBkL6W-0">
           <mxGeometry as="geometry">
             <mxPoint x="1050" as="targetPoint" />
             <mxPoint x="630" y="30" as="sourcePoint" />
@@ -3060,15 +3060,15 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="kTfV6lLEsRZ_GONghx9y-4" value="person.year_of_birth" style="edgeLabel;html=1;align=left;verticalAlign=bottom;resizable=0;points=[];fontSize=16;fontFamily=Ubuntu Mono;fontColor=#666666;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;labelPosition=right;verticalLabelPosition=top;container=0;" parent="kTfV6lLEsRZ_GONghx9y-3" vertex="1" connectable="0">
+        <mxCell id="lnlkErh9cRgpuAJBkL6W-4" value="person.year_of_birth" style="edgeLabel;html=1;align=left;verticalAlign=bottom;resizable=0;points=[];fontSize=16;fontFamily=Ubuntu Mono;fontColor=#666666;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;labelPosition=right;verticalLabelPosition=top;container=0;" vertex="1" connectable="0" parent="lnlkErh9cRgpuAJBkL6W-3">
           <mxGeometry x="0.6087" relative="1" as="geometry">
             <mxPoint x="-83" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kTfV6lLEsRZ_GONghx9y-5" value="&lt;table style=&quot;width: 100%; height: 100%; font-size: 24px;&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;&gt;&lt;tbody style=&quot;font-size: 24px;&quot;&gt;&lt;tr style=&quot;font-size: 24px;&quot;&gt;&lt;td style=&quot;width: 85%; font-size: 24px;&quot;&gt;1970&lt;/td&gt;&lt;td style=&quot;width: 15%; font-size: 24px;&quot;&gt;&lt;br style=&quot;font-size: 24px;&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.spinner;strokeColor=#999999;spinLayout=right;spinStyle=normal;adjStyle=triangle;fillColor=#aaddff;fontSize=24;fontColor=#666666;mainText=;html=1;overflow=fill;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;container=0;" parent="kTfV6lLEsRZ_GONghx9y-0" vertex="1">
+        <mxCell id="lnlkErh9cRgpuAJBkL6W-5" value="&lt;table style=&quot;width: 100%; height: 100%; font-size: 24px;&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;&gt;&lt;tbody style=&quot;font-size: 24px;&quot;&gt;&lt;tr style=&quot;font-size: 24px;&quot;&gt;&lt;td style=&quot;width: 85%; font-size: 24px;&quot;&gt;1970&lt;/td&gt;&lt;td style=&quot;width: 15%; font-size: 24px;&quot;&gt;&lt;br style=&quot;font-size: 24px;&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.spinner;strokeColor=#999999;spinLayout=right;spinStyle=normal;adjStyle=triangle;fillColor=#aaddff;fontSize=24;fontColor=#666666;mainText=;html=1;overflow=fill;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;container=0;" vertex="1" parent="lnlkErh9cRgpuAJBkL6W-0">
           <mxGeometry x="465" y="15" width="150" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="kTfV6lLEsRZ_GONghx9y-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=24;fontColor=#FFFFFF;strokeColor=#666666;endArrow=none;endFill=0;" parent="kTfV6lLEsRZ_GONghx9y-0" edge="1">
+        <mxCell id="lnlkErh9cRgpuAJBkL6W-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=24;fontColor=#FFFFFF;strokeColor=#666666;endArrow=none;endFill=0;" edge="1" parent="lnlkErh9cRgpuAJBkL6W-0">
           <mxGeometry as="geometry">
             <mxPoint x="1050" as="targetPoint" />
             <mxPoint x="630" y="90" as="sourcePoint" />
@@ -3077,13 +3077,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="kTfV6lLEsRZ_GONghx9y-7" value="&lt;table style=&quot;width: 100% ; height: 100% ; font-size: 24px&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;&gt;&lt;tbody style=&quot;font-size: 24px&quot;&gt;&lt;tr style=&quot;font-size: 24px&quot;&gt;&lt;td style=&quot;width: 85% ; font-size: 24px&quot;&gt;&lt;br&gt;&lt;/td&gt;&lt;td style=&quot;width: 15% ; font-size: 24px&quot;&gt;&lt;br style=&quot;font-size: 24px&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.spinner;strokeColor=#999999;spinLayout=right;spinStyle=normal;adjStyle=triangle;fillColor=#aaddff;fontSize=24;fontColor=#666666;mainText=;html=1;overflow=fill;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;container=0;" parent="kTfV6lLEsRZ_GONghx9y-0" vertex="1">
+        <mxCell id="lnlkErh9cRgpuAJBkL6W-7" value="&lt;table style=&quot;width: 100% ; height: 100% ; font-size: 24px&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;&gt;&lt;tbody style=&quot;font-size: 24px&quot;&gt;&lt;tr style=&quot;font-size: 24px&quot;&gt;&lt;td style=&quot;width: 85% ; font-size: 24px&quot;&gt;&lt;br&gt;&lt;/td&gt;&lt;td style=&quot;width: 15% ; font-size: 24px&quot;&gt;&lt;br style=&quot;font-size: 24px&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.spinner;strokeColor=#999999;spinLayout=right;spinStyle=normal;adjStyle=triangle;fillColor=#aaddff;fontSize=24;fontColor=#666666;mainText=;html=1;overflow=fill;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;container=0;" vertex="1" parent="lnlkErh9cRgpuAJBkL6W-0">
           <mxGeometry x="465" y="75" width="150" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="kTfV6lLEsRZ_GONghx9y-8" value="living in" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu;fontColor=#000000;fontStyle=2;container=0;" parent="kTfV6lLEsRZ_GONghx9y-0" vertex="1">
+        <mxCell id="lnlkErh9cRgpuAJBkL6W-8" value="living in" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu;fontColor=#000000;fontStyle=2;container=0;" vertex="1" parent="lnlkErh9cRgpuAJBkL6W-0">
           <mxGeometry x="330" y="135" width="135" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="kTfV6lLEsRZ_GONghx9y-9" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Ubuntu Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;fontSize=16;fontColor=#666666;endArrow=none;endFill=0;strokeColor=#666666;" parent="kTfV6lLEsRZ_GONghx9y-0" edge="1">
+        <mxCell id="lnlkErh9cRgpuAJBkL6W-9" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Ubuntu Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;fontSize=16;fontColor=#666666;endArrow=none;endFill=0;strokeColor=#666666;" edge="1" parent="lnlkErh9cRgpuAJBkL6W-0">
           <mxGeometry as="geometry">
             <mxPoint x="1005" y="60" as="targetPoint" />
             <mxPoint x="630" y="150" as="sourcePoint" />
@@ -3092,74 +3092,74 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="kTfV6lLEsRZ_GONghx9y-10" value="location.state" style="edgeLabel;html=1;align=left;verticalAlign=bottom;resizable=0;points=[];fontSize=16;fontFamily=Ubuntu Mono;fontColor=#666666;labelPosition=right;verticalLabelPosition=top;container=0;" parent="kTfV6lLEsRZ_GONghx9y-9" vertex="1" connectable="0">
+        <mxCell id="lnlkErh9cRgpuAJBkL6W-10" value="location.state" style="edgeLabel;html=1;align=left;verticalAlign=bottom;resizable=0;points=[];fontSize=16;fontFamily=Ubuntu Mono;fontColor=#666666;labelPosition=right;verticalLabelPosition=top;container=0;" vertex="1" connectable="0" parent="lnlkErh9cRgpuAJBkL6W-9">
           <mxGeometry x="0.2536" relative="1" as="geometry">
             <mxPoint x="24" y="-8" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kTfV6lLEsRZ_GONghx9y-11" value="&lt;div align=&quot;center&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; IL&lt;/div&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.comboBox;strokeColor=#999999;fillColor=#ddeeff;align=left;fillColor2=#aaddff;mainText=;fontColor=#666666;fontSize=24;spacingLeft=3;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;container=0;" parent="kTfV6lLEsRZ_GONghx9y-0" vertex="1">
+        <mxCell id="lnlkErh9cRgpuAJBkL6W-11" value="&lt;div align=&quot;center&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; IL&lt;/div&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.comboBox;strokeColor=#999999;fillColor=#ddeeff;align=left;fillColor2=#aaddff;mainText=;fontColor=#666666;fontSize=24;spacingLeft=3;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;container=0;" vertex="1" parent="lnlkErh9cRgpuAJBkL6W-0">
           <mxGeometry x="465" y="135" width="150" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="kTfV6lLEsRZ_GONghx9y-12" value="with conditions" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu;fontColor=#000000;fontStyle=2;container=0;" parent="kTfV6lLEsRZ_GONghx9y-0" vertex="1">
-          <mxGeometry x="225" y="255" width="240" height="45" as="geometry" />
+        <mxCell id="lnlkErh9cRgpuAJBkL6W-12" value="with conditions" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu;fontColor=#000000;fontStyle=2;container=0;" vertex="1" parent="lnlkErh9cRgpuAJBkL6W-0">
+          <mxGeometry x="225" y="195" width="240" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="kTfV6lLEsRZ_GONghx9y-13" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Ubuntu Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;fontSize=16;fontColor=#666666;endArrow=none;endFill=0;strokeColor=#666666;" parent="kTfV6lLEsRZ_GONghx9y-0" edge="1">
-          <mxGeometry as="geometry">
-            <mxPoint x="1395" y="240" as="targetPoint" />
-            <mxPoint x="975" y="270" as="sourcePoint" />
+        <mxCell id="lnlkErh9cRgpuAJBkL6W-13" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Ubuntu Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;fontSize=16;fontColor=#666666;endArrow=none;endFill=0;strokeColor=#666666;" edge="1" parent="lnlkErh9cRgpuAJBkL6W-0">
+          <mxGeometry y="-60" as="geometry">
+            <mxPoint x="1395" y="180" as="targetPoint" />
+            <mxPoint x="975" y="210" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="1065" y="240" />
+              <mxPoint x="1065" y="180" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="kTfV6lLEsRZ_GONghx9y-14" value="condition_occurrence.condition_concept_id" style="edgeLabel;html=1;align=left;verticalAlign=bottom;resizable=0;points=[];fontSize=16;fontFamily=Ubuntu Mono;fontColor=#666666;labelPosition=right;verticalLabelPosition=top;container=0;" parent="kTfV6lLEsRZ_GONghx9y-13" vertex="1" connectable="0">
+        <mxCell id="lnlkErh9cRgpuAJBkL6W-14" value="condition_occurrence.condition_concept_id" style="edgeLabel;html=1;align=left;verticalAlign=bottom;resizable=0;points=[];fontSize=16;fontFamily=Ubuntu Mono;fontColor=#666666;labelPosition=right;verticalLabelPosition=top;container=0;" vertex="1" connectable="0" parent="lnlkErh9cRgpuAJBkL6W-13">
           <mxGeometry x="-0.0442" y="-1" relative="1" as="geometry">
             <mxPoint x="-108" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kTfV6lLEsRZ_GONghx9y-15" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.misc.rrect;rSize=0;strokeColor=#999999;fillColor=#ffffff;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=24;fontColor=#000000;container=0;" parent="kTfV6lLEsRZ_GONghx9y-0" vertex="1">
-          <mxGeometry x="465" y="255" width="495" height="45" as="geometry" />
+        <mxCell id="lnlkErh9cRgpuAJBkL6W-15" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.misc.rrect;rSize=0;strokeColor=#999999;fillColor=#ffffff;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=24;fontColor=#000000;container=0;" vertex="1" parent="lnlkErh9cRgpuAJBkL6W-0">
+          <mxGeometry x="465" y="195" width="495" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="kTfV6lLEsRZ_GONghx9y-16" value="who visited a doctor" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu;fontColor=#000000;fontStyle=2;container=0;" parent="kTfV6lLEsRZ_GONghx9y-0" vertex="1">
-          <mxGeometry x="148" y="195" width="315" height="45" as="geometry" />
+        <mxCell id="lnlkErh9cRgpuAJBkL6W-16" value="who visited a doctor" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu;fontColor=#000000;fontStyle=2;container=0;" vertex="1" parent="lnlkErh9cRgpuAJBkL6W-0">
+          <mxGeometry x="150" y="255" width="315" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="kTfV6lLEsRZ_GONghx9y-17" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Ubuntu Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;fontSize=16;fontColor=#666666;endArrow=none;endFill=0;strokeColor=#666666;" parent="kTfV6lLEsRZ_GONghx9y-0" edge="1">
-          <mxGeometry as="geometry">
-            <mxPoint x="1333" y="120" as="targetPoint" />
-            <mxPoint x="778" y="210" as="sourcePoint" />
+        <mxCell id="lnlkErh9cRgpuAJBkL6W-17" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Ubuntu Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;fontSize=16;fontColor=#666666;endArrow=none;endFill=0;strokeColor=#666666;" edge="1" parent="lnlkErh9cRgpuAJBkL6W-0">
+          <mxGeometry x="2" y="60" as="geometry">
+            <mxPoint x="1335" y="330" as="targetPoint" />
+            <mxPoint x="780" y="285" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="1063" y="120" />
+              <mxPoint x="1065" y="330" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="kTfV6lLEsRZ_GONghx9y-18" value="visit_occurrence.visit_start_date" style="edgeLabel;html=1;align=left;verticalAlign=bottom;resizable=0;points=[];fontSize=16;fontFamily=Ubuntu Mono;fontColor=#666666;labelPosition=right;verticalLabelPosition=top;container=0;" parent="kTfV6lLEsRZ_GONghx9y-17" vertex="1" connectable="0">
+        <mxCell id="lnlkErh9cRgpuAJBkL6W-18" value="visit_occurrence.visit_start_date" style="edgeLabel;html=1;align=left;verticalAlign=bottom;resizable=0;points=[];fontSize=16;fontFamily=Ubuntu Mono;fontColor=#666666;labelPosition=right;verticalLabelPosition=top;container=0;" vertex="1" connectable="0" parent="lnlkErh9cRgpuAJBkL6W-17">
           <mxGeometry x="0.3309" y="-4" relative="1" as="geometry">
-            <mxPoint x="-77" y="-4" as="offset" />
+            <mxPoint x="-83" y="-4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kTfV6lLEsRZ_GONghx9y-19" value="&amp;nbsp;within last 12 months" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.comboBox;strokeColor=#999999;fillColor=#ddeeff;align=left;fillColor2=#aaddff;mainText=;fontColor=#666666;fontSize=24;spacingLeft=3;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;container=0;" parent="kTfV6lLEsRZ_GONghx9y-0" vertex="1">
-          <mxGeometry x="463" y="195" width="300" height="45" as="geometry" />
+        <mxCell id="lnlkErh9cRgpuAJBkL6W-19" value="&amp;nbsp;within last 12 months" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.comboBox;strokeColor=#999999;fillColor=#ddeeff;align=left;fillColor2=#aaddff;mainText=;fontColor=#666666;fontSize=24;spacingLeft=3;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;container=0;" vertex="1" parent="lnlkErh9cRgpuAJBkL6W-0">
+          <mxGeometry x="465" y="255" width="300" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="kTfV6lLEsRZ_GONghx9y-20" value="Hypertension" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.misc.rrect;rSize=5;strokeColor=none;fontSize=24;fontColor=#999999;fillColor=#ddeeff;align=left;spacingLeft=5;container=0;" parent="kTfV6lLEsRZ_GONghx9y-0" vertex="1">
-          <mxGeometry x="469.95000000000005" y="262.5" width="160.05" height="30" as="geometry" />
+        <mxCell id="lnlkErh9cRgpuAJBkL6W-20" value="Hypertension" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.misc.rrect;rSize=5;strokeColor=none;fontSize=24;fontColor=#999999;fillColor=#ddeeff;align=left;spacingLeft=5;container=0;" vertex="1" parent="lnlkErh9cRgpuAJBkL6W-0">
+          <mxGeometry x="469.95000000000005" y="202.5" width="160.05" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kTfV6lLEsRZ_GONghx9y-21" value="Arrhythmia" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.misc.rrect;rSize=5;strokeColor=none;fontSize=24;fontColor=#999999;fillColor=#ddeeff;align=left;spacingLeft=5;container=0;" parent="kTfV6lLEsRZ_GONghx9y-0" vertex="1">
-          <mxGeometry x="645" y="262.5" width="135" height="30" as="geometry" />
+        <mxCell id="lnlkErh9cRgpuAJBkL6W-21" value="Arrhythmia" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.misc.rrect;rSize=5;strokeColor=none;fontSize=24;fontColor=#999999;fillColor=#ddeeff;align=left;spacingLeft=5;container=0;" vertex="1" parent="lnlkErh9cRgpuAJBkL6W-0">
+          <mxGeometry x="645" y="202.5" width="135" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kTfV6lLEsRZ_GONghx9y-22" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.misc.rrect;rSize=5;strokeColor=none;fontSize=24;fontColor=#999999;fillColor=#ddeeff;align=left;spacingLeft=5;container=0;" parent="kTfV6lLEsRZ_GONghx9y-0" vertex="1">
-          <mxGeometry x="795" y="262.5" width="113.85" height="30" as="geometry" />
+        <mxCell id="lnlkErh9cRgpuAJBkL6W-22" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.misc.rrect;rSize=5;strokeColor=none;fontSize=24;fontColor=#999999;fillColor=#ddeeff;align=left;spacingLeft=5;container=0;" vertex="1" parent="lnlkErh9cRgpuAJBkL6W-0">
+          <mxGeometry x="795" y="202.5" width="113.85" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kTfV6lLEsRZ_GONghx9y-23" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.misc.anchor;container=0;" parent="kTfV6lLEsRZ_GONghx9y-0" vertex="1">
-          <mxGeometry x="955.05" y="277.5" as="geometry" />
+        <mxCell id="lnlkErh9cRgpuAJBkL6W-23" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.misc.anchor;container=0;" vertex="1" parent="lnlkErh9cRgpuAJBkL6W-0">
+          <mxGeometry x="955.05" y="217.5" as="geometry" />
         </mxCell>
-        <mxCell id="kTfV6lLEsRZ_GONghx9y-24" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.misc.anchor;container=0;" parent="kTfV6lLEsRZ_GONghx9y-0" vertex="1">
-          <mxGeometry x="925.35" y="277.5" as="geometry" />
+        <mxCell id="lnlkErh9cRgpuAJBkL6W-24" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.misc.anchor;container=0;" vertex="1" parent="lnlkErh9cRgpuAJBkL6W-0">
+          <mxGeometry x="925.35" y="217.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name="Solution (2)" id="dirsJSiKBln93t7yRorw">
-    <mxGraphModel dx="1038" dy="566" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="2483" dy="943" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="sCASymCL47aMWC-Z2yBq-0" />
         <mxCell id="sCASymCL47aMWC-Z2yBq-1" parent="sCASymCL47aMWC-Z2yBq-0" />
@@ -3175,43 +3175,153 @@
         <mxCell id="sCASymCL47aMWC-Z2yBq-5" value="Clark C. Evans, Kyrylo Simonov" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#56B4E9;fontColor=#FFFFFF;" parent="sCASymCL47aMWC-Z2yBq-2" vertex="1">
           <mxGeometry x="840" width="480" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="sCASymCL47aMWC-Z2yBq-30" value="FindPatients(; start_year = nothing, end_year = nothing,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; state = nothing,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; latest_visit_threshold = nothing,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; condition_concepts = []) =&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; From(person) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; FilterByYearOfBirth(; start_year, end_year) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; FilterByState(; state) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; FilterByLatestVisit(; latest_visit_threshold) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; FilterByConditions(; condition_concepts)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" parent="sCASymCL47aMWC-Z2yBq-1" vertex="1">
-          <mxGeometry x="60" y="60" width="915" height="345" as="geometry" />
+        <mxCell id="sCASymCL47aMWC-Z2yBq-30" value="FindPatients(; start_year = nothing, end_year = nothing,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; state = nothing,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; condition_concepts = [],&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; latest_visit_threshold = nothing) =&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; From(person) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; FilterByYearOfBirth(; start_year, end_year) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; FilterByState(; state) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; FilterByConditions(; condition_concepts) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; FilterByLatestVisit(; latest_visit_threshold) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Select(Get.person_id)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" parent="sCASymCL47aMWC-Z2yBq-1" vertex="1">
+          <mxGeometry x="60" y="420" width="915" height="390" as="geometry" />
         </mxCell>
-        <mxCell id="sCASymCL47aMWC-Z2yBq-31" value="FilterByYearOfBirth(; start_year, end_year) =&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;b&gt;if&lt;/b&gt; start_year !== nothing &amp;amp;&amp;amp; end_year !== nothing&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Where(Fun.between(Get.year_of_birth, start_year, end_year))&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;b&gt;elseif&lt;/b&gt; start_year !== nothing&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Where(Get.year_of_birth .&amp;gt;= start_year)&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;b&gt;elseif&lt;/b&gt; end_year !== nothing&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Where(Get.year_of_birth .&amp;lt;= end_year)&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;b&gt;else&lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; identity&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;b&gt;end&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" parent="sCASymCL47aMWC-Z2yBq-1" vertex="1">
-          <mxGeometry x="60" y="450" width="1095" height="390" as="geometry" />
+        <mxCell id="h6iq3yC_g2mU0r-mQqVC-0" value="" style="group" vertex="1" connectable="0" parent="sCASymCL47aMWC-Z2yBq-1">
+          <mxGeometry x="60" y="60" width="1065" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="h6iq3yC_g2mU0r-mQqVC-1" value="Find all patients born between" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu;fontColor=#000000;fontStyle=2;container=0;" vertex="1" parent="h6iq3yC_g2mU0r-mQqVC-0">
+          <mxGeometry y="15" width="465" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="h6iq3yC_g2mU0r-mQqVC-2" value="and" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu;fontColor=#000000;fontStyle=2;container=0;" vertex="1" parent="h6iq3yC_g2mU0r-mQqVC-0">
+          <mxGeometry x="390" y="75" width="75" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="h6iq3yC_g2mU0r-mQqVC-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=24;fontColor=#FFFFFF;strokeColor=#666666;endArrow=none;endFill=0;" edge="1" parent="h6iq3yC_g2mU0r-mQqVC-0">
+          <mxGeometry as="geometry">
+            <mxPoint x="1050" as="targetPoint" />
+            <mxPoint x="630" y="30" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="885" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h6iq3yC_g2mU0r-mQqVC-4" value="person.year_of_birth" style="edgeLabel;html=1;align=left;verticalAlign=bottom;resizable=0;points=[];fontSize=16;fontFamily=Ubuntu Mono;fontColor=#666666;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;labelPosition=right;verticalLabelPosition=top;container=0;" vertex="1" connectable="0" parent="h6iq3yC_g2mU0r-mQqVC-3">
+          <mxGeometry x="0.6087" relative="1" as="geometry">
+            <mxPoint x="-83" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h6iq3yC_g2mU0r-mQqVC-5" value="&lt;table style=&quot;width: 100%; height: 100%; font-size: 24px;&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;&gt;&lt;tbody style=&quot;font-size: 24px;&quot;&gt;&lt;tr style=&quot;font-size: 24px;&quot;&gt;&lt;td style=&quot;width: 85%; font-size: 24px;&quot;&gt;1970&lt;/td&gt;&lt;td style=&quot;width: 15%; font-size: 24px;&quot;&gt;&lt;br style=&quot;font-size: 24px;&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.spinner;strokeColor=#999999;spinLayout=right;spinStyle=normal;adjStyle=triangle;fillColor=#aaddff;fontSize=24;fontColor=#666666;mainText=;html=1;overflow=fill;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;container=0;" vertex="1" parent="h6iq3yC_g2mU0r-mQqVC-0">
+          <mxGeometry x="465" y="15" width="150" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="h6iq3yC_g2mU0r-mQqVC-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=24;fontColor=#FFFFFF;strokeColor=#666666;endArrow=none;endFill=0;" edge="1" parent="h6iq3yC_g2mU0r-mQqVC-0">
+          <mxGeometry as="geometry">
+            <mxPoint x="1050" as="targetPoint" />
+            <mxPoint x="630" y="90" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="885" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h6iq3yC_g2mU0r-mQqVC-7" value="&lt;table style=&quot;width: 100% ; height: 100% ; font-size: 24px&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;&gt;&lt;tbody style=&quot;font-size: 24px&quot;&gt;&lt;tr style=&quot;font-size: 24px&quot;&gt;&lt;td style=&quot;width: 85% ; font-size: 24px&quot;&gt;&lt;br&gt;&lt;/td&gt;&lt;td style=&quot;width: 15% ; font-size: 24px&quot;&gt;&lt;br style=&quot;font-size: 24px&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.spinner;strokeColor=#999999;spinLayout=right;spinStyle=normal;adjStyle=triangle;fillColor=#aaddff;fontSize=24;fontColor=#666666;mainText=;html=1;overflow=fill;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;container=0;" vertex="1" parent="h6iq3yC_g2mU0r-mQqVC-0">
+          <mxGeometry x="465" y="75" width="150" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="h6iq3yC_g2mU0r-mQqVC-8" value="living in" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu;fontColor=#000000;fontStyle=2;container=0;" vertex="1" parent="h6iq3yC_g2mU0r-mQqVC-0">
+          <mxGeometry x="330" y="135" width="135" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="h6iq3yC_g2mU0r-mQqVC-9" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Ubuntu Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;fontSize=16;fontColor=#666666;endArrow=none;endFill=0;strokeColor=#666666;" edge="1" parent="h6iq3yC_g2mU0r-mQqVC-0">
+          <mxGeometry as="geometry">
+            <mxPoint x="1005" y="60" as="targetPoint" />
+            <mxPoint x="630" y="150" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="885" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h6iq3yC_g2mU0r-mQqVC-10" value="location.state" style="edgeLabel;html=1;align=left;verticalAlign=bottom;resizable=0;points=[];fontSize=16;fontFamily=Ubuntu Mono;fontColor=#666666;labelPosition=right;verticalLabelPosition=top;container=0;" vertex="1" connectable="0" parent="h6iq3yC_g2mU0r-mQqVC-9">
+          <mxGeometry x="0.2536" relative="1" as="geometry">
+            <mxPoint x="24" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h6iq3yC_g2mU0r-mQqVC-11" value="&lt;div align=&quot;center&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; IL&lt;/div&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.comboBox;strokeColor=#999999;fillColor=#ddeeff;align=left;fillColor2=#aaddff;mainText=;fontColor=#666666;fontSize=24;spacingLeft=3;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;container=0;" vertex="1" parent="h6iq3yC_g2mU0r-mQqVC-0">
+          <mxGeometry x="465" y="135" width="150" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="h6iq3yC_g2mU0r-mQqVC-12" value="with conditions" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu;fontColor=#000000;fontStyle=2;container=0;" vertex="1" parent="h6iq3yC_g2mU0r-mQqVC-0">
+          <mxGeometry x="225" y="195" width="240" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="h6iq3yC_g2mU0r-mQqVC-13" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Ubuntu Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;fontSize=16;fontColor=#666666;endArrow=none;endFill=0;strokeColor=#666666;" edge="1" parent="h6iq3yC_g2mU0r-mQqVC-0">
+          <mxGeometry y="-60" as="geometry">
+            <mxPoint x="1395" y="180" as="targetPoint" />
+            <mxPoint x="975" y="210" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1065" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h6iq3yC_g2mU0r-mQqVC-14" value="condition_occurrence.condition_concept_id" style="edgeLabel;html=1;align=left;verticalAlign=bottom;resizable=0;points=[];fontSize=16;fontFamily=Ubuntu Mono;fontColor=#666666;labelPosition=right;verticalLabelPosition=top;container=0;" vertex="1" connectable="0" parent="h6iq3yC_g2mU0r-mQqVC-13">
+          <mxGeometry x="-0.0442" y="-1" relative="1" as="geometry">
+            <mxPoint x="-108" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h6iq3yC_g2mU0r-mQqVC-15" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.misc.rrect;rSize=0;strokeColor=#999999;fillColor=#ffffff;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=24;fontColor=#000000;container=0;" vertex="1" parent="h6iq3yC_g2mU0r-mQqVC-0">
+          <mxGeometry x="465" y="195" width="495" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="h6iq3yC_g2mU0r-mQqVC-16" value="who visited a doctor" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu;fontColor=#000000;fontStyle=2;container=0;" vertex="1" parent="h6iq3yC_g2mU0r-mQqVC-0">
+          <mxGeometry x="150" y="255" width="315" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="h6iq3yC_g2mU0r-mQqVC-17" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Ubuntu Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;fontSize=16;fontColor=#666666;endArrow=none;endFill=0;strokeColor=#666666;" edge="1" parent="h6iq3yC_g2mU0r-mQqVC-0">
+          <mxGeometry x="2" y="60" as="geometry">
+            <mxPoint x="1335" y="330" as="targetPoint" />
+            <mxPoint x="780" y="285" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1065" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h6iq3yC_g2mU0r-mQqVC-18" value="visit_occurrence.visit_start_date" style="edgeLabel;html=1;align=left;verticalAlign=bottom;resizable=0;points=[];fontSize=16;fontFamily=Ubuntu Mono;fontColor=#666666;labelPosition=right;verticalLabelPosition=top;container=0;" vertex="1" connectable="0" parent="h6iq3yC_g2mU0r-mQqVC-17">
+          <mxGeometry x="0.3309" y="-4" relative="1" as="geometry">
+            <mxPoint x="-83" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h6iq3yC_g2mU0r-mQqVC-19" value="&amp;nbsp;within last 12 months" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.comboBox;strokeColor=#999999;fillColor=#ddeeff;align=left;fillColor2=#aaddff;mainText=;fontColor=#666666;fontSize=24;spacingLeft=3;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;container=0;" vertex="1" parent="h6iq3yC_g2mU0r-mQqVC-0">
+          <mxGeometry x="465" y="255" width="300" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="h6iq3yC_g2mU0r-mQqVC-20" value="Hypertension" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.misc.rrect;rSize=5;strokeColor=none;fontSize=24;fontColor=#999999;fillColor=#ddeeff;align=left;spacingLeft=5;container=0;" vertex="1" parent="h6iq3yC_g2mU0r-mQqVC-0">
+          <mxGeometry x="469.95000000000005" y="202.5" width="160.05" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h6iq3yC_g2mU0r-mQqVC-21" value="Arrhythmia" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.misc.rrect;rSize=5;strokeColor=none;fontSize=24;fontColor=#999999;fillColor=#ddeeff;align=left;spacingLeft=5;container=0;" vertex="1" parent="h6iq3yC_g2mU0r-mQqVC-0">
+          <mxGeometry x="645" y="202.5" width="135" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h6iq3yC_g2mU0r-mQqVC-22" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.misc.rrect;rSize=5;strokeColor=none;fontSize=24;fontColor=#999999;fillColor=#ddeeff;align=left;spacingLeft=5;container=0;" vertex="1" parent="h6iq3yC_g2mU0r-mQqVC-0">
+          <mxGeometry x="795" y="202.5" width="113.85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h6iq3yC_g2mU0r-mQqVC-23" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.misc.anchor;container=0;" vertex="1" parent="h6iq3yC_g2mU0r-mQqVC-0">
+          <mxGeometry x="955.05" y="217.5" as="geometry" />
+        </mxCell>
+        <mxCell id="h6iq3yC_g2mU0r-mQqVC-24" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.misc.anchor;container=0;" vertex="1" parent="h6iq3yC_g2mU0r-mQqVC-0">
+          <mxGeometry x="925.35" y="217.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="Solution (3)" id="LsUVZsl15Ur1MXyuo0Tw">
-    <mxGraphModel dx="1038" dy="566" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+  <diagram name="Solution (3)" id="akH38utdSPSOzL2iAnSZ">
+    <mxGraphModel dx="4257" dy="1617" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
-        <mxCell id="xi8GRD-k7LdcoKLBKd5n-0" />
-        <mxCell id="xi8GRD-k7LdcoKLBKd5n-1" parent="xi8GRD-k7LdcoKLBKd5n-0" />
-        <mxCell id="xi8GRD-k7LdcoKLBKd5n-2" value="" style="group" parent="xi8GRD-k7LdcoKLBKd5n-1" vertex="1" connectable="0">
+        <mxCell id="bA9r8r7U61nV7oJe4p3F-0" />
+        <mxCell id="bA9r8r7U61nV7oJe4p3F-1" parent="bA9r8r7U61nV7oJe4p3F-0" />
+        <mxCell id="bA9r8r7U61nV7oJe4p3F-2" value="" style="group" vertex="1" connectable="0" parent="bA9r8r7U61nV7oJe4p3F-1">
           <mxGeometry y="854" width="1600" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="xi8GRD-k7LdcoKLBKd5n-3" value="&lt;div style=&quot;font-size: 24px&quot;&gt;FunSQL: a library for compositional construction of SQL queries&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#0072B2;fontColor=#FFFFFF;" parent="xi8GRD-k7LdcoKLBKd5n-2" vertex="1">
+        <mxCell id="bA9r8r7U61nV7oJe4p3F-3" value="&lt;div style=&quot;font-size: 24px&quot;&gt;FunSQL: a library for compositional construction of SQL queries&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#0072B2;fontColor=#FFFFFF;" vertex="1" parent="bA9r8r7U61nV7oJe4p3F-2">
           <mxGeometry width="840" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="xi8GRD-k7LdcoKLBKd5n-4" value="JuliaCon 2021" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#009E73;fontColor=#FFFFFF;" parent="xi8GRD-k7LdcoKLBKd5n-2" vertex="1">
+        <mxCell id="bA9r8r7U61nV7oJe4p3F-4" value="JuliaCon 2021" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#009E73;fontColor=#FFFFFF;" vertex="1" parent="bA9r8r7U61nV7oJe4p3F-2">
           <mxGeometry x="1320" width="280" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="xi8GRD-k7LdcoKLBKd5n-5" value="Clark C. Evans, Kyrylo Simonov" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#56B4E9;fontColor=#FFFFFF;" parent="xi8GRD-k7LdcoKLBKd5n-2" vertex="1">
+        <mxCell id="bA9r8r7U61nV7oJe4p3F-5" value="Clark C. Evans, Kyrylo Simonov" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#56B4E9;fontColor=#FFFFFF;" vertex="1" parent="bA9r8r7U61nV7oJe4p3F-2">
           <mxGeometry x="840" width="480" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="xi8GRD-k7LdcoKLBKd5n-7" value="FilterByState(; state) =&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;b&gt;if&lt;/b&gt; state !== nothing&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Join(:location =&amp;gt; From(location) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Where(Get.state .== state),&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Get.location_id .== Get.location.location_id)&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;b&gt;else&lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; identity&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;b&gt;end&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" parent="xi8GRD-k7LdcoKLBKd5n-1" vertex="1">
-          <mxGeometry x="60" y="60" width="945" height="315" as="geometry" />
+        <mxCell id="bA9r8r7U61nV7oJe4p3F-7" value="FilterByYearOfBirth(; start_year, end_year) =&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;b&gt;if&lt;/b&gt; start_year !== nothing &amp;amp;&amp;amp; end_year !== nothing&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Where(Fun.between(Get.year_of_birth, start_year, end_year))&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;b&gt;elseif&lt;/b&gt; start_year !== nothing&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Where(Get.year_of_birth .&amp;gt;= start_year)&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;b&gt;elseif&lt;/b&gt; end_year !== nothing&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Where(Get.year_of_birth .&amp;lt;= end_year)&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;b&gt;else&lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; identity&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;b&gt;end&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="bA9r8r7U61nV7oJe4p3F-1">
+          <mxGeometry x="60" y="60" width="1095" height="390" as="geometry" />
         </mxCell>
-        <mxCell id="xi8GRD-k7LdcoKLBKd5n-8" value="FilterByLatestVisit(; latest_visit_threshold) =&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;b&gt;if&lt;/b&gt; latest_visit_threshold !== nothing&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Join(:visit_group =&amp;gt; From(visit_occurrence) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Group(Get.person_id),&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Get.person_id .== Get.visit_group.person_id) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Define(:latest_visit_date =&amp;gt; Agg.max(Get.visit_start_date, over = Get.visit_group)) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Where(Fun.current_date() .- Get.latest_visit_date .&amp;lt;= latest_visit_threshold)&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;b&gt;else&lt;/b&gt;&lt;br&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; identity&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;b&gt;end&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" parent="xi8GRD-k7LdcoKLBKd5n-1" vertex="1">
-          <mxGeometry x="60" y="435" width="1530" height="390" as="geometry" />
+        <mxCell id="W1dzP95Sz9BRaDB-FTTo-0" value="FilterByState(; state) =&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;b&gt;if&lt;/b&gt; state !== nothing&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Join(:location =&amp;gt; From(location) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Where(Get.state .== state),&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Get.location_id .== Get.location.location_id)&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;b&gt;else&lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; identity&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;b&gt;end&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="bA9r8r7U61nV7oJe4p3F-1">
+          <mxGeometry x="60" y="510" width="945" height="315" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name="Solution (4)" id="gLirKMuKITNTXrPZs1n5">
-    <mxGraphModel dx="1038" dy="566" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="3725" dy="1415" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="8hvZOz8jVMFgN41KznRe-0" />
         <mxCell id="8hvZOz8jVMFgN41KznRe-1" parent="8hvZOz8jVMFgN41KznRe-0" />
@@ -3227,11 +3337,31 @@
         <mxCell id="8hvZOz8jVMFgN41KznRe-5" value="Clark C. Evans, Kyrylo Simonov" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#56B4E9;fontColor=#FFFFFF;" parent="8hvZOz8jVMFgN41KznRe-2" vertex="1">
           <mxGeometry x="840" width="480" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="8hvZOz8jVMFgN41KznRe-6" value="ConditionsByPerson(person_id; condition_concepts) =&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; From(condition_occurrence) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Where(Fun.and(Fun.in(Get.condition_concept_id, condition_concepts...),&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Get.person_id .== Var.person_id)) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Bind(:person_id =&amp;gt; person_id)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" parent="8hvZOz8jVMFgN41KznRe-1" vertex="1">
-          <mxGeometry x="60" y="60" width="1200" height="195" as="geometry" />
+        <mxCell id="8hvZOz8jVMFgN41KznRe-6" value="ConditionsByPerson(person_id; condition_concepts) =&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; From(condition_occurrence) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Where(Fun.and(Fun.in(Get.condition_concept_id, condition_concepts...),&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Get.person_id .== Var.person_id)) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Bind(:person_id =&amp;gt; person_id)&lt;br&gt;&lt;br&gt;FilterByConditions(; condition_concepts) =&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;b&gt;if&lt;/b&gt; !isempty(condition_concepts)&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Where(Fun.exists(ConditionsByPerson(Get.person_id, condition_concepts)))&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;b&gt;else&lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; identity&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;b&gt;end&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" parent="8hvZOz8jVMFgN41KznRe-1" vertex="1">
+          <mxGeometry x="60" y="60" width="1305" height="465" as="geometry" />
         </mxCell>
-        <mxCell id="8hvZOz8jVMFgN41KznRe-7" value="FilterByConditions(; condition_concepts) =&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;b&gt;if&lt;/b&gt; !isempty(condition_concepts)&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Where(Fun.exists(ConditionsByPerson(Get.person_id, condition_concepts)))&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;b&gt;else&lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; identity&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;b&gt;end&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" parent="8hvZOz8jVMFgN41KznRe-1" vertex="1">
-          <mxGeometry x="60" y="315" width="1305" height="240" as="geometry" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Solution (5)" id="LsUVZsl15Ur1MXyuo0Tw">
+    <mxGraphModel dx="2483" dy="943" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="xi8GRD-k7LdcoKLBKd5n-0" />
+        <mxCell id="xi8GRD-k7LdcoKLBKd5n-1" parent="xi8GRD-k7LdcoKLBKd5n-0" />
+        <mxCell id="xi8GRD-k7LdcoKLBKd5n-2" value="" style="group" parent="xi8GRD-k7LdcoKLBKd5n-1" vertex="1" connectable="0">
+          <mxGeometry y="854" width="1600" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="xi8GRD-k7LdcoKLBKd5n-3" value="&lt;div style=&quot;font-size: 24px&quot;&gt;FunSQL: a library for compositional construction of SQL queries&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#0072B2;fontColor=#FFFFFF;" parent="xi8GRD-k7LdcoKLBKd5n-2" vertex="1">
+          <mxGeometry width="840" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="xi8GRD-k7LdcoKLBKd5n-4" value="JuliaCon 2021" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#009E73;fontColor=#FFFFFF;" parent="xi8GRD-k7LdcoKLBKd5n-2" vertex="1">
+          <mxGeometry x="1320" width="280" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="xi8GRD-k7LdcoKLBKd5n-5" value="Clark C. Evans, Kyrylo Simonov" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#56B4E9;fontColor=#FFFFFF;" parent="xi8GRD-k7LdcoKLBKd5n-2" vertex="1">
+          <mxGeometry x="840" width="480" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="xi8GRD-k7LdcoKLBKd5n-8" value="FilterByLatestVisit(; latest_visit_threshold) =&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;b&gt;if&lt;/b&gt; latest_visit_threshold !== nothing&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Join(:visit_group =&amp;gt; From(visit_occurrence) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Group(Get.person_id),&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Get.person_id .== Get.visit_group.person_id) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Define(:latest_visit_date =&amp;gt; Agg.max(Get.visit_start_date, over = Get.visit_group)) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Where(Fun.current_date() .- Get.latest_visit_date .&amp;lt;= latest_visit_threshold)&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;b&gt;else&lt;/b&gt;&lt;br&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; identity&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;b&gt;end&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" parent="xi8GRD-k7LdcoKLBKd5n-1" vertex="1">
+          <mxGeometry x="60" y="60" width="1530" height="390" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
