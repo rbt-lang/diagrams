@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-19T21:20:54.743Z" agent="5.0 (X11)" etag="JNFZPaAFfAfK3Ym2Xp_M" version="14.7.6" type="github" pages="47">
+<mxfile host="app.diagrams.net" modified="2021-06-19T22:08:32.460Z" agent="5.0 (X11)" etag="9czimKwrcs8hZqRO8Mn6" version="14.7.6" type="github" pages="48">
   <diagram id="ngdmywiYoB712Vu0CHRt" name="Title">
     <mxGraphModel dx="2500" dy="1132" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
@@ -1831,7 +1831,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Translation (5)" id="L23JItjaLAJWE9afwFlj">
-    <mxGraphModel dx="2083" dy="943" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="1786" dy="809" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="aXOaUYE5XHuZpYE-7mub-0" />
         <mxCell id="aXOaUYE5XHuZpYE-7mub-1" parent="aXOaUYE5XHuZpYE-7mub-0" />
@@ -1850,10 +1850,39 @@
         <mxCell id="aXOaUYE5XHuZpYE-7mub-24" value="q&lt;sub&gt;1&lt;/sub&gt; = From(person)&lt;br&gt;q&lt;sub&gt;2&lt;/sub&gt; = q&lt;sub&gt;1&lt;/sub&gt; |&amp;gt; Where(q&lt;sub&gt;1&lt;/sub&gt;.year_of_birth .&amp;gt;= 1970)&lt;br&gt;q&lt;sub&gt;3&lt;/sub&gt; = From(location)&lt;br&gt;q&lt;sub&gt;4&lt;/sub&gt; = q&lt;sub&gt;3&lt;/sub&gt; |&amp;gt; Where(q&lt;sub&gt;3&lt;/sub&gt;.state .== &quot;IL&quot;)&lt;br&gt;q&lt;sub&gt;5&lt;/sub&gt; = q&lt;sub&gt;2&lt;/sub&gt; |&amp;gt; Join(q&lt;sub&gt;4&lt;/sub&gt;, q&lt;sub&gt;2&lt;/sub&gt;.location_id .==&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; q&lt;sub&gt;4&lt;/sub&gt;.location_id)&lt;br&gt;q&lt;sub&gt;6&lt;/sub&gt; = q&lt;sub&gt;5&lt;/sub&gt; |&amp;gt; Select(q&lt;sub&gt;5&lt;/sub&gt;.person_id)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" parent="aXOaUYE5XHuZpYE-7mub-1" vertex="1">
           <mxGeometry x="60" y="420" width="705" height="330" as="geometry" />
         </mxCell>
-        <mxCell id="aXOaUYE5XHuZpYE-7mub-25" value="&lt;b&gt;SELECT&lt;/b&gt; p.person_id&lt;br&gt;&lt;b&gt;FROM&lt;/b&gt; (&lt;b&gt;SELECT&lt;/b&gt; p.person_id, p.location_id&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;b&gt;FROM&lt;/b&gt; person p&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;b&gt;WHERE&lt;/b&gt; p.year_of_birth &amp;gt;= 1970) p&lt;br&gt;&lt;b&gt;JOIN&lt;/b&gt; (&lt;b&gt;SELECT&lt;/b&gt; l.location_id&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;b&gt;FROM&lt;/b&gt; location l&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;b&gt;WHERE&lt;/b&gt; l.state = &#39;IL&#39;) l&lt;br&gt;&amp;nbsp; &lt;b&gt;ON&lt;/b&gt; p.location_id = l.location_id" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" parent="aXOaUYE5XHuZpYE-7mub-1" vertex="1">
+        <mxCell id="ZOmK1lkA7dJAw9bKpQt_-0" value="Find patients&lt;br&gt;&lt;ul&gt;&lt;li&gt;born in or after 1970&lt;/li&gt;&lt;li&gt;living in Illinois&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu;fontColor=#000000;fontStyle=2" parent="aXOaUYE5XHuZpYE-7mub-1" vertex="1">
+          <mxGeometry x="60" y="75" width="360" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="9yxPbQY2PIl5wf8BVVcW-0" value="&lt;b&gt;using&lt;/b&gt; FunSQL: AS, FROM, JOIN, OP, SELECT, WHERE&lt;br&gt;&lt;br&gt;FROM(&lt;br&gt;&amp;nbsp; FROM(:person |&amp;gt; AS(:p)) |&amp;gt;&lt;br&gt;&amp;nbsp; WHERE(OP(&quot;&amp;gt;=&quot;, (:p, :year_of_birth), 1970)) |&amp;gt;&lt;br&gt;&amp;nbsp; SELECT((:p, :person_id),&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; (:p, :location_id)) |&amp;gt;&lt;br&gt;&amp;nbsp; AS(:p)) |&amp;gt;&lt;br&gt;JOIN(&lt;br&gt;&amp;nbsp; FROM(:location |&amp;gt; AS(:l)) |&amp;gt;&lt;br&gt;&amp;nbsp; WHERE(OP(&quot;=&quot;, (:l, :state), &quot;IL&quot;)) |&amp;gt;&lt;br&gt;&amp;nbsp; SELECT((:l, :location_id)) |&amp;gt;&lt;br&gt;&amp;nbsp; AS(:l),&lt;br&gt;&amp;nbsp; OP(&quot;=&quot;, (:p, :location_id),&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; (:l, :location_id))) |&amp;gt;&lt;br&gt;SELECT((:p, :person_id))" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="aXOaUYE5XHuZpYE-7mub-1">
+          <mxGeometry x="780" y="135" width="795" height="615" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Translation (6)" id="6-SRsM6MaXWRVQ_ZjvaP">
+    <mxGraphModel dx="1250" dy="566" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="dsXecWJBH8q8ji1R9jkb-0" />
+        <mxCell id="dsXecWJBH8q8ji1R9jkb-1" parent="dsXecWJBH8q8ji1R9jkb-0" />
+        <mxCell id="dsXecWJBH8q8ji1R9jkb-2" value="" style="group" vertex="1" connectable="0" parent="dsXecWJBH8q8ji1R9jkb-1">
+          <mxGeometry y="854" width="1600" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="dsXecWJBH8q8ji1R9jkb-3" value="&lt;div style=&quot;font-size: 24px&quot;&gt;FunSQL: a library for compositional construction of SQL queries&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#0072B2;fontColor=#FFFFFF;" vertex="1" parent="dsXecWJBH8q8ji1R9jkb-2">
+          <mxGeometry width="840" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="dsXecWJBH8q8ji1R9jkb-4" value="JuliaCon 2021" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#009E73;fontColor=#FFFFFF;" vertex="1" parent="dsXecWJBH8q8ji1R9jkb-2">
+          <mxGeometry x="1320" width="280" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="dsXecWJBH8q8ji1R9jkb-5" value="Clark C. Evans, Kyrylo Simonov" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#56B4E9;fontColor=#FFFFFF;" vertex="1" parent="dsXecWJBH8q8ji1R9jkb-2">
+          <mxGeometry x="840" width="480" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="dsXecWJBH8q8ji1R9jkb-6" value="q&lt;sub&gt;1&lt;/sub&gt; = From(person)&lt;br&gt;q&lt;sub&gt;2&lt;/sub&gt; = q&lt;sub&gt;1&lt;/sub&gt; |&amp;gt; Where(q&lt;sub&gt;1&lt;/sub&gt;.year_of_birth .&amp;gt;= 1970)&lt;br&gt;q&lt;sub&gt;3&lt;/sub&gt; = From(location)&lt;br&gt;q&lt;sub&gt;4&lt;/sub&gt; = q&lt;sub&gt;3&lt;/sub&gt; |&amp;gt; Where(q&lt;sub&gt;3&lt;/sub&gt;.state .== &quot;IL&quot;)&lt;br&gt;q&lt;sub&gt;5&lt;/sub&gt; = q&lt;sub&gt;2&lt;/sub&gt; |&amp;gt; Join(q&lt;sub&gt;4&lt;/sub&gt;, q&lt;sub&gt;2&lt;/sub&gt;.location_id .==&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; q&lt;sub&gt;4&lt;/sub&gt;.location_id)&lt;br&gt;q&lt;sub&gt;6&lt;/sub&gt; = q&lt;sub&gt;5&lt;/sub&gt; |&amp;gt; Select(q&lt;sub&gt;5&lt;/sub&gt;.person_id)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="dsXecWJBH8q8ji1R9jkb-1">
+          <mxGeometry x="60" y="420" width="705" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="dsXecWJBH8q8ji1R9jkb-7" value="&lt;b&gt;SELECT&lt;/b&gt; p.person_id&lt;br&gt;&lt;b&gt;FROM&lt;/b&gt; (&lt;b&gt;SELECT&lt;/b&gt; p.person_id, p.location_id&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;b&gt;FROM&lt;/b&gt; person p&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;b&gt;WHERE&lt;/b&gt; p.year_of_birth &amp;gt;= 1970) p&lt;br&gt;&lt;b&gt;JOIN&lt;/b&gt; (&lt;b&gt;SELECT&lt;/b&gt; l.location_id&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;b&gt;FROM&lt;/b&gt; location l&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;b&gt;WHERE&lt;/b&gt; l.state = &#39;IL&#39;) l&lt;br&gt;&amp;nbsp; &lt;b&gt;ON&lt;/b&gt; p.location_id = l.location_id" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="dsXecWJBH8q8ji1R9jkb-1">
           <mxGeometry x="787.5" y="427.5" width="660" height="315" as="geometry" />
         </mxCell>
-        <mxCell id="ZOmK1lkA7dJAw9bKpQt_-0" value="Find patients&lt;br&gt;&lt;ul&gt;&lt;li&gt;born in or after 1970&lt;/li&gt;&lt;li&gt;living in Illinois&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu;fontColor=#000000;fontStyle=2" parent="aXOaUYE5XHuZpYE-7mub-1" vertex="1">
+        <mxCell id="dsXecWJBH8q8ji1R9jkb-8" value="Find patients&lt;br&gt;&lt;ul&gt;&lt;li&gt;born in or after 1970&lt;/li&gt;&lt;li&gt;living in Illinois&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu;fontColor=#000000;fontStyle=2" vertex="1" parent="dsXecWJBH8q8ji1R9jkb-1">
           <mxGeometry x="60" y="75" width="360" height="180" as="geometry" />
         </mxCell>
       </root>
