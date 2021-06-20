@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-20T02:28:00.094Z" agent="5.0 (X11)" etag="M11QdQc99cQFxMIC_zrN" version="14.7.6" type="github" pages="48">
+<mxfile host="app.diagrams.net" modified="2021-06-20T02:29:13.505Z" agent="5.0 (X11)" etag="7t6E63QSGzPTrtbXDYsn" version="14.7.6" type="github" pages="48">
   <diagram id="ngdmywiYoB712Vu0CHRt" name="Title">
     <mxGraphModel dx="2500" dy="1132" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
@@ -2943,22 +2943,10 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Window Translation" id="B76lmu_5PdlHM_6zR1ed">
-    <mxGraphModel dx="2500" dy="1132" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="3125" dy="1415" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="9-hLzFOnHRtopD34arFi-0" />
         <mxCell id="9-hLzFOnHRtopD34arFi-1" parent="9-hLzFOnHRtopD34arFi-0" />
-        <mxCell id="9-hLzFOnHRtopD34arFi-2" value="" style="group" vertex="1" connectable="0" parent="9-hLzFOnHRtopD34arFi-1">
-          <mxGeometry y="854" width="1600" height="76" as="geometry" />
-        </mxCell>
-        <mxCell id="9-hLzFOnHRtopD34arFi-3" value="&lt;div style=&quot;font-size: 24px&quot;&gt;FunSQL: a library for compositional construction of SQL queries&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#0072B2;fontColor=#FFFFFF;" vertex="1" parent="9-hLzFOnHRtopD34arFi-2">
-          <mxGeometry width="840" height="45" as="geometry" />
-        </mxCell>
-        <mxCell id="9-hLzFOnHRtopD34arFi-4" value="JuliaCon 2021" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#009E73;fontColor=#FFFFFF;" vertex="1" parent="9-hLzFOnHRtopD34arFi-2">
-          <mxGeometry x="1320" width="280" height="45" as="geometry" />
-        </mxCell>
-        <mxCell id="9-hLzFOnHRtopD34arFi-5" value="Clark C. Evans, Kyrylo Simonov" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#56B4E9;fontColor=#FFFFFF;" vertex="1" parent="9-hLzFOnHRtopD34arFi-2">
-          <mxGeometry x="840" width="480" height="45" as="geometry" />
-        </mxCell>
         <mxCell id="9-hLzFOnHRtopD34arFi-9" value="" style="group" vertex="1" connectable="0" parent="9-hLzFOnHRtopD34arFi-1">
           <mxGeometry x="120" y="285" width="210" height="90" as="geometry" />
         </mxCell>
@@ -2995,11 +2983,23 @@
         <mxCell id="noQ-Rnh-TCDparj-mwsU-2" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;sketch=0;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=128;align=left;fillColor=#FFFFFF;dashed=1;container=0;" vertex="1" parent="bxXPm0gGjzUwnp6BvUxy-0">
           <mxGeometry x="109" y="60" width="105" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="3YXdVQZ86q5-lRB6f6aT-0" value="" style="group" vertex="1" connectable="0" parent="9-hLzFOnHRtopD34arFi-1">
+          <mxGeometry y="854" width="1600" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="3YXdVQZ86q5-lRB6f6aT-1" value="&lt;div style=&quot;font-size: 24px&quot;&gt;FunSQL: a library for compositional construction of SQL queries&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#0072B2;fontColor=#FFFFFF;" vertex="1" parent="3YXdVQZ86q5-lRB6f6aT-0">
+          <mxGeometry width="840" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="3YXdVQZ86q5-lRB6f6aT-2" value="JuliaCon 2021" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#009E73;fontColor=#FFFFFF;" vertex="1" parent="3YXdVQZ86q5-lRB6f6aT-0">
+          <mxGeometry x="1320" width="280" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="3YXdVQZ86q5-lRB6f6aT-3" value="Clark C. Evans, Kyrylo Simonov" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#56B4E9;fontColor=#FFFFFF;" vertex="1" parent="3YXdVQZ86q5-lRB6f6aT-0">
+          <mxGeometry x="840" width="480" height="45" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name="Merging Intervals" id="VwwEv0B8zgiJyCpc2eam">
-    <mxGraphModel dx="1250" dy="566" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="3125" dy="1415" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="VfAxATfcbwWP_4Iucb9b-0" />
         <mxCell id="VfAxATfcbwWP_4Iucb9b-1" parent="VfAxATfcbwWP_4Iucb9b-0" />
