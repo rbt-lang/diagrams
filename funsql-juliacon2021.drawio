@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-20T12:26:23.916Z" agent="5.0 (X11)" etag="byZCPwrm1NF9gNxlRtqA" version="14.7.6" type="github" pages="52">
+<mxfile host="app.diagrams.net" modified="2021-06-20T13:05:24.080Z" agent="5.0 (X11)" etag="ftib7SKak59YJeA9JPQm" version="14.7.6" type="github" pages="52">
   <diagram id="ngdmywiYoB712Vu0CHRt" name="Title">
     <mxGraphModel dx="2500" dy="1132" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
@@ -3205,7 +3205,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Merge Intervals (2)" id="L0Icntcp_aFSGd98dXq6">
-    <mxGraphModel dx="1240" dy="666" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="1757" dy="943" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="l_6YtriP0g_anRffilUC-0" />
         <mxCell id="l_6YtriP0g_anRffilUC-1" parent="l_6YtriP0g_anRffilUC-0" />
@@ -3226,56 +3226,6 @@
         </mxCell>
         <mxCell id="l_6YtriP0g_anRffilUC-29" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=east;notch=0;fontFamily=Ubuntu Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;fontSize=16;fontColor=#666666;fillColor=none;sketch=0;" vertex="1" parent="l_6YtriP0g_anRffilUC-1">
           <mxGeometry x="525" y="262.5" width="90" height="75" as="geometry" />
-        </mxCell>
-        <mxCell id="dmQLK4JxXOvGOXLRTGac-0" value="visit_occurrence" style="shape=table;startSize=45;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=32;fontColor=#FFFFFF;fillColor=#0072B2;rounded=1;" vertex="1" parent="l_6YtriP0g_anRffilUC-1">
-          <mxGeometry x="1260" y="60" width="300" height="270" as="geometry">
-            <mxRectangle x="375" y="600" width="150" height="45" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="dmQLK4JxXOvGOXLRTGac-1" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="dmQLK4JxXOvGOXLRTGac-0">
-          <mxGeometry y="45" width="300" height="45" as="geometry" />
-        </mxCell>
-        <mxCell id="dmQLK4JxXOvGOXLRTGac-2" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=0;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="dmQLK4JxXOvGOXLRTGac-1">
-          <mxGeometry width="60" height="45" as="geometry" />
-        </mxCell>
-        <mxCell id="dmQLK4JxXOvGOXLRTGac-3" value="visit_occurrence_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="dmQLK4JxXOvGOXLRTGac-1">
-          <mxGeometry x="60" width="240" height="45" as="geometry" />
-        </mxCell>
-        <mxCell id="dmQLK4JxXOvGOXLRTGac-4" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="dmQLK4JxXOvGOXLRTGac-0">
-          <mxGeometry y="90" width="300" height="45" as="geometry" />
-        </mxCell>
-        <mxCell id="dmQLK4JxXOvGOXLRTGac-5" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=24;" vertex="1" parent="dmQLK4JxXOvGOXLRTGac-4">
-          <mxGeometry width="60" height="45" as="geometry" />
-        </mxCell>
-        <mxCell id="dmQLK4JxXOvGOXLRTGac-6" value="person_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="dmQLK4JxXOvGOXLRTGac-4">
-          <mxGeometry x="60" width="240" height="45" as="geometry" />
-        </mxCell>
-        <mxCell id="dmQLK4JxXOvGOXLRTGac-7" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="dmQLK4JxXOvGOXLRTGac-0">
-          <mxGeometry y="135" width="300" height="45" as="geometry" />
-        </mxCell>
-        <mxCell id="dmQLK4JxXOvGOXLRTGac-8" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="dmQLK4JxXOvGOXLRTGac-7">
-          <mxGeometry width="60" height="45" as="geometry" />
-        </mxCell>
-        <mxCell id="dmQLK4JxXOvGOXLRTGac-9" value="visit_concept_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="dmQLK4JxXOvGOXLRTGac-7">
-          <mxGeometry x="60" width="240" height="45" as="geometry" />
-        </mxCell>
-        <mxCell id="dmQLK4JxXOvGOXLRTGac-10" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="dmQLK4JxXOvGOXLRTGac-0">
-          <mxGeometry y="180" width="300" height="45" as="geometry" />
-        </mxCell>
-        <mxCell id="dmQLK4JxXOvGOXLRTGac-11" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="dmQLK4JxXOvGOXLRTGac-10">
-          <mxGeometry width="60" height="45" as="geometry" />
-        </mxCell>
-        <mxCell id="dmQLK4JxXOvGOXLRTGac-12" value="visit_start_date" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="dmQLK4JxXOvGOXLRTGac-10">
-          <mxGeometry x="60" width="240" height="45" as="geometry" />
-        </mxCell>
-        <mxCell id="dmQLK4JxXOvGOXLRTGac-13" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="dmQLK4JxXOvGOXLRTGac-0">
-          <mxGeometry y="225" width="300" height="45" as="geometry" />
-        </mxCell>
-        <mxCell id="dmQLK4JxXOvGOXLRTGac-14" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="dmQLK4JxXOvGOXLRTGac-13">
-          <mxGeometry width="60" height="45" as="geometry" />
-        </mxCell>
-        <mxCell id="dmQLK4JxXOvGOXLRTGac-15" value="visit_end_date" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="dmQLK4JxXOvGOXLRTGac-13">
-          <mxGeometry x="60" width="240" height="45" as="geometry" />
         </mxCell>
         <mxCell id="rPZVFl1jJpTi2N7DbvgP-0" value="" style="group" vertex="1" connectable="0" parent="l_6YtriP0g_anRffilUC-1">
           <mxGeometry x="60" y="150" width="420" height="300" as="geometry" />
@@ -3412,27 +3362,36 @@
         <mxCell id="cF3ICLUt5YZRvSv0mXjG-19" value="0" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=24;" vertex="1" parent="cF3ICLUt5YZRvSv0mXjG-13">
           <mxGeometry x="420" width="90" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="eD-dv_-HVQfCWd-8G8J_-0" value="From(visit_occurrence) |&amp;gt;&lt;br&gt;Partition(Get.person_id, order_by = [Get.visit_start_date],&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; frame = (mode = :rows, start = -Inf, finish = -1)) |&amp;gt;&lt;br&gt;Define(:boundary =&amp;gt; Agg.max(Get.visit_end_date)) |&amp;gt;&lt;br&gt;Define(:gap =&amp;gt; Get.visit_start_date .- Get.boundary) |&amp;gt;&lt;br&gt;Define(:new =&amp;gt; Fun.case(Get.gap .&amp;lt;= 0, 0, 1))" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="l_6YtriP0g_anRffilUC-1">
+          <mxGeometry x="60" y="544" width="1018" height="232" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name="Merge Intervals (3)" id="WA3TlTt9yynu-IiG435R">
-    <mxGraphModel dx="2108" dy="1132" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="2635" dy="1415" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="mnNQUnkwP4C3Fq2AhgSd-0" />
         <mxCell id="mnNQUnkwP4C3Fq2AhgSd-1" parent="mnNQUnkwP4C3Fq2AhgSd-0" />
+        <mxCell id="NjChuYCu44gH1q1181bT-0" value="From(visit_occurrence) |&amp;gt;&lt;br&gt;Partition(Get.person_id, order_by = [Get.visit_start_date],&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; frame = (mode = :rows, start = -Inf, finish = -1)) |&amp;gt;&lt;br&gt;Define(:boundary =&amp;gt; Agg.max(Get.visit_end_date)) |&amp;gt;&lt;br&gt;Define(:gap =&amp;gt; Get.visit_start_date .- Get.boundary) |&amp;gt;&lt;br&gt;Define(:new =&amp;gt; Fun.case(Get.gap .&amp;lt;= 0, 0, 1)) |&amp;gt;&lt;br&gt;Partition(Get.person_id, order_by = [Get.visit_start_date, .- Get.new],&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; frame = :rows) |&amp;gt;&lt;br&gt;Define(:group =&amp;gt; Agg.sum(Get.new))" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="mnNQUnkwP4C3Fq2AhgSd-1">
+          <mxGeometry x="60" y="435" width="1155" height="345" as="geometry" />
+        </mxCell>
+        <mxCell id="cHVUn0ON6NQJdYbkgUEu-5" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=24;align=left;strokeColor=none;" vertex="1" parent="mnNQUnkwP4C3Fq2AhgSd-1">
+          <mxGeometry x="30" y="30" width="1515" height="435" as="geometry" />
+        </mxCell>
         <mxCell id="mnNQUnkwP4C3Fq2AhgSd-2" value="Merge overlapping visits." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu;fontColor=#000000;fontStyle=2" vertex="1" parent="mnNQUnkwP4C3Fq2AhgSd-1">
           <mxGeometry x="60" y="75" width="390" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="mnNQUnkwP4C3Fq2AhgSd-3" value="" style="group" vertex="1" connectable="0" parent="mnNQUnkwP4C3Fq2AhgSd-1">
+        <mxCell id="cHVUn0ON6NQJdYbkgUEu-0" value="" style="group" vertex="1" connectable="0" parent="mnNQUnkwP4C3Fq2AhgSd-1">
           <mxGeometry y="854" width="1600" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="mnNQUnkwP4C3Fq2AhgSd-4" value="&lt;div style=&quot;font-size: 24px&quot;&gt;FunSQL: a library for compositional construction of SQL queries&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#0072B2;fontColor=#FFFFFF;" vertex="1" parent="mnNQUnkwP4C3Fq2AhgSd-3">
+        <mxCell id="cHVUn0ON6NQJdYbkgUEu-1" value="&lt;div style=&quot;font-size: 24px&quot;&gt;FunSQL: a library for compositional construction of SQL queries&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#0072B2;fontColor=#FFFFFF;" vertex="1" parent="cHVUn0ON6NQJdYbkgUEu-0">
           <mxGeometry width="840" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="mnNQUnkwP4C3Fq2AhgSd-5" value="JuliaCon 2021" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#009E73;fontColor=#FFFFFF;" vertex="1" parent="mnNQUnkwP4C3Fq2AhgSd-3">
+        <mxCell id="cHVUn0ON6NQJdYbkgUEu-2" value="JuliaCon 2021" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#009E73;fontColor=#FFFFFF;" vertex="1" parent="cHVUn0ON6NQJdYbkgUEu-0">
           <mxGeometry x="1320" width="280" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="mnNQUnkwP4C3Fq2AhgSd-6" value="Clark C. Evans, Kyrylo Simonov" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#56B4E9;fontColor=#FFFFFF;" vertex="1" parent="mnNQUnkwP4C3Fq2AhgSd-3">
+        <mxCell id="cHVUn0ON6NQJdYbkgUEu-3" value="Clark C. Evans, Kyrylo Simonov" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#56B4E9;fontColor=#FFFFFF;" vertex="1" parent="cHVUn0ON6NQJdYbkgUEu-0">
           <mxGeometry x="840" width="480" height="45" as="geometry" />
         </mxCell>
         <mxCell id="mnNQUnkwP4C3Fq2AhgSd-7" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=east;notch=0;fontFamily=Ubuntu Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;fontSize=16;fontColor=#666666;fillColor=none;sketch=0;" vertex="1" parent="mnNQUnkwP4C3Fq2AhgSd-1">
@@ -3513,34 +3472,34 @@
         <mxCell id="mnNQUnkwP4C3Fq2AhgSd-60" value="0" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=24;" vertex="1" parent="mnNQUnkwP4C3Fq2AhgSd-58">
           <mxGeometry x="420" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zIclA2zxV3ZA_L1HRRB1-0" value="" style="group" vertex="1" connectable="0" parent="mnNQUnkwP4C3Fq2AhgSd-1">
+        <mxCell id="cHVUn0ON6NQJdYbkgUEu-4" value="" style="group" vertex="1" connectable="0" parent="mnNQUnkwP4C3Fq2AhgSd-1">
           <mxGeometry x="750" y="150" width="600" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="MYIofVZI8z7AM-mwVTR--1" value="" style="endArrow=none;html=1;fontSize=32;fontColor=#FFFFFF;strokeWidth=3;strokeColor=#0072B2;" edge="1" parent="zIclA2zxV3ZA_L1HRRB1-0">
+        <mxCell id="MYIofVZI8z7AM-mwVTR--1" value="" style="endArrow=none;html=1;fontSize=32;fontColor=#FFFFFF;strokeWidth=3;strokeColor=#0072B2;" edge="1" parent="cHVUn0ON6NQJdYbkgUEu-4">
           <mxGeometry width="50" height="50" as="geometry">
             <mxPoint x="30" y="90" as="sourcePoint" />
             <mxPoint x="120" y="90" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MYIofVZI8z7AM-mwVTR--2" value="" style="endArrow=none;html=1;fontSize=32;fontColor=#FFFFFF;strokeWidth=3;strokeColor=#0072B2;" edge="1" parent="zIclA2zxV3ZA_L1HRRB1-0">
+        <mxCell id="MYIofVZI8z7AM-mwVTR--2" value="" style="endArrow=none;html=1;fontSize=32;fontColor=#FFFFFF;strokeWidth=3;strokeColor=#0072B2;" edge="1" parent="cHVUn0ON6NQJdYbkgUEu-4">
           <mxGeometry width="50" height="50" as="geometry">
             <mxPoint x="90" y="149.41000000000008" as="sourcePoint" />
             <mxPoint x="150" y="149.41000000000008" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MYIofVZI8z7AM-mwVTR--3" value="" style="endArrow=none;html=1;fontSize=32;fontColor=#FFFFFF;strokeWidth=3;strokeColor=#0072B2;" edge="1" parent="zIclA2zxV3ZA_L1HRRB1-0">
+        <mxCell id="MYIofVZI8z7AM-mwVTR--3" value="" style="endArrow=none;html=1;fontSize=32;fontColor=#FFFFFF;strokeWidth=3;strokeColor=#0072B2;" edge="1" parent="cHVUn0ON6NQJdYbkgUEu-4">
           <mxGeometry width="50" height="50" as="geometry">
             <mxPoint x="240" y="210" as="sourcePoint" />
             <mxPoint x="300" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MYIofVZI8z7AM-mwVTR--4" value="" style="endArrow=none;html=1;fontSize=32;fontColor=#FFFFFF;strokeWidth=3;strokeColor=#0072B2;" edge="1" parent="zIclA2zxV3ZA_L1HRRB1-0">
+        <mxCell id="MYIofVZI8z7AM-mwVTR--4" value="" style="endArrow=none;html=1;fontSize=32;fontColor=#FFFFFF;strokeWidth=3;strokeColor=#0072B2;" edge="1" parent="cHVUn0ON6NQJdYbkgUEu-4">
           <mxGeometry width="50" height="50" as="geometry">
             <mxPoint x="270" y="270" as="sourcePoint" />
             <mxPoint x="390" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MYIofVZI8z7AM-mwVTR--5" value="" style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;labelBackgroundColor=none;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=32;align=left;strokeColor=#666666;fillColor=none;" vertex="1" parent="zIclA2zxV3ZA_L1HRRB1-0">
+        <mxCell id="MYIofVZI8z7AM-mwVTR--5" value="" style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;labelBackgroundColor=none;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=32;align=left;strokeColor=#666666;fillColor=none;" vertex="1" parent="cHVUn0ON6NQJdYbkgUEu-4">
           <mxGeometry width="600" height="300" as="geometry" />
         </mxCell>
         <mxCell id="MYIofVZI8z7AM-mwVTR--6" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="MYIofVZI8z7AM-mwVTR--5">
@@ -3603,14 +3562,26 @@
         <mxCell id="MYIofVZI8z7AM-mwVTR--25" value="2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=24;" vertex="1" parent="MYIofVZI8z7AM-mwVTR--18">
           <mxGeometry x="510" width="90" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="cHVUn0ON6NQJdYbkgUEu-6" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=24;fontColor=#000000;align=left;strokeColor=none;gradientColor=#FFFFFF00;" vertex="1" parent="mnNQUnkwP4C3Fq2AhgSd-1">
+          <mxGeometry x="30" y="450" width="1530" height="150" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name="Merge Intervals (4)" id="k65-WNgaIgWihLOYUtzu">
-    <mxGraphModel dx="1506" dy="809" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="2108" dy="1132" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="wyVubFN6nd3c77SLKTJ5-0" />
         <mxCell id="wyVubFN6nd3c77SLKTJ5-1" parent="wyVubFN6nd3c77SLKTJ5-0" />
+        <mxCell id="1jOYy2HOdWr48VfEweMe-0" value="From(visit_occurrence) |&amp;gt;&lt;br&gt;Partition(Get.person_id, order_by = [Get.visit_start_date],&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; frame = (mode = :rows, start = -Inf, finish = -1)) |&amp;gt;&lt;br&gt;Define(:boundary =&amp;gt; Agg.max(Get.visit_end_date)) |&amp;gt;&lt;br&gt;Define(:gap =&amp;gt; Get.visit_start_date .- Get.boundary) |&amp;gt;&lt;br&gt;Define(:new =&amp;gt; Fun.case(Get.gap .&amp;lt;= 0, 0, 1)) |&amp;gt;&lt;br&gt;Partition(Get.person_id, order_by = [Get.visit_start_date, .- Get.new],&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; frame = :rows) |&amp;gt;&lt;br&gt;Define(:group =&amp;gt; Agg.sum(Get.new)) |&amp;gt;&lt;br&gt;Group(Get.person_id, Get.group) |&amp;gt;&lt;br&gt;Define(:start_date =&amp;gt; Agg.min(Get.visit_start_date),&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; :end_date =&amp;gt; Agg.max(Get.visit_end_date)) |&amp;gt;&lt;br&gt;Select(Get.person_id, Get.start_date, Get.end_date)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="wyVubFN6nd3c77SLKTJ5-1">
+          <mxGeometry x="60" y="285" width="1155" height="495" as="geometry" />
+        </mxCell>
+        <mxCell id="DxgKpXGKe3tSpx1oGJg--0" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=24;align=left;strokeColor=none;" vertex="1" parent="wyVubFN6nd3c77SLKTJ5-1">
+          <mxGeometry x="30" y="30" width="1515" height="435" as="geometry" />
+        </mxCell>
+        <mxCell id="DxgKpXGKe3tSpx1oGJg--1" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=24;fontColor=#000000;align=left;strokeColor=none;gradientColor=#FFFFFF00;" vertex="1" parent="wyVubFN6nd3c77SLKTJ5-1">
+          <mxGeometry x="30" y="450" width="1530" height="150" as="geometry" />
+        </mxCell>
         <mxCell id="wyVubFN6nd3c77SLKTJ5-2" value="Merge overlapping visits." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu;fontColor=#000000;fontStyle=2" vertex="1" parent="wyVubFN6nd3c77SLKTJ5-1">
           <mxGeometry x="60" y="75" width="390" height="45" as="geometry" />
         </mxCell>
