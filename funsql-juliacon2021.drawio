@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-20T13:05:24.080Z" agent="5.0 (X11)" etag="ftib7SKak59YJeA9JPQm" version="14.7.6" type="github" pages="52">
+<mxfile host="app.diagrams.net" modified="2021-06-20T13:24:15.531Z" agent="5.0 (X11)" etag="OfG9w80T63v2ij1Ah2pc" version="14.7.6" type="github" pages="52">
   <diagram id="ngdmywiYoB712Vu0CHRt" name="Title">
     <mxGraphModel dx="2500" dy="1132" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
@@ -3569,7 +3569,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Merge Intervals (4)" id="k65-WNgaIgWihLOYUtzu">
-    <mxGraphModel dx="2108" dy="1132" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="1054" dy="566" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="wyVubFN6nd3c77SLKTJ5-0" />
         <mxCell id="wyVubFN6nd3c77SLKTJ5-1" parent="wyVubFN6nd3c77SLKTJ5-0" />
@@ -3739,7 +3739,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Copy of Merging Intervals" id="JfI-9BaCLu_hR2qZBUCL">
-    <mxGraphModel dx="1757" dy="943" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="3011" dy="1617" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="msq-DuX-S_dcem2rYGXo-0" />
         <mxCell id="msq-DuX-S_dcem2rYGXo-1" parent="msq-DuX-S_dcem2rYGXo-0" />
@@ -3808,8 +3808,8 @@
         <mxCell id="msq-DuX-S_dcem2rYGXo-22" value="visit_end_date" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="msq-DuX-S_dcem2rYGXo-20">
           <mxGeometry x="60" width="240" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="msq-DuX-S_dcem2rYGXo-23" value="From(visit_occurrence) |&amp;gt;&lt;br&gt;Partition(Get.person_id,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; order_by = [Get.visit_start_date],&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; frame = (mode = :rows, start = -Inf, finish = -1)) |&amp;gt;&lt;br&gt;Define(:boundary =&amp;gt; Agg.max(Get.visit_end_date)) |&amp;gt;&lt;br&gt;Define(:bump =&amp;gt; Fun.case(Get.visit_start_date .&amp;lt;= Get.boundary, 0, 1)) |&amp;gt;&lt;br&gt;Partition(Get.person_id,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; order_by = [Get.visit_start_date, .- Get.bump],&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; frame = :rows) |&amp;gt;&lt;br&gt;Define(:group =&amp;gt; Agg.sum(Get.bump)) |&amp;gt;&lt;br&gt;Group(Get.person_id, Get.group) |&amp;gt;&lt;br&gt;Define(:start_date =&amp;gt; Agg.min(Get.visit_start_date),&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; :end_date =&amp;gt; Agg.max(Get.visit_end_date)) |&amp;gt;&lt;br&gt;Select(Get.person_id, Get.start_date, Get.end_date)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="msq-DuX-S_dcem2rYGXo-1">
-          <mxGeometry x="60" y="180" width="1185" height="540" as="geometry" />
+        <mxCell id="msq-DuX-S_dcem2rYGXo-23" value="CollapseIntervals(start_date, end_date) =&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Partition(Get.person_id, order_by = [start_date],&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; frame = (mode = :rows, start = -Inf, finish = -1)) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Define(:boundary =&amp;gt; Agg.max(end_date)) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Define(:gap =&amp;gt; start_date .- Get.boundary) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Define(:new =&amp;gt; Fun.case(Get.gap .&amp;lt;= 0, 0, 1)) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Partition(Get.person_id, order_by = [start_date, .- Get.new],&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; frame = :rows) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Define(:group =&amp;gt; Agg.sum(Get.new)) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Group(Get.person_id, Get.group) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Define(:start_date =&amp;gt; Agg.min(start_date),&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp; &amp;nbsp; :end_date =&amp;gt; Agg.max(end_date))&lt;br&gt;&lt;br&gt;q = From(visit_occurrence) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; CollapseIntervals(Get.visit_start_date, Get.visit_end_date) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Select(Get.person_id, Get.start_date, Get.end_date)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="msq-DuX-S_dcem2rYGXo-1">
+          <mxGeometry x="60" y="180" width="1095" height="615" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
