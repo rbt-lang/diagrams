@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-21T14:37:35.835Z" agent="5.0 (X11)" etag="z3GZg7i7o3m8k7uzG_r5" version="14.8.0" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2021-06-21T14:43:35.441Z" agent="5.0 (X11)" etag="JSld--SsLsXd_MX6Lq7o" version="14.8.0" type="github" pages="11">
   <diagram id="Ienm0UCJxK3TFsqvx7uQ" name="Title">
     <mxGraphModel dx="2595" dy="1415" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
@@ -36,7 +36,7 @@
         <mxCell id="NRCGdJTD4BcnDS4UWVEP-5" value="Kyrylo Simonov" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fontColor=#FFFFFF;fillColor=#117733;" vertex="1" parent="NRCGdJTD4BcnDS4UWVEP-2">
           <mxGeometry x="840" width="440" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="NRCGdJTD4BcnDS4UWVEP-6" value="&lt;font color=&quot;#117733&quot;&gt;&lt;b&gt;julia&amp;gt;&lt;/b&gt;&lt;/font&gt; print([&quot;Hello&quot;, &quot;World&quot;])&lt;br&gt;&lt;font color=&quot;#666666&quot;&gt;[&quot;Hello&quot;, &quot;World&quot;]&lt;/font&gt;&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;align=left;fontSize=32;fontFamily=Ubuntu Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;spacingLeft=50;glass=1;shadow=1;sketch=0;opacity=95;" vertex="1" parent="NRCGdJTD4BcnDS4UWVEP-1">
+        <mxCell id="NRCGdJTD4BcnDS4UWVEP-6" value="&lt;font color=&quot;#117733&quot;&gt;&lt;b&gt;julia&amp;gt;&lt;/b&gt;&lt;/font&gt; print([&quot;Hello&quot;, &quot;World&quot;])&lt;br&gt;&lt;font color=&quot;#666666&quot;&gt;[&quot;Hello&quot;, &quot;World&quot;]&lt;/font&gt;&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;align=left;fontSize=32;fontFamily=Ubuntu Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;spacingLeft=50;glass=1;shadow=1;sketch=0;" vertex="1" parent="NRCGdJTD4BcnDS4UWVEP-1">
           <mxGeometry x="60" y="120" width="660" height="255" as="geometry" />
         </mxCell>
       </root>
@@ -164,53 +164,21 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="Printing" id="_2FwN3WyYRzJ8mjIt6VJ">
-    <mxGraphModel dx="2966" dy="2517" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
-      <root>
-        <mxCell id="0yY7UNX4v04RvL2k5tC2-0" />
-        <mxCell id="0yY7UNX4v04RvL2k5tC2-1" parent="0yY7UNX4v04RvL2k5tC2-0" />
-        <mxCell id="0yY7UNX4v04RvL2k5tC2-6" value="" style="group" parent="0yY7UNX4v04RvL2k5tC2-1" vertex="1" connectable="0">
-          <mxGeometry y="854" width="1600" height="45" as="geometry" />
-        </mxCell>
-        <mxCell id="0yY7UNX4v04RvL2k5tC2-7" value="&lt;div style=&quot;font-size: 24px&quot;&gt;PrettyPrinting: optimal layout for code and data&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#0072B2;fontColor=#FFFFFF;" parent="0yY7UNX4v04RvL2k5tC2-6" vertex="1">
-          <mxGeometry width="840" height="45" as="geometry" />
-        </mxCell>
-        <mxCell id="0yY7UNX4v04RvL2k5tC2-8" value="JuliaCon 2021" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fontColor=#FFFFFF;fillColor=#44AA99;" parent="0yY7UNX4v04RvL2k5tC2-6" vertex="1">
-          <mxGeometry x="1280" width="320" height="45" as="geometry" />
-        </mxCell>
-        <mxCell id="0yY7UNX4v04RvL2k5tC2-9" value="Kyrylo Simonov" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fontColor=#FFFFFF;fillColor=#117733;" parent="0yY7UNX4v04RvL2k5tC2-6" vertex="1">
-          <mxGeometry x="840" width="440" height="45" as="geometry" />
-        </mxCell>
-        <mxCell id="Xc0MP-GHabnqD8t9W7RV-0" value="123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" parent="0yY7UNX4v04RvL2k5tC2-1" vertex="1">
-          <mxGeometry x="40" y="40" width="1460" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="Xc0MP-GHabnqD8t9W7RV-1" value="1&lt;br&gt;2&lt;br&gt;3&lt;br&gt;4&lt;br&gt;5&lt;br&gt;6&lt;br&gt;7&lt;br&gt;8&lt;br&gt;&lt;div&gt;9&lt;br&gt;0&lt;br&gt;1&lt;br&gt;2&lt;br&gt;3&lt;br&gt;4&lt;br&gt;5&lt;br&gt;6&lt;br&gt;7&lt;br&gt;8&lt;br&gt;9&lt;br&gt;0&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" parent="0yY7UNX4v04RvL2k5tC2-1" vertex="1">
-          <mxGeometry x="40" y="80" width="30" height="770" as="geometry" />
-        </mxCell>
-        <mxCell id="Xc0MP-GHabnqD8t9W7RV-2" value="&lt;div&gt;123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890&lt;/div&gt;&lt;div&gt;&lt;div&gt;123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;Dict(&lt;br/&gt;    &quot;active&quot; =&amp;gt; true,&lt;br/&gt;    &quot;managingOrganization&quot; =&amp;gt; Dict(&quot;reference&quot; =&amp;gt; &quot;Organization/1&quot;),&lt;br/&gt;    &quot;address&quot; =&amp;gt;&lt;br/&gt;        [Dict(&quot;line&quot; =&amp;gt; [&quot;534 Erewhon St&quot;],&lt;br/&gt;              &quot;district&quot; =&amp;gt; &quot;Rainbow&quot;,&lt;br/&gt;              &quot;use&quot; =&amp;gt; &quot;home&quot;,&lt;br/&gt;              &quot;postalCode&quot; =&amp;gt; &quot;3999&quot;,&lt;br/&gt;              &quot;city&quot; =&amp;gt; &quot;PleasantVille&quot;,&lt;br/&gt;              &quot;period&quot; =&amp;gt; Dict(&quot;start&quot; =&amp;gt; &quot;1974-12-25&quot;),&lt;br/&gt;              &quot;text&quot; =&amp;gt;&lt;br/&gt;                  &quot;534 Erewhon St PeasantVille, Rainbow, Vic  3999&quot;,&lt;br/&gt;              &quot;type&quot; =&amp;gt; &quot;both&quot;,&lt;br/&gt;              &quot;state&quot; =&amp;gt; &quot;Vic&quot;)],&lt;br/&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" parent="0yY7UNX4v04RvL2k5tC2-1" vertex="1">
-          <mxGeometry x="700" y="-60" width="1460" height="730" as="geometry" />
-        </mxCell>
-        <mxCell id="Xc0MP-GHabnqD8t9W7RV-3" value="&lt;b&gt;&lt;font color=&quot;#44AA99&quot;&gt;julia&amp;gt;&lt;/font&gt;&lt;/b&gt; pprint(data)&lt;br&gt;Dict(&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &quot;name&quot; =&amp;gt; [Dict(&quot;family&quot; =&amp;gt; &quot;Chalmers&quot;,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &quot;given&quot; =&amp;gt; [&quot;Peter&quot;, &quot;James&quot;],&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &quot;use&quot; =&amp;gt; &quot;official&quot;),&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Dict(&quot;given&quot; =&amp;gt; [&quot;Jim&quot;], &quot;use&quot; =&amp;gt; &quot;usual&quot;),&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Dict(&quot;family&quot; =&amp;gt; &quot;Windsor&quot;,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &quot;given&quot; =&amp;gt; [&quot;Peter&quot;, &quot;James&quot;],&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &quot;use&quot; =&amp;gt; &quot;maiden&quot;,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &quot;period&quot; =&amp;gt; Dict(&quot;end&quot; =&amp;gt; &quot;2002&quot;))],&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; ⋮" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;align=left;fontSize=32;fontFamily=Ubuntu Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;spacingLeft=50;glass=1;shadow=1;sketch=0;" parent="0yY7UNX4v04RvL2k5tC2-1" vertex="1">
-          <mxGeometry x="490" y="360" width="1030" height="480" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
   <diagram name="PrettyPrinting" id="09qStILM5RkPDHGtDHcW">
     <mxGraphModel dx="1038" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="7FtjhK1HLdBePJLeg7ht-0" />
         <mxCell id="7FtjhK1HLdBePJLeg7ht-1" parent="7FtjhK1HLdBePJLeg7ht-0" />
-        <mxCell id="7FtjhK1HLdBePJLeg7ht-2" value="" style="group" vertex="1" connectable="0" parent="7FtjhK1HLdBePJLeg7ht-1">
+        <mxCell id="7FtjhK1HLdBePJLeg7ht-2" value="" style="group" parent="7FtjhK1HLdBePJLeg7ht-1" vertex="1" connectable="0">
           <mxGeometry y="854" width="1600" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="7FtjhK1HLdBePJLeg7ht-3" value="&lt;div style=&quot;font-size: 24px&quot;&gt;PrettyPrinting: optimal layout for code and data&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#0072B2;fontColor=#FFFFFF;" vertex="1" parent="7FtjhK1HLdBePJLeg7ht-2">
+        <mxCell id="7FtjhK1HLdBePJLeg7ht-3" value="&lt;div style=&quot;font-size: 24px&quot;&gt;PrettyPrinting: optimal layout for code and data&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#0072B2;fontColor=#FFFFFF;" parent="7FtjhK1HLdBePJLeg7ht-2" vertex="1">
           <mxGeometry width="840" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="7FtjhK1HLdBePJLeg7ht-4" value="JuliaCon 2021" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fontColor=#FFFFFF;fillColor=#44AA99;" vertex="1" parent="7FtjhK1HLdBePJLeg7ht-2">
+        <mxCell id="7FtjhK1HLdBePJLeg7ht-4" value="JuliaCon 2021" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fontColor=#FFFFFF;fillColor=#44AA99;" parent="7FtjhK1HLdBePJLeg7ht-2" vertex="1">
           <mxGeometry x="1280" width="320" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="7FtjhK1HLdBePJLeg7ht-5" value="Kyrylo Simonov" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fontColor=#FFFFFF;fillColor=#117733;" vertex="1" parent="7FtjhK1HLdBePJLeg7ht-2">
+        <mxCell id="7FtjhK1HLdBePJLeg7ht-5" value="Kyrylo Simonov" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fontColor=#FFFFFF;fillColor=#117733;" parent="7FtjhK1HLdBePJLeg7ht-2" vertex="1">
           <mxGeometry x="840" width="440" height="45" as="geometry" />
         </mxCell>
       </root>
