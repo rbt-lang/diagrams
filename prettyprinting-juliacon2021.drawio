@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-21T15:21:33.314Z" agent="5.0 (X11)" etag="dhJO3GEgrOf8fmRMNCt7" version="14.8.0" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2021-06-21T15:29:08.709Z" agent="5.0 (X11)" etag="CH5A_Fwi2ziosPJCollJ" version="14.8.0" type="github" pages="11">
   <diagram name="Title" id="0SMfQZ9v9dSbjZ1mlXxK">
     <mxGraphModel dx="2595" dy="1415" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
@@ -20,7 +20,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="print()" id="9gBs6RnDaW2UHTT-ENhj">
-    <mxGraphModel dx="1038" dy="566" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="1483" dy="809" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="M4m74MEgS2ii8qncQ2bR-0" />
         <mxCell id="M4m74MEgS2ii8qncQ2bR-1" parent="M4m74MEgS2ii8qncQ2bR-0" />
@@ -37,13 +37,13 @@
           <mxGeometry x="840" width="440" height="45" as="geometry" />
         </mxCell>
         <mxCell id="M4m74MEgS2ii8qncQ2bR-6" value="&lt;font color=&quot;#117733&quot;&gt;&lt;b&gt;julia&amp;gt;&lt;/b&gt;&lt;/font&gt; print([&quot;Hello&quot;, &quot;World&quot;])&lt;br&gt;&lt;font color=&quot;#666666&quot;&gt;[&quot;Hello&quot;, &quot;World&quot;]&lt;/font&gt;&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;align=left;fontSize=32;fontFamily=Ubuntu Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;spacingLeft=50;glass=1;shadow=1;sketch=0;opacity=95;" vertex="1" parent="M4m74MEgS2ii8qncQ2bR-1">
-          <mxGeometry x="60" y="120" width="660" height="255" as="geometry" />
+          <mxGeometry x="60" y="120" width="660" height="240" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name="show()" id="8hiOz_UJsN7lJWJ_zKAg">
-    <mxGraphModel dx="2595" dy="1415" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="1483" dy="809" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="veE5UbyVC_SdbXHwEwsE-0" />
         <mxCell id="veE5UbyVC_SdbXHwEwsE-1" parent="veE5UbyVC_SdbXHwEwsE-0" />
@@ -60,7 +60,7 @@
           <mxGeometry x="840" width="440" height="45" as="geometry" />
         </mxCell>
         <mxCell id="veE5UbyVC_SdbXHwEwsE-6" value="&lt;font color=&quot;#117733&quot;&gt;&lt;b&gt;julia&amp;gt;&lt;/b&gt;&lt;/font&gt; print([&quot;Hello&quot;, &quot;World&quot;])&lt;br&gt;&lt;font color=&quot;#666666&quot;&gt;[&quot;Hello&quot;, &quot;World&quot;]&lt;/font&gt;&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;align=left;fontSize=32;fontFamily=Ubuntu Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;spacingLeft=50;glass=1;shadow=1;sketch=0;opacity=95;" vertex="1" parent="veE5UbyVC_SdbXHwEwsE-1">
-          <mxGeometry x="60" y="120" width="660" height="255" as="geometry" />
+          <mxGeometry x="60" y="120" width="660" height="240" as="geometry" />
         </mxCell>
         <mxCell id="veE5UbyVC_SdbXHwEwsE-7" value="&lt;font color=&quot;#117733&quot;&gt;&lt;b&gt;julia&amp;gt;&lt;/b&gt;&lt;/font&gt; show([&quot;Hello&quot;, &quot;World&quot;])&lt;br&gt;&lt;font color=&quot;#666666&quot;&gt;[&quot;Hello&quot;, &quot;World&quot;]&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;align=left;fontSize=32;fontFamily=Ubuntu Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;spacingLeft=50;glass=1;shadow=1;sketch=0;opacity=95;" vertex="1" parent="veE5UbyVC_SdbXHwEwsE-1">
           <mxGeometry x="840" y="120" width="660" height="240" as="geometry" />
@@ -69,7 +69,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="display()" id="YCPr-C5Weh2nPQ-r2DwK">
-    <mxGraphModel dx="2076" dy="1132" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="2595" dy="1415" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="H0TuR_DG6wvNOB3NVH7t-0" />
         <mxCell id="H0TuR_DG6wvNOB3NVH7t-1" parent="H0TuR_DG6wvNOB3NVH7t-0" />
@@ -86,7 +86,7 @@
           <mxGeometry x="840" width="440" height="45" as="geometry" />
         </mxCell>
         <mxCell id="H0TuR_DG6wvNOB3NVH7t-6" value="&lt;font color=&quot;#117733&quot;&gt;&lt;b&gt;julia&amp;gt;&lt;/b&gt;&lt;/font&gt; print([&quot;Hello&quot;, &quot;World&quot;])&lt;br&gt;&lt;font color=&quot;#666666&quot;&gt;[&quot;Hello&quot;, &quot;World&quot;]&lt;/font&gt;&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;align=left;fontSize=32;fontFamily=Ubuntu Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;spacingLeft=50;glass=1;shadow=1;sketch=0;opacity=95;" vertex="1" parent="H0TuR_DG6wvNOB3NVH7t-1">
-          <mxGeometry x="60" y="120" width="660" height="255" as="geometry" />
+          <mxGeometry x="60" y="120" width="660" height="240" as="geometry" />
         </mxCell>
         <mxCell id="H0TuR_DG6wvNOB3NVH7t-7" value="&lt;font color=&quot;#117733&quot;&gt;&lt;b&gt;julia&amp;gt;&lt;/b&gt;&lt;/font&gt; show([&quot;Hello&quot;, &quot;World&quot;])&lt;br&gt;&lt;font color=&quot;#666666&quot;&gt;[&quot;Hello&quot;, &quot;World&quot;]&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;align=left;fontSize=32;fontFamily=Ubuntu Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;spacingLeft=50;glass=1;shadow=1;sketch=0;opacity=95;" vertex="1" parent="H0TuR_DG6wvNOB3NVH7t-1">
           <mxGeometry x="840" y="120" width="660" height="240" as="geometry" />
@@ -98,7 +98,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="dump()" id="jFLNUlG3hRCLTCqDjicj">
-    <mxGraphModel dx="2595" dy="1415" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="566" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="_S4fJ7djbg-g7AGrXweh-0" />
         <mxCell id="_S4fJ7djbg-g7AGrXweh-1" parent="_S4fJ7djbg-g7AGrXweh-0" />
@@ -115,7 +115,7 @@
           <mxGeometry x="840" width="440" height="45" as="geometry" />
         </mxCell>
         <mxCell id="_S4fJ7djbg-g7AGrXweh-6" value="&lt;font color=&quot;#117733&quot;&gt;&lt;b&gt;julia&amp;gt;&lt;/b&gt;&lt;/font&gt; print([&quot;Hello&quot;, &quot;World&quot;])&lt;br&gt;&lt;font color=&quot;#666666&quot;&gt;[&quot;Hello&quot;, &quot;World&quot;]&lt;/font&gt;&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;align=left;fontSize=32;fontFamily=Ubuntu Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;spacingLeft=50;glass=1;shadow=1;sketch=0;opacity=95;" vertex="1" parent="_S4fJ7djbg-g7AGrXweh-1">
-          <mxGeometry x="60" y="120" width="660" height="255" as="geometry" />
+          <mxGeometry x="60" y="120" width="660" height="240" as="geometry" />
         </mxCell>
         <mxCell id="_S4fJ7djbg-g7AGrXweh-7" value="&lt;font color=&quot;#117733&quot;&gt;&lt;b&gt;julia&amp;gt;&lt;/b&gt;&lt;/font&gt; show([&quot;Hello&quot;, &quot;World&quot;])&lt;br&gt;&lt;font color=&quot;#666666&quot;&gt;[&quot;Hello&quot;, &quot;World&quot;]&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;align=left;fontSize=32;fontFamily=Ubuntu Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;spacingLeft=50;glass=1;shadow=1;sketch=0;opacity=95;" vertex="1" parent="_S4fJ7djbg-g7AGrXweh-1">
           <mxGeometry x="840" y="120" width="660" height="240" as="geometry" />
@@ -124,13 +124,13 @@
           <mxGeometry x="60" y="480" width="660" height="240" as="geometry" />
         </mxCell>
         <mxCell id="_S4fJ7djbg-g7AGrXweh-9" value="&lt;font color=&quot;#117733&quot;&gt;&lt;b&gt;julia&amp;gt;&lt;/b&gt;&lt;/font&gt; dump([&quot;Hello&quot;, &quot;World&quot;])&lt;br&gt;&lt;font color=&quot;#666666&quot;&gt;Array{String}((2,))&lt;br&gt;&amp;nbsp; 1: String &quot;Hello&quot;&lt;br&gt;&amp;nbsp; 2: String &quot;World&quot;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;align=left;fontSize=32;fontFamily=Ubuntu Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;spacingLeft=50;glass=1;shadow=1;sketch=0;opacity=95;" vertex="1" parent="_S4fJ7djbg-g7AGrXweh-1">
-          <mxGeometry x="840" y="483" width="660" height="240" as="geometry" />
+          <mxGeometry x="840" y="483" width="660" height="237" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name="pprint()" id="nc2ij47geb_rqcyrozjW">
-    <mxGraphModel dx="2595" dy="1415" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="1221" dy="666" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="1CABKrxgX279uKr_hfLu-0" />
         <mxCell id="1CABKrxgX279uKr_hfLu-1" parent="1CABKrxgX279uKr_hfLu-0" />
@@ -147,7 +147,7 @@
           <mxGeometry x="840" width="440" height="45" as="geometry" />
         </mxCell>
         <mxCell id="1CABKrxgX279uKr_hfLu-9" value="&lt;font color=&quot;#117733&quot;&gt;&lt;b&gt;julia&amp;gt;&lt;/b&gt;&lt;/font&gt; print([&quot;Hello&quot;, &quot;World&quot;])&lt;br&gt;&lt;font color=&quot;#666666&quot;&gt;[&quot;Hello&quot;, &quot;World&quot;]&lt;/font&gt;&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;align=left;fontSize=32;fontFamily=Ubuntu Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;spacingLeft=50;glass=1;shadow=1;sketch=0;opacity=95;" vertex="1" parent="1CABKrxgX279uKr_hfLu-1">
-          <mxGeometry x="60" y="120" width="660" height="255" as="geometry" />
+          <mxGeometry x="60" y="120" width="660" height="240" as="geometry" />
         </mxCell>
         <mxCell id="1CABKrxgX279uKr_hfLu-10" value="&lt;font color=&quot;#117733&quot;&gt;&lt;b&gt;julia&amp;gt;&lt;/b&gt;&lt;/font&gt; show([&quot;Hello&quot;, &quot;World&quot;])&lt;br&gt;&lt;font color=&quot;#666666&quot;&gt;[&quot;Hello&quot;, &quot;World&quot;]&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;align=left;fontSize=32;fontFamily=Ubuntu Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;spacingLeft=50;glass=1;shadow=1;sketch=0;opacity=95;" vertex="1" parent="1CABKrxgX279uKr_hfLu-1">
           <mxGeometry x="840" y="120" width="660" height="240" as="geometry" />
@@ -156,7 +156,7 @@
           <mxGeometry x="60" y="480" width="660" height="240" as="geometry" />
         </mxCell>
         <mxCell id="1CABKrxgX279uKr_hfLu-12" value="&lt;font color=&quot;#117733&quot;&gt;&lt;b&gt;julia&amp;gt;&lt;/b&gt;&lt;/font&gt; dump([&quot;Hello&quot;, &quot;World&quot;])&lt;br&gt;&lt;font color=&quot;#666666&quot;&gt;Array{String}((2,))&lt;br&gt;&amp;nbsp; 1: String &quot;Hello&quot;&lt;br&gt;&amp;nbsp; 2: String &quot;World&quot;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;align=left;fontSize=32;fontFamily=Ubuntu Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;spacingLeft=50;glass=1;shadow=1;sketch=0;opacity=95;" vertex="1" parent="1CABKrxgX279uKr_hfLu-1">
-          <mxGeometry x="840" y="483" width="660" height="240" as="geometry" />
+          <mxGeometry x="840" y="483" width="660" height="237" as="geometry" />
         </mxCell>
         <mxCell id="1CABKrxgX279uKr_hfLu-13" value="&lt;font color=&quot;#117733&quot;&gt;&lt;b&gt;julia&amp;gt;&lt;/b&gt;&lt;/font&gt; using PrettyPrinting&lt;br&gt;&lt;font color=&quot;#117733&quot;&gt;&lt;b&gt;&lt;br&gt;julia&amp;gt;&lt;/b&gt;&lt;/font&gt; pprint([&quot;Hello&quot;, &quot;World&quot;])&lt;br&gt;&lt;font color=&quot;#666666&quot;&gt;[&quot;Hello&quot;, &quot;World&quot;]&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;align=left;fontSize=32;fontFamily=Ubuntu Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;spacingLeft=50;glass=1;shadow=1;sketch=0;strokeWidth=3;opacity=95;" vertex="1" parent="1CABKrxgX279uKr_hfLu-1">
           <mxGeometry x="360" y="240" width="780" height="360" as="geometry" />
