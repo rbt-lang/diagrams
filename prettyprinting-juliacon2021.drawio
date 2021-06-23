@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-23T01:43:38.847Z" agent="5.0 (X11)" etag="ZFW0Pa0jEe7Nm0Q34t7S" version="14.8.0" type="github" pages="20">
+<mxfile host="app.diagrams.net" modified="2021-06-23T03:10:34.258Z" agent="5.0 (X11)" etag="YYp6lS27ngWE2Z_26br8" version="14.8.0" type="github" pages="21">
   <diagram name="Title" id="0SMfQZ9v9dSbjZ1mlXxK">
     <mxGraphModel dx="2595" dy="1415" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
@@ -183,6 +183,29 @@
         </mxCell>
         <mxCell id="1CABKrxgX279uKr_hfLu-13" value="&lt;font style=&quot;font-size: 40px&quot; color=&quot;#117733&quot;&gt;&lt;b style=&quot;font-size: 40px&quot;&gt;julia&amp;gt;&lt;/b&gt;&lt;/font&gt; &lt;b&gt;using&lt;/b&gt; PrettyPrinting&lt;br style=&quot;font-size: 40px&quot;&gt;&lt;font style=&quot;font-size: 40px&quot; color=&quot;#117733&quot;&gt;&lt;b style=&quot;font-size: 40px&quot;&gt;&lt;br style=&quot;font-size: 40px&quot;&gt;julia&amp;gt;&lt;/b&gt;&lt;/font&gt; pprint([&quot;Hello&quot;, &quot;World&quot;])&lt;br style=&quot;font-size: 40px&quot;&gt;&lt;font style=&quot;font-size: 40px&quot; color=&quot;#666666&quot;&gt;[&quot;Hello&quot;, &quot;World&quot;]&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;align=left;fontSize=40;fontFamily=Ubuntu Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;spacingLeft=50;glass=1;shadow=1;sketch=0;strokeWidth=3;opacity=95;" vertex="1" parent="1CABKrxgX279uKr_hfLu-1">
           <mxGeometry x="360" y="240" width="780" height="360" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="TOML (cat)" id="0i9qZIjyzCVrPQhGEFPK">
+    <mxGraphModel dx="1730" dy="943" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="SWc0NUlXoKy6v-qdKI8V-0" />
+        <mxCell id="SWc0NUlXoKy6v-qdKI8V-1" parent="SWc0NUlXoKy6v-qdKI8V-0" />
+        <mxCell id="SWc0NUlXoKy6v-qdKI8V-2" value="" style="group" vertex="1" connectable="0" parent="SWc0NUlXoKy6v-qdKI8V-1">
+          <mxGeometry y="854" width="1600" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="SWc0NUlXoKy6v-qdKI8V-3" value="&lt;div style=&quot;font-size: 24px&quot;&gt;PrettyPrinting: optimal layout for code and data&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fontColor=#FFFFFF;fillColor=#332288;" vertex="1" parent="SWc0NUlXoKy6v-qdKI8V-2">
+          <mxGeometry width="840" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="SWc0NUlXoKy6v-qdKI8V-4" value="JuliaCon 2021" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fontColor=#FFFFFF;fillColor=#44AA99;" vertex="1" parent="SWc0NUlXoKy6v-qdKI8V-2">
+          <mxGeometry x="1280" width="320" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="SWc0NUlXoKy6v-qdKI8V-5" value="Kyrylo Simonov" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fontColor=#FFFFFF;fillColor=#117733;" vertex="1" parent="SWc0NUlXoKy6v-qdKI8V-2">
+          <mxGeometry x="840" width="440" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="SWc0NUlXoKy6v-qdKI8V-6" value="&lt;font color=&quot;#117733&quot;&gt;&lt;b&gt;$&lt;/b&gt;&lt;/font&gt; cat Project.toml&lt;br&gt;&lt;font color=&quot;#666666&quot;&gt;name = &quot;FunSQL&quot;&lt;br&gt;uuid = &quot;cf6cc811-59f4-4a10-b258-a8547a8f6407&quot;&lt;br&gt;authors = [&quot;Kirill Simonov &quot;, &quot;Clark C. Evans &quot;]&lt;br&gt;version = &quot;0.6.0&quot;&lt;br&gt;&lt;br&gt;[deps]&lt;br&gt;Dates = &quot;ade2ca70-3891-5945-98fb-dc099432e06a&quot;&lt;br&gt;PrettyPrinting = &quot;54e16d92-306c-5ea0-a30b-337be88ac337&quot;&lt;br&gt;&lt;br&gt;[compat]&lt;br&gt;julia = &quot;1.4&quot;&lt;br&gt;PrettyPrinting = &quot;0.3.2&quot;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;align=left;fontSize=32;fontFamily=Ubuntu Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;spacingLeft=50;glass=1;shadow=1;sketch=0;opacity=95;" vertex="1" parent="SWc0NUlXoKy6v-qdKI8V-1">
+          <mxGeometry x="285" y="120" width="990" height="600" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
