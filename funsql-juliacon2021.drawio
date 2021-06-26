@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-26T22:20:15.117Z" agent="5.0 (X11)" etag="cL9JjxhsIfuI8sFRv7ZJ" version="14.8.0" type="github" pages="53">
+<mxfile host="app.diagrams.net" modified="2021-06-26T22:34:03.771Z" agent="5.0 (X11)" etag="GmxilPVnCMUgwdM20YEN" version="14.8.0" type="github" pages="53">
   <diagram id="ngdmywiYoB712Vu0CHRt" name="Title">
     <mxGraphModel dx="2980" dy="1132" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
@@ -2397,7 +2397,7 @@
           <mxGeometry x="840" width="480" height="45" as="geometry" />
         </mxCell>
         <mxCell id="4yhlL6s92CmVJuZ5HUd8-12" value="&lt;b&gt;SELECT&lt;/b&gt; c.*&lt;br&gt;&lt;b&gt;FROM&lt;/b&gt; condition_occurrence c&lt;br&gt;&lt;b&gt;WHERE&lt;/b&gt; c.person_id = :X" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" parent="4yhlL6s92CmVJuZ5HUd8-1" vertex="1">
-          <mxGeometry x="780" y="75" width="465" height="120" as="geometry" />
+          <mxGeometry x="825" y="75" width="465" height="120" as="geometry" />
         </mxCell>
         <mxCell id="mJgfql2D-JhdHIVfp97y-0" value="From(condition_occurrence) |&amp;gt;&lt;br&gt;Where(Get.person_id .== Var.X)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" parent="4yhlL6s92CmVJuZ5HUd8-1" vertex="1">
           <mxGeometry x="60" y="75" width="510" height="90" as="geometry" />
@@ -2409,7 +2409,7 @@
           <mxGeometry x="60" y="630" width="375" height="45" as="geometry" />
         </mxCell>
         <mxCell id="wOlhy-9Vx0tffzPqLGoZ-2" value="&lt;b&gt;SELECT&lt;/b&gt; c.*&lt;br&gt;&lt;b&gt;FROM&lt;/b&gt; condition_occurrence c&lt;br&gt;&lt;b&gt;WHERE&lt;/b&gt; c.person_id = 6" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" parent="4yhlL6s92CmVJuZ5HUd8-1" vertex="1">
-          <mxGeometry x="780" y="630" width="465" height="120" as="geometry" />
+          <mxGeometry x="825" y="630" width="465" height="120" as="geometry" />
         </mxCell>
         <mxCell id="0LvawCky_vxc8JBqdMqH-0" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;fontFamily=Ubuntu Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;fontSize=16;fontColor=#666666;fillColor=none;sketch=0;" parent="4yhlL6s92CmVJuZ5HUd8-1" vertex="1">
           <mxGeometry x="120" y="210" width="75" height="90" as="geometry" />
@@ -2447,7 +2447,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Aggregate &amp; Window Functions" id="Fl8Fwd9DcV_Dn_FSSj3G">
-    <mxGraphModel dx="1240" dy="666" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="1490" dy="566" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="0NsPZr7kIHOlSwOuM-Cb-0" />
         <mxCell id="0NsPZr7kIHOlSwOuM-Cb-1" parent="0NsPZr7kIHOlSwOuM-Cb-0" />
