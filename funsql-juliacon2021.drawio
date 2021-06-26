@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-26T22:16:41.862Z" agent="5.0 (X11)" etag="_e9A1iWivAU_-jDmpDGP" version="14.8.0" type="github" pages="53">
+<mxfile host="app.diagrams.net" modified="2021-06-26T22:20:15.117Z" agent="5.0 (X11)" etag="cL9JjxhsIfuI8sFRv7ZJ" version="14.8.0" type="github" pages="53">
   <diagram id="ngdmywiYoB712Vu0CHRt" name="Title">
     <mxGraphModel dx="2980" dy="1132" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
@@ -1941,7 +1941,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Correlated Queries" id="OwgRtAe-dv9dTKMFmowT">
-    <mxGraphModel dx="2635" dy="1415" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="1490" dy="566" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="wF608w2Mj1m5Vjo-1uhV-0" />
         <mxCell id="wF608w2Mj1m5Vjo-1uhV-1" parent="wF608w2Mj1m5Vjo-1uhV-0" />
@@ -1976,146 +1976,146 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Parameterized Queries" id="y5KDJL0256GjeNBDXznH">
-    <mxGraphModel dx="2108" dy="1132" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="1490" dy="566" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="IF8vfB_qB_SZHo3Sv5pm-0" />
         <mxCell id="IF8vfB_qB_SZHo3Sv5pm-1" parent="IF8vfB_qB_SZHo3Sv5pm-0" />
-        <mxCell id="IF8vfB_qB_SZHo3Sv5pm-2" value="Find all patients born in or after $YEAR." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu;fontColor=#000000;fontStyle=2" vertex="1" parent="IF8vfB_qB_SZHo3Sv5pm-1">
+        <mxCell id="IF8vfB_qB_SZHo3Sv5pm-2" value="Find all patients born in or after $YEAR." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu;fontColor=#000000;fontStyle=2" parent="IF8vfB_qB_SZHo3Sv5pm-1" vertex="1">
           <mxGeometry x="60" y="75" width="600" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="IF8vfB_qB_SZHo3Sv5pm-4" value="" style="group" vertex="1" connectable="0" parent="IF8vfB_qB_SZHo3Sv5pm-1">
+        <mxCell id="IF8vfB_qB_SZHo3Sv5pm-4" value="" style="group" parent="IF8vfB_qB_SZHo3Sv5pm-1" vertex="1" connectable="0">
           <mxGeometry y="854" width="1600" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="IF8vfB_qB_SZHo3Sv5pm-5" value="&lt;div style=&quot;font-size: 24px&quot;&gt;FunSQL: a library for compositional construction of SQL queries&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#0072B2;fontColor=#FFFFFF;" vertex="1" parent="IF8vfB_qB_SZHo3Sv5pm-4">
+        <mxCell id="IF8vfB_qB_SZHo3Sv5pm-5" value="&lt;div style=&quot;font-size: 24px&quot;&gt;FunSQL: a library for compositional construction of SQL queries&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#0072B2;fontColor=#FFFFFF;" parent="IF8vfB_qB_SZHo3Sv5pm-4" vertex="1">
           <mxGeometry width="840" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="IF8vfB_qB_SZHo3Sv5pm-6" value="JuliaCon 2021" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#009E73;fontColor=#FFFFFF;" vertex="1" parent="IF8vfB_qB_SZHo3Sv5pm-4">
+        <mxCell id="IF8vfB_qB_SZHo3Sv5pm-6" value="JuliaCon 2021" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#009E73;fontColor=#FFFFFF;" parent="IF8vfB_qB_SZHo3Sv5pm-4" vertex="1">
           <mxGeometry x="1320" width="280" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="IF8vfB_qB_SZHo3Sv5pm-7" value="Clark C. Evans, Kyrylo Simonov" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#56B4E9;fontColor=#FFFFFF;" vertex="1" parent="IF8vfB_qB_SZHo3Sv5pm-4">
+        <mxCell id="IF8vfB_qB_SZHo3Sv5pm-7" value="Clark C. Evans, Kyrylo Simonov" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#56B4E9;fontColor=#FFFFFF;" parent="IF8vfB_qB_SZHo3Sv5pm-4" vertex="1">
           <mxGeometry x="840" width="480" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="IF8vfB_qB_SZHo3Sv5pm-10" value="q = From(person) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Where(Get.year_of_birth .&amp;gt;= &lt;span style=&quot;background-color: rgb(240 , 228 , 66)&quot;&gt;Var.YEAR&lt;/span&gt;) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Select(Get.person_id)&lt;br&gt;&lt;br&gt;sql = render(q, dialect = :sqlite)&lt;br&gt;&lt;br&gt;params = pack(sql, (YEAR = 1970,))" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="IF8vfB_qB_SZHo3Sv5pm-1">
+        <mxCell id="IF8vfB_qB_SZHo3Sv5pm-10" value="q = From(person) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Where(Get.year_of_birth .&amp;gt;= &lt;span style=&quot;background-color: rgb(240 , 228 , 66)&quot;&gt;Var.YEAR&lt;/span&gt;) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Select(Get.person_id)&lt;br&gt;&lt;br&gt;sql = render(q, dialect = :sqlite)&lt;br&gt;&lt;br&gt;params = pack(sql, (YEAR = 1970,))" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" parent="IF8vfB_qB_SZHo3Sv5pm-1" vertex="1">
           <mxGeometry x="780" y="180" width="720" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="IF8vfB_qB_SZHo3Sv5pm-13" value="&lt;b&gt;using&lt;/b&gt; FunSQL: Var, pack" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="IF8vfB_qB_SZHo3Sv5pm-1">
+        <mxCell id="IF8vfB_qB_SZHo3Sv5pm-13" value="&lt;b&gt;using&lt;/b&gt; FunSQL: Var, pack" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" parent="IF8vfB_qB_SZHo3Sv5pm-1" vertex="1">
           <mxGeometry x="780" y="75" width="390" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="IF8vfB_qB_SZHo3Sv5pm-14" value="DBInterface.execute(conn, sql, params)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="IF8vfB_qB_SZHo3Sv5pm-1">
+        <mxCell id="IF8vfB_qB_SZHo3Sv5pm-14" value="DBInterface.execute(conn, sql, params)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" parent="IF8vfB_qB_SZHo3Sv5pm-1" vertex="1">
           <mxGeometry x="390" y="540" width="630" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="IF8vfB_qB_SZHo3Sv5pm-19" value="sql = &quot;&quot;&quot;&lt;br&gt;SELECT p.person_id&lt;br&gt;FROM person p&lt;br&gt;WHERE p.year_of_birth &amp;gt;= &lt;span style=&quot;background-color: rgb(240 , 228 , 66)&quot;&gt;:YEAR&lt;/span&gt;&lt;br&gt;&quot;&quot;&quot;&lt;br&gt;&lt;br&gt;params = (YEAR = 1970,)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="IF8vfB_qB_SZHo3Sv5pm-1">
+        <mxCell id="IF8vfB_qB_SZHo3Sv5pm-19" value="sql = &quot;&quot;&quot;&lt;br&gt;SELECT p.person_id&lt;br&gt;FROM person p&lt;br&gt;WHERE p.year_of_birth &amp;gt;= &lt;span style=&quot;background-color: rgb(240 , 228 , 66)&quot;&gt;:YEAR&lt;/span&gt;&lt;br&gt;&quot;&quot;&quot;&lt;br&gt;&lt;br&gt;params = (YEAR = 1970,)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" parent="IF8vfB_qB_SZHo3Sv5pm-1" vertex="1">
           <mxGeometry x="60" y="180" width="510" height="270" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name="Correlated Condition (1)" id="CX0G-d89b1qjEHYcPpDv">
-    <mxGraphModel dx="2108" dy="1132" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="1490" dy="566" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="tLfk-UGqSE42_GSaFjFA-0" />
         <mxCell id="tLfk-UGqSE42_GSaFjFA-1" parent="tLfk-UGqSE42_GSaFjFA-0" />
-        <mxCell id="tLfk-UGqSE42_GSaFjFA-2" value="Find patients with at least one medical condition." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu;fontColor=#000000;fontStyle=2" vertex="1" parent="tLfk-UGqSE42_GSaFjFA-1">
+        <mxCell id="tLfk-UGqSE42_GSaFjFA-2" value="Find patients with at least one medical condition." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu;fontColor=#000000;fontStyle=2" parent="tLfk-UGqSE42_GSaFjFA-1" vertex="1">
           <mxGeometry x="60" y="75.5" width="735" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="tLfk-UGqSE42_GSaFjFA-4" value="" style="group" vertex="1" connectable="0" parent="tLfk-UGqSE42_GSaFjFA-1">
+        <mxCell id="tLfk-UGqSE42_GSaFjFA-4" value="" style="group" parent="tLfk-UGqSE42_GSaFjFA-1" vertex="1" connectable="0">
           <mxGeometry y="854" width="1600" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="tLfk-UGqSE42_GSaFjFA-5" value="&lt;div style=&quot;font-size: 24px&quot;&gt;FunSQL: a library for compositional construction of SQL queries&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#0072B2;fontColor=#FFFFFF;" vertex="1" parent="tLfk-UGqSE42_GSaFjFA-4">
+        <mxCell id="tLfk-UGqSE42_GSaFjFA-5" value="&lt;div style=&quot;font-size: 24px&quot;&gt;FunSQL: a library for compositional construction of SQL queries&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#0072B2;fontColor=#FFFFFF;" parent="tLfk-UGqSE42_GSaFjFA-4" vertex="1">
           <mxGeometry width="840" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="tLfk-UGqSE42_GSaFjFA-6" value="JuliaCon 2021" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#009E73;fontColor=#FFFFFF;" vertex="1" parent="tLfk-UGqSE42_GSaFjFA-4">
+        <mxCell id="tLfk-UGqSE42_GSaFjFA-6" value="JuliaCon 2021" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#009E73;fontColor=#FFFFFF;" parent="tLfk-UGqSE42_GSaFjFA-4" vertex="1">
           <mxGeometry x="1320" width="280" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="tLfk-UGqSE42_GSaFjFA-7" value="Clark C. Evans, Kyrylo Simonov" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#56B4E9;fontColor=#FFFFFF;" vertex="1" parent="tLfk-UGqSE42_GSaFjFA-4">
+        <mxCell id="tLfk-UGqSE42_GSaFjFA-7" value="Clark C. Evans, Kyrylo Simonov" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#56B4E9;fontColor=#FFFFFF;" parent="tLfk-UGqSE42_GSaFjFA-4" vertex="1">
           <mxGeometry x="840" width="480" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="tLfk-UGqSE42_GSaFjFA-17" value="&lt;b&gt;SELECT&lt;/b&gt; p.*&lt;br&gt;&lt;b&gt;FROM&lt;/b&gt; person p&lt;br&gt;&lt;b&gt;WHERE&lt;/b&gt; EXISTS (&lt;b&gt;SELECT&lt;/b&gt; NULL&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;b&gt;FROM&lt;/b&gt; condition_occurrence c&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;b&gt;WHERE&lt;/b&gt; c.person_id = p.person_id)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="tLfk-UGqSE42_GSaFjFA-1">
+        <mxCell id="tLfk-UGqSE42_GSaFjFA-17" value="&lt;b&gt;SELECT&lt;/b&gt; p.*&lt;br&gt;&lt;b&gt;FROM&lt;/b&gt; person p&lt;br&gt;&lt;b&gt;WHERE&lt;/b&gt; EXISTS (&lt;b&gt;SELECT&lt;/b&gt; NULL&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;b&gt;FROM&lt;/b&gt; condition_occurrence c&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;b&gt;WHERE&lt;/b&gt; c.person_id = p.person_id)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" parent="tLfk-UGqSE42_GSaFjFA-1" vertex="1">
           <mxGeometry x="60" y="180" width="765" height="195" as="geometry" />
         </mxCell>
-        <mxCell id="ZwPuZIZADp_Z-03snaWq-0" value="condition_occurrence" style="shape=table;startSize=45;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=32;fontColor=#FFFFFF;fillColor=#0072B2;rounded=1;" vertex="1" parent="tLfk-UGqSE42_GSaFjFA-1">
+        <mxCell id="ZwPuZIZADp_Z-03snaWq-0" value="condition_occurrence" style="shape=table;startSize=45;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=32;fontColor=#FFFFFF;fillColor=#0072B2;rounded=1;" parent="tLfk-UGqSE42_GSaFjFA-1" vertex="1">
           <mxGeometry x="1200" y="300" width="360" height="270" as="geometry">
             <mxRectangle x="375" y="600" width="150" height="45" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZwPuZIZADp_Z-03snaWq-1" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ZwPuZIZADp_Z-03snaWq-0">
+        <mxCell id="ZwPuZIZADp_Z-03snaWq-1" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ZwPuZIZADp_Z-03snaWq-0" vertex="1">
           <mxGeometry y="45" width="360" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="ZwPuZIZADp_Z-03snaWq-2" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=0;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="ZwPuZIZADp_Z-03snaWq-1">
+        <mxCell id="ZwPuZIZADp_Z-03snaWq-2" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=0;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" parent="ZwPuZIZADp_Z-03snaWq-1" vertex="1">
           <mxGeometry width="60" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="ZwPuZIZADp_Z-03snaWq-3" value="condition_occurrence_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="ZwPuZIZADp_Z-03snaWq-1">
+        <mxCell id="ZwPuZIZADp_Z-03snaWq-3" value="condition_occurrence_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" parent="ZwPuZIZADp_Z-03snaWq-1" vertex="1">
           <mxGeometry x="60" width="300" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="ZwPuZIZADp_Z-03snaWq-4" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ZwPuZIZADp_Z-03snaWq-0">
+        <mxCell id="ZwPuZIZADp_Z-03snaWq-4" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ZwPuZIZADp_Z-03snaWq-0" vertex="1">
           <mxGeometry y="90" width="360" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="ZwPuZIZADp_Z-03snaWq-5" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=24;" vertex="1" parent="ZwPuZIZADp_Z-03snaWq-4">
+        <mxCell id="ZwPuZIZADp_Z-03snaWq-5" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=24;" parent="ZwPuZIZADp_Z-03snaWq-4" vertex="1">
           <mxGeometry width="60" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="ZwPuZIZADp_Z-03snaWq-6" value="person_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="ZwPuZIZADp_Z-03snaWq-4">
+        <mxCell id="ZwPuZIZADp_Z-03snaWq-6" value="person_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" parent="ZwPuZIZADp_Z-03snaWq-4" vertex="1">
           <mxGeometry x="60" width="300" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="ZwPuZIZADp_Z-03snaWq-7" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ZwPuZIZADp_Z-03snaWq-0">
+        <mxCell id="ZwPuZIZADp_Z-03snaWq-7" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ZwPuZIZADp_Z-03snaWq-0" vertex="1">
           <mxGeometry y="135" width="360" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="ZwPuZIZADp_Z-03snaWq-8" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="ZwPuZIZADp_Z-03snaWq-7">
+        <mxCell id="ZwPuZIZADp_Z-03snaWq-8" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" parent="ZwPuZIZADp_Z-03snaWq-7" vertex="1">
           <mxGeometry width="60" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="ZwPuZIZADp_Z-03snaWq-9" value="condition_concept_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="ZwPuZIZADp_Z-03snaWq-7">
+        <mxCell id="ZwPuZIZADp_Z-03snaWq-9" value="condition_concept_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" parent="ZwPuZIZADp_Z-03snaWq-7" vertex="1">
           <mxGeometry x="60" width="300" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="ZwPuZIZADp_Z-03snaWq-10" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ZwPuZIZADp_Z-03snaWq-0">
+        <mxCell id="ZwPuZIZADp_Z-03snaWq-10" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ZwPuZIZADp_Z-03snaWq-0" vertex="1">
           <mxGeometry y="180" width="360" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="ZwPuZIZADp_Z-03snaWq-11" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="ZwPuZIZADp_Z-03snaWq-10">
+        <mxCell id="ZwPuZIZADp_Z-03snaWq-11" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" parent="ZwPuZIZADp_Z-03snaWq-10" vertex="1">
           <mxGeometry width="60" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="ZwPuZIZADp_Z-03snaWq-12" value="condition_start_date" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="ZwPuZIZADp_Z-03snaWq-10">
+        <mxCell id="ZwPuZIZADp_Z-03snaWq-12" value="condition_start_date" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" parent="ZwPuZIZADp_Z-03snaWq-10" vertex="1">
           <mxGeometry x="60" width="300" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="ZwPuZIZADp_Z-03snaWq-13" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ZwPuZIZADp_Z-03snaWq-0">
+        <mxCell id="ZwPuZIZADp_Z-03snaWq-13" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ZwPuZIZADp_Z-03snaWq-0" vertex="1">
           <mxGeometry y="225" width="360" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="ZwPuZIZADp_Z-03snaWq-14" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="ZwPuZIZADp_Z-03snaWq-13">
+        <mxCell id="ZwPuZIZADp_Z-03snaWq-14" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" parent="ZwPuZIZADp_Z-03snaWq-13" vertex="1">
           <mxGeometry width="60" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="ZwPuZIZADp_Z-03snaWq-15" value="condition_end_date" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="ZwPuZIZADp_Z-03snaWq-13">
+        <mxCell id="ZwPuZIZADp_Z-03snaWq-15" value="condition_end_date" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" parent="ZwPuZIZADp_Z-03snaWq-13" vertex="1">
           <mxGeometry x="60" width="300" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="UGnpe9Fa4fHGGJ5Z_lU2-0" value="person" style="shape=table;startSize=45;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=32;fillColor=#009E73;fontColor=#FFFFFF;rounded=1;" vertex="1" parent="tLfk-UGqSE42_GSaFjFA-1">
+        <mxCell id="UGnpe9Fa4fHGGJ5Z_lU2-0" value="person" style="shape=table;startSize=45;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=32;fillColor=#009E73;fontColor=#FFFFFF;rounded=1;" parent="tLfk-UGqSE42_GSaFjFA-1" vertex="1">
           <mxGeometry x="1200" y="60" width="240" height="180" as="geometry">
             <mxRectangle x="375" y="600" width="150" height="45" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UGnpe9Fa4fHGGJ5Z_lU2-1" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="UGnpe9Fa4fHGGJ5Z_lU2-0">
+        <mxCell id="UGnpe9Fa4fHGGJ5Z_lU2-1" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="UGnpe9Fa4fHGGJ5Z_lU2-0" vertex="1">
           <mxGeometry y="45" width="240" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="UGnpe9Fa4fHGGJ5Z_lU2-2" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=0;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="UGnpe9Fa4fHGGJ5Z_lU2-1">
+        <mxCell id="UGnpe9Fa4fHGGJ5Z_lU2-2" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=0;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" parent="UGnpe9Fa4fHGGJ5Z_lU2-1" vertex="1">
           <mxGeometry width="60" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="UGnpe9Fa4fHGGJ5Z_lU2-3" value="person_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="UGnpe9Fa4fHGGJ5Z_lU2-1">
+        <mxCell id="UGnpe9Fa4fHGGJ5Z_lU2-3" value="person_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" parent="UGnpe9Fa4fHGGJ5Z_lU2-1" vertex="1">
           <mxGeometry x="60" width="180" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="UGnpe9Fa4fHGGJ5Z_lU2-4" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="UGnpe9Fa4fHGGJ5Z_lU2-0">
+        <mxCell id="UGnpe9Fa4fHGGJ5Z_lU2-4" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="UGnpe9Fa4fHGGJ5Z_lU2-0" vertex="1">
           <mxGeometry y="90" width="240" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="UGnpe9Fa4fHGGJ5Z_lU2-5" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="UGnpe9Fa4fHGGJ5Z_lU2-4">
+        <mxCell id="UGnpe9Fa4fHGGJ5Z_lU2-5" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" parent="UGnpe9Fa4fHGGJ5Z_lU2-4" vertex="1">
           <mxGeometry width="60" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="UGnpe9Fa4fHGGJ5Z_lU2-6" value="year_of_birth" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="UGnpe9Fa4fHGGJ5Z_lU2-4">
+        <mxCell id="UGnpe9Fa4fHGGJ5Z_lU2-6" value="year_of_birth" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" parent="UGnpe9Fa4fHGGJ5Z_lU2-4" vertex="1">
           <mxGeometry x="60" width="180" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="UGnpe9Fa4fHGGJ5Z_lU2-7" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="UGnpe9Fa4fHGGJ5Z_lU2-0">
+        <mxCell id="UGnpe9Fa4fHGGJ5Z_lU2-7" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="UGnpe9Fa4fHGGJ5Z_lU2-0" vertex="1">
           <mxGeometry y="135" width="240" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="UGnpe9Fa4fHGGJ5Z_lU2-8" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="UGnpe9Fa4fHGGJ5Z_lU2-7">
+        <mxCell id="UGnpe9Fa4fHGGJ5Z_lU2-8" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" parent="UGnpe9Fa4fHGGJ5Z_lU2-7" vertex="1">
           <mxGeometry width="60" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="UGnpe9Fa4fHGGJ5Z_lU2-9" value="location_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="UGnpe9Fa4fHGGJ5Z_lU2-7">
+        <mxCell id="UGnpe9Fa4fHGGJ5Z_lU2-9" value="location_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" parent="UGnpe9Fa4fHGGJ5Z_lU2-7" vertex="1">
           <mxGeometry x="60" width="180" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="UGnpe9Fa4fHGGJ5Z_lU2-10" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="tLfk-UGqSE42_GSaFjFA-1" source="ZwPuZIZADp_Z-03snaWq-4" target="UGnpe9Fa4fHGGJ5Z_lU2-1">
+        <mxCell id="UGnpe9Fa4fHGGJ5Z_lU2-10" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="tLfk-UGqSE42_GSaFjFA-1" source="ZwPuZIZADp_Z-03snaWq-4" target="UGnpe9Fa4fHGGJ5Z_lU2-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1170" y="413" />
@@ -2127,111 +2127,111 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Correlated Condition (2)" id="k8b2dAKiO_tv0SdSqAao">
-    <mxGraphModel dx="1757" dy="943" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="1490" dy="566" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="X1Zd_ipYbXXybyELHOPl-0" />
         <mxCell id="X1Zd_ipYbXXybyELHOPl-1" parent="X1Zd_ipYbXXybyELHOPl-0" />
-        <mxCell id="X1Zd_ipYbXXybyELHOPl-2" value="Find patients with at least one medical condition." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu;fontColor=#000000;fontStyle=2" vertex="1" parent="X1Zd_ipYbXXybyELHOPl-1">
+        <mxCell id="X1Zd_ipYbXXybyELHOPl-2" value="Find patients with at least one medical condition." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu;fontColor=#000000;fontStyle=2" parent="X1Zd_ipYbXXybyELHOPl-1" vertex="1">
           <mxGeometry x="60" y="75.5" width="735" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="X1Zd_ipYbXXybyELHOPl-3" value="" style="group" vertex="1" connectable="0" parent="X1Zd_ipYbXXybyELHOPl-1">
+        <mxCell id="X1Zd_ipYbXXybyELHOPl-3" value="" style="group" parent="X1Zd_ipYbXXybyELHOPl-1" vertex="1" connectable="0">
           <mxGeometry y="854" width="1600" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="X1Zd_ipYbXXybyELHOPl-4" value="&lt;div style=&quot;font-size: 24px&quot;&gt;FunSQL: a library for compositional construction of SQL queries&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#0072B2;fontColor=#FFFFFF;" vertex="1" parent="X1Zd_ipYbXXybyELHOPl-3">
+        <mxCell id="X1Zd_ipYbXXybyELHOPl-4" value="&lt;div style=&quot;font-size: 24px&quot;&gt;FunSQL: a library for compositional construction of SQL queries&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#0072B2;fontColor=#FFFFFF;" parent="X1Zd_ipYbXXybyELHOPl-3" vertex="1">
           <mxGeometry width="840" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="X1Zd_ipYbXXybyELHOPl-5" value="JuliaCon 2021" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#009E73;fontColor=#FFFFFF;" vertex="1" parent="X1Zd_ipYbXXybyELHOPl-3">
+        <mxCell id="X1Zd_ipYbXXybyELHOPl-5" value="JuliaCon 2021" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#009E73;fontColor=#FFFFFF;" parent="X1Zd_ipYbXXybyELHOPl-3" vertex="1">
           <mxGeometry x="1320" width="280" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="X1Zd_ipYbXXybyELHOPl-6" value="Clark C. Evans, Kyrylo Simonov" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#56B4E9;fontColor=#FFFFFF;" vertex="1" parent="X1Zd_ipYbXXybyELHOPl-3">
+        <mxCell id="X1Zd_ipYbXXybyELHOPl-6" value="Clark C. Evans, Kyrylo Simonov" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#56B4E9;fontColor=#FFFFFF;" parent="X1Zd_ipYbXXybyELHOPl-3" vertex="1">
           <mxGeometry x="840" width="480" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="X1Zd_ipYbXXybyELHOPl-7" value="&lt;b&gt;SELECT&lt;/b&gt; p.*&lt;br&gt;&lt;b&gt;FROM&lt;/b&gt; person &lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;p&lt;/span&gt;&lt;br&gt;&lt;b&gt;WHERE&lt;/b&gt; EXISTS (&lt;b&gt;SELECT&lt;/b&gt; NULL&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;b&gt;FROM&lt;/b&gt; condition_occurrence c&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;b&gt;WHERE&lt;/b&gt; c.person_id = &lt;span style=&quot;background-color: rgb(240 , 228 , 66)&quot;&gt;p.person_id&lt;/span&gt;)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="X1Zd_ipYbXXybyELHOPl-1">
+        <mxCell id="X1Zd_ipYbXXybyELHOPl-7" value="&lt;b&gt;SELECT&lt;/b&gt; p.*&lt;br&gt;&lt;b&gt;FROM&lt;/b&gt; person &lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;p&lt;/span&gt;&lt;br&gt;&lt;b&gt;WHERE&lt;/b&gt; EXISTS (&lt;b&gt;SELECT&lt;/b&gt; NULL&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;b&gt;FROM&lt;/b&gt; condition_occurrence c&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;b&gt;WHERE&lt;/b&gt; c.person_id = &lt;span style=&quot;background-color: rgb(240 , 228 , 66)&quot;&gt;p.person_id&lt;/span&gt;)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" parent="X1Zd_ipYbXXybyELHOPl-1" vertex="1">
           <mxGeometry x="60" y="180" width="765" height="195" as="geometry" />
         </mxCell>
-        <mxCell id="X1Zd_ipYbXXybyELHOPl-8" value="condition_occurrence" style="shape=table;startSize=45;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=32;fontColor=#FFFFFF;fillColor=#0072B2;rounded=1;" vertex="1" parent="X1Zd_ipYbXXybyELHOPl-1">
+        <mxCell id="X1Zd_ipYbXXybyELHOPl-8" value="condition_occurrence" style="shape=table;startSize=45;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=32;fontColor=#FFFFFF;fillColor=#0072B2;rounded=1;" parent="X1Zd_ipYbXXybyELHOPl-1" vertex="1">
           <mxGeometry x="1200" y="300" width="360" height="270" as="geometry">
             <mxRectangle x="375" y="600" width="150" height="45" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="X1Zd_ipYbXXybyELHOPl-9" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="X1Zd_ipYbXXybyELHOPl-8">
+        <mxCell id="X1Zd_ipYbXXybyELHOPl-9" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="X1Zd_ipYbXXybyELHOPl-8" vertex="1">
           <mxGeometry y="45" width="360" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="X1Zd_ipYbXXybyELHOPl-10" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=0;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="X1Zd_ipYbXXybyELHOPl-9">
+        <mxCell id="X1Zd_ipYbXXybyELHOPl-10" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=0;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" parent="X1Zd_ipYbXXybyELHOPl-9" vertex="1">
           <mxGeometry width="60" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="X1Zd_ipYbXXybyELHOPl-11" value="condition_occurrence_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="X1Zd_ipYbXXybyELHOPl-9">
+        <mxCell id="X1Zd_ipYbXXybyELHOPl-11" value="condition_occurrence_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" parent="X1Zd_ipYbXXybyELHOPl-9" vertex="1">
           <mxGeometry x="60" width="300" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="X1Zd_ipYbXXybyELHOPl-12" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="X1Zd_ipYbXXybyELHOPl-8">
+        <mxCell id="X1Zd_ipYbXXybyELHOPl-12" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="X1Zd_ipYbXXybyELHOPl-8" vertex="1">
           <mxGeometry y="90" width="360" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="X1Zd_ipYbXXybyELHOPl-13" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=24;" vertex="1" parent="X1Zd_ipYbXXybyELHOPl-12">
+        <mxCell id="X1Zd_ipYbXXybyELHOPl-13" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=24;" parent="X1Zd_ipYbXXybyELHOPl-12" vertex="1">
           <mxGeometry width="60" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="X1Zd_ipYbXXybyELHOPl-14" value="person_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="X1Zd_ipYbXXybyELHOPl-12">
+        <mxCell id="X1Zd_ipYbXXybyELHOPl-14" value="person_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" parent="X1Zd_ipYbXXybyELHOPl-12" vertex="1">
           <mxGeometry x="60" width="300" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="X1Zd_ipYbXXybyELHOPl-15" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="X1Zd_ipYbXXybyELHOPl-8">
+        <mxCell id="X1Zd_ipYbXXybyELHOPl-15" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="X1Zd_ipYbXXybyELHOPl-8" vertex="1">
           <mxGeometry y="135" width="360" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="X1Zd_ipYbXXybyELHOPl-16" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="X1Zd_ipYbXXybyELHOPl-15">
+        <mxCell id="X1Zd_ipYbXXybyELHOPl-16" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" parent="X1Zd_ipYbXXybyELHOPl-15" vertex="1">
           <mxGeometry width="60" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="X1Zd_ipYbXXybyELHOPl-17" value="condition_concept_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="X1Zd_ipYbXXybyELHOPl-15">
+        <mxCell id="X1Zd_ipYbXXybyELHOPl-17" value="condition_concept_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" parent="X1Zd_ipYbXXybyELHOPl-15" vertex="1">
           <mxGeometry x="60" width="300" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="X1Zd_ipYbXXybyELHOPl-18" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="X1Zd_ipYbXXybyELHOPl-8">
+        <mxCell id="X1Zd_ipYbXXybyELHOPl-18" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="X1Zd_ipYbXXybyELHOPl-8" vertex="1">
           <mxGeometry y="180" width="360" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="X1Zd_ipYbXXybyELHOPl-19" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="X1Zd_ipYbXXybyELHOPl-18">
+        <mxCell id="X1Zd_ipYbXXybyELHOPl-19" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" parent="X1Zd_ipYbXXybyELHOPl-18" vertex="1">
           <mxGeometry width="60" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="X1Zd_ipYbXXybyELHOPl-20" value="condition_start_date" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="X1Zd_ipYbXXybyELHOPl-18">
+        <mxCell id="X1Zd_ipYbXXybyELHOPl-20" value="condition_start_date" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" parent="X1Zd_ipYbXXybyELHOPl-18" vertex="1">
           <mxGeometry x="60" width="300" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="X1Zd_ipYbXXybyELHOPl-21" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="X1Zd_ipYbXXybyELHOPl-8">
+        <mxCell id="X1Zd_ipYbXXybyELHOPl-21" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="X1Zd_ipYbXXybyELHOPl-8" vertex="1">
           <mxGeometry y="225" width="360" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="X1Zd_ipYbXXybyELHOPl-22" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="X1Zd_ipYbXXybyELHOPl-21">
+        <mxCell id="X1Zd_ipYbXXybyELHOPl-22" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" parent="X1Zd_ipYbXXybyELHOPl-21" vertex="1">
           <mxGeometry width="60" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="X1Zd_ipYbXXybyELHOPl-23" value="condition_end_date" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="X1Zd_ipYbXXybyELHOPl-21">
+        <mxCell id="X1Zd_ipYbXXybyELHOPl-23" value="condition_end_date" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" parent="X1Zd_ipYbXXybyELHOPl-21" vertex="1">
           <mxGeometry x="60" width="300" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="X1Zd_ipYbXXybyELHOPl-24" value="person" style="shape=table;startSize=45;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=32;fillColor=#009E73;fontColor=#FFFFFF;rounded=1;" vertex="1" parent="X1Zd_ipYbXXybyELHOPl-1">
+        <mxCell id="X1Zd_ipYbXXybyELHOPl-24" value="person" style="shape=table;startSize=45;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=32;fillColor=#009E73;fontColor=#FFFFFF;rounded=1;" parent="X1Zd_ipYbXXybyELHOPl-1" vertex="1">
           <mxGeometry x="1200" y="60" width="240" height="180" as="geometry">
             <mxRectangle x="375" y="600" width="150" height="45" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="X1Zd_ipYbXXybyELHOPl-25" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="X1Zd_ipYbXXybyELHOPl-24">
+        <mxCell id="X1Zd_ipYbXXybyELHOPl-25" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="X1Zd_ipYbXXybyELHOPl-24" vertex="1">
           <mxGeometry y="45" width="240" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="X1Zd_ipYbXXybyELHOPl-26" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=0;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="X1Zd_ipYbXXybyELHOPl-25">
+        <mxCell id="X1Zd_ipYbXXybyELHOPl-26" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=0;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" parent="X1Zd_ipYbXXybyELHOPl-25" vertex="1">
           <mxGeometry width="60" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="X1Zd_ipYbXXybyELHOPl-27" value="person_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="X1Zd_ipYbXXybyELHOPl-25">
+        <mxCell id="X1Zd_ipYbXXybyELHOPl-27" value="person_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" parent="X1Zd_ipYbXXybyELHOPl-25" vertex="1">
           <mxGeometry x="60" width="180" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="X1Zd_ipYbXXybyELHOPl-28" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="X1Zd_ipYbXXybyELHOPl-24">
+        <mxCell id="X1Zd_ipYbXXybyELHOPl-28" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="X1Zd_ipYbXXybyELHOPl-24" vertex="1">
           <mxGeometry y="90" width="240" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="X1Zd_ipYbXXybyELHOPl-29" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="X1Zd_ipYbXXybyELHOPl-28">
+        <mxCell id="X1Zd_ipYbXXybyELHOPl-29" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" parent="X1Zd_ipYbXXybyELHOPl-28" vertex="1">
           <mxGeometry width="60" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="X1Zd_ipYbXXybyELHOPl-30" value="year_of_birth" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="X1Zd_ipYbXXybyELHOPl-28">
+        <mxCell id="X1Zd_ipYbXXybyELHOPl-30" value="year_of_birth" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" parent="X1Zd_ipYbXXybyELHOPl-28" vertex="1">
           <mxGeometry x="60" width="180" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="X1Zd_ipYbXXybyELHOPl-31" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="X1Zd_ipYbXXybyELHOPl-24">
+        <mxCell id="X1Zd_ipYbXXybyELHOPl-31" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="X1Zd_ipYbXXybyELHOPl-24" vertex="1">
           <mxGeometry y="135" width="240" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="X1Zd_ipYbXXybyELHOPl-32" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="X1Zd_ipYbXXybyELHOPl-31">
+        <mxCell id="X1Zd_ipYbXXybyELHOPl-32" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" parent="X1Zd_ipYbXXybyELHOPl-31" vertex="1">
           <mxGeometry width="60" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="X1Zd_ipYbXXybyELHOPl-33" value="location_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="X1Zd_ipYbXXybyELHOPl-31">
+        <mxCell id="X1Zd_ipYbXXybyELHOPl-33" value="location_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" parent="X1Zd_ipYbXXybyELHOPl-31" vertex="1">
           <mxGeometry x="60" width="180" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="X1Zd_ipYbXXybyELHOPl-34" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="X1Zd_ipYbXXybyELHOPl-1" source="X1Zd_ipYbXXybyELHOPl-12" target="X1Zd_ipYbXXybyELHOPl-25">
+        <mxCell id="X1Zd_ipYbXXybyELHOPl-34" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="X1Zd_ipYbXXybyELHOPl-1" source="X1Zd_ipYbXXybyELHOPl-12" target="X1Zd_ipYbXXybyELHOPl-25" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1170" y="413" />
@@ -2239,136 +2239,136 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qXkzvefLV_npot4y6mwE-0" value="q&lt;sub&gt;p&lt;/sub&gt; = From(person)&lt;br&gt;q&lt;sub&gt;c&lt;/sub&gt; = From(condition_occurrence)&lt;br&gt;q&lt;sub&gt;corr&lt;/sub&gt; = q&lt;sub&gt;c&lt;/sub&gt; |&amp;gt; Where(q&lt;sub&gt;c&lt;/sub&gt;.person_id .== &lt;i&gt;&lt;font color=&quot;#D55E00&quot;&gt;q&lt;sub&gt;p&lt;/sub&gt;.person_id&lt;/font&gt;&lt;/i&gt;)&lt;br&gt;q = q&lt;sub&gt;p&lt;/sub&gt; |&amp;gt; Where(Fun.exists(q&lt;sub&gt;corr&lt;/sub&gt;))" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="X1Zd_ipYbXXybyELHOPl-1">
+        <mxCell id="qXkzvefLV_npot4y6mwE-0" value="q&lt;sub&gt;p&lt;/sub&gt; = From(person)&lt;br&gt;q&lt;sub&gt;c&lt;/sub&gt; = From(condition_occurrence)&lt;br&gt;q&lt;sub&gt;corr&lt;/sub&gt; = q&lt;sub&gt;c&lt;/sub&gt; |&amp;gt; Where(q&lt;sub&gt;c&lt;/sub&gt;.person_id .== &lt;i&gt;&lt;font color=&quot;#D55E00&quot;&gt;q&lt;sub&gt;p&lt;/sub&gt;.person_id&lt;/font&gt;&lt;/i&gt;)&lt;br&gt;q = q&lt;sub&gt;p&lt;/sub&gt; |&amp;gt; Where(Fun.exists(q&lt;sub&gt;corr&lt;/sub&gt;))" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" parent="X1Zd_ipYbXXybyELHOPl-1" vertex="1">
           <mxGeometry x="60" y="480" width="810" height="195" as="geometry" />
         </mxCell>
-        <mxCell id="NDbbHEohWCRkZrFJvEuF-2" value="&amp;nbsp;ERROR: Cannot find person_id&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; " style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;labelBackgroundColor=#D55E00;fontColor=#FFFFFF;" vertex="1" parent="X1Zd_ipYbXXybyELHOPl-1">
+        <mxCell id="NDbbHEohWCRkZrFJvEuF-2" value="&amp;nbsp;ERROR: Cannot find person_id&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; " style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;labelBackgroundColor=#D55E00;fontColor=#FFFFFF;" parent="X1Zd_ipYbXXybyELHOPl-1" vertex="1">
           <mxGeometry x="60" y="675" width="900" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name="Correlated Condition (3)" id="TFD43Gb1yPUrwNFNGEjV">
-    <mxGraphModel dx="1757" dy="943" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="1490" dy="566" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="ouF3CpVCNhN9PwKL8V9C-0" />
         <mxCell id="ouF3CpVCNhN9PwKL8V9C-1" parent="ouF3CpVCNhN9PwKL8V9C-0" />
-        <mxCell id="ouF3CpVCNhN9PwKL8V9C-4" value="" style="group" vertex="1" connectable="0" parent="ouF3CpVCNhN9PwKL8V9C-1">
+        <mxCell id="ouF3CpVCNhN9PwKL8V9C-4" value="" style="group" parent="ouF3CpVCNhN9PwKL8V9C-1" vertex="1" connectable="0">
           <mxGeometry y="854" width="1600" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="ouF3CpVCNhN9PwKL8V9C-5" value="&lt;div style=&quot;font-size: 24px&quot;&gt;FunSQL: a library for compositional construction of SQL queries&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#0072B2;fontColor=#FFFFFF;" vertex="1" parent="ouF3CpVCNhN9PwKL8V9C-4">
+        <mxCell id="ouF3CpVCNhN9PwKL8V9C-5" value="&lt;div style=&quot;font-size: 24px&quot;&gt;FunSQL: a library for compositional construction of SQL queries&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#0072B2;fontColor=#FFFFFF;" parent="ouF3CpVCNhN9PwKL8V9C-4" vertex="1">
           <mxGeometry width="840" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="ouF3CpVCNhN9PwKL8V9C-6" value="JuliaCon 2021" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#009E73;fontColor=#FFFFFF;" vertex="1" parent="ouF3CpVCNhN9PwKL8V9C-4">
+        <mxCell id="ouF3CpVCNhN9PwKL8V9C-6" value="JuliaCon 2021" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#009E73;fontColor=#FFFFFF;" parent="ouF3CpVCNhN9PwKL8V9C-4" vertex="1">
           <mxGeometry x="1320" width="280" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="ouF3CpVCNhN9PwKL8V9C-7" value="Clark C. Evans, Kyrylo Simonov" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#56B4E9;fontColor=#FFFFFF;" vertex="1" parent="ouF3CpVCNhN9PwKL8V9C-4">
+        <mxCell id="ouF3CpVCNhN9PwKL8V9C-7" value="Clark C. Evans, Kyrylo Simonov" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#56B4E9;fontColor=#FFFFFF;" parent="ouF3CpVCNhN9PwKL8V9C-4" vertex="1">
           <mxGeometry x="840" width="480" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="Fs12Ehpabdk9xFEzaVnZ-2" value="&lt;b&gt;SELECT&lt;/b&gt; p.*&lt;br&gt;&lt;b&gt;FROM&lt;/b&gt; person p&lt;br&gt;&lt;b&gt;WHERE&lt;/b&gt; EXISTS CorrelatedCondition(p.person_id)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="ouF3CpVCNhN9PwKL8V9C-1">
+        <mxCell id="Fs12Ehpabdk9xFEzaVnZ-2" value="&lt;b&gt;SELECT&lt;/b&gt; p.*&lt;br&gt;&lt;b&gt;FROM&lt;/b&gt; person p&lt;br&gt;&lt;b&gt;WHERE&lt;/b&gt; EXISTS CorrelatedCondition(p.person_id)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" parent="ouF3CpVCNhN9PwKL8V9C-1" vertex="1">
           <mxGeometry x="60" y="660" width="750" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="_SHgmO3oXVzX1p7oxLA_-0" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.twoWayArrow;dy=0.6;dx=35;sketch=0;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=16;fontColor=#000000;fillColor=#FFFFFF;direction=south;" vertex="1" parent="ouF3CpVCNhN9PwKL8V9C-1">
+        <mxCell id="_SHgmO3oXVzX1p7oxLA_-0" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.twoWayArrow;dy=0.6;dx=35;sketch=0;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=16;fontColor=#000000;fillColor=#FFFFFF;direction=south;" parent="ouF3CpVCNhN9PwKL8V9C-1" vertex="1">
           <mxGeometry x="120" y="390" width="75" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="YR2fE-4emgsIVYnuaXX9-0" value="" style="group" vertex="1" connectable="0" parent="ouF3CpVCNhN9PwKL8V9C-1">
+        <mxCell id="YR2fE-4emgsIVYnuaXX9-0" value="" style="group" parent="ouF3CpVCNhN9PwKL8V9C-1" vertex="1" connectable="0">
           <mxGeometry x="60" y="525" width="900" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="Fs12Ehpabdk9xFEzaVnZ-0" value="CorrelatedCondition : &lt;b&gt;&lt;i&gt;X&lt;/i&gt;&lt;/b&gt; ↦" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="YR2fE-4emgsIVYnuaXX9-0">
+        <mxCell id="Fs12Ehpabdk9xFEzaVnZ-0" value="CorrelatedCondition : &lt;b&gt;&lt;i&gt;X&lt;/i&gt;&lt;/b&gt; ↦" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" parent="YR2fE-4emgsIVYnuaXX9-0" vertex="1">
           <mxGeometry y="37.5" width="435" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="Fs12Ehpabdk9xFEzaVnZ-1" value="&lt;b&gt;SELECT&lt;/b&gt; NULL&lt;br&gt;&lt;b&gt;FROM&lt;/b&gt; condition_occurrence c&lt;br&gt;&lt;b&gt;WHERE&lt;/b&gt; c.person_id = &lt;b&gt;&lt;i&gt;X&lt;/i&gt;&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="YR2fE-4emgsIVYnuaXX9-0">
+        <mxCell id="Fs12Ehpabdk9xFEzaVnZ-1" value="&lt;b&gt;SELECT&lt;/b&gt; NULL&lt;br&gt;&lt;b&gt;FROM&lt;/b&gt; condition_occurrence c&lt;br&gt;&lt;b&gt;WHERE&lt;/b&gt; c.person_id = &lt;b&gt;&lt;i&gt;X&lt;/i&gt;&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" parent="YR2fE-4emgsIVYnuaXX9-0" vertex="1">
           <mxGeometry x="435" width="465" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="K3jIoVHIlPVXKItIfuuJ-0" value="Find patients with at least one medical condition." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu;fontColor=#000000;fontStyle=2" vertex="1" parent="ouF3CpVCNhN9PwKL8V9C-1">
+        <mxCell id="K3jIoVHIlPVXKItIfuuJ-0" value="Find patients with at least one medical condition." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu;fontColor=#000000;fontStyle=2" parent="ouF3CpVCNhN9PwKL8V9C-1" vertex="1">
           <mxGeometry x="60" y="75.5" width="735" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="K3jIoVHIlPVXKItIfuuJ-1" value="&lt;b&gt;SELECT&lt;/b&gt; p.*&lt;br&gt;&lt;b&gt;FROM&lt;/b&gt; person p&lt;br&gt;&lt;b&gt;WHERE&lt;/b&gt; EXISTS (&lt;b&gt;SELECT&lt;/b&gt; NULL&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;b&gt;FROM&lt;/b&gt; condition_occurrence c&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;b&gt;WHERE&lt;/b&gt; c.person_id = p.person_id)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="ouF3CpVCNhN9PwKL8V9C-1">
+        <mxCell id="K3jIoVHIlPVXKItIfuuJ-1" value="&lt;b&gt;SELECT&lt;/b&gt; p.*&lt;br&gt;&lt;b&gt;FROM&lt;/b&gt; person p&lt;br&gt;&lt;b&gt;WHERE&lt;/b&gt; EXISTS (&lt;b&gt;SELECT&lt;/b&gt; NULL&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;b&gt;FROM&lt;/b&gt; condition_occurrence c&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;b&gt;WHERE&lt;/b&gt; c.person_id = p.person_id)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" parent="ouF3CpVCNhN9PwKL8V9C-1" vertex="1">
           <mxGeometry x="60" y="180" width="765" height="195" as="geometry" />
         </mxCell>
-        <mxCell id="rpNdqZkHR0eFCVRHNnHe-0" value="condition_occurrence" style="shape=table;startSize=45;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=32;fontColor=#FFFFFF;fillColor=#0072B2;rounded=1;" vertex="1" parent="ouF3CpVCNhN9PwKL8V9C-1">
+        <mxCell id="rpNdqZkHR0eFCVRHNnHe-0" value="condition_occurrence" style="shape=table;startSize=45;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=32;fontColor=#FFFFFF;fillColor=#0072B2;rounded=1;" parent="ouF3CpVCNhN9PwKL8V9C-1" vertex="1">
           <mxGeometry x="1200" y="300" width="360" height="270" as="geometry">
             <mxRectangle x="375" y="600" width="150" height="45" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rpNdqZkHR0eFCVRHNnHe-1" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="rpNdqZkHR0eFCVRHNnHe-0">
+        <mxCell id="rpNdqZkHR0eFCVRHNnHe-1" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="rpNdqZkHR0eFCVRHNnHe-0" vertex="1">
           <mxGeometry y="45" width="360" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="rpNdqZkHR0eFCVRHNnHe-2" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=0;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="rpNdqZkHR0eFCVRHNnHe-1">
+        <mxCell id="rpNdqZkHR0eFCVRHNnHe-2" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=0;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" parent="rpNdqZkHR0eFCVRHNnHe-1" vertex="1">
           <mxGeometry width="60" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="rpNdqZkHR0eFCVRHNnHe-3" value="condition_occurrence_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="rpNdqZkHR0eFCVRHNnHe-1">
+        <mxCell id="rpNdqZkHR0eFCVRHNnHe-3" value="condition_occurrence_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" parent="rpNdqZkHR0eFCVRHNnHe-1" vertex="1">
           <mxGeometry x="60" width="300" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="rpNdqZkHR0eFCVRHNnHe-4" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="rpNdqZkHR0eFCVRHNnHe-0">
+        <mxCell id="rpNdqZkHR0eFCVRHNnHe-4" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="rpNdqZkHR0eFCVRHNnHe-0" vertex="1">
           <mxGeometry y="90" width="360" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="rpNdqZkHR0eFCVRHNnHe-5" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=24;" vertex="1" parent="rpNdqZkHR0eFCVRHNnHe-4">
+        <mxCell id="rpNdqZkHR0eFCVRHNnHe-5" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=24;" parent="rpNdqZkHR0eFCVRHNnHe-4" vertex="1">
           <mxGeometry width="60" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="rpNdqZkHR0eFCVRHNnHe-6" value="person_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="rpNdqZkHR0eFCVRHNnHe-4">
+        <mxCell id="rpNdqZkHR0eFCVRHNnHe-6" value="person_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" parent="rpNdqZkHR0eFCVRHNnHe-4" vertex="1">
           <mxGeometry x="60" width="300" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="rpNdqZkHR0eFCVRHNnHe-7" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="rpNdqZkHR0eFCVRHNnHe-0">
+        <mxCell id="rpNdqZkHR0eFCVRHNnHe-7" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="rpNdqZkHR0eFCVRHNnHe-0" vertex="1">
           <mxGeometry y="135" width="360" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="rpNdqZkHR0eFCVRHNnHe-8" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="rpNdqZkHR0eFCVRHNnHe-7">
+        <mxCell id="rpNdqZkHR0eFCVRHNnHe-8" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" parent="rpNdqZkHR0eFCVRHNnHe-7" vertex="1">
           <mxGeometry width="60" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="rpNdqZkHR0eFCVRHNnHe-9" value="condition_concept_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="rpNdqZkHR0eFCVRHNnHe-7">
+        <mxCell id="rpNdqZkHR0eFCVRHNnHe-9" value="condition_concept_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" parent="rpNdqZkHR0eFCVRHNnHe-7" vertex="1">
           <mxGeometry x="60" width="300" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="rpNdqZkHR0eFCVRHNnHe-10" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="rpNdqZkHR0eFCVRHNnHe-0">
+        <mxCell id="rpNdqZkHR0eFCVRHNnHe-10" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="rpNdqZkHR0eFCVRHNnHe-0" vertex="1">
           <mxGeometry y="180" width="360" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="rpNdqZkHR0eFCVRHNnHe-11" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="rpNdqZkHR0eFCVRHNnHe-10">
+        <mxCell id="rpNdqZkHR0eFCVRHNnHe-11" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" parent="rpNdqZkHR0eFCVRHNnHe-10" vertex="1">
           <mxGeometry width="60" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="rpNdqZkHR0eFCVRHNnHe-12" value="condition_start_date" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="rpNdqZkHR0eFCVRHNnHe-10">
+        <mxCell id="rpNdqZkHR0eFCVRHNnHe-12" value="condition_start_date" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" parent="rpNdqZkHR0eFCVRHNnHe-10" vertex="1">
           <mxGeometry x="60" width="300" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="rpNdqZkHR0eFCVRHNnHe-13" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="rpNdqZkHR0eFCVRHNnHe-0">
+        <mxCell id="rpNdqZkHR0eFCVRHNnHe-13" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="rpNdqZkHR0eFCVRHNnHe-0" vertex="1">
           <mxGeometry y="225" width="360" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="rpNdqZkHR0eFCVRHNnHe-14" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="rpNdqZkHR0eFCVRHNnHe-13">
+        <mxCell id="rpNdqZkHR0eFCVRHNnHe-14" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" parent="rpNdqZkHR0eFCVRHNnHe-13" vertex="1">
           <mxGeometry width="60" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="rpNdqZkHR0eFCVRHNnHe-15" value="condition_end_date" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="rpNdqZkHR0eFCVRHNnHe-13">
+        <mxCell id="rpNdqZkHR0eFCVRHNnHe-15" value="condition_end_date" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" parent="rpNdqZkHR0eFCVRHNnHe-13" vertex="1">
           <mxGeometry x="60" width="300" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="rpNdqZkHR0eFCVRHNnHe-16" value="person" style="shape=table;startSize=45;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=32;fillColor=#009E73;fontColor=#FFFFFF;rounded=1;" vertex="1" parent="ouF3CpVCNhN9PwKL8V9C-1">
+        <mxCell id="rpNdqZkHR0eFCVRHNnHe-16" value="person" style="shape=table;startSize=45;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;fontSize=32;fillColor=#009E73;fontColor=#FFFFFF;rounded=1;" parent="ouF3CpVCNhN9PwKL8V9C-1" vertex="1">
           <mxGeometry x="1200" y="60" width="240" height="180" as="geometry">
             <mxRectangle x="375" y="600" width="150" height="45" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rpNdqZkHR0eFCVRHNnHe-17" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="rpNdqZkHR0eFCVRHNnHe-16">
+        <mxCell id="rpNdqZkHR0eFCVRHNnHe-17" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="rpNdqZkHR0eFCVRHNnHe-16" vertex="1">
           <mxGeometry y="45" width="240" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="rpNdqZkHR0eFCVRHNnHe-18" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=0;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="rpNdqZkHR0eFCVRHNnHe-17">
+        <mxCell id="rpNdqZkHR0eFCVRHNnHe-18" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=0;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" parent="rpNdqZkHR0eFCVRHNnHe-17" vertex="1">
           <mxGeometry width="60" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="rpNdqZkHR0eFCVRHNnHe-19" value="person_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="rpNdqZkHR0eFCVRHNnHe-17">
+        <mxCell id="rpNdqZkHR0eFCVRHNnHe-19" value="person_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" parent="rpNdqZkHR0eFCVRHNnHe-17" vertex="1">
           <mxGeometry x="60" width="180" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="rpNdqZkHR0eFCVRHNnHe-20" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="rpNdqZkHR0eFCVRHNnHe-16">
+        <mxCell id="rpNdqZkHR0eFCVRHNnHe-20" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="rpNdqZkHR0eFCVRHNnHe-16" vertex="1">
           <mxGeometry y="90" width="240" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="rpNdqZkHR0eFCVRHNnHe-21" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="rpNdqZkHR0eFCVRHNnHe-20">
+        <mxCell id="rpNdqZkHR0eFCVRHNnHe-21" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" parent="rpNdqZkHR0eFCVRHNnHe-20" vertex="1">
           <mxGeometry width="60" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="rpNdqZkHR0eFCVRHNnHe-22" value="year_of_birth" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="rpNdqZkHR0eFCVRHNnHe-20">
+        <mxCell id="rpNdqZkHR0eFCVRHNnHe-22" value="year_of_birth" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" parent="rpNdqZkHR0eFCVRHNnHe-20" vertex="1">
           <mxGeometry x="60" width="180" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="rpNdqZkHR0eFCVRHNnHe-23" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="rpNdqZkHR0eFCVRHNnHe-16">
+        <mxCell id="rpNdqZkHR0eFCVRHNnHe-23" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="rpNdqZkHR0eFCVRHNnHe-16" vertex="1">
           <mxGeometry y="135" width="240" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="rpNdqZkHR0eFCVRHNnHe-24" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="rpNdqZkHR0eFCVRHNnHe-23">
+        <mxCell id="rpNdqZkHR0eFCVRHNnHe-24" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" parent="rpNdqZkHR0eFCVRHNnHe-23" vertex="1">
           <mxGeometry width="60" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="rpNdqZkHR0eFCVRHNnHe-25" value="location_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" vertex="1" parent="rpNdqZkHR0eFCVRHNnHe-23">
+        <mxCell id="rpNdqZkHR0eFCVRHNnHe-25" value="location_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontSize=24;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;" parent="rpNdqZkHR0eFCVRHNnHe-23" vertex="1">
           <mxGeometry x="60" width="180" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="rpNdqZkHR0eFCVRHNnHe-26" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ouF3CpVCNhN9PwKL8V9C-1" source="rpNdqZkHR0eFCVRHNnHe-4" target="rpNdqZkHR0eFCVRHNnHe-17">
+        <mxCell id="rpNdqZkHR0eFCVRHNnHe-26" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="ouF3CpVCNhN9PwKL8V9C-1" source="rpNdqZkHR0eFCVRHNnHe-4" target="rpNdqZkHR0eFCVRHNnHe-17" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1170" y="413" />
@@ -2380,68 +2380,68 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Correlated Condition (4)" id="EbUttABLaiIEf_XCiUSx">
-    <mxGraphModel dx="1757" dy="943" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="2980" dy="1132" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="4yhlL6s92CmVJuZ5HUd8-0" />
         <mxCell id="4yhlL6s92CmVJuZ5HUd8-1" parent="4yhlL6s92CmVJuZ5HUd8-0" />
-        <mxCell id="4yhlL6s92CmVJuZ5HUd8-2" value="" style="group" vertex="1" connectable="0" parent="4yhlL6s92CmVJuZ5HUd8-1">
+        <mxCell id="4yhlL6s92CmVJuZ5HUd8-2" value="" style="group" parent="4yhlL6s92CmVJuZ5HUd8-1" vertex="1" connectable="0">
           <mxGeometry y="854" width="1600" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="4yhlL6s92CmVJuZ5HUd8-3" value="&lt;div style=&quot;font-size: 24px&quot;&gt;FunSQL: a library for compositional construction of SQL queries&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#0072B2;fontColor=#FFFFFF;" vertex="1" parent="4yhlL6s92CmVJuZ5HUd8-2">
+        <mxCell id="4yhlL6s92CmVJuZ5HUd8-3" value="&lt;div style=&quot;font-size: 24px&quot;&gt;FunSQL: a library for compositional construction of SQL queries&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#0072B2;fontColor=#FFFFFF;" parent="4yhlL6s92CmVJuZ5HUd8-2" vertex="1">
           <mxGeometry width="840" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="4yhlL6s92CmVJuZ5HUd8-4" value="JuliaCon 2021" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#009E73;fontColor=#FFFFFF;" vertex="1" parent="4yhlL6s92CmVJuZ5HUd8-2">
+        <mxCell id="4yhlL6s92CmVJuZ5HUd8-4" value="JuliaCon 2021" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#009E73;fontColor=#FFFFFF;" parent="4yhlL6s92CmVJuZ5HUd8-2" vertex="1">
           <mxGeometry x="1320" width="280" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="4yhlL6s92CmVJuZ5HUd8-5" value="Clark C. Evans, Kyrylo Simonov" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#56B4E9;fontColor=#FFFFFF;" vertex="1" parent="4yhlL6s92CmVJuZ5HUd8-2">
+        <mxCell id="4yhlL6s92CmVJuZ5HUd8-5" value="Clark C. Evans, Kyrylo Simonov" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#56B4E9;fontColor=#FFFFFF;" parent="4yhlL6s92CmVJuZ5HUd8-2" vertex="1">
           <mxGeometry x="840" width="480" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="4yhlL6s92CmVJuZ5HUd8-12" value="&lt;b&gt;SELECT&lt;/b&gt; c.*&lt;br&gt;&lt;b&gt;FROM&lt;/b&gt; condition_occurrence c&lt;br&gt;&lt;b&gt;WHERE&lt;/b&gt; c.person_id = :X" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="4yhlL6s92CmVJuZ5HUd8-1">
+        <mxCell id="4yhlL6s92CmVJuZ5HUd8-12" value="&lt;b&gt;SELECT&lt;/b&gt; c.*&lt;br&gt;&lt;b&gt;FROM&lt;/b&gt; condition_occurrence c&lt;br&gt;&lt;b&gt;WHERE&lt;/b&gt; c.person_id = :X" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" parent="4yhlL6s92CmVJuZ5HUd8-1" vertex="1">
           <mxGeometry x="780" y="75" width="465" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="mJgfql2D-JhdHIVfp97y-0" value="From(condition_occurrence) |&amp;gt;&lt;br&gt;Where(Get.person_id .== Var.X)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="4yhlL6s92CmVJuZ5HUd8-1">
+        <mxCell id="mJgfql2D-JhdHIVfp97y-0" value="From(condition_occurrence) |&amp;gt;&lt;br&gt;Where(Get.person_id .== Var.X)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" parent="4yhlL6s92CmVJuZ5HUd8-1" vertex="1">
           <mxGeometry x="60" y="75" width="510" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="wOlhy-9Vx0tffzPqLGoZ-0" value="&lt;b&gt;using&lt;/b&gt; FunSQL: Bind&lt;br&gt;&lt;br&gt;CorrelatedCondition(X) =&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; From(condition_occurrence) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Where(Get.person_id .== Var.X) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Bind(:X =&amp;gt; X)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="4yhlL6s92CmVJuZ5HUd8-1">
+        <mxCell id="wOlhy-9Vx0tffzPqLGoZ-0" value="&lt;b&gt;using&lt;/b&gt; FunSQL: Bind&lt;br&gt;&lt;br&gt;CorrelatedCondition(X) =&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; From(condition_occurrence) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Where(Get.person_id .== Var.X) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Bind(:X =&amp;gt; X)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" parent="4yhlL6s92CmVJuZ5HUd8-1" vertex="1">
           <mxGeometry x="60" y="345" width="615" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="wOlhy-9Vx0tffzPqLGoZ-1" value="CorrelatedCondition(6)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="4yhlL6s92CmVJuZ5HUd8-1">
+        <mxCell id="wOlhy-9Vx0tffzPqLGoZ-1" value="CorrelatedCondition(6)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" parent="4yhlL6s92CmVJuZ5HUd8-1" vertex="1">
           <mxGeometry x="60" y="630" width="375" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="wOlhy-9Vx0tffzPqLGoZ-2" value="&lt;b&gt;SELECT&lt;/b&gt; c.*&lt;br&gt;&lt;b&gt;FROM&lt;/b&gt; condition_occurrence c&lt;br&gt;&lt;b&gt;WHERE&lt;/b&gt; c.person_id = 6" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="4yhlL6s92CmVJuZ5HUd8-1">
+        <mxCell id="wOlhy-9Vx0tffzPqLGoZ-2" value="&lt;b&gt;SELECT&lt;/b&gt; c.*&lt;br&gt;&lt;b&gt;FROM&lt;/b&gt; condition_occurrence c&lt;br&gt;&lt;b&gt;WHERE&lt;/b&gt; c.person_id = 6" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" parent="4yhlL6s92CmVJuZ5HUd8-1" vertex="1">
           <mxGeometry x="780" y="630" width="465" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="0LvawCky_vxc8JBqdMqH-0" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;fontFamily=Ubuntu Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;fontSize=16;fontColor=#666666;fillColor=none;sketch=0;" vertex="1" parent="4yhlL6s92CmVJuZ5HUd8-1">
+        <mxCell id="0LvawCky_vxc8JBqdMqH-0" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;fontFamily=Ubuntu Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;fontSize=16;fontColor=#666666;fillColor=none;sketch=0;" parent="4yhlL6s92CmVJuZ5HUd8-1" vertex="1">
           <mxGeometry x="120" y="210" width="75" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name="Correlated Condition (5)" id="p44Ngy-gpR0hWLWJNs1m">
-    <mxGraphModel dx="2635" dy="1415" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="2129" dy="809" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="7cMJe9vYnZSKrjimOe8S-0" />
         <mxCell id="7cMJe9vYnZSKrjimOe8S-1" parent="7cMJe9vYnZSKrjimOe8S-0" />
-        <mxCell id="7cMJe9vYnZSKrjimOe8S-2" value="" style="group" vertex="1" connectable="0" parent="7cMJe9vYnZSKrjimOe8S-1">
+        <mxCell id="7cMJe9vYnZSKrjimOe8S-2" value="" style="group" parent="7cMJe9vYnZSKrjimOe8S-1" vertex="1" connectable="0">
           <mxGeometry y="854" width="1600" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="7cMJe9vYnZSKrjimOe8S-3" value="&lt;div style=&quot;font-size: 24px&quot;&gt;FunSQL: a library for compositional construction of SQL queries&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#0072B2;fontColor=#FFFFFF;" vertex="1" parent="7cMJe9vYnZSKrjimOe8S-2">
+        <mxCell id="7cMJe9vYnZSKrjimOe8S-3" value="&lt;div style=&quot;font-size: 24px&quot;&gt;FunSQL: a library for compositional construction of SQL queries&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#0072B2;fontColor=#FFFFFF;" parent="7cMJe9vYnZSKrjimOe8S-2" vertex="1">
           <mxGeometry width="840" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="7cMJe9vYnZSKrjimOe8S-4" value="JuliaCon 2021" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#009E73;fontColor=#FFFFFF;" vertex="1" parent="7cMJe9vYnZSKrjimOe8S-2">
+        <mxCell id="7cMJe9vYnZSKrjimOe8S-4" value="JuliaCon 2021" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#009E73;fontColor=#FFFFFF;" parent="7cMJe9vYnZSKrjimOe8S-2" vertex="1">
           <mxGeometry x="1320" width="280" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="7cMJe9vYnZSKrjimOe8S-5" value="Clark C. Evans, Kyrylo Simonov" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#56B4E9;fontColor=#FFFFFF;" vertex="1" parent="7cMJe9vYnZSKrjimOe8S-2">
+        <mxCell id="7cMJe9vYnZSKrjimOe8S-5" value="Clark C. Evans, Kyrylo Simonov" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;align=center;fontFamily=Ubuntu;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu;strokeColor=none;fillColor=#56B4E9;fontColor=#FFFFFF;" parent="7cMJe9vYnZSKrjimOe8S-2" vertex="1">
           <mxGeometry x="840" width="480" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="7cMJe9vYnZSKrjimOe8S-9" value="From(person) |&amp;gt;&lt;br&gt;Where(Fun.exists(&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp; &amp;nbsp; CorrelatedCondition(Get.person_id)))" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="7cMJe9vYnZSKrjimOe8S-1">
+        <mxCell id="7cMJe9vYnZSKrjimOe8S-9" value="From(person) |&amp;gt;&lt;br&gt;Where(Fun.exists(&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp; &amp;nbsp; CorrelatedCondition(Get.person_id)))" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" parent="7cMJe9vYnZSKrjimOe8S-1" vertex="1">
           <mxGeometry x="58" y="285" width="720" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="7BkxfEhfrr_mtix_sytH-0" value="CorrelatedCondition(X) =&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; From(condition_occurrence) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Where(Get.person_id .== Var.X) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Bind(:X =&amp;gt; X)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="7cMJe9vYnZSKrjimOe8S-1">
+        <mxCell id="7BkxfEhfrr_mtix_sytH-0" value="CorrelatedCondition(X) =&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; From(condition_occurrence) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Where(Get.person_id .== Var.X) |&amp;gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Bind(:X =&amp;gt; X)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" parent="7cMJe9vYnZSKrjimOe8S-1" vertex="1">
           <mxGeometry x="60" y="75" width="615" height="165" as="geometry" />
         </mxCell>
-        <mxCell id="zJKO84N2ps9mEZujKpsV-0" value="&lt;b&gt;SELECT&lt;/b&gt; p.*&lt;br&gt;&lt;b&gt;FROM&lt;/b&gt; person p&lt;br&gt;&lt;b&gt;WHERE&lt;/b&gt; EXISTS (&lt;b&gt;SELECT&lt;/b&gt; NULL&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;b&gt;FROM&lt;/b&gt; condition_occurrence c&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;b&gt;WHERE&lt;/b&gt; c.person_id = p.person_id)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" vertex="1" parent="7cMJe9vYnZSKrjimOe8S-1">
-          <mxGeometry x="778" y="285" width="765" height="195" as="geometry" />
+        <mxCell id="zJKO84N2ps9mEZujKpsV-0" value="&lt;b&gt;SELECT&lt;/b&gt; p.*&lt;br&gt;&lt;b&gt;FROM&lt;/b&gt; person p&lt;br&gt;&lt;b&gt;WHERE&lt;/b&gt; EXISTS (&lt;b&gt;SELECT&lt;/b&gt; NULL&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;b&gt;FROM&lt;/b&gt; condition_occurrence c&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;b&gt;WHERE&lt;/b&gt; c.person_id = p.person_id)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=32;fontFamily=Ubuntu Mono;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DUbuntu%2BMono;" parent="7cMJe9vYnZSKrjimOe8S-1" vertex="1">
+          <mxGeometry x="825" y="285" width="765" height="195" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
