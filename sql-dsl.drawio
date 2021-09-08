@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-02T12:39:02.595Z" agent="5.0 (X11)" etag="0gLsDDUvP5L4JyQ0QZW-" version="14.7.3" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2021-09-08T14:25:07.821Z" agent="5.0 (X11)" etag="FYHbpVi7qnGTlC9BNqRu" version="14.9.3" type="github" pages="12">
   <diagram id="dEZGlpFXaTpSit4VuuWs" name="Page-1">
-    <mxGraphModel dx="1038" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2804,6 +2804,52 @@
         </mxCell>
         <mxCell id="IUMar_X3o2GdJj_O_kqe-15" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="IUMar_X3o2GdJj_O_kqe-1" vertex="1">
           <mxGeometry x="270" y="110" width="70" height="10" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="5ylPJk_ZH-cK33LDelTi" name="resolve-refactoring">
+    <mxGraphModel dx="830" dy="453" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="bt97oJoX7uLpg4b7Igtk-0" />
+        <mxCell id="bt97oJoX7uLpg4b7Igtk-1" parent="bt97oJoX7uLpg4b7Igtk-0" />
+        <mxCell id="bt97oJoX7uLpg4b7Igtk-2" value="From(person)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="bt97oJoX7uLpg4b7Igtk-1">
+          <mxGeometry x="40" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bt97oJoX7uLpg4b7Igtk-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;curved=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="bt97oJoX7uLpg4b7Igtk-1" source="bt97oJoX7uLpg4b7Igtk-3" target="bt97oJoX7uLpg4b7Igtk-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="70" y="190" />
+              <mxPoint x="70" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bt97oJoX7uLpg4b7Igtk-7" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="bt97oJoX7uLpg4b7Igtk-1" source="bt97oJoX7uLpg4b7Igtk-3" target="bt97oJoX7uLpg4b7Igtk-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bt97oJoX7uLpg4b7Igtk-3" value="Join&lt;br&gt;Get.person_id .==&lt;br&gt;Get.p2.person_id" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="bt97oJoX7uLpg4b7Igtk-1">
+          <mxGeometry x="40" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bt97oJoX7uLpg4b7Igtk-8" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="bt97oJoX7uLpg4b7Igtk-1" source="bt97oJoX7uLpg4b7Igtk-6" target="bt97oJoX7uLpg4b7Igtk-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bt97oJoX7uLpg4b7Igtk-6" value="As(:p2)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="bt97oJoX7uLpg4b7Igtk-1">
+          <mxGeometry x="120" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bt97oJoX7uLpg4b7Igtk-9" value="&lt;div&gt;&lt;ul&gt;&lt;li&gt;person_id&lt;/li&gt;&lt;li&gt;year_of_birth&lt;/li&gt;&lt;li&gt;&lt;div&gt;location_id&lt;br&gt;&lt;/div&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="bt97oJoX7uLpg4b7Igtk-1">
+          <mxGeometry x="160" y="120" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bt97oJoX7uLpg4b7Igtk-10" value="&lt;ul&gt;&lt;li&gt;p2&lt;/li&gt;&lt;ul&gt;&lt;li&gt;person_id&lt;/li&gt;&lt;li&gt;year_of_birth&lt;/li&gt;&lt;li&gt;location_id&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="bt97oJoX7uLpg4b7Igtk-1">
+          <mxGeometry x="240" y="240" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bt97oJoX7uLpg4b7Igtk-11" value="&lt;ul&gt;&lt;li&gt;person_id&lt;/li&gt;&lt;li&gt;year_of_birth&lt;/li&gt;&lt;li&gt;location_id&lt;/li&gt;&lt;li&gt;p2&lt;/li&gt;&lt;ul&gt;&lt;li&gt;person_id&lt;/li&gt;&lt;li&gt;year_of_birth&lt;/li&gt;&lt;li&gt;location_id&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="bt97oJoX7uLpg4b7Igtk-1">
+          <mxGeometry x="160" y="360" width="170" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="bt97oJoX7uLpg4b7Igtk-12" value="A namespace must support:&lt;br&gt;&lt;ul&gt;&lt;li&gt;regular columns&lt;/li&gt;&lt;li&gt;hierarchical aliases&lt;/li&gt;&lt;li&gt;ambiguous columns&lt;/li&gt;&lt;li&gt;groups&lt;/li&gt;&lt;li&gt;nodes&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="bt97oJoX7uLpg4b7Igtk-1">
+          <mxGeometry x="400" y="120" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="bt97oJoX7uLpg4b7Igtk-13" value="&lt;h1&gt;Generate a namespace for each node&lt;/h1&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="bt97oJoX7uLpg4b7Igtk-1">
+          <mxGeometry x="40" y="40" width="440" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
