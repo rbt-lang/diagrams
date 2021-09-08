@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-08T15:06:56.111Z" agent="5.0 (X11)" etag="rBu-Kj_b841VNELR2PHx" version="14.9.3" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2021-09-08T15:13:33.722Z" agent="5.0 (X11)" etag="t8weOFfF8d0FQbWEEJXj" version="14.9.3" type="github" pages="12">
   <diagram id="dEZGlpFXaTpSit4VuuWs" name="Page-1">
     <mxGraphModel dx="1038" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -2874,10 +2874,10 @@
         <mxCell id="bt97oJoX7uLpg4b7Igtk-19" value="As(:p2)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="bt97oJoX7uLpg4b7Igtk-1">
           <mxGeometry x="1080" y="240" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bt97oJoX7uLpg4b7Igtk-20" value="&lt;div&gt;&lt;ul&gt;&lt;li&gt;person_id&lt;/li&gt;&lt;li&gt;year_of_birth&lt;/li&gt;&lt;li&gt;&lt;div&gt;location_id&lt;br&gt;&lt;/div&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="bt97oJoX7uLpg4b7Igtk-1">
+        <mxCell id="bt97oJoX7uLpg4b7Igtk-20" value="&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;person_id&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;year_of_birth&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;div&gt;location_id&lt;br&gt;&lt;/div&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="bt97oJoX7uLpg4b7Igtk-1">
           <mxGeometry x="1120" y="120" width="130" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="bt97oJoX7uLpg4b7Igtk-21" value="&lt;ul&gt;&lt;li&gt;p2&lt;/li&gt;&lt;ul&gt;&lt;li&gt;person_id&lt;/li&gt;&lt;li&gt;year_of_birth&lt;/li&gt;&lt;li&gt;location_id&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="bt97oJoX7uLpg4b7Igtk-1">
+        <mxCell id="bt97oJoX7uLpg4b7Igtk-21" value="&lt;ul&gt;&lt;li&gt;p2&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;person_id&lt;/b&gt;&lt;/li&gt;&lt;li&gt;year_of_birth&lt;/li&gt;&lt;li&gt;location_id&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="bt97oJoX7uLpg4b7Igtk-1">
           <mxGeometry x="1200" y="240" width="170" height="90" as="geometry" />
         </mxCell>
         <mxCell id="bt97oJoX7uLpg4b7Igtk-22" value="&lt;ul&gt;&lt;li&gt;person_id&lt;/li&gt;&lt;li&gt;&lt;b&gt;year_of_birth&lt;/b&gt;&lt;/li&gt;&lt;li&gt;location_id&lt;/li&gt;&lt;li&gt;p2&lt;/li&gt;&lt;ul&gt;&lt;li&gt;person_id&lt;/li&gt;&lt;li&gt;year_of_birth&lt;/li&gt;&lt;li&gt;location_id&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="bt97oJoX7uLpg4b7Igtk-1">
@@ -2906,8 +2906,8 @@
         <mxCell id="bt97oJoX7uLpg4b7Igtk-32" value="q5 = Select(&lt;br&gt;Get.age)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="bt97oJoX7uLpg4b7Igtk-1">
           <mxGeometry x="240" y="600" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bt97oJoX7uLpg4b7Igtk-34" value="&lt;ul&gt;&lt;li&gt;age -&amp;gt; from q4&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="bt97oJoX7uLpg4b7Igtk-1">
-          <mxGeometry x="360" y="600" width="130" height="50" as="geometry" />
+        <mxCell id="bt97oJoX7uLpg4b7Igtk-34" value="&lt;ul&gt;&lt;li&gt;age -&amp;gt; q4, Get.age&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="bt97oJoX7uLpg4b7Igtk-1">
+          <mxGeometry x="360" y="600" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="bt97oJoX7uLpg4b7Igtk-35" value="Define(:age =&amp;gt;&lt;br&gt;2020 .- Get.year_of_birth)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="bt97oJoX7uLpg4b7Igtk-1">
           <mxGeometry x="1000" y="480" width="120" height="60" as="geometry" />
