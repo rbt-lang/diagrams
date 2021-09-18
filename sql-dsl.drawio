@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-18T14:37:40.465Z" agent="5.0 (X11)" etag="363h7P1pkpfqbXLXn4Kg" version="15.2.7" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2021-09-18T15:14:50.696Z" agent="5.0 (X11)" etag="O4WwE0JaK180dcsAPHQq" version="15.2.7" type="github" pages="13">
   <diagram id="dEZGlpFXaTpSit4VuuWs" name="Page-1">
     <mxGraphModel dx="1038" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -2809,7 +2809,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="5ylPJk_ZH-cK33LDelTi" name="resolve-refactoring">
-    <mxGraphModel dx="1038" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="865" dy="472" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="bt97oJoX7uLpg4b7Igtk-0" />
         <mxCell id="bt97oJoX7uLpg4b7Igtk-1" parent="bt97oJoX7uLpg4b7Igtk-0" />
@@ -3382,8 +3382,47 @@
         <mxCell id="6GqRZNEYq_fTRn5AIec2-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="bt97oJoX7uLpg4b7Igtk-1" source="6GqRZNEYq_fTRn5AIec2-7" target="6GqRZNEYq_fTRn5AIec2-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6GqRZNEYq_fTRn5AIec2-7" value="Select(&lt;br&gt;Get.person_id,&lt;br&gt;Get.p2.year_of_birth)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="bt97oJoX7uLpg4b7Igtk-1">
+        <mxCell id="6GqRZNEYq_fTRn5AIec2-7" value="q4 = Select(&lt;br&gt;Get.person_id,&lt;br&gt;Get.p2.year_of_birth)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="bt97oJoX7uLpg4b7Igtk-1">
           <mxGeometry x="200" y="4000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6GqRZNEYq_fTRn5AIec2-11" value="q1 =&amp;gt; [Get.person_id (q3), Get.p2.person_id (q3), Get.person_id (q4), Get.p2.year_of_birth (q4), Get.person_id (q2), Get.year_of_birth (q2)]&lt;br&gt;q2 =&amp;gt; [Get.person_id (q3), Get.p2.person_id (q3), Get.person_id (q4), Get.p2.year_of_birth (q4)]&lt;br&gt;q3 =&amp;gt; [Get.person_id (q4), Get.p2.year_of_birth (q4)]&lt;br&gt;q4 =&amp;gt; []" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="bt97oJoX7uLpg4b7Igtk-1">
+          <mxGeometry x="640" y="3755" width="760" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6GqRZNEYq_fTRn5AIec2-12" value="[q4, q3, q2, q1]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="bt97oJoX7uLpg4b7Igtk-1">
+          <mxGeometry x="440" y="3700" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6GqRZNEYq_fTRn5AIec2-13" value="Requests" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="bt97oJoX7uLpg4b7Igtk-1">
+          <mxGeometry x="640" y="3735" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6GqRZNEYq_fTRn5AIec2-14" value="Remaps" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="bt97oJoX7uLpg4b7Igtk-1">
+          <mxGeometry x="640" y="3855" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6GqRZNEYq_fTRn5AIec2-15" value="q1 =&amp;gt; Dict()&lt;br&gt;q2 =&amp;gt; Dict(Get.p2.person_id (q3) =&amp;gt; Get.person_id (q2), Get.p2.year_of_birth (q4) =&amp;gt; Get.year_of_birth (q2))&lt;br&gt;q3 =&amp;gt; Dict()&lt;br&gt;q4 =&amp;gt; Dict()" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="bt97oJoX7uLpg4b7Igtk-1">
+          <mxGeometry x="640" y="3875" width="590" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6GqRZNEYq_fTRn5AIec2-16" value="for q in [q4, q3, q2, q1]&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; collect_references(q)&lt;br&gt;end" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="bt97oJoX7uLpg4b7Igtk-1">
+          <mxGeometry x="440" y="3760" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6GqRZNEYq_fTRn5AIec2-17" value="for q in [q1, q2, q3, q4]&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; build_clauses(q)&lt;br&gt;end" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="bt97oJoX7uLpg4b7Igtk-1">
+          <mxGeometry x="440" y="4030" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6GqRZNEYq_fTRn5AIec2-18" value="Clauses" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="bt97oJoX7uLpg4b7Igtk-1">
+          <mxGeometry x="640" y="4000" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6GqRZNEYq_fTRn5AIec2-19" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" vertex="1" parent="bt97oJoX7uLpg4b7Igtk-1">
+          <mxGeometry x="520" y="3800" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="6GqRZNEYq_fTRn5AIec2-21" value="q1 =&amp;gt; SELECT person_id AS person_id, year_of_birth AS year_of_birth FROM person&lt;br&gt;q2 =&amp;gt; SELECT person_id AS person_id, year_of_birth AS year_of_birth FROM person&lt;br&gt;q3 =&amp;gt; SELECT p1.person_id AS person_id, p2.year_of_birth AS year_of_birth FROM (clauses[q1]) AS p JOIN (clauses[q2]) ON p1.person_id = p2.person_id&lt;br&gt;q4 =&amp;gt; SELECT p3.person_id, p3.year_of_birth FROM (clauses[q3]) p3" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="bt97oJoX7uLpg4b7Igtk-1">
+          <mxGeometry x="640" y="4019" width="850" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6GqRZNEYq_fTRn5AIec2-22" value="Repl" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="bt97oJoX7uLpg4b7Igtk-1">
+          <mxGeometry x="650" y="4120" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6GqRZNEYq_fTRn5AIec2-23" value="q1 =&amp;gt; Dict(Get.person_id (q3) =&amp;gt; :person_id, Get.person_id (q4) =&amp;gt; :person_id, Get.person_id (q2) =&amp;gt; :person_id, Get.year_of_birth (q2) =&amp;gt; :year_of_birth)&lt;br&gt;q2 =&amp;gt; Dict(Get.p2.person_id (q3) =&amp;gt; :person_id, Get.p2.year_of_birth (q4) =&amp;gt; :year_of_birth)&lt;br&gt;q3 =&amp;gt; Dict(Get.person_id (q4) =&amp;gt; :person_id, Get.p2.year_of_birth =&amp;gt; :year_of_birth)&lt;br&gt;q4 =&amp;gt; Dict()" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="bt97oJoX7uLpg4b7Igtk-1">
+          <mxGeometry x="640" y="4140" width="840" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6GqRZNEYq_fTRn5AIec2-24" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" vertex="1" parent="bt97oJoX7uLpg4b7Igtk-1">
+          <mxGeometry x="520" y="4060" width="100" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
