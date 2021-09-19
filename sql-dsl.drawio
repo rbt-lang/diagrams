@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-19T14:38:59.743Z" agent="5.0 (X11)" etag="pSlGWZeFgjF5Ofab_dXN" version="15.2.9" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2021-09-19T15:03:17.362Z" agent="5.0 (X11)" etag="QFHDoQ3Y48eRWgklRKTy" version="15.2.9" type="github" pages="13">
   <diagram id="dEZGlpFXaTpSit4VuuWs" name="Page-1">
     <mxGraphModel dx="1038" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -2809,7 +2809,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="5ylPJk_ZH-cK33LDelTi" name="resolve-refactoring">
-    <mxGraphModel dx="865" dy="472" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="bt97oJoX7uLpg4b7Igtk-0" />
         <mxCell id="bt97oJoX7uLpg4b7Igtk-1" parent="bt97oJoX7uLpg4b7Igtk-0" />
@@ -3493,7 +3493,7 @@
         <mxCell id="NEtGtBIJ0f7_1AoQoQH5-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="bt97oJoX7uLpg4b7Igtk-1" source="NEtGtBIJ0f7_1AoQoQH5-25" target="NEtGtBIJ0f7_1AoQoQH5-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NEtGtBIJ0f7_1AoQoQH5-25" value="q4 = Bind(&lt;br&gt;:person_id =&amp;gt;&lt;br&gt;Get.person_id)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0" vertex="1" parent="bt97oJoX7uLpg4b7Igtk-1">
+        <mxCell id="NEtGtBIJ0f7_1AoQoQH5-25" value="q4 = Bind(&lt;br&gt;:person_id =&amp;gt;&lt;br&gt;Get.person_id .+ 1)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0" vertex="1" parent="bt97oJoX7uLpg4b7Igtk-1">
           <mxGeometry x="320" y="5640" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NEtGtBIJ0f7_1AoQoQH5-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=14;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="bt97oJoX7uLpg4b7Igtk-1" source="NEtGtBIJ0f7_1AoQoQH5-31" target="NEtGtBIJ0f7_1AoQoQH5-25">
@@ -3532,22 +3532,28 @@
           <mxGeometry x="600" y="5540" width="100" height="70" as="geometry" />
         </mxCell>
         <mxCell id="NEtGtBIJ0f7_1AoQoQH5-42" value="for q in [q1, q2, q3, q4, q5, q6]&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; build_clauses(q)&lt;br&gt;end" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="bt97oJoX7uLpg4b7Igtk-1">
-          <mxGeometry x="520" y="5670" width="180" height="50" as="geometry" />
+          <mxGeometry x="520" y="5800" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="NEtGtBIJ0f7_1AoQoQH5-43" value="Clauses" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="bt97oJoX7uLpg4b7Igtk-1">
-          <mxGeometry x="720" y="5640" width="60" height="20" as="geometry" />
+          <mxGeometry x="720" y="5770" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="NEtGtBIJ0f7_1AoQoQH5-44" value="q1 =&amp;gt; SELECT person_id AS person_id FROM person&lt;br&gt;q2 =&amp;gt; SELECT person_id AS person_id FROM visit_occurrence&lt;br&gt;q3 =&amp;gt;&lt;br&gt;q4 =&amp;gt;&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;q5 =&amp;gt;&lt;br&gt;q6 =&amp;gt;&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="bt97oJoX7uLpg4b7Igtk-1">
-          <mxGeometry x="720" y="5660" width="360" height="90" as="geometry" />
+          <mxGeometry x="720" y="5790" width="360" height="90" as="geometry" />
         </mxCell>
         <mxCell id="NEtGtBIJ0f7_1AoQoQH5-45" value="Repl" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="bt97oJoX7uLpg4b7Igtk-1">
-          <mxGeometry x="730" y="5760" width="40" height="20" as="geometry" />
+          <mxGeometry x="730" y="5890" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="NEtGtBIJ0f7_1AoQoQH5-46" value="q1 =&amp;gt; Dict(Get.person_id (&lt;span style=&quot;white-space: pre&quot;&gt;q4) =&amp;gt; :person_id&lt;/span&gt;)&lt;br&gt;q2 =&amp;gt; Dict(Get.person_id (q3) =&amp;gt; :person_id)&lt;br&gt;q3 =&amp;gt; Dict()&lt;br&gt;q4 =&amp;gt; Dict()&lt;br&gt;q5 =&amp;gt; Dict()&lt;br&gt;q6 =&amp;gt; Dict()" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="bt97oJoX7uLpg4b7Igtk-1">
-          <mxGeometry x="720" y="5780" width="250" height="90" as="geometry" />
+          <mxGeometry x="720" y="5910" width="250" height="90" as="geometry" />
         </mxCell>
         <mxCell id="NEtGtBIJ0f7_1AoQoQH5-47" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" vertex="1" parent="bt97oJoX7uLpg4b7Igtk-1">
-          <mxGeometry x="600" y="5700" width="100" height="70" as="geometry" />
+          <mxGeometry x="600" y="5830" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="NEtGtBIJ0f7_1AoQoQH5-49" value="Bindings" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="bt97oJoX7uLpg4b7Igtk-1">
+          <mxGeometry x="715" y="5600" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NEtGtBIJ0f7_1AoQoQH5-50" value="q1 =&amp;gt; Dict(&lt;span style=&quot;white-space: pre&quot;&gt;&lt;/span&gt;)&lt;br&gt;q2 =&amp;gt; Dict(:person_id =&amp;gt; (q1, Get.person_id .+ 1))&lt;br&gt;q3 =&amp;gt; Dict(:person_id =&amp;gt; (q1, Get.person_id .+ 1))&lt;br&gt;q4 =&amp;gt; Dict()&lt;br&gt;q5 =&amp;gt; Dict()&lt;br&gt;q6 =&amp;gt; Dict()" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="bt97oJoX7uLpg4b7Igtk-1">
+          <mxGeometry x="720" y="5620" width="280" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
