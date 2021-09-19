@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-19T15:31:23.693Z" agent="5.0 (X11)" etag="Riq0TOur6U5-2BLwb-w-" version="15.2.9" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2021-09-19T15:43:53.864Z" agent="5.0 (X11)" etag="X0t7lgRhUfJt0143sYcN" version="15.2.9" type="github" pages="13">
   <diagram id="dEZGlpFXaTpSit4VuuWs" name="Page-1">
     <mxGraphModel dx="1038" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -2809,7 +2809,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="5ylPJk_ZH-cK33LDelTi" name="resolve-refactoring">
-    <mxGraphModel dx="1038" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="2638" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="bt97oJoX7uLpg4b7Igtk-0" />
         <mxCell id="bt97oJoX7uLpg4b7Igtk-1" parent="bt97oJoX7uLpg4b7Igtk-0" />
@@ -3594,6 +3594,89 @@
         </mxCell>
         <mxCell id="NEtGtBIJ0f7_1AoQoQH5-67" value="Select&lt;br&gt;Get.person_id,&lt;br&gt;(-)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0" vertex="1" parent="bt97oJoX7uLpg4b7Igtk-1">
           <mxGeometry x="800" y="4960" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NEtGtBIJ0f7_1AoQoQH5-68" value="q2 = From(&lt;br&gt;visit_occurrence)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0" vertex="1" parent="bt97oJoX7uLpg4b7Igtk-1">
+          <mxGeometry x="320" y="6360" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NEtGtBIJ0f7_1AoQoQH5-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="bt97oJoX7uLpg4b7Igtk-1" source="NEtGtBIJ0f7_1AoQoQH5-70" target="NEtGtBIJ0f7_1AoQoQH5-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NEtGtBIJ0f7_1AoQoQH5-70" value="q3 = Where&lt;br&gt;Get.person_id .==&lt;br&gt;Var.person_id" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0" vertex="1" parent="bt97oJoX7uLpg4b7Igtk-1">
+          <mxGeometry x="320" y="6460" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NEtGtBIJ0f7_1AoQoQH5-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="bt97oJoX7uLpg4b7Igtk-1" source="NEtGtBIJ0f7_1AoQoQH5-75" target="NEtGtBIJ0f7_1AoQoQH5-70">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="6520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NEtGtBIJ0f7_1AoQoQH5-75" value="q4 = Bind(&lt;br&gt;:person_id =&amp;gt;&lt;br&gt;Get.person_id)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0" vertex="1" parent="bt97oJoX7uLpg4b7Igtk-1">
+          <mxGeometry x="320" y="6560" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NEtGtBIJ0f7_1AoQoQH5-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=14;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;dashPattern=1 1;" edge="1" parent="bt97oJoX7uLpg4b7Igtk-1" source="NEtGtBIJ0f7_1AoQoQH5-79" target="NEtGtBIJ0f7_1AoQoQH5-75">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="6660" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NEtGtBIJ0f7_1AoQoQH5-77" value="From(person)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0" vertex="1" parent="bt97oJoX7uLpg4b7Igtk-1">
+          <mxGeometry x="-20" y="6540" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NEtGtBIJ0f7_1AoQoQH5-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=14;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="bt97oJoX7uLpg4b7Igtk-1" source="NEtGtBIJ0f7_1AoQoQH5-79" target="NEtGtBIJ0f7_1AoQoQH5-77">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="6720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NEtGtBIJ0f7_1AoQoQH5-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=14;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="bt97oJoX7uLpg4b7Igtk-1" source="NEtGtBIJ0f7_1AoQoQH5-79" target="NEtGtBIJ0f7_1AoQoQH5-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NEtGtBIJ0f7_1AoQoQH5-79" value="Join" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0" vertex="1" parent="bt97oJoX7uLpg4b7Igtk-1">
+          <mxGeometry x="80" y="6660" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NEtGtBIJ0f7_1AoQoQH5-80" value="q1 =&amp;gt; [Get.person_id (q4)]&lt;br&gt;q2 =&amp;gt; [Get.person_id (q3)]&lt;br&gt;q3 =&amp;gt; []&lt;br&gt;&lt;div&gt;q4 =&amp;gt; []&lt;/div&gt;&lt;div&gt;q5 =&amp;gt; []&lt;/div&gt;&lt;div&gt;q6 =&amp;gt; []&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="bt97oJoX7uLpg4b7Igtk-1">
+          <mxGeometry x="720" y="6415" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="NEtGtBIJ0f7_1AoQoQH5-81" value="[q5, q4, q3, q2, q1]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="bt97oJoX7uLpg4b7Igtk-1">
+          <mxGeometry x="530" y="6360" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NEtGtBIJ0f7_1AoQoQH5-82" value="Requests" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="bt97oJoX7uLpg4b7Igtk-1">
+          <mxGeometry x="720" y="6395" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NEtGtBIJ0f7_1AoQoQH5-83" value="for q in [q5, q4, q3, q2, q1]&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; collect_references(q)&lt;br&gt;end" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="bt97oJoX7uLpg4b7Igtk-1">
+          <mxGeometry x="520" y="6420" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NEtGtBIJ0f7_1AoQoQH5-84" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" vertex="1" parent="bt97oJoX7uLpg4b7Igtk-1">
+          <mxGeometry x="600" y="6460" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="NEtGtBIJ0f7_1AoQoQH5-85" value="for q in [q1, q2, q3, q4, q5]&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; build_clauses(q)&lt;br&gt;end" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="bt97oJoX7uLpg4b7Igtk-1">
+          <mxGeometry x="520" y="6640" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NEtGtBIJ0f7_1AoQoQH5-86" value="Clauses" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="bt97oJoX7uLpg4b7Igtk-1">
+          <mxGeometry x="720" y="6610" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NEtGtBIJ0f7_1AoQoQH5-87" value="q1 =&amp;gt; SELECT person_id AS person_id FROM person&lt;br&gt;q2 =&amp;gt; SELECT person_id AS person_id FROM visit_occurrence&lt;br&gt;q3 =&amp;gt;&lt;br&gt;q4 =&amp;gt;&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;q5 =&amp;gt;&lt;br&gt;q6 =&amp;gt;&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="bt97oJoX7uLpg4b7Igtk-1">
+          <mxGeometry x="720" y="6630" width="360" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="NEtGtBIJ0f7_1AoQoQH5-88" value="Repl" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="bt97oJoX7uLpg4b7Igtk-1">
+          <mxGeometry x="730" y="6730" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NEtGtBIJ0f7_1AoQoQH5-89" value="q1 =&amp;gt; Dict(Get.person_id (&lt;span style=&quot;white-space: pre&quot;&gt;q4) =&amp;gt; :person_id&lt;/span&gt;)&lt;br&gt;q2 =&amp;gt; Dict(Get.person_id (q3) =&amp;gt; :person_id)&lt;br&gt;q3 =&amp;gt; Dict()&lt;br&gt;q4 =&amp;gt; Dict()&lt;br&gt;q5 =&amp;gt; Dict()&lt;br&gt;q6 =&amp;gt; Dict()" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="bt97oJoX7uLpg4b7Igtk-1">
+          <mxGeometry x="720" y="6750" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="NEtGtBIJ0f7_1AoQoQH5-90" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" vertex="1" parent="bt97oJoX7uLpg4b7Igtk-1">
+          <mxGeometry x="600" y="6670" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="NEtGtBIJ0f7_1AoQoQH5-91" value="q1 = From(person)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0" vertex="1" parent="bt97oJoX7uLpg4b7Igtk-1">
+          <mxGeometry x="210" y="6740" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NEtGtBIJ0f7_1AoQoQH5-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="bt97oJoX7uLpg4b7Igtk-1" source="NEtGtBIJ0f7_1AoQoQH5-93" target="NEtGtBIJ0f7_1AoQoQH5-91">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="6900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NEtGtBIJ0f7_1AoQoQH5-93" value="q5 = Select" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0" vertex="1" parent="bt97oJoX7uLpg4b7Igtk-1">
+          <mxGeometry x="210" y="6840" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NEtGtBIJ0f7_1AoQoQH5-94" value="From(person)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0" vertex="1" parent="bt97oJoX7uLpg4b7Igtk-1">
+          <mxGeometry x="120" y="6440" width="160" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
